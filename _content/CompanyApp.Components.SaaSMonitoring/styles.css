@@ -1,0 +1,293 @@
+.saas-monitoring-container {
+    padding: 1rem;
+}
+
+/* Modern Gradient Card Styles */
+.metric-card {
+    height: 100%;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 12px;
+}
+
+.metric-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Enhanced Shadow Classes */
+.rz-shadow-3 {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    border: none;
+}
+
+.rz-shadow-3:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Gradient Background Cards */
+.revenue-card {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    border: none;
+}
+
+.expense-card {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    border: none;
+}
+
+.profit-card {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    color: white;
+    border: none;
+}
+
+.customer-card {
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    color: white;
+    border: none;
+}
+
+/* Metric Row Styles */
+.metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.02);
+    transition: all 0.2s ease;
+}
+
+.metric-row:hover {
+    background: rgba(0, 0, 0, 0.04);
+    transform: translateX(4px);
+}
+
+.metric-row:last-child {
+    border-bottom: none;
+}
+
+/* Enhanced DataGrid Styles */
+.rz-datatable-scrollable {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.rz-datatable-scrollable .rz-grid-table {
+    border-radius: 8px;
+}
+
+.rz-datatable-scrollable .rz-grid-table thead {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.rz-datatable-scrollable .rz-grid-table tbody tr:hover {
+    background: rgba(59, 130, 246, 0.05);
+    transition: all 0.2s ease;
+}
+
+/* Enhanced Badge Styles */
+.rz-badge {
+    border-radius: 12px;
+    padding: 0.375rem 0.75rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+/* Progress Bar Enhancements */
+.rz-progressbar {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.rz-progressbar-value {
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Text Colors */
+.text-success {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.text-danger {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+.text-warning {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.text-info {
+    color: #3b82f6;
+    font-weight: 600;
+}
+
+/* Icon Enhancements */
+.rz-icon {
+    transition: all 0.3s ease;
+}
+
+.metric-card:hover .rz-icon {
+    transform: scale(1.1);
+}
+
+/* Alert Card Styles */
+.rz-alert {
+    border-radius: 12px;
+    border-left-width: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Chart Container */
+.rz-chart {
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Tab Enhancements */
+.rz-tabs {
+    border-radius: 8px;
+}
+
+.rz-tabview-nav-link {
+    border-radius: 8px 8px 0 0;
+    transition: all 0.2s ease;
+}
+
+.rz-tabview-nav-link:hover {
+    background: rgba(59, 130, 246, 0.05);
+}
+
+.rz-tabview-nav-link.rz-tabview-selected {
+    border-bottom: 3px solid #3b82f6;
+    font-weight: 600;
+}
+
+/* Button Enhancements */
+.rz-button {
+    border-radius: 8px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+}
+
+.rz-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.rz-button:active {
+    transform: translateY(0);
+}
+
+/* Card Header Styles */
+.card-header-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(37, 99, 235, 0.1) 100%);
+}
+
+/* Loading Animation */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.loading-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Utility Classes */
+.rz-text-align-end {
+    text-align: end;
+}
+
+.rz-text-align-center {
+    text-align: center;
+}
+
+/* Spacing Utilities */
+.rz-gap-sm {
+    gap: 0.5rem;
+}
+
+.rz-gap-md {
+    gap: 1rem;
+}
+
+.rz-gap-lg {
+    gap: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .saas-monitoring-container {
+        padding: 0.5rem;
+    }
+    
+    .rz-text-align-end {
+        text-align: start;
+        margin-top: 0.5rem;
+    }
+
+    .metric-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .rz-shadow-3 {
+        border-radius: 8px;
+    }
+
+    .metric-card:hover {
+        transform: translateY(-2px);
+    }
+}
+
+@media (max-width: 576px) {
+    .rz-chart {
+        height: 300px !important;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .metric-card {
+        break-inside: avoid;
+    }
+
+    .rz-shadow-3 {
+        box-shadow: none;
+        border: 1px solid #e5e7eb;
+    }
+}
+
+/* Dark Mode Support (if needed) */
+@media (prefers-color-scheme: dark) {
+    .metric-row {
+        background: rgba(255, 255, 255, 0.05);
+    }
+
+    .metric-row:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .rz-shadow-3 {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    }
+}
