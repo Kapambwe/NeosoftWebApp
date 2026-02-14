@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ua-sa-001",
+    "productName": "AccountingPro Suite",
+    "activeUsers": 2847,
+    "totalSessions": 18934,
+    "averageSessionDuration": 32.5,
+    "pageViews": 125678,
+    "bounceRate": 9.2,
+    "conversionRate": 11.3,
+    "retentionRate": 92.1,
+    "churnRate": 1.8,
+    "monthlyGrowth": 18.4,
+    "topFeatures": [
+      "VAT Returns",
+      "Financial Reporting",
+      "Multi-Currency",
+      "Payroll Processing",
+      "Invoice Management"
+    ],
+    "deviceBreakdown": {
+      "desktop": 72.5,
+      "mobile": 21.2,
+      "tablet": 6.3
+    },
+    "geographicDistribution": {
+      "Gauteng": 42.5,
+      "Western Cape": 28.7,
+      "KwaZulu-Natal": 15.4,
+      "Eastern Cape": 7.2,
+      "Other": 6.2
+    },
+    "peakUsageHours": ["09:00-11:00", "14:00-16:00"],
+    "averageLoadTime": 1.8,
+    "errorRate": 0.2
+  }
+]

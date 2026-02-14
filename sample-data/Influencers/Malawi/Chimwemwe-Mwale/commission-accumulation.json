@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Malawi-3",
+  "country": "Malawi",
+  "affiliateName": "Chimwemwe Mwale",
+  "performanceMetrics": {
+    "engagementRate": 4.1,
+    "followerCount": 460336,
+    "averageOrderValue": 549.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 171.0,
+      "revenue": 100219.95,
+      "commission": 15032.99
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 214.0,
+      "revenue": 120263.94,
+      "commission": 18039.59
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 257.0,
+      "revenue": 133626.6,
+      "commission": 20043.99
+    }
+  ],
+  "summary": {
+    "paidCommission": 92202.35,
+    "totalRevenue": 668133.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 100219.95,
+    "totalRegistrations": 1432.0,
+    "pendingCommission": 8017.6,
+    "activeCustomers": 1217.0
+  }
+}

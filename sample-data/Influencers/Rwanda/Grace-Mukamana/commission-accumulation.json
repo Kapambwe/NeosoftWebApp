@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Rwanda-1",
+  "country": "Rwanda",
+  "affiliateName": "Grace Mukamana",
+  "performanceMetrics": {
+    "engagementRate": 4.6,
+    "followerCount": 304042,
+    "averageOrderValue": 947.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 179.0,
+      "revenue": 180687.6,
+      "commission": 27103.14
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 224.0,
+      "revenue": 216825.12,
+      "commission": 32523.77
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 269.0,
+      "revenue": 240916.8,
+      "commission": 36137.52
+    }
+  ],
+  "summary": {
+    "paidCommission": 166232.59,
+    "totalRevenue": 1204584.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 180687.6,
+    "totalRegistrations": 1497.0,
+    "pendingCommission": 14455.01,
+    "activeCustomers": 1272.0
+  }
+}

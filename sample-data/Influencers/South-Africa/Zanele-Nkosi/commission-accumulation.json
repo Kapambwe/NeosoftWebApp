@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-South-Africa-3",
+  "country": "South-Africa",
+  "affiliateName": "Zanele Nkosi",
+  "performanceMetrics": {
+    "engagementRate": 4.0,
+    "followerCount": 153355,
+    "averageOrderValue": 606.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 51.0,
+      "revenue": 33269.4,
+      "commission": 4990.41
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 64.0,
+      "revenue": 39923.28,
+      "commission": 5988.49
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 77.0,
+      "revenue": 44359.2,
+      "commission": 6653.88
+    }
+  ],
+  "summary": {
+    "paidCommission": 30607.85,
+    "totalRevenue": 221796.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 33269.4,
+    "totalRegistrations": 431.0,
+    "pendingCommission": 2661.55,
+    "activeCustomers": 366.0
+  }
+}

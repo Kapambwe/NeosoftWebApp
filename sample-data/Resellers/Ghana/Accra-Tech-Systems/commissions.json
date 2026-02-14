@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Ghana-5167",
+  "resellerName": "Accra Tech Systems",
+  "country": "Ghana",
+  "currency": "GHS",
+  "commissionRate": 11.7,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 99,
+  "activeCustomers": 67,
+  "totalRevenue": 3068076,
+  "totalCommissionEarned": 358964.89,
+  "paidCommission": 269223.67,
+  "pendingCommission": 89741.22,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 80767.10,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 9,
+      "revenue": 476004,
+      "commission": 39036,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 9,
+      "revenue": 328212,
+      "commission": 57312,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 8,
+      "revenue": 294600,
+      "commission": 44628,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 304344,
+    "conversionRate": 15.7,
+    "customerRetentionRate": 96.9,
+    "averageCommissionPerSale": 27024
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-25T00:00:00Z"
+}

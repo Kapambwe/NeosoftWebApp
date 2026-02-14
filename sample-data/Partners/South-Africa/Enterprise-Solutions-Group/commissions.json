@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-South-Africa-7357",
+  "partnerName": "Enterprise Solutions Group",
+  "country": "South-Africa",
+  "currency": "ZAR",
+  "commissionRate": 17.9,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 20,
+  "activeProjects": 20,
+  "totalCustomers": 140,
+  "totalRevenue": 6525560.5,
+  "totalCommissionEarned": 1168075.33,
+  "paidCommission": 934460.26,
+  "pendingCommission": 233615.07,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 233615.06,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 5,
+      "revenue": 1254762.5,
+      "commission": 173733.5,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 5,
+      "revenue": 885169.5,
+      "commission": 160228.5,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 626872.5,
+      "commission": 106985.5,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 868390,
+    "implementationSuccessRate": 92.9,
+    "customerSatisfactionScore": 4.9,
+    "averageCommissionPerProject": 123950,
+    "recurringRevenueShare": 31.7
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-11T00:00:00Z"
+}

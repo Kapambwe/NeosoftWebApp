@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Zimbabwe-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 2,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 17
+  },
+  "country": "Zimbabwe",
+  "affiliateName": "Zimbabwe Digital Partners",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 85.0,
+      "revenue": 169405.0,
+      "commission": 42351.25
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 104.0,
+      "revenue": 211756.25,
+      "commission": 52939.06
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 94.0,
+      "revenue": 186345.5,
+      "commission": 46586.38
+    }
+  ],
+  "summary": {
+    "paidCommission": 199050.88,
+    "totalRevenue": 847025.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 211756.25,
+    "totalRegistrations": 473.0,
+    "pendingCommission": 12705.37,
+    "activeCustomers": 425.0
+  }
+}

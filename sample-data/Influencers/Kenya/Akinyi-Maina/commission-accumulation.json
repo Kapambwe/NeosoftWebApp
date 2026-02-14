@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Kenya-0",
+  "country": "Kenya",
+  "affiliateName": "Akinyi Maina",
+  "performanceMetrics": {
+    "engagementRate": 3.6,
+    "followerCount": 94152,
+    "averageOrderValue": 823.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 130.0,
+      "revenue": 114191.25,
+      "commission": 17128.69
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 163.0,
+      "revenue": 137029.5,
+      "commission": 20554.42
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 196.0,
+      "revenue": 152255.0,
+      "commission": 22838.25
+    }
+  ],
+  "summary": {
+    "paidCommission": 105055.95,
+    "totalRevenue": 761275.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 114191.25,
+    "totalRegistrations": 1089.0,
+    "pendingCommission": 9135.3,
+    "activeCustomers": 925.0
+  }
+}

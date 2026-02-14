@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Botswana-8670",
+  "resellerName": "Botswana Business Solutions",
+  "country": "Botswana",
+  "currency": "BWP",
+  "commissionRate": 13.4,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 75,
+  "activeCustomers": 74,
+  "totalRevenue": 3396411,
+  "totalCommissionEarned": 455119.07,
+  "paidCommission": 341339.3,
+  "pendingCommission": 113779.77,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 102401.79,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.12,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 10,
+      "revenue": 687460.5,
+      "commission": 107068.5,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 10,
+      "revenue": 427680,
+      "commission": 86737.5,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 11,
+      "revenue": 502740,
+      "commission": 53770.5,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 244417.5,
+    "conversionRate": 12.1,
+    "customerRetentionRate": 90.1,
+    "averageCommissionPerSale": 58657.5
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-24T00:00:00Z"
+}

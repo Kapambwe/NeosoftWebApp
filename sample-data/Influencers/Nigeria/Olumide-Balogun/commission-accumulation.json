@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Nigeria-2",
+  "country": "Nigeria",
+  "affiliateName": "Olumide Balogun",
+  "performanceMetrics": {
+    "engagementRate": 3.1,
+    "followerCount": 12809,
+    "averageOrderValue": 319.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 171.0,
+      "revenue": 58233.45,
+      "commission": 8735.02
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 214.0,
+      "revenue": 69880.14,
+      "commission": 10482.02
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 257.0,
+      "revenue": 77644.6,
+      "commission": 11646.69
+    }
+  ],
+  "summary": {
+    "paidCommission": 53574.77,
+    "totalRevenue": 388223.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 58233.45,
+    "totalRegistrations": 1432.0,
+    "pendingCommission": 4658.68,
+    "activeCustomers": 1217.0
+  }
+}

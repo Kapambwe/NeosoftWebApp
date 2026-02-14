@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Zimbabwe-2",
+  "country": "Zimbabwe",
+  "affiliateName": "Victoria Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 635.0,
+      "revenue": 1329328.0,
+      "commission": 465264.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 722.0,
+      "revenue": 1488847.36,
+      "commission": 521096.58
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 808.0,
+      "revenue": 1595193.6,
+      "commission": 558317.76
+    }
+  ],
+  "summary": {
+    "paidCommission": 1768006.24,
+    "totalRevenue": 5317312.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1861059.2,
+    "totalRegistrations": 2888.0,
+    "pendingCommission": 93052.96,
+    "activeCustomers": 2656.0
+  }
+}

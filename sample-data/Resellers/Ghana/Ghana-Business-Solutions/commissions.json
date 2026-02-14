@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Ghana-3576",
+  "resellerName": "Ghana Business Solutions",
+  "country": "Ghana",
+  "currency": "GHS",
+  "commissionRate": 10.3,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 52,
+  "activeCustomers": 70,
+  "totalRevenue": 2811948,
+  "totalCommissionEarned": 289630.64,
+  "paidCommission": 217222.98,
+  "pendingCommission": 72407.66,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 65166.89,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 8,
+      "revenue": 311976,
+      "commission": 90660,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 13,
+      "revenue": 443832,
+      "commission": 60852,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 5,
+      "revenue": 285660,
+      "commission": 52392,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 300108,
+    "conversionRate": 20.8,
+    "customerRetentionRate": 88.9,
+    "averageCommissionPerSale": 51720
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-27T00:00:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Uganda-3",
+  "country": "Uganda",
+  "affiliateName": "Wasswa Mukasa",
+  "performanceMetrics": {
+    "engagementRate": 4.8,
+    "followerCount": 45076,
+    "averageOrderValue": 403.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 76.0,
+      "revenue": 32884.8,
+      "commission": 4932.72
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 96.0,
+      "revenue": 39461.76,
+      "commission": 5919.26
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 115.0,
+      "revenue": 43846.4,
+      "commission": 6576.96
+    }
+  ],
+  "summary": {
+    "paidCommission": 30254.02,
+    "totalRevenue": 219232.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 32884.8,
+    "totalRegistrations": 641.0,
+    "pendingCommission": 2630.78,
+    "activeCustomers": 544.0
+  }
+}

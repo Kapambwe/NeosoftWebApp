@@ -1,0 +1,173 @@
+[
+  {
+    "id": "rel-001",
+    "version": "2.4.1",
+    "name": "Security & Performance Update",
+    "description": "Critical security patches and performance improvements",
+    "releaseType": "Patch",
+    "status": "Released",
+    "priority": "High",
+    "plannedDate": "2024-01-25T00:00:00Z",
+    "actualDate": "2024-01-25T14:30:00Z",
+    "environment": "Production",
+    "releaseManager": "Sarah Johnson",
+    "developmentTeam": "Security Team",
+    "features": [
+      "Fixed authentication vulnerability",
+      "Improved database query performance",
+      "Updated third-party dependencies",
+      "Enhanced error logging"
+    ],
+    "bugFixes": [
+      "Fixed memory leak in report generation",
+      "Resolved mobile app crash on iOS",
+      "Fixed email notification delays"
+    ],
+    "breakingChanges": [],
+    "rollbackPlan": "Automated rollback available",
+    "testingStatus": "Passed",
+    "approvalStatus": "Approved",
+    "deploymentNotes": "Deployed successfully with zero downtime",
+    "impactAssessment": "Low risk - primarily bug fixes and security updates",
+    "communicationSent": true,
+    "tags": ["security", "performance", "bugfix"]
+  },
+  {
+    "id": "rel-002",
+    "version": "2.5.0",
+    "name": "Affiliate Management System",
+    "description": "New affiliate management features with two-way customer acquisition",
+    "releaseType": "Minor",
+    "status": "In Progress",
+    "priority": "Medium",
+    "plannedDate": "2024-02-15T00:00:00Z",
+    "actualDate": null,
+    "environment": "Staging",
+    "releaseManager": "Mike Chen",
+    "developmentTeam": "Product Team",
+    "features": [
+      "Affiliate portal with dashboard",
+      "Direct customer registration",
+      "Affiliate link generation and tracking",
+      "Commission management system",
+      "International compliance support",
+      "Analytics and reporting"
+    ],
+    "bugFixes": [],
+    "breakingChanges": [
+      "New affiliate service endpoints",
+      "Updated user permissions model"
+    ],
+    "rollbackPlan": "Feature flags enabled for gradual rollout",
+    "testingStatus": "In Progress",
+    "approvalStatus": "Pending",
+    "deploymentNotes": "Requires database migration",
+    "impactAssessment": "Medium risk - new feature with database changes",
+    "communicationSent": false,
+    "tags": ["feature", "affiliate", "management"]
+  },
+  {
+    "id": "rel-003",
+    "version": "2.3.2",
+    "name": "Tax Management Enhancements",
+    "description": "Improved tax filing and compliance features",
+    "releaseType": "Patch",
+    "status": "Released",
+    "priority": "Medium",
+    "plannedDate": "2024-01-15T00:00:00Z",
+    "actualDate": "2024-01-16T09:15:00Z",
+    "environment": "Production",
+    "releaseManager": "Lisa Wang",
+    "developmentTeam": "Finance Team",
+    "features": [
+      "Enhanced tax calculation engine",
+      "New tax jurisdiction support",
+      "Automated tax filing reminders",
+      "Improved tax reporting"
+    ],
+    "bugFixes": [
+      "Fixed tax calculation rounding errors",
+      "Resolved date formatting issues",
+      "Fixed export functionality"
+    ],
+    "breakingChanges": [],
+    "rollbackPlan": "Manual rollback procedure documented",
+    "testingStatus": "Passed",
+    "approvalStatus": "Approved",
+    "deploymentNotes": "Deployed during maintenance window",
+    "impactAssessment": "Low risk - incremental improvements",
+    "communicationSent": true,
+    "tags": ["tax", "compliance", "enhancement"]
+  },
+  {
+    "id": "rel-004",
+    "version": "3.0.0",
+    "name": "Major Platform Upgrade",
+    "description": "Complete platform modernization with new architecture",
+    "releaseType": "Major",
+    "status": "Planning",
+    "priority": "High",
+    "plannedDate": "2024-04-01T00:00:00Z",
+    "actualDate": null,
+    "environment": "Development",
+    "releaseManager": "David Rodriguez",
+    "developmentTeam": "Platform Team",
+    "features": [
+      "Microservices architecture migration",
+      "New user interface design",
+      "Enhanced API capabilities",
+      "Improved scalability",
+      "Advanced analytics platform",
+      "Mobile app redesign"
+    ],
+    "bugFixes": [],
+    "breakingChanges": [
+      "API version upgrade required",
+      "Database schema changes",
+      "Authentication system overhaul",
+      "New deployment architecture"
+    ],
+    "rollbackPlan": "Comprehensive rollback strategy in development",
+    "testingStatus": "Not Started",
+    "approvalStatus": "Planning",
+    "deploymentNotes": "Phased rollout planned over 3 months",
+    "impactAssessment": "High risk - major architectural changes",
+    "communicationSent": false,
+    "tags": ["major", "architecture", "modernization"]
+  },
+  {
+    "id": "rel-005",
+    "version": "2.4.0",
+    "name": "Customer Analytics Dashboard",
+    "description": "New customer analytics and insights dashboard",
+    "releaseType": "Minor",
+    "status": "Released",
+    "priority": "Medium",
+    "plannedDate": "2024-01-10T00:00:00Z",
+    "actualDate": "2024-01-12T11:00:00Z",
+    "environment": "Production",
+    "releaseManager": "Emma Thompson",
+    "developmentTeam": "Analytics Team",
+    "features": [
+      "Customer behavior analytics",
+      "Usage pattern insights",
+      "Retention analysis",
+      "Churn prediction",
+      "Custom dashboard widgets",
+      "Export capabilities"
+    ],
+    "bugFixes": [
+      "Fixed chart rendering issues",
+      "Improved data loading performance",
+      "Resolved timezone display problems"
+    ],
+    "breakingChanges": [],
+    "rollbackPlan": "Feature toggle available",
+    "testingStatus": "Passed",
+    "approvalStatus": "Approved",
+    "deploymentNotes": "Gradual rollout to user segments",
+    "impactAssessment": "Low risk - additive feature",
+    "communicationSent": true,
+    "tags": ["analytics", "dashboard", "insights"]
+  }
+]

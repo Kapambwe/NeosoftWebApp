@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Kenya-2137",
+  "resellerName": "Coast Business Systems",
+  "country": "Kenya",
+  "currency": "KES",
+  "commissionRate": 10,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 94,
+  "activeCustomers": 57,
+  "totalRevenue": 41852712,
+  "totalCommissionEarned": 4185271.2,
+  "paidCommission": 3138953.40,
+  "pendingCommission": 1046317.80,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 941686.02,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.16,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 10,
+      "revenue": 7084704,
+      "commission": 844536,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 7,
+      "revenue": 4191924,
+      "commission": 724680,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 14,
+      "revenue": 4829220,
+      "commission": 762696,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 2968548,
+    "conversionRate": 19.8,
+    "customerRetentionRate": 90.8,
+    "averageCommissionPerSale": 370656
+  },
+  "joinedDate": "2022-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-18T00:00:00Z"
+}

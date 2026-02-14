@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Malawi-3122",
+  "partnerName": "Blantyre Accounting Consultants",
+  "country": "Malawi",
+  "currency": "MWK",
+  "commissionRate": 21.8,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 36,
+  "activeProjects": 8,
+  "totalCustomers": 73,
+  "totalRevenue": 367824450,
+  "totalCommissionEarned": 80185730.10,
+  "paidCommission": 64148584.08,
+  "pendingCommission": 16037146.02,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 16037146.02,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 6,
+      "revenue": 66914400,
+      "commission": 12183150,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 3,
+      "revenue": 39832800,
+      "commission": 14292600,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 48104700,
+      "commission": 9269400,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 51682050,
+    "implementationSuccessRate": 93.9,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 7418250,
+    "recurringRevenueShare": 35.6
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-27T00:00:00Z"
+}

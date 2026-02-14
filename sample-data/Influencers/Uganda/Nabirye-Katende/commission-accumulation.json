@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Uganda-4",
+  "country": "Uganda",
+  "affiliateName": "Nabirye Katende",
+  "performanceMetrics": {
+    "engagementRate": 5.2,
+    "followerCount": 59839,
+    "averageOrderValue": 474.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 56.0,
+      "revenue": 28582.2,
+      "commission": 4287.33
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 70.0,
+      "revenue": 34298.64,
+      "commission": 5144.8
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 85.0,
+      "revenue": 38109.6,
+      "commission": 5716.44
+    }
+  ],
+  "summary": {
+    "paidCommission": 26295.62,
+    "totalRevenue": 190548.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 28582.2,
+    "totalRegistrations": 473.0,
+    "pendingCommission": 2286.58,
+    "activeCustomers": 402.0
+  }
+}

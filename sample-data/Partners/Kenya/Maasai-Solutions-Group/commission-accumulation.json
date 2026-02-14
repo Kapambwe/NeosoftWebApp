@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Kenya-2",
+  "country": "Kenya",
+  "affiliateName": "Maasai Solutions Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 532.0,
+      "revenue": 1152433.0,
+      "commission": 403351.55
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 605.0,
+      "revenue": 1290724.96,
+      "commission": 451753.74
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 678.0,
+      "revenue": 1382919.6,
+      "commission": 484021.86
+    }
+  ],
+  "summary": {
+    "paidCommission": 1532735.89,
+    "totalRevenue": 4609732.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1613406.2,
+    "totalRegistrations": 2422.0,
+    "pendingCommission": 80670.31,
+    "activeCustomers": 2228.0
+  }
+}

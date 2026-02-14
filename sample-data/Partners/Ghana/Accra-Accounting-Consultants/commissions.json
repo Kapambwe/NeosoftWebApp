@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Ghana-2961",
+  "partnerName": "Accra Accounting Consultants",
+  "country": "Ghana",
+  "currency": "GHS",
+  "commissionRate": 24.2,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 18,
+  "activeProjects": 14,
+  "totalCustomers": 131,
+  "totalRevenue": 4962528,
+  "totalCommissionEarned": 1200931.78,
+  "paidCommission": 960745.42,
+  "pendingCommission": 240186.36,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 240186.36,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 1008540,
+      "commission": 119772,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 850920,
+      "commission": 103020,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 372372,
+      "commission": 119868,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 608112,
+    "implementationSuccessRate": 96.2,
+    "customerSatisfactionScore": 4.7,
+    "averageCommissionPerProject": 87420,
+    "recurringRevenueShare": 33.6
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-12T00:00:00Z"
+}

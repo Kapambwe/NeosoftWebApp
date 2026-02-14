@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Nigeria-3",
+  "country": "Nigeria",
+  "affiliateName": "Amaka Nwosu",
+  "performanceMetrics": {
+    "engagementRate": 4.4,
+    "followerCount": 96968,
+    "averageOrderValue": 453.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 96.0,
+      "revenue": 46273.95,
+      "commission": 6941.09
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 120.0,
+      "revenue": 55528.74,
+      "commission": 8329.31
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 144.0,
+      "revenue": 61698.6,
+      "commission": 9254.79
+    }
+  ],
+  "summary": {
+    "paidCommission": 42572.03,
+    "totalRevenue": 308493.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 46273.95,
+    "totalRegistrations": 802.0,
+    "pendingCommission": 3701.92,
+    "activeCustomers": 681.0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zimbabwe-1",
+  "country": "Zimbabwe",
+  "affiliateName": "Rudo Ncube",
+  "performanceMetrics": {
+    "engagementRate": 4.5,
+    "followerCount": 353213,
+    "averageOrderValue": 1113.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 149.0,
+      "revenue": 176299.2,
+      "commission": 26444.88
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 186.0,
+      "revenue": 211559.04,
+      "commission": 31733.86
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 223.0,
+      "revenue": 235065.6,
+      "commission": 35259.84
+    }
+  ],
+  "summary": {
+    "paidCommission": 162195.26,
+    "totalRevenue": 1175328.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 176299.2,
+    "totalRegistrations": 1243.0,
+    "pendingCommission": 14103.94,
+    "activeCustomers": 1056.0
+  }
+}

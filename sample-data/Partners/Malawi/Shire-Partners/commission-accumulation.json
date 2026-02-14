@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Malawi-2",
+  "country": "Malawi",
+  "affiliateName": "Shire Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1379.0,
+      "revenue": 1196652.5,
+      "commission": 418828.38
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1567.0,
+      "revenue": 1340250.8,
+      "commission": 469087.78
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1755.0,
+      "revenue": 1435983.0,
+      "commission": 502594.05
+    }
+  ],
+  "summary": {
+    "paidCommission": 1591547.82,
+    "totalRevenue": 4786610.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1675313.5,
+    "totalRegistrations": 6269.0,
+    "pendingCommission": 83765.68,
+    "activeCustomers": 5767.0
+  }
+}

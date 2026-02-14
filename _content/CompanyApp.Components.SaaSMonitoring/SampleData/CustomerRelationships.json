@@ -1,0 +1,10 @@
+[
+    {
+        "Id": "REL-001",
+        "CustomerId": "CUST-005",
+        "RelatedCustomerId": "CUST-004",
+        "RelationshipType": 0,
+        "Description": "MinesCorp is the parent company of ZamHealth NGO",
+        "CreatedDate": "2025-07-31T10:00:00Z"
+    }
+]

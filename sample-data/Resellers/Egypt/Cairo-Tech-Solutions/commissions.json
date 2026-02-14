@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Egypt-2658",
+  "resellerName": "Cairo Tech Solutions",
+  "country": "Egypt",
+  "currency": "EGP",
+  "commissionRate": 12.1,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 100,
+  "activeCustomers": 67,
+  "totalRevenue": 8859304,
+  "totalCommissionEarned": 1071975.78,
+  "paidCommission": 803981.84,
+  "pendingCommission": 267993.94,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 241194.55,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 10,
+      "revenue": 1390195,
+      "commission": 117862,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 12,
+      "revenue": 967510,
+      "commission": 168578,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 5,
+      "revenue": 586086,
+      "commission": 175305,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 560449,
+    "conversionRate": 17.6,
+    "customerRetentionRate": 88.7,
+    "averageCommissionPerSale": 72137
+  },
+  "joinedDate": "2022-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-11T00:00:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Malawi-4",
+  "country": "Malawi",
+  "affiliateName": "Mphatso Kumwenda",
+  "performanceMetrics": {
+    "engagementRate": 4.4,
+    "followerCount": 207185,
+    "averageOrderValue": 315.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 89.0,
+      "revenue": 29956.5,
+      "commission": 4493.47
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 111.0,
+      "revenue": 35947.8,
+      "commission": 5392.17
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 134.0,
+      "revenue": 39942.0,
+      "commission": 5991.3
+    }
+  ],
+  "summary": {
+    "paidCommission": 27559.98,
+    "totalRevenue": 199710.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 29956.5,
+    "totalRegistrations": 746.0,
+    "pendingCommission": 2396.52,
+    "activeCustomers": 634.0
+  }
+}

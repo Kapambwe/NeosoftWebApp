@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Egypt-5296",
+  "resellerName": "Nile Digital Partners",
+  "country": "Egypt",
+  "currency": "EGP",
+  "commissionRate": 14.9,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 53,
+  "activeCustomers": 38,
+  "totalRevenue": 5900013,
+  "totalCommissionEarned": 879101.94,
+  "paidCommission": 659326.46,
+  "pendingCommission": 219775.48,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 197797.94,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 9,
+      "revenue": 1350949,
+      "commission": 153171,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 7,
+      "revenue": 1050311,
+      "commission": 107508,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 5,
+      "revenue": 704661,
+      "commission": 160828,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 1007996,
+    "conversionRate": 15.6,
+    "customerRetentionRate": 86.7,
+    "averageCommissionPerSale": 70866
+  },
+  "joinedDate": "2022-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-22T00:00:00Z"
+}

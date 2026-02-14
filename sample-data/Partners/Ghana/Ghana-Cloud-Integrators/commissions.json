@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Ghana-4849",
+  "partnerName": "Ghana Cloud Integrators",
+  "country": "Ghana",
+  "currency": "GHS",
+  "commissionRate": 24,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 17,
+  "activeProjects": 15,
+  "totalCustomers": 137,
+  "totalRevenue": 6415332,
+  "totalCommissionEarned": 1539679.68,
+  "paidCommission": 1231743.74,
+  "pendingCommission": 307935.94,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 307935.94,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 3,
+      "revenue": 723000,
+      "commission": 180732,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 6,
+      "revenue": 774348,
+      "commission": 138972,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 4,
+      "revenue": 534216,
+      "commission": 97356,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 541512,
+    "implementationSuccessRate": 98.2,
+    "customerSatisfactionScore": 4.7,
+    "averageCommissionPerProject": 174864,
+    "recurringRevenueShare": 25.8
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-15T00:00:00Z"
+}

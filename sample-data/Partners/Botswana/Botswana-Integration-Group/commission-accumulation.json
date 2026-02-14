@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Botswana-1",
+  "country": "Botswana",
+  "affiliateName": "Botswana Integration Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1495.0,
+      "revenue": 2361693.0,
+      "commission": 826592.55
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1699.0,
+      "revenue": 2645096.16,
+      "commission": 925783.66
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1902.0,
+      "revenue": 2834031.6,
+      "commission": 991911.06
+    }
+  ],
+  "summary": {
+    "paidCommission": 3141051.69,
+    "totalRevenue": 9446772.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3306370.2,
+    "totalRegistrations": 6796.0,
+    "pendingCommission": 165318.51,
+    "activeCustomers": 6252.0
+  }
+}

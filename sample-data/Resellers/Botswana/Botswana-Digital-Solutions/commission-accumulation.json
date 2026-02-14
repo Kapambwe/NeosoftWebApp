@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Botswana-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 6,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 18
+  },
+  "country": "Botswana",
+  "affiliateName": "Botswana Digital Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 705.0,
+      "revenue": 688080.0,
+      "commission": 172020.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 861.0,
+      "revenue": 860100.0,
+      "commission": 215025.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 783.0,
+      "revenue": 756888.0,
+      "commission": 189222.0
+    }
+  ],
+  "summary": {
+    "paidCommission": 808494.0,
+    "totalRevenue": 3440400.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 860100.0,
+    "totalRegistrations": 3917.0,
+    "pendingCommission": 51606.0,
+    "activeCustomers": 3525.0
+  }
+}

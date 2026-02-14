@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Malawi-0",
+  "country": "Malawi",
+  "affiliateName": "Lake Malawi Systems",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 494.0,
+      "revenue": 1404526.5,
+      "commission": 491584.28
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 561.0,
+      "revenue": 1573069.68,
+      "commission": 550574.39
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 629.0,
+      "revenue": 1685431.8,
+      "commission": 589901.13
+    }
+  ],
+  "summary": {
+    "paidCommission": 1868020.24,
+    "totalRevenue": 5618106.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1966337.1,
+    "totalRegistrations": 2247.0,
+    "pendingCommission": 98316.86,
+    "activeCustomers": 2067.0
+  }
+}

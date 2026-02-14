@@ -1,0 +1,491 @@
+[
+  {
+    "customerId": "INF-KE-001",
+    "customerName": "Kamau Omondi Digital Solutions",
+    "healthScore": 87.5,
+    "status": 0,
+    "lastUpdated": "2024-12-20T10:30:00Z",
+    "usageScore": 92.0,
+    "engagementScore": 85.0,
+    "supportScore": 88.0,
+    "paymentScore": 95.0,
+    "adoptionScore": 80.0,
+    "churnProbability": 12.5,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-KE-002",
+    "customerName": "Wanjiku Kariuki Tech Hub",
+    "healthScore": 78.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T09:15:00Z",
+    "usageScore": 75.0,
+    "engagementScore": 82.0,
+    "supportScore": 76.0,
+    "paymentScore": 90.0,
+    "adoptionScore": 72.0,
+    "churnProbability": 22.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-ZA-001",
+    "customerName": "Thabo Mbeki Business Consulting",
+    "healthScore": 45.0,
+    "status": 3,
+    "lastUpdated": "2024-12-20T08:00:00Z",
+    "usageScore": 38.0,
+    "engagementScore": 42.0,
+    "supportScore": 52.0,
+    "paymentScore": 55.0,
+    "adoptionScore": 40.0,
+    "churnProbability": 55.0,
+    "riskFactors": [
+      "Low product usage",
+      "Declining engagement",
+      "Low feature adoption"
+    ],
+    "positiveIndicators": [],
+    "recommendedActions": [
+      {
+        "title": "Immediate Customer Outreach",
+        "description": "Schedule a call with customer success team within 24 hours",
+        "priority": 0,
+        "actionType": "CustomerOutreach",
+        "expectedImpact": 0.35
+      },
+      {
+        "title": "Offer Training Session",
+        "description": "Provide personalized product training to improve adoption",
+        "priority": 1,
+        "actionType": "Training",
+        "expectedImpact": 0.25
+      },
+      {
+        "title": "Share Best Practices",
+        "description": "Send curated content on product best practices",
+        "priority": 2,
+        "actionType": "ContentShare",
+        "expectedImpact": 0.15
+      }
+    ]
+  },
+  {
+    "customerId": "INF-NG-001",
+    "customerName": "Adebayo Okonkwo Solutions",
+    "healthScore": 92.0,
+    "status": 0,
+    "lastUpdated": "2024-12-20T11:45:00Z",
+    "usageScore": 95.0,
+    "engagementScore": 90.0,
+    "supportScore": 92.0,
+    "paymentScore": 98.0,
+    "adoptionScore": 88.0,
+    "churnProbability": 8.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-EG-001",
+    "customerName": "Ahmed Hassan Technology Partners",
+    "healthScore": 68.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T07:30:00Z",
+    "usageScore": 65.0,
+    "engagementScore": 70.0,
+    "supportScore": 68.0,
+    "paymentScore": 75.0,
+    "adoptionScore": 62.0,
+    "churnProbability": 32.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "High engagement level"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "RES-ZA-001",
+    "customerName": "Johannesburg Tech Distributors",
+    "healthScore": 35.0,
+    "status": 4,
+    "lastUpdated": "2024-12-20T06:00:00Z",
+    "usageScore": 28.0,
+    "engagementScore": 35.0,
+    "supportScore": 45.0,
+    "paymentScore": 42.0,
+    "adoptionScore": 30.0,
+    "churnProbability": 65.0,
+    "riskFactors": [
+      "Low product usage",
+      "Declining engagement",
+      "High support ticket volume",
+      "Payment delays or issues",
+      "Low feature adoption"
+    ],
+    "positiveIndicators": [],
+    "recommendedActions": [
+      {
+        "title": "Immediate Customer Outreach",
+        "description": "Schedule a call with customer success team within 24 hours",
+        "priority": 0,
+        "actionType": "CustomerOutreach",
+        "expectedImpact": 0.35
+      },
+      {
+        "title": "Offer Training Session",
+        "description": "Provide personalized product training to improve adoption",
+        "priority": 1,
+        "actionType": "Training",
+        "expectedImpact": 0.25
+      },
+      {
+        "title": "Share Best Practices",
+        "description": "Send curated content on product best practices",
+        "priority": 2,
+        "actionType": "ContentShare",
+        "expectedImpact": 0.15
+      }
+    ]
+  },
+  {
+    "customerId": "PAR-KE-001",
+    "customerName": "Nairobi Software Partners Ltd",
+    "healthScore": 85.0,
+    "status": 0,
+    "lastUpdated": "2024-12-20T10:00:00Z",
+    "usageScore": 88.0,
+    "engagementScore": 82.0,
+    "supportScore": 90.0,
+    "paymentScore": 92.0,
+    "adoptionScore": 78.0,
+    "churnProbability": 15.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-TZ-001",
+    "customerName": "Juma Mwamba Digital Agency",
+    "healthScore": 72.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T09:00:00Z",
+    "usageScore": 70.0,
+    "engagementScore": 75.0,
+    "supportScore": 72.0,
+    "paymentScore": 80.0,
+    "adoptionScore": 68.0,
+    "churnProbability": 28.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-GH-001",
+    "customerName": "Kwame Nkrumah Tech Services",
+    "healthScore": 55.0,
+    "status": 2,
+    "lastUpdated": "2024-12-20T08:30:00Z",
+    "usageScore": 52.0,
+    "engagementScore": 58.0,
+    "supportScore": 55.0,
+    "paymentScore": 62.0,
+    "adoptionScore": 48.0,
+    "churnProbability": 45.0,
+    "riskFactors": [
+      "Low feature adoption"
+    ],
+    "positiveIndicators": [],
+    "recommendedActions": [
+      {
+        "title": "Share Best Practices",
+        "description": "Send curated content on product best practices",
+        "priority": 2,
+        "actionType": "ContentShare",
+        "expectedImpact": 0.15
+      }
+    ]
+  },
+  {
+    "customerId": "INF-RW-001",
+    "customerName": "Kigali Innovation Hub",
+    "healthScore": 89.0,
+    "status": 0,
+    "lastUpdated": "2024-12-20T11:00:00Z",
+    "usageScore": 90.0,
+    "engagementScore": 88.0,
+    "supportScore": 92.0,
+    "paymentScore": 95.0,
+    "adoptionScore": 85.0,
+    "churnProbability": 11.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "RES-NG-001",
+    "customerName": "Lagos Tech Resellers",
+    "healthScore": 42.0,
+    "status": 3,
+    "lastUpdated": "2024-12-20T07:00:00Z",
+    "usageScore": 35.0,
+    "engagementScore": 45.0,
+    "supportScore": 48.0,
+    "paymentScore": 50.0,
+    "adoptionScore": 38.0,
+    "churnProbability": 58.0,
+    "riskFactors": [
+      "Low product usage",
+      "Declining engagement",
+      "Low feature adoption"
+    ],
+    "positiveIndicators": [],
+    "recommendedActions": [
+      {
+        "title": "Immediate Customer Outreach",
+        "description": "Schedule a call with customer success team within 24 hours",
+        "priority": 0,
+        "actionType": "CustomerOutreach",
+        "expectedImpact": 0.35
+      },
+      {
+        "title": "Offer Training Session",
+        "description": "Provide personalized product training to improve adoption",
+        "priority": 1,
+        "actionType": "Training",
+        "expectedImpact": 0.25
+      },
+      {
+        "title": "Share Best Practices",
+        "description": "Send curated content on product best practices",
+        "priority": 2,
+        "actionType": "ContentShare",
+        "expectedImpact": 0.15
+      }
+    ]
+  },
+  {
+    "customerId": "PAR-MA-001",
+    "customerName": "Casablanca Technology Alliance",
+    "healthScore": 76.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T10:15:00Z",
+    "usageScore": 72.0,
+    "engagementScore": 78.0,
+    "supportScore": 80.0,
+    "paymentScore": 85.0,
+    "adoptionScore": 70.0,
+    "churnProbability": 24.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-UG-001",
+    "customerName": "Kampala Digital Ventures",
+    "healthScore": 81.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T09:45:00Z",
+    "usageScore": 78.0,
+    "engagementScore": 83.0,
+    "supportScore": 82.0,
+    "paymentScore": 88.0,
+    "adoptionScore": 75.0,
+    "churnProbability": 19.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-ET-001",
+    "customerName": "Addis Tech Solutions",
+    "healthScore": 65.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T08:15:00Z",
+    "usageScore": 62.0,
+    "engagementScore": 68.0,
+    "supportScore": 65.0,
+    "paymentScore": 72.0,
+    "adoptionScore": 60.0,
+    "churnProbability": 35.0,
+    "riskFactors": [],
+    "positiveIndicators": [],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "RES-TZ-001",
+    "customerName": "Dar es Salaam Software Hub",
+    "healthScore": 58.0,
+    "status": 2,
+    "lastUpdated": "2024-12-20T07:45:00Z",
+    "usageScore": 55.0,
+    "engagementScore": 60.0,
+    "supportScore": 58.0,
+    "paymentScore": 65.0,
+    "adoptionScore": 52.0,
+    "churnProbability": 42.0,
+    "riskFactors": [
+      "Low feature adoption"
+    ],
+    "positiveIndicators": [],
+    "recommendedActions": [
+      {
+        "title": "Share Best Practices",
+        "description": "Send curated content on product best practices",
+        "priority": 2,
+        "actionType": "ContentShare",
+        "expectedImpact": 0.15
+      }
+    ]
+  },
+  {
+    "customerId": "PAR-BW-001",
+    "customerName": "Gaborone Tech Partners",
+    "healthScore": 83.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T10:45:00Z",
+    "usageScore": 80.0,
+    "engagementScore": 85.0,
+    "supportScore": 84.0,
+    "paymentScore": 90.0,
+    "adoptionScore": 76.0,
+    "churnProbability": 17.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "INF-MW-001",
+    "customerName": "Lilongwe Digital Network",
+    "healthScore": 48.0,
+    "status": 2,
+    "lastUpdated": "2024-12-20T06:30:00Z",
+    "usageScore": 45.0,
+    "engagementScore": 50.0,
+    "supportScore": 48.0,
+    "paymentScore": 55.0,
+    "adoptionScore": 42.0,
+    "churnProbability": 52.0,
+    "riskFactors": [
+      "Low feature adoption"
+    ],
+    "positiveIndicators": [],
+    "recommendedActions": [
+      {
+        "title": "Share Best Practices",
+        "description": "Send curated content on product best practices",
+        "priority": 2,
+        "actionType": "ContentShare",
+        "expectedImpact": 0.15
+      }
+    ]
+  },
+  {
+    "customerId": "INF-ZW-001",
+    "customerName": "Harare Business Systems",
+    "healthScore": 52.0,
+    "status": 2,
+    "lastUpdated": "2024-12-20T08:45:00Z",
+    "usageScore": 48.0,
+    "engagementScore": 55.0,
+    "supportScore": 52.0,
+    "paymentScore": 58.0,
+    "adoptionScore": 47.0,
+    "churnProbability": 48.0,
+    "riskFactors": [
+      "Low feature adoption"
+    ],
+    "positiveIndicators": [],
+    "recommendedActions": [
+      {
+        "title": "Share Best Practices",
+        "description": "Send curated content on product best practices",
+        "priority": 2,
+        "actionType": "ContentShare",
+        "expectedImpact": 0.15
+      }
+    ]
+  },
+  {
+    "customerId": "RES-EG-001",
+    "customerName": "Cairo Software Distribution",
+    "healthScore": 70.0,
+    "status": 1,
+    "lastUpdated": "2024-12-20T09:30:00Z",
+    "usageScore": 68.0,
+    "engagementScore": 72.0,
+    "supportScore": 70.0,
+    "paymentScore": 78.0,
+    "adoptionScore": 65.0,
+    "churnProbability": 30.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "High engagement level"
+    ],
+    "recommendedActions": []
+  },
+  {
+    "customerId": "PAR-GH-001",
+    "customerName": "Accra Technology Alliance",
+    "healthScore": 88.0,
+    "status": 0,
+    "lastUpdated": "2024-12-20T11:30:00Z",
+    "usageScore": 85.0,
+    "engagementScore": 90.0,
+    "supportScore": 89.0,
+    "paymentScore": 93.0,
+    "adoptionScore": 83.0,
+    "churnProbability": 12.0,
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ],
+    "recommendedActions": []
+  }
+]

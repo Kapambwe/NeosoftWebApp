@@ -1,0 +1,277 @@
+[
+  {
+    "pageId": "page-001",
+    "pageName": "Dashboard",
+    "totalViews": 15420,
+    "uniqueVisitors": 3850,
+    "dailyActiveUsers": 285,
+    "weeklyActiveUsers": 1240,
+    "monthlyActiveUsers": 3850,
+    "averageTimeOnPage": 245.5,
+    "bounceRate": 12.3,
+    "totalSessions": 8920,
+    "averageSessionDuration": 420.8,
+    "averageLoadTime": 850.2,
+    "errorRate": 0.8,
+    "totalErrors": 12,
+    "buttonClicks": 45680,
+    "formSubmissions": 2340,
+    "downloads": 890,
+    "searches": 1560,
+    "conversions": 234,
+    "conversionRate": 6.1,
+    "revenue": 12450.75,
+    "hourlyUsage": [],
+    "dailyUsage": [],
+    "weeklyUsage": [],
+    "deviceTypes": {
+      "Desktop": 2310,
+      "Mobile": 1200,
+      "Tablet": 340
+    },
+    "browsers": {
+      "Chrome": 2100,
+      "Firefox": 890,
+      "Safari": 560,
+      "Edge": 300
+    },
+    "operatingSystems": {
+      "Windows": 2200,
+      "macOS": 980,
+      "Linux": 420,
+      "iOS": 250
+    },
+    "countries": {
+      "United States": 2800,
+      "Canada": 450,
+      "United Kingdom": 380,
+      "Australia": 220
+    },
+    "cities": {
+      "New York": 680,
+      "Los Angeles": 520,
+      "Toronto": 340,
+      "London": 280
+    },
+    "lastUpdated": "2026-02-01T10:30:00Z"
+  },
+  {
+    "pageId": "page-002",
+    "pageName": "Student Management",
+    "totalViews": 8920,
+    "uniqueVisitors": 1850,
+    "dailyActiveUsers": 145,
+    "weeklyActiveUsers": 680,
+    "monthlyActiveUsers": 1850,
+    "averageTimeOnPage": 380.2,
+    "bounceRate": 8.7,
+    "totalSessions": 4560,
+    "averageSessionDuration": 680.5,
+    "averageLoadTime": 920.1,
+    "errorRate": 1.2,
+    "totalErrors": 18,
+    "buttonClicks": 28940,
+    "formSubmissions": 4560,
+    "downloads": 340,
+    "searches": 2890,
+    "conversions": 456,
+    "conversionRate": 24.6,
+    "revenue": 0,
+    "hourlyUsage": [],
+    "dailyUsage": [],
+    "weeklyUsage": [],
+    "deviceTypes": {
+      "Desktop": 1480,
+      "Mobile": 280,
+      "Tablet": 90
+    },
+    "browsers": {
+      "Chrome": 1200,
+      "Firefox": 380,
+      "Safari": 180,
+      "Edge": 90
+    },
+    "operatingSystems": {
+      "Windows": 1350,
+      "macOS": 320,
+      "Linux": 180
+    },
+    "countries": {
+      "United States": 1400,
+      "Canada": 280,
+      "United Kingdom": 170
+    },
+    "cities": {
+      "New York": 340,
+      "Los Angeles": 280,
+      "Toronto": 180,
+      "London": 120
+    },
+    "lastUpdated": "2026-02-01T10:30:00Z"
+  },
+  {
+    "pageId": "page-006",
+    "pageName": "Analytics Dashboard",
+    "totalViews": 12340,
+    "uniqueVisitors": 2890,
+    "dailyActiveUsers": 220,
+    "weeklyActiveUsers": 980,
+    "monthlyActiveUsers": 2890,
+    "averageTimeOnPage": 420.8,
+    "bounceRate": 15.2,
+    "totalSessions": 6780,
+    "averageSessionDuration": 580.3,
+    "averageLoadTime": 1200.5,
+    "errorRate": 2.1,
+    "totalErrors": 28,
+    "buttonClicks": 38920,
+    "formSubmissions": 1890,
+    "downloads": 2340,
+    "searches": 4560,
+    "conversions": 289,
+    "conversionRate": 10.0,
+    "revenue": 18750.25,
+    "hourlyUsage": [],
+    "dailyUsage": [],
+    "weeklyUsage": [],
+    "deviceTypes": {
+      "Desktop": 2310,
+      "Mobile": 450,
+      "Tablet": 130
+    },
+    "browsers": {
+      "Chrome": 1890,
+      "Firefox": 560,
+      "Safari": 280,
+      "Edge": 160
+    },
+    "operatingSystems": {
+      "Windows": 1980,
+      "macOS": 560,
+      "Linux": 350
+    },
+    "countries": {
+      "United States": 2100,
+      "Canada": 380,
+      "United Kingdom": 250,
+      "Germany": 160
+    },
+    "cities": {
+      "San Francisco": 520,
+      "New York": 480,
+      "Toronto": 280,
+      "London": 180
+    },
+    "lastUpdated": "2026-02-01T10:30:00Z"
+  },
+  {
+    "pageId": "page-010",
+    "pageName": "Case Management",
+    "totalViews": 18920,
+    "uniqueVisitors": 4560,
+    "dailyActiveUsers": 380,
+    "weeklyActiveUsers": 1680,
+    "monthlyActiveUsers": 4560,
+    "averageTimeOnPage": 680.5,
+    "bounceRate": 6.8,
+    "totalSessions": 11240,
+    "averageSessionDuration": 920.8,
+    "averageLoadTime": 780.2,
+    "errorRate": 0.5,
+    "totalErrors": 8,
+    "buttonClicks": 56780,
+    "formSubmissions": 8920,
+    "downloads": 4560,
+    "searches": 6780,
+    "conversions": 892,
+    "conversionRate": 19.6,
+    "revenue": 0,
+    "hourlyUsage": [],
+    "dailyUsage": [],
+    "weeklyUsage": [],
+    "deviceTypes": {
+      "Desktop": 3890,
+      "Mobile": 520,
+      "Tablet": 150
+    },
+    "browsers": {
+      "Chrome": 2890,
+      "Firefox": 980,
+      "Safari": 450,
+      "Edge": 240
+    },
+    "operatingSystems": {
+      "Windows": 3200,
+      "macOS": 890,
+      "Linux": 470
+    },
+    "countries": {
+      "United States": 3400,
+      "Canada": 560,
+      "United Kingdom": 380,
+      "Australia": 220
+    },
+    "cities": {
+      "New York": 780,
+      "Los Angeles": 620,
+      "Chicago": 480,
+      "Toronto": 340
+    },
+    "lastUpdated": "2026-02-01T10:30:00Z"
+  },
+  {
+    "pageId": "page-014",
+    "pageName": "Financial Dashboard",
+    "totalViews": 22340,
+    "uniqueVisitors": 5680,
+    "dailyActiveUsers": 450,
+    "weeklyActiveUsers": 2100,
+    "monthlyActiveUsers": 5680,
+    "averageTimeOnPage": 520.8,
+    "bounceRate": 9.2,
+    "totalSessions": 13450,
+    "averageSessionDuration": 780.5,
+    "averageLoadTime": 650.8,
+    "errorRate": 0.3,
+    "totalErrors": 5,
+    "buttonClicks": 67890,
+    "formSubmissions": 5680,
+    "downloads": 8920,
+    "searches": 4560,
+    "conversions": 1136,
+    "conversionRate": 20.0,
+    "revenue": 45680.50,
+    "hourlyUsage": [],
+    "dailyUsage": [],
+    "weeklyUsage": [],
+    "deviceTypes": {
+      "Desktop": 4890,
+      "Mobile": 620,
+      "Tablet": 170
+    },
+    "browsers": {
+      "Chrome": 3680,
+      "Firefox": 1200,
+      "Safari": 560,
+      "Edge": 240
+    },
+    "operatingSystems": {
+      "Windows": 4200,
+      "macOS": 1080,
+      "Linux": 400
+    },
+    "countries": {
+      "United States": 4200,
+      "Canada": 680,
+      "United Kingdom": 480,
+      "Germany": 320
+    },
+    "cities": {
+      "New York": 980,
+      "Los Angeles": 780,
+      "Chicago": 620,
+      "Toronto": 450
+    },
+    "lastUpdated": "2026-02-01T10:30:00Z"
+  }
+]

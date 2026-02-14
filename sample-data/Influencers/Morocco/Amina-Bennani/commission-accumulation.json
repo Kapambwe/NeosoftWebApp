@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Morocco-1",
+  "country": "Morocco",
+  "affiliateName": "Amina Bennani",
+  "performanceMetrics": {
+    "engagementRate": 7.1,
+    "followerCount": 209765,
+    "averageOrderValue": 411.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 61.0,
+      "revenue": 26941.05,
+      "commission": 4041.16
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 77.0,
+      "revenue": 32329.26,
+      "commission": 4849.39
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 92.0,
+      "revenue": 35921.4,
+      "commission": 5388.21
+    }
+  ],
+  "summary": {
+    "paidCommission": 24785.77,
+    "totalRevenue": 179607.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 26941.05,
+    "totalRegistrations": 515.0,
+    "pendingCommission": 2155.28,
+    "activeCustomers": 437.0
+  }
+}
