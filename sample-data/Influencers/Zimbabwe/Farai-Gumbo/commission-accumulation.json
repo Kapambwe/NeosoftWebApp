@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zimbabwe-4",
+  "country": "Zimbabwe",
+  "affiliateName": "Farai Gumbo",
+  "performanceMetrics": {
+    "engagementRate": 3.5,
+    "followerCount": 270781,
+    "averageOrderValue": 940.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 131.0,
+      "revenue": 131130.0,
+      "commission": 19669.5
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 164.0,
+      "revenue": 157356.0,
+      "commission": 23603.4
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 197.0,
+      "revenue": 174840.0,
+      "commission": 26226.0
+    }
+  ],
+  "summary": {
+    "paidCommission": 120639.6,
+    "totalRevenue": 874200.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 131130.0,
+    "totalRegistrations": 1095.0,
+    "pendingCommission": 10490.4,
+    "activeCustomers": 930.0
+  }
+}

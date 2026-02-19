@@ -1,0 +1,17 @@
+{
+  "tier": "Gold",
+  "promoCode": "W0L7SYF3",
+  "name": "Ahmed Ibrahim",
+  "email": "ahmed.ibrahim@egypt.influence",
+  "country": "Egypt",
+  "joinedDate": "2023-05-01T00:00:00Z",
+  "socialMedia": {
+    "followers": 35326,
+    "engagementRate": 6.0,
+    "platform": "Instagram"
+  },
+  "type": "Influencer",
+  "id": "inf-Egypt-2",
+  "status": "Active",
+  "commissionRate": 15.0
+}

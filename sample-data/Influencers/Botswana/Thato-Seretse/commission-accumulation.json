@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Botswana-4",
+  "country": "Botswana",
+  "affiliateName": "Thato Seretse",
+  "performanceMetrics": {
+    "engagementRate": 6.4,
+    "followerCount": 289017,
+    "averageOrderValue": 1103.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 30.0,
+      "revenue": 35737.2,
+      "commission": 5360.58
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 38.0,
+      "revenue": 42884.64,
+      "commission": 6432.7
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 45.0,
+      "revenue": 47649.6,
+      "commission": 7147.44
+    }
+  ],
+  "summary": {
+    "paidCommission": 32878.22,
+    "totalRevenue": 238248.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 35737.2,
+    "totalRegistrations": 255.0,
+    "pendingCommission": 2858.98,
+    "activeCustomers": 216.0
+  }
+}

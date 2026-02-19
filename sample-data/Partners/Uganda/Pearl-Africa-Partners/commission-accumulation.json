@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Uganda-0",
+  "country": "Uganda",
+  "affiliateName": "Pearl Africa Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1471.0,
+      "revenue": 4093948.5,
+      "commission": 1432881.98
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1672.0,
+      "revenue": 4585222.32,
+      "commission": 1604827.81
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1873.0,
+      "revenue": 4912738.2,
+      "commission": 1719458.37
+    }
+  ],
+  "summary": {
+    "paidCommission": 5444951.5,
+    "totalRevenue": 16375794.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 5731527.9,
+    "totalRegistrations": 6690.0,
+    "pendingCommission": 286576.4,
+    "activeCustomers": 6154.0
+  }
+}

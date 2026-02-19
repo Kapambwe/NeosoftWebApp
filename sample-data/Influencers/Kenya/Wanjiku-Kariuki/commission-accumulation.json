@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Kenya-4",
+  "country": "Kenya",
+  "affiliateName": "Wanjiku Kariuki",
+  "performanceMetrics": {
+    "engagementRate": 4.8,
+    "followerCount": 272620,
+    "averageOrderValue": 799.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 9.0,
+      "revenue": 8029.95,
+      "commission": 1204.49
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 11.0,
+      "revenue": 9635.94,
+      "commission": 1445.39
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 14.0,
+      "revenue": 10706.6,
+      "commission": 1605.99
+    }
+  ],
+  "summary": {
+    "paidCommission": 7387.55,
+    "totalRevenue": 53533.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 8029.95,
+    "totalRegistrations": 79.0,
+    "pendingCommission": 642.4,
+    "activeCustomers": 67.0
+  }
+}

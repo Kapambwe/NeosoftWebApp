@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Malawi-0",
+  "country": "Malawi",
+  "affiliateName": "Chisomo Banda",
+  "performanceMetrics": {
+    "engagementRate": 7.0,
+    "followerCount": 428274,
+    "averageOrderValue": 506.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 144.0,
+      "revenue": 77569.8,
+      "commission": 11635.47
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 180.0,
+      "revenue": 93083.76,
+      "commission": 13962.56
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 216.0,
+      "revenue": 103426.4,
+      "commission": 15513.96
+    }
+  ],
+  "summary": {
+    "paidCommission": 71364.22,
+    "totalRevenue": 517132.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 77569.8,
+    "totalRegistrations": 1203.0,
+    "pendingCommission": 6205.58,
+    "activeCustomers": 1022.0
+  }
+}

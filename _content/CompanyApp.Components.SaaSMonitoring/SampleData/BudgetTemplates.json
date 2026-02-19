@@ -1,0 +1,218 @@
+[
+    {
+        "Id": "a1a1a1a1-1b1b-1c1c-1d1d-1e1e1e1e1e1e",
+        "Name": "SaaS Startup Operating Budget",
+        "Description": "Comprehensive operating budget template for SaaS startups",
+        "BudgetType": 0,
+        "Industry": "Software",
+        "IsPublic": true,
+        "CreatedBy": "System",
+        "LineItems": [
+            {
+                "AccountCode": "4000",
+                "AccountName": "SaaS Subscription Revenue",
+                "AccountType": 0,
+                "Category": "Revenue",
+                "SuggestedAmount": 1000000.0,
+                "PercentageOfRevenue": 100.0,
+                "SortOrder": 1
+            },
+            {
+                "AccountCode": "5000",
+                "AccountName": "Salaries & Wages",
+                "AccountType": 1,
+                "Category": "Personnel",
+                "SuggestedAmount": 500000.0,
+                "PercentageOfRevenue": 50.0,
+                "SortOrder": 2
+            },
+            {
+                "AccountCode": "5100",
+                "AccountName": "Cloud Infrastructure",
+                "AccountType": 1,
+                "Category": "Technology",
+                "SuggestedAmount": 120000.0,
+                "PercentageOfRevenue": 12.0,
+                "SortOrder": 3
+            },
+            {
+                "AccountCode": "5200",
+                "AccountName": "Marketing & Sales",
+                "AccountType": 1,
+                "Category": "Marketing",
+                "SuggestedAmount": 200000.0,
+                "PercentageOfRevenue": 20.0,
+                "SortOrder": 4
+            },
+            {
+                "AccountCode": "5300",
+                "AccountName": "Office & Administrative",
+                "AccountType": 1,
+                "Category": "Operations",
+                "SuggestedAmount": 80000.0,
+                "PercentageOfRevenue": 8.0,
+                "SortOrder": 5
+            }
+        ],
+        "Categories": [
+            {
+                "Name": "Revenue",
+                "SortOrder": 1
+            },
+            {
+                "Name": "Personnel",
+                "SortOrder": 2
+            },
+            {
+                "Name": "Technology",
+                "SortOrder": 3
+            },
+            {
+                "Name": "Marketing",
+                "SortOrder": 4
+            },
+            {
+                "Name": "Operations",
+                "SortOrder": 5
+            }
+        ]
+    },
+    {
+        "Id": "a2a2a2a2-2b2b-2c2c-2d2d-2e2e2e2e2e2e",
+        "Name": "IT Department Budget Template",
+        "Description": "Standard IT department budget for technology operations",
+        "BudgetType": 2,
+        "Industry": "Technology",
+        "IsPublic": true,
+        "CreatedBy": "System",
+        "LineItems": [
+            {
+                "AccountCode": "5300",
+                "AccountName": "Cloud Infrastructure",
+                "AccountType": 1,
+                "Category": "Infrastructure",
+                "SuggestedAmount": 360000.0,
+                "SortOrder": 1
+            },
+            {
+                "AccountCode": "5310",
+                "AccountName": "Software Licenses",
+                "AccountType": 1,
+                "Category": "Software",
+                "SuggestedAmount": 240000.0,
+                "SortOrder": 2
+            },
+            {
+                "AccountCode": "5320",
+                "AccountName": "IT Support & Maintenance",
+                "AccountType": 1,
+                "Category": "Support",
+                "SuggestedAmount": 180000.0,
+                "SortOrder": 3
+            },
+            {
+                "AccountCode": "5330",
+                "AccountName": "Security & Compliance",
+                "AccountType": 1,
+                "Category": "Security",
+                "SuggestedAmount": 120000.0,
+                "SortOrder": 4
+            },
+            {
+                "AccountCode": "5340",
+                "AccountName": "IT Personnel",
+                "AccountType": 1,
+                "Category": "Personnel",
+                "SuggestedAmount": 600000.0,
+                "SortOrder": 5
+            }
+        ],
+        "Categories": [
+            {
+                "Name": "Infrastructure",
+                "SortOrder": 1
+            },
+            {
+                "Name": "Software",
+                "SortOrder": 2
+            },
+            {
+                "Name": "Support",
+                "SortOrder": 3
+            },
+            {
+                "Name": "Security",
+                "SortOrder": 4
+            },
+            {
+                "Name": "Personnel",
+                "SortOrder": 5
+            }
+        ]
+    },
+    {
+        "Id": "a3a3a3a3-3b3b-3c3c-3d3d-3e3e3e3e3e3e",
+        "Name": "Sales & Marketing Budget Template",
+        "Description": "Comprehensive sales and marketing budget template",
+        "BudgetType": 1,
+        "Industry": "General",
+        "IsPublic": true,
+        "CreatedBy": "System",
+        "LineItems": [
+            {
+                "AccountCode": "5400",
+                "AccountName": "Digital Marketing",
+                "AccountType": 1,
+                "Category": "Marketing",
+                "SuggestedAmount": 200000.0,
+                "SortOrder": 1
+            },
+            {
+                "AccountCode": "5410",
+                "AccountName": "Sales Commissions",
+                "AccountType": 1,
+                "Category": "Sales",
+                "SuggestedAmount": 300000.0,
+                "SortOrder": 2
+            },
+            {
+                "AccountCode": "5420",
+                "AccountName": "Events & Trade Shows",
+                "AccountType": 1,
+                "Category": "Marketing",
+                "SuggestedAmount": 150000.0,
+                "SortOrder": 3
+            },
+            {
+                "AccountCode": "5430",
+                "AccountName": "Content Marketing",
+                "AccountType": 1,
+                "Category": "Marketing",
+                "SuggestedAmount": 100000.0,
+                "SortOrder": 4
+            },
+            {
+                "AccountCode": "5440",
+                "AccountName": "Sales Tools & CRM",
+                "AccountType": 1,
+                "Category": "Technology",
+                "SuggestedAmount": 80000.0,
+                "SortOrder": 5
+            }
+        ],
+        "Categories": [
+            {
+                "Name": "Marketing",
+                "SortOrder": 1
+            },
+            {
+                "Name": "Sales",
+                "SortOrder": 2
+            },
+            {
+                "Name": "Technology",
+                "SortOrder": 3
+            }
+        ]
+    }
+]

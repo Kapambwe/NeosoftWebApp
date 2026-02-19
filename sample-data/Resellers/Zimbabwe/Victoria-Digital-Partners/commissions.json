@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Zimbabwe-3247",
+  "resellerName": "Victoria Digital Partners",
+  "country": "Zimbabwe",
+  "currency": "USD",
+  "commissionRate": 13.4,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 117,
+  "activeCustomers": 72,
+  "totalRevenue": 295252,
+  "totalCommissionEarned": 39563.77,
+  "paidCommission": 29672.83,
+  "pendingCommission": 9890.94,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 8901.85,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 12,
+      "revenue": 29846,
+      "commission": 4447,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 13,
+      "revenue": 29640,
+      "commission": 3005,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 11,
+      "revenue": 24778,
+      "commission": 3185,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 24152,
+    "conversionRate": 20.8,
+    "customerRetentionRate": 94.4,
+    "averageCommissionPerSale": 3049
+  },
+  "joinedDate": "2022-05-01T00:00:00Z",
+  "lastActivityDate": "2024-11-20T00:00:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zimbabwe-2",
+  "country": "Zimbabwe",
+  "affiliateName": "Takudzwa Mpofu",
+  "performanceMetrics": {
+    "engagementRate": 7.3,
+    "followerCount": 233411,
+    "averageOrderValue": 758.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 68.0,
+      "revenue": 54917.1,
+      "commission": 8237.56
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 85.0,
+      "revenue": 65900.52,
+      "commission": 9885.08
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 102.0,
+      "revenue": 73222.8,
+      "commission": 10983.42
+    }
+  ],
+  "summary": {
+    "paidCommission": 50523.73,
+    "totalRevenue": 366114.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 54917.1,
+    "totalRegistrations": 569.0,
+    "pendingCommission": 4393.37,
+    "activeCustomers": 483.0
+  }
+}

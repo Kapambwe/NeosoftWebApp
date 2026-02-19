@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Uganda-6052",
+  "resellerName": "Pearl Digital Partners",
+  "country": "Uganda",
+  "currency": "UGX",
+  "commissionRate": 11,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 86,
+  "activeCustomers": 59,
+  "totalRevenue": 789255000,
+  "totalCommissionEarned": 86818050.00,
+  "paidCommission": 65113537.50,
+  "pendingCommission": 21704512.50,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 19534061.25,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 8,
+      "revenue": 128576250,
+      "commission": 20227500,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 13,
+      "revenue": 135112500,
+      "commission": 9536250,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 9,
+      "revenue": 96000000,
+      "commission": 11021250,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 121931250,
+    "conversionRate": 24.4,
+    "customerRetentionRate": 92.4,
+    "averageCommissionPerSale": 6592500
+  },
+  "joinedDate": "2022-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-26T00:00:00Z"
+}

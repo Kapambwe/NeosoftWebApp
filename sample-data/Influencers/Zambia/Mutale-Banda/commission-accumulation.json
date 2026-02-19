@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zambia-3",
+  "country": "Zambia",
+  "affiliateName": "Mutale Banda",
+  "performanceMetrics": {
+    "engagementRate": 7.5,
+    "followerCount": 180507,
+    "averageOrderValue": 416.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 55.0,
+      "revenue": 24398.4,
+      "commission": 3659.76
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 69.0,
+      "revenue": 29278.08,
+      "commission": 4391.71
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 82.0,
+      "revenue": 32531.2,
+      "commission": 4879.68
+    }
+  ],
+  "summary": {
+    "paidCommission": 22446.53,
+    "totalRevenue": 162656.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 24398.4,
+    "totalRegistrations": 461.0,
+    "pendingCommission": 1951.87,
+    "activeCustomers": 391.0
+  }
+}

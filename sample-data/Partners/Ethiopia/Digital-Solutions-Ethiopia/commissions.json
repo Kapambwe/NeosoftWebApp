@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Ethiopia-9823",
+  "partnerName": "Digital Solutions Ethiopia",
+  "country": "Ethiopia",
+  "currency": "ETB",
+  "commissionRate": 23.4,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 32,
+  "activeProjects": 21,
+  "totalCustomers": 143,
+  "totalRevenue": 27175568,
+  "totalCommissionEarned": 6359082.91,
+  "paidCommission": 5087266.33,
+  "pendingCommission": 1271816.58,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 1271816.58,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 5,
+      "revenue": 3977008,
+      "commission": 728952,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 2388848,
+      "commission": 449288,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 2734424,
+      "commission": 314328,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 2636536,
+    "implementationSuccessRate": 97.3,
+    "customerSatisfactionScore": 4.6,
+    "averageCommissionPerProject": 456512,
+    "recurringRevenueShare": 39.9
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-20T00:00:00Z"
+}

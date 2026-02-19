@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Zimbabwe-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 8,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 23
+  },
+  "country": "Zimbabwe",
+  "affiliateName": "Harare Tech Hub",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 40.0,
+      "revenue": 21426.6,
+      "commission": 5356.65
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 49.0,
+      "revenue": 26783.25,
+      "commission": 6695.81
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 44.0,
+      "revenue": 23569.26,
+      "commission": 5892.32
+    }
+  ],
+  "summary": {
+    "paidCommission": 25176.25,
+    "totalRevenue": 107133.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 26783.25,
+    "totalRegistrations": 224.0,
+    "pendingCommission": 1607.0,
+    "activeCustomers": 201.0
+  }
+}

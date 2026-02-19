@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Morocco-4",
+  "country": "Morocco",
+  "affiliateName": "Mehdi Fassi",
+  "performanceMetrics": {
+    "engagementRate": 6.9,
+    "followerCount": 270759,
+    "averageOrderValue": 1064.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 52.0,
+      "revenue": 59211.6,
+      "commission": 8881.74
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 65.0,
+      "revenue": 71053.92,
+      "commission": 10658.09
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 78.0,
+      "revenue": 78948.8,
+      "commission": 11842.32
+    }
+  ],
+  "summary": {
+    "paidCommission": 54474.67,
+    "totalRevenue": 394744.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 59211.6,
+    "totalRegistrations": 437.0,
+    "pendingCommission": 4736.93,
+    "activeCustomers": 371.0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "paymentMethods": [
+    "Bank Transfer",
+    "PayPal",
+    "Stripe",
+    "Wire Transfer",
+    "Crypto (BTC)",
+    "Crypto (ETH)",
+    "Check"
+  ],
+  "socialPlatforms": [
+    "Instagram",
+    "YouTube",
+    "TikTok",
+    "Twitter",
+    "Facebook",
+    "LinkedIn",
+    "Twitch",
+    "Pinterest"
+  ],
+  "contentNiches": [
+    "Technology",
+    "Business",
+    "Lifestyle",
+    "Health & Fitness",
+    "Education",
+    "Entertainment",
+    "Gaming",
+    "Fashion",
+    "Food",
+    "Travel"
+  ],
+  "targetMarkets": [
+    "SMB",
+    "Enterprise",
+    "Government",
+    "Education",
+    "Healthcare",
+    "Non-Profit",
+    "Retail",
+    "Manufacturing"
+  ],
+  "certificationLevels": [
+    "Bronze Certified",
+    "Silver Certified",
+    "Gold Certified",
+    "Platinum Certified",
+    "Diamond Certified"
+  ]
+}

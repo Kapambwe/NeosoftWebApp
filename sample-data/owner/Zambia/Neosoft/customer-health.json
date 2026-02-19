@@ -1,0 +1,100 @@
+[
+  {
+    "customerId": "CUST-00001",
+    "customerName": "Acme Corporation",
+    "healthScore": 85.2,
+    "status": "Excellent",
+    "usageScore": 88.5,
+    "engagementScore": 82.1,
+    "supportScore": 91.0,
+    "paymentScore": 95.0,
+    "adoptionScore": 79.3,
+    "churnProbability": 14.8,
+    "lastUpdated": "2024-01-25T12:00:00Z",
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ]
+  },
+  {
+    "customerId": "CUST-00002",
+    "customerName": "Tech Solutions Inc",
+    "healthScore": 42.1,
+    "status": "Fair",
+    "usageScore": 35.2,
+    "engagementScore": 48.7,
+    "supportScore": 38.5,
+    "paymentScore": 72.0,
+    "adoptionScore": 46.1,
+    "churnProbability": 57.9,
+    "lastUpdated": "2024-01-25T12:00:00Z",
+    "riskFactors": [
+      "Low product usage",
+      "Declining engagement",
+      "High support ticket volume",
+      "Low feature adoption"
+    ],
+    "positiveIndicators": []
+  },
+  {
+    "customerId": "CUST-00003",
+    "customerName": "Global Enterprises",
+    "healthScore": 78.9,
+    "status": "Good",
+    "usageScore": 82.1,
+    "engagementScore": 75.8,
+    "supportScore": 85.2,
+    "paymentScore": 88.5,
+    "adoptionScore": 72.9,
+    "churnProbability": 21.1,
+    "lastUpdated": "2024-01-25T12:00:00Z",
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level"
+    ]
+  },
+  {
+    "customerId": "CUST-00004",
+    "customerName": "Data Analytics Co",
+    "healthScore": 18.5,
+    "status": "Critical",
+    "usageScore": 12.3,
+    "engagementScore": 25.1,
+    "supportScore": 15.8,
+    "paymentScore": 45.2,
+    "adoptionScore": 28.9,
+    "churnProbability": 81.5,
+    "lastUpdated": "2024-01-25T12:00:00Z",
+    "riskFactors": [
+      "Low product usage",
+      "Declining engagement",
+      "High support ticket volume",
+      "Low feature adoption"
+    ],
+    "positiveIndicators": []
+  },
+  {
+    "customerId": "CUST-00005",
+    "customerName": "Finance Corp",
+    "healthScore": 92.4,
+    "status": "Excellent",
+    "usageScore": 95.1,
+    "engagementScore": 89.7,
+    "supportScore": 94.2,
+    "paymentScore": 98.5,
+    "adoptionScore": 84.6,
+    "churnProbability": 7.6,
+    "lastUpdated": "2024-01-25T12:00:00Z",
+    "riskFactors": [],
+    "positiveIndicators": [
+      "Strong product usage",
+      "High engagement level",
+      "Excellent payment history",
+      "Good feature adoption"
+    ]
+  }
+]

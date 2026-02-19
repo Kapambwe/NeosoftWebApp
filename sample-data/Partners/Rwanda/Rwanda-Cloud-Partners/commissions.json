@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Rwanda-3403",
+  "partnerName": "Rwanda Cloud Partners",
+  "country": "Rwanda",
+  "currency": "RWF",
+  "commissionRate": 24.3,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 29,
+  "activeProjects": 24,
+  "totalCustomers": 132,
+  "totalRevenue": 522162300,
+  "totalCommissionEarned": 126885438.90,
+  "paidCommission": 101508351.12,
+  "pendingCommission": 25377087.78,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 25377087.78,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 45883200,
+      "commission": 13765400,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 3,
+      "revenue": 38694700,
+      "commission": 12236400,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 41151000,
+      "commission": 11798600,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 64963800,
+    "implementationSuccessRate": 93.6,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 14402300,
+    "recurringRevenueShare": 36.7
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-14T00:00:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Nigeria-4",
+  "country": "Nigeria",
+  "affiliateName": "Tunde Adeyemi",
+  "performanceMetrics": {
+    "engagementRate": 6.5,
+    "followerCount": 318249,
+    "averageOrderValue": 598.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 126.0,
+      "revenue": 80460.9,
+      "commission": 12069.13
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 158.0,
+      "revenue": 96553.08,
+      "commission": 14482.96
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 190.0,
+      "revenue": 107281.2,
+      "commission": 16092.18
+    }
+  ],
+  "summary": {
+    "paidCommission": 74024.03,
+    "totalRevenue": 536406.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 80460.9,
+    "totalRegistrations": 1056.0,
+    "pendingCommission": 6436.87,
+    "activeCustomers": 897.0
+  }
+}

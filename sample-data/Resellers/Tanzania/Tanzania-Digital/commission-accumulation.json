@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Tanzania-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 2,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 4
+  },
+  "country": "Tanzania",
+  "affiliateName": "Tanzania Digital",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 328.0,
+      "revenue": 307195.2,
+      "commission": 76798.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 401.0,
+      "revenue": 383994.0,
+      "commission": 95998.5
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 364.0,
+      "revenue": 337914.72,
+      "commission": 84478.68
+    }
+  ],
+  "summary": {
+    "paidCommission": 360954.36,
+    "totalRevenue": 1535976.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 383994.0,
+    "totalRegistrations": 1824.0,
+    "pendingCommission": 23039.64,
+    "activeCustomers": 1641.0
+  }
+}

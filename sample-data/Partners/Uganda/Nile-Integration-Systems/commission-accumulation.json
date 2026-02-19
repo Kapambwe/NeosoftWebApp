@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Uganda-2",
+  "country": "Uganda",
+  "affiliateName": "Nile Integration Systems",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1247.0,
+      "revenue": 1509017.25,
+      "commission": 528156.04
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1417.0,
+      "revenue": 1690099.32,
+      "commission": 591534.76
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1587.0,
+      "revenue": 1810820.7,
+      "commission": 633787.24
+    }
+  ],
+  "summary": {
+    "paidCommission": 2006992.94,
+    "totalRevenue": 6036069.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 2112624.15,
+    "totalRegistrations": 5671.0,
+    "pendingCommission": 105631.21,
+    "activeCustomers": 5217.0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Egypt-1",
+  "country": "Egypt",
+  "affiliateName": "Egyptian Integration Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1573.0,
+      "revenue": 2368080.0,
+      "commission": 828828.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1787.0,
+      "revenue": 2652249.6,
+      "commission": 928287.36
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 2002.0,
+      "revenue": 2841696.0,
+      "commission": 994593.6
+    }
+  ],
+  "summary": {
+    "paidCommission": 3149546.4,
+    "totalRevenue": 9472320.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3315312.0,
+    "totalRegistrations": 7151.0,
+    "pendingCommission": 165765.6,
+    "activeCustomers": 6578.0
+  }
+}

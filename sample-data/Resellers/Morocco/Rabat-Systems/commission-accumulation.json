@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Morocco-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 8,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 18
+  },
+  "country": "Morocco",
+  "affiliateName": "Rabat Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 303.0,
+      "revenue": 529387.2,
+      "commission": 132346.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 370.0,
+      "revenue": 661734.0,
+      "commission": 165433.5
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 337.0,
+      "revenue": 582325.92,
+      "commission": 145581.48
+    }
+  ],
+  "summary": {
+    "paidCommission": 622029.96,
+    "totalRevenue": 2646936.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 661734.0,
+    "totalRegistrations": 1685.0,
+    "pendingCommission": 39704.04,
+    "activeCustomers": 1516.0
+  }
+}

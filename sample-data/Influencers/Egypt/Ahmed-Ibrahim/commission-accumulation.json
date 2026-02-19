@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Egypt-2",
+  "country": "Egypt",
+  "affiliateName": "Ahmed Ibrahim",
+  "performanceMetrics": {
+    "engagementRate": 6.0,
+    "followerCount": 35326,
+    "averageOrderValue": 674.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 132.0,
+      "revenue": 94528.5,
+      "commission": 14179.28
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 165.0,
+      "revenue": 113434.2,
+      "commission": 17015.13
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 198.0,
+      "revenue": 126038.0,
+      "commission": 18905.7
+    }
+  ],
+  "summary": {
+    "paidCommission": 86966.22,
+    "totalRevenue": 630190.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 94528.5,
+    "totalRegistrations": 1100.0,
+    "pendingCommission": 7562.28,
+    "activeCustomers": 935.0
+  }
+}

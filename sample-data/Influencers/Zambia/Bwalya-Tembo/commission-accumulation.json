@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zambia-2",
+  "country": "Zambia",
+  "affiliateName": "Bwalya Tembo",
+  "performanceMetrics": {
+    "engagementRate": 3.9,
+    "followerCount": 425553,
+    "averageOrderValue": 943.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 76.0,
+      "revenue": 76948.8,
+      "commission": 11542.32
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 96.0,
+      "revenue": 92338.56,
+      "commission": 13850.78
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 115.0,
+      "revenue": 102598.4,
+      "commission": 15389.76
+    }
+  ],
+  "summary": {
+    "paidCommission": 70792.9,
+    "totalRevenue": 512992.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 76948.8,
+    "totalRegistrations": 640.0,
+    "pendingCommission": 6155.9,
+    "activeCustomers": 544.0
+  }
+}

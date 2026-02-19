@@ -1,0 +1,180 @@
+{
+  "forecastPeriodMonths": 12,
+  "currentMRR": 143955,
+  "currentARR": 1727460,
+  "projectedGrowthRate": 0.18,
+  "confidenceInterval": 0.87,
+  "monthlyForecasts": [
+    {
+      "month": 1,
+      "year": 2025,
+      "forecastedMRR": 146117,
+      "lowerBound": 131505,
+      "upperBound": 160729,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 7306 },
+        { "factorName": "Expansion Revenue", "impact": 4383 },
+        { "factorName": "Churn Impact", "impact": -3653 }
+      ]
+    },
+    {
+      "month": 2,
+      "year": 2025,
+      "forecastedMRR": 148312,
+      "lowerBound": 133481,
+      "upperBound": 163143,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 7416 },
+        { "factorName": "Expansion Revenue", "impact": 4449 },
+        { "factorName": "Churn Impact", "impact": -3708 }
+      ]
+    },
+    {
+      "month": 3,
+      "year": 2025,
+      "forecastedMRR": 150542,
+      "lowerBound": 135488,
+      "upperBound": 165596,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 7527 },
+        { "factorName": "Expansion Revenue", "impact": 4516 },
+        { "factorName": "Churn Impact", "impact": -3764 }
+      ]
+    },
+    {
+      "month": 4,
+      "year": 2025,
+      "forecastedMRR": 152807,
+      "lowerBound": 137526,
+      "upperBound": 168088,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 7640 },
+        { "factorName": "Expansion Revenue", "impact": 4584 },
+        { "factorName": "Churn Impact", "impact": -3820 }
+      ]
+    },
+    {
+      "month": 5,
+      "year": 2025,
+      "forecastedMRR": 155108,
+      "lowerBound": 139597,
+      "upperBound": 170619,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 7755 },
+        { "factorName": "Expansion Revenue", "impact": 4653 },
+        { "factorName": "Churn Impact", "impact": -3878 }
+      ]
+    },
+    {
+      "month": 6,
+      "year": 2025,
+      "forecastedMRR": 157446,
+      "lowerBound": 141701,
+      "upperBound": 173191,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 7872 },
+        { "factorName": "Expansion Revenue", "impact": 4723 },
+        { "factorName": "Churn Impact", "impact": -3936 }
+      ]
+    },
+    {
+      "month": 7,
+      "year": 2025,
+      "forecastedMRR": 159822,
+      "lowerBound": 143840,
+      "upperBound": 175804,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 7991 },
+        { "factorName": "Expansion Revenue", "impact": 4795 },
+        { "factorName": "Churn Impact", "impact": -3996 }
+      ]
+    },
+    {
+      "month": 8,
+      "year": 2025,
+      "forecastedMRR": 162237,
+      "lowerBound": 146013,
+      "upperBound": 178461,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 8112 },
+        { "factorName": "Expansion Revenue", "impact": 4867 },
+        { "factorName": "Churn Impact", "impact": -4056 }
+      ]
+    },
+    {
+      "month": 9,
+      "year": 2025,
+      "forecastedMRR": 164692,
+      "lowerBound": 148223,
+      "upperBound": 181161,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 8235 },
+        { "factorName": "Expansion Revenue", "impact": 4941 },
+        { "factorName": "Churn Impact", "impact": -4117 }
+      ]
+    },
+    {
+      "month": 10,
+      "year": 2025,
+      "forecastedMRR": 167187,
+      "lowerBound": 150468,
+      "upperBound": 183906,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 8359 },
+        { "factorName": "Expansion Revenue", "impact": 5016 },
+        { "factorName": "Churn Impact", "impact": -4180 }
+      ]
+    },
+    {
+      "month": 11,
+      "year": 2025,
+      "forecastedMRR": 169723,
+      "lowerBound": 152751,
+      "upperBound": 186695,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 8486 },
+        { "factorName": "Expansion Revenue", "impact": 5092 },
+        { "factorName": "Churn Impact", "impact": -4243 }
+      ]
+    },
+    {
+      "month": 12,
+      "year": 2025,
+      "forecastedMRR": 172301,
+      "lowerBound": 155071,
+      "upperBound": 189531,
+      "contributingFactors": [
+        { "factorName": "New Customer Acquisition", "impact": 8615 },
+        { "factorName": "Expansion Revenue", "impact": 5169 },
+        { "factorName": "Churn Impact", "impact": -4308 }
+      ]
+    }
+  ],
+  "revenueByProduct": {
+    "AccountingPro Suite": 77435,
+    "CdfWebApp": 60326,
+    "CouncilWebApp": 34540
+  },
+  "revenueByCustomerType": {
+    "Enterprise": 103380,
+    "Mid-Market": 51690,
+    "Small Business": 17230
+  },
+  "revenueByRegion": {
+    "Kenya": 43188,
+    "South Africa": 37037,
+    "Nigeria": 31471,
+    "Ghana": 17236,
+    "Rwanda": 14396,
+    "Egypt": 11516,
+    "Other": 17457
+  },
+  "assumptions": [
+    "Average growth rate of 18% annually",
+    "Churn rate maintained at 2.5%",
+    "15% of revenue from expansion/upsells",
+    "No major market disruptions",
+    "Successful implementation of pricing optimization",
+    "Resource allocation improvements realized"
+  ]
+}

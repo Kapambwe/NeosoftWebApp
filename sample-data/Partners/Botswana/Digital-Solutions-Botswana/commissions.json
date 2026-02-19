@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Botswana-7477",
+  "partnerName": "Digital Solutions Botswana",
+  "country": "Botswana",
+  "currency": "BWP",
+  "commissionRate": 15.6,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 23,
+  "activeProjects": 19,
+  "totalCustomers": 72,
+  "totalRevenue": 3464748,
+  "totalCommissionEarned": 540500.69,
+  "paidCommission": 432400.55,
+  "pendingCommission": 108100.14,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 108100.14,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.12,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 3,
+      "revenue": 826321.5,
+      "commission": 92623.5,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 703296,
+      "commission": 97011,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 569416.5,
+      "commission": 84645,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 903001.5,
+    "implementationSuccessRate": 95.8,
+    "customerSatisfactionScore": 4.9,
+    "averageCommissionPerProject": 179266.5,
+    "recurringRevenueShare": 34.9
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-23T00:00:00Z"
+}

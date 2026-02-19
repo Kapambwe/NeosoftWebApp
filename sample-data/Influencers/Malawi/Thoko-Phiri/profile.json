@@ -1,0 +1,17 @@
+{
+  "tier": "Gold",
+  "promoCode": "QT2O3FME",
+  "name": "Thoko Phiri",
+  "email": "thoko.phiri@malawi.influence",
+  "country": "Malawi",
+  "joinedDate": "2023-06-01T00:00:00Z",
+  "socialMedia": {
+    "followers": 65880,
+    "engagementRate": 4.4,
+    "platform": "TikTok"
+  },
+  "type": "Influencer",
+  "id": "inf-Malawi-1",
+  "status": "Active",
+  "commissionRate": 15.0
+}

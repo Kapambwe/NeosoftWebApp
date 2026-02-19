@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Tanzania-0",
+  "country": "Tanzania",
+  "affiliateName": "Juma Mwangi",
+  "performanceMetrics": {
+    "engagementRate": 4.8,
+    "followerCount": 55483,
+    "averageOrderValue": 436.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 150.0,
+      "revenue": 69585.6,
+      "commission": 10437.84
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 187.0,
+      "revenue": 83502.72,
+      "commission": 12525.41
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 225.0,
+      "revenue": 92780.8,
+      "commission": 13917.12
+    }
+  ],
+  "summary": {
+    "paidCommission": 64018.75,
+    "totalRevenue": 463904.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 69585.6,
+    "totalRegistrations": 1252.0,
+    "pendingCommission": 5566.85,
+    "activeCustomers": 1064.0
+  }
+}

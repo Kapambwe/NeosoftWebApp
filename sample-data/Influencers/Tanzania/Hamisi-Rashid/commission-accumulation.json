@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Tanzania-4",
+  "country": "Tanzania",
+  "affiliateName": "Hamisi Rashid",
+  "performanceMetrics": {
+    "engagementRate": 6.6,
+    "followerCount": 172262,
+    "averageOrderValue": 649.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 24.0,
+      "revenue": 17036.25,
+      "commission": 2555.44
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 30.0,
+      "revenue": 20443.5,
+      "commission": 3066.52
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 37.0,
+      "revenue": 22715.0,
+      "commission": 3407.25
+    }
+  ],
+  "summary": {
+    "paidCommission": 15673.35,
+    "totalRevenue": 113575.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 17036.25,
+    "totalRegistrations": 206.0,
+    "pendingCommission": 1362.9,
+    "activeCustomers": 175.0
+  }
+}

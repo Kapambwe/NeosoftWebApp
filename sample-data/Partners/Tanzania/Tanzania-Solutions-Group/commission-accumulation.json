@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Tanzania-2",
+  "country": "Tanzania",
+  "affiliateName": "Tanzania Solutions Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1049.0,
+      "revenue": 1630142.0,
+      "commission": 570549.7
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1192.0,
+      "revenue": 1825759.04,
+      "commission": 639015.66
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1335.0,
+      "revenue": 1956170.4,
+      "commission": 684659.64
+    }
+  ],
+  "summary": {
+    "paidCommission": 2168088.86,
+    "totalRevenue": 6520568.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 2282198.8,
+    "totalRegistrations": 4770.0,
+    "pendingCommission": 114109.94,
+    "activeCustomers": 4388.0
+  }
+}

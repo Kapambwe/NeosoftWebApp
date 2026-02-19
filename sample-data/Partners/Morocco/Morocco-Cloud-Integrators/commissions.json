@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Morocco-4302",
+  "partnerName": "Morocco Cloud Integrators",
+  "country": "Morocco",
+  "currency": "MAD",
+  "commissionRate": 21.7,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 29,
+  "activeProjects": 23,
+  "totalCustomers": 85,
+  "totalRevenue": 4552280,
+  "totalCommissionEarned": 987844.76,
+  "paidCommission": 790275.81,
+  "pendingCommission": 197568.95,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 197568.95,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 610450,
+      "commission": 66380,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 4,
+      "revenue": 466410,
+      "commission": 114840,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 559830,
+      "commission": 127930,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 511870,
+    "implementationSuccessRate": 94.6,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 112810,
+    "recurringRevenueShare": 30.8
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-21T00:00:00Z"
+}
