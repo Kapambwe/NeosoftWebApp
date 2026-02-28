@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Morocco-2",
+  "country": "Morocco",
+  "affiliateName": "Moroccan Solutions Network",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1284.0,
+      "revenue": 3690532.5,
+      "commission": 1291686.38
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1459.0,
+      "revenue": 4133396.4,
+      "commission": 1446688.74
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1634.0,
+      "revenue": 4428639.0,
+      "commission": 1550023.65
+    }
+  ],
+  "summary": {
+    "paidCommission": 4908408.22,
+    "totalRevenue": 14762130.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 5166745.5,
+    "totalRegistrations": 5838.0,
+    "pendingCommission": 258337.28,
+    "activeCustomers": 5370.0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Morocco-2",
+  "country": "Morocco",
+  "affiliateName": "Karim Idrissi",
+  "performanceMetrics": {
+    "engagementRate": 6.3,
+    "followerCount": 401602,
+    "averageOrderValue": 599.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 175.0,
+      "revenue": 111593.7,
+      "commission": 16739.06
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 219.0,
+      "revenue": 133912.44,
+      "commission": 20086.87
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 263.0,
+      "revenue": 148791.6,
+      "commission": 22318.74
+    }
+  ],
+  "summary": {
+    "paidCommission": 102666.2,
+    "totalRevenue": 743958.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 111593.7,
+    "totalRegistrations": 1462.0,
+    "pendingCommission": 8927.5,
+    "activeCustomers": 1242.0
+  }
+}

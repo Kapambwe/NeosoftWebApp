@@ -1,0 +1,18 @@
+{
+    "CUST-001": [
+        "High-Value",
+        "VIP"
+    ],
+    "CUST-002": [
+        "High-Value",
+        "Champion"
+    ],
+    "CUST-003": [
+        "Growth",
+        "New"
+    ],
+    "CUST-006": [
+        "New",
+        "At-Risk"
+    ]
+}

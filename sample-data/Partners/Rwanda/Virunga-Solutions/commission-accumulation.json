@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Rwanda-2",
+  "country": "Rwanda",
+  "affiliateName": "Virunga Solutions",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 63.0,
+      "revenue": 164920.0,
+      "commission": 57722.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 72.0,
+      "revenue": 184710.4,
+      "commission": 64648.64
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 81.0,
+      "revenue": 197904.0,
+      "commission": 69266.4
+    }
+  ],
+  "summary": {
+    "paidCommission": 219343.6,
+    "totalRevenue": 659680.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 230888.0,
+    "totalRegistrations": 290.0,
+    "pendingCommission": 11544.4,
+    "activeCustomers": 266.0
+  }
+}

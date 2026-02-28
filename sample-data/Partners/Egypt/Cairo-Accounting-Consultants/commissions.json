@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Egypt-2294",
+  "partnerName": "Cairo Accounting Consultants",
+  "country": "Egypt",
+  "currency": "EGP",
+  "commissionRate": 16.3,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 17,
+  "activeProjects": 13,
+  "totalCustomers": 110,
+  "totalRevenue": 10249933,
+  "totalCommissionEarned": 1670739.08,
+  "paidCommission": 1336591.26,
+  "pendingCommission": 334147.82,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 334147.82,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 5,
+      "revenue": 1947296,
+      "commission": 448229,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 5,
+      "revenue": 2180106,
+      "commission": 234360,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 1176016,
+      "commission": 256184,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 2297627,
+    "implementationSuccessRate": 99.2,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 415493,
+    "recurringRevenueShare": 39.8
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-27T00:00:00Z"
+}

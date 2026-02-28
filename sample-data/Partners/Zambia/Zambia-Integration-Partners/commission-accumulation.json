@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Zambia-1",
+  "country": "Zambia",
+  "affiliateName": "Zambia Integration Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1420.0,
+      "revenue": 2770543.5,
+      "commission": 969690.22
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1614.0,
+      "revenue": 3103008.72,
+      "commission": 1086053.05
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1807.0,
+      "revenue": 3324652.2,
+      "commission": 1163628.27
+    }
+  ],
+  "summary": {
+    "paidCommission": 3684822.85,
+    "totalRevenue": 11082174.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3878760.9,
+    "totalRegistrations": 6456.0,
+    "pendingCommission": 193938.05,
+    "activeCustomers": 5939.0
+  }
+}

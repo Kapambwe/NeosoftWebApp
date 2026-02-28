@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Malawi-6532",
+  "resellerName": "Malawi Business Solutions",
+  "country": "Malawi",
+  "currency": "MWK",
+  "commissionRate": 11.4,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 54,
+  "activeCustomers": 43,
+  "totalRevenue": 361112850,
+  "totalCommissionEarned": 41166864.90,
+  "paidCommission": 30875148.68,
+  "pendingCommission": 10291716.22,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 9262544.60,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 15,
+      "revenue": 47557650,
+      "commission": 7845600,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 11,
+      "revenue": 23805600,
+      "commission": 6337800,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 9,
+      "revenue": 22651650,
+      "commission": 3520650,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 18465300,
+    "conversionRate": 21.8,
+    "customerRetentionRate": 92,
+    "averageCommissionPerSale": 2122050
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-18T00:00:00Z"
+}

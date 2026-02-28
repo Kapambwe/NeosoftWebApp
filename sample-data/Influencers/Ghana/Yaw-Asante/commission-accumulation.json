@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Ghana-4",
+  "country": "Ghana",
+  "affiliateName": "Yaw Asante",
+  "performanceMetrics": {
+    "engagementRate": 4.3,
+    "followerCount": 6459,
+    "averageOrderValue": 869.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 74.0,
+      "revenue": 68564.1,
+      "commission": 10284.62
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 92.0,
+      "revenue": 82276.92,
+      "commission": 12341.54
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 111.0,
+      "revenue": 91418.8,
+      "commission": 13712.82
+    }
+  ],
+  "summary": {
+    "paidCommission": 63078.97,
+    "totalRevenue": 457094.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 68564.1,
+    "totalRegistrations": 619.0,
+    "pendingCommission": 5485.13,
+    "activeCustomers": 526.0
+  }
+}

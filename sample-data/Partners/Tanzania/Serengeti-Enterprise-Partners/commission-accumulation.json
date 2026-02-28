@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Tanzania-0",
+  "country": "Tanzania",
+  "affiliateName": "Serengeti Enterprise Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1198.0,
+      "revenue": 2452121.0,
+      "commission": 858242.35
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1362.0,
+      "revenue": 2746375.52,
+      "commission": 961231.43
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1525.0,
+      "revenue": 2942545.2,
+      "commission": 1029890.82
+    }
+  ],
+  "summary": {
+    "paidCommission": 3261320.93,
+    "totalRevenue": 9808484.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3432969.4,
+    "totalRegistrations": 5448.0,
+    "pendingCommission": 171648.47,
+    "activeCustomers": 5012.0
+  }
+}

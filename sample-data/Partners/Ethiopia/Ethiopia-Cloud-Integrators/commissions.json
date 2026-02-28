@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Ethiopia-7024",
+  "partnerName": "Ethiopia Cloud Integrators",
+  "country": "Ethiopia",
+  "currency": "ETB",
+  "commissionRate": 23.9,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 18,
+  "activeProjects": 24,
+  "totalCustomers": 81,
+  "totalRevenue": 16749264,
+  "totalCommissionEarned": 4003074.10,
+  "paidCommission": 3202459.28,
+  "pendingCommission": 800614.82,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 800614.82,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 3,
+      "revenue": 3121776,
+      "commission": 457296,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 3,
+      "revenue": 2404472,
+      "commission": 429184,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 3825136,
+      "commission": 559160,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 3784928,
+    "implementationSuccessRate": 96.7,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 608440,
+    "recurringRevenueShare": 37
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-20T00:00:00Z"
+}

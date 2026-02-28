@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Egypt-8866",
+  "resellerName": "Egypt Business Systems",
+  "country": "Egypt",
+  "currency": "EGP",
+  "commissionRate": 11.3,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 116,
+  "activeCustomers": 48,
+  "totalRevenue": 9181332,
+  "totalCommissionEarned": 1037490.52,
+  "paidCommission": 778117.89,
+  "pendingCommission": 259372.63,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 233435.37,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 16,
+      "revenue": 1291832,
+      "commission": 139066,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 10,
+      "revenue": 1275588,
+      "commission": 110143,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 7,
+      "revenue": 1090053,
+      "commission": 161913,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 889824,
+    "conversionRate": 14,
+    "customerRetentionRate": 85.1,
+    "averageCommissionPerSale": 94891
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-27T00:00:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zambia-1",
+  "country": "Zambia",
+  "affiliateName": "Chanda Mwansa",
+  "performanceMetrics": {
+    "engagementRate": 3.2,
+    "followerCount": 93703,
+    "averageOrderValue": 590.0,
+    "conversionRate": 2.98
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 2.0,
+      "revenue": 1504.5,
+      "commission": 225.68
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 3.0,
+      "revenue": 1805.4,
+      "commission": 270.81
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 3.0,
+      "revenue": 2006.0,
+      "commission": 300.9
+    }
+  ],
+  "summary": {
+    "paidCommission": 1384.14,
+    "totalRevenue": 10030.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 1504.5,
+    "totalRegistrations": 21.0,
+    "pendingCommission": 120.36,
+    "activeCustomers": 17.0
+  }
+}

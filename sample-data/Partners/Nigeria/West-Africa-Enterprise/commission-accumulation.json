@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Nigeria-0",
+  "country": "Nigeria",
+  "affiliateName": "West Africa Enterprise",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 874.0,
+      "revenue": 859838.75,
+      "commission": 300943.56
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 993.0,
+      "revenue": 963019.4,
+      "commission": 337056.79
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1112.0,
+      "revenue": 1031806.5,
+      "commission": 361132.28
+    }
+  ],
+  "summary": {
+    "paidCommission": 1143585.54,
+    "totalRevenue": 3439355.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1203774.25,
+    "totalRegistrations": 3973.0,
+    "pendingCommission": 60188.71,
+    "activeCustomers": 3655.0
+  }
+}

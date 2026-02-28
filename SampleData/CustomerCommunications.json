@@ -1,0 +1,39 @@
+[
+    {
+        "Id": "COM-001",
+        "CustomerId": "CUST-001",
+        "Type": 0,
+        "Subject": "Welcome to our platform",
+        "Content": "Thank you for choosing our platform...",
+        "Direction": 0,
+        "ContactPerson": "John Phiri",
+        "PerformedBy": "System",
+        "CommunicationDate": "2025-12-31T10:00:00Z"
+    },
+    {
+        "Id": "COM-002",
+        "CustomerId": "CUST-001",
+        "Type": 1,
+        "Subject": "Quarterly check-in call",
+        "Content": "Discussed customer satisfaction, upcoming features, and renewal",
+        "Direction": 0,
+        "ContactPerson": "John Phiri",
+        "PerformedBy": "Sarah Mwansa",
+        "CommunicationDate": "2026-01-15T10:00:00Z",
+        "DurationMinutes": 30,
+        "Outcome": "Positive - customer satisfied, interested in new features"
+    },
+    {
+        "Id": "COM-003",
+        "CustomerId": "CUST-002",
+        "Type": 2,
+        "Subject": "Technical integration meeting",
+        "Content": "Discussed API integration requirements and timeline",
+        "Direction": 0,
+        "ContactPerson": "Mary Banda",
+        "PerformedBy": "Tech Team",
+        "CommunicationDate": "2026-01-24T10:00:00Z",
+        "DurationMinutes": 60,
+        "Outcome": "Action items identified, follow-up scheduled"
+    }
+]

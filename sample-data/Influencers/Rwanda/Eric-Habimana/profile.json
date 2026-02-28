@@ -1,0 +1,17 @@
+{
+  "tier": "Gold",
+  "promoCode": "ZG7S7D75",
+  "name": "Eric Habimana",
+  "email": "eric.habimana@rwanda.influence",
+  "country": "Rwanda",
+  "joinedDate": "2023-01-01T00:00:00Z",
+  "socialMedia": {
+    "followers": 12194,
+    "engagementRate": 2.4,
+    "platform": "TikTok"
+  },
+  "type": "Influencer",
+  "id": "inf-Rwanda-2",
+  "status": "Active",
+  "commissionRate": 15.0
+}

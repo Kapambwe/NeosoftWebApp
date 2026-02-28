@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-South-Africa-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 10,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 23
+  },
+  "country": "South-Africa",
+  "affiliateName": "Cape Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 437.0,
+      "revenue": 508723.6,
+      "commission": 127180.9
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 535.0,
+      "revenue": 635904.5,
+      "commission": 158976.12
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 486.0,
+      "revenue": 559595.96,
+      "commission": 139898.99
+    }
+  ],
+  "summary": {
+    "paidCommission": 597750.23,
+    "totalRevenue": 2543618.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 635904.5,
+    "totalRegistrations": 2433.0,
+    "pendingCommission": 38154.27,
+    "activeCustomers": 2189.0
+  }
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "Id": "ACT-001",
+        "CustomerId": "CUST-001",
+        "ActivityType": "Email",
+        "Title": "Welcome email sent",
+        "Description": "Sent onboarding welcome email with setup instructions",
+        "ActivityDate": "2025-12-31T10:00:00Z",
+        "PerformedBy": "System",
+        "Status": 0
+    },
+    {
+        "Id": "ACT-002",
+        "CustomerId": "CUST-001",
+        "ActivityType": "Meeting",
+        "Title": "Quarterly business review",
+        "Description": "Discussed Q4 performance and 2024 planning",
+        "ActivityDate": "2026-01-15T10:00:00Z",
+        "PerformedBy": "Sarah Mwansa",
+        "Status": 0,
+        "Metadata": {
+            "Duration": "60",
+            "Location": "Virtual"
+        }
+    },
+    {
+        "Id": "ACT-003",
+        "CustomerId": "CUST-001",
+        "ActivityType": "StatusChange",
+        "Title": "Status changed to Active",
+        "Description": "Customer status updated from Trial to Active",
+        "ActivityDate": "2025-11-01T10:00:00Z",
+        "PerformedBy": "System",
+        "Status": 0
+    },
+    {
+        "Id": "ACT-004",
+        "CustomerId": "CUST-002",
+        "ActivityType": "Call",
+        "Title": "Support call",
+        "Description": "Technical support call regarding API integration",
+        "ActivityDate": "2026-01-26T10:00:00Z",
+        "PerformedBy": "John Banda",
+        "Status": 0
+    },
+    {
+        "Id": "ACT-005",
+        "CustomerId": "CUST-001",
+        "ActivityType": "Invoice",
+        "Title": "Invoice generated",
+        "Description": "Monthly invoice INV-2024-001 generated",
+        "ActivityDate": "2026-01-30T10:00:00Z",
+        "PerformedBy": "System",
+        "Status": 0,
+        "RelatedEntityId": "INV-2024-001",
+        "RelatedEntityType": "Invoice"
+    },
+    {
+        "Id": "ACT-006",
+        "CustomerId": "CUST-003",
+        "ActivityType": "Meeting",
+        "Title": "Product demo scheduled",
+        "Description": "Demo of advanced features scheduled with technical team",
+        "ActivityDate": "2026-02-03T10:00:00Z",
+        "PerformedBy": "Mary Phiri",
+        "Status": 1
+    }
+]

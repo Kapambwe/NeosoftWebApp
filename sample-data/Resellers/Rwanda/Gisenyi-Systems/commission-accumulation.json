@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Rwanda-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 14,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 13
+  },
+  "country": "Rwanda",
+  "affiliateName": "Gisenyi Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 14.0,
+      "revenue": 24940.8,
+      "commission": 6235.2
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 17.0,
+      "revenue": 31176.0,
+      "commission": 7794.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 16.0,
+      "revenue": 27434.88,
+      "commission": 6858.72
+    }
+  ],
+  "summary": {
+    "paidCommission": 29305.44,
+    "totalRevenue": 124704.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 31176.0,
+    "totalRegistrations": 80.0,
+    "pendingCommission": 1870.56,
+    "activeCustomers": 72.0
+  }
+}

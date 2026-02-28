@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Morocco-0",
+  "country": "Morocco",
+  "affiliateName": "Youssef Alami",
+  "performanceMetrics": {
+    "engagementRate": 4.5,
+    "followerCount": 473917,
+    "averageOrderValue": 548.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 118.0,
+      "revenue": 68801.4,
+      "commission": 10320.21
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 147.0,
+      "revenue": 82561.68,
+      "commission": 12384.25
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 177.0,
+      "revenue": 91735.2,
+      "commission": 13760.28
+    }
+  ],
+  "summary": {
+    "paidCommission": 63297.29,
+    "totalRevenue": 458676.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 68801.4,
+    "totalRegistrations": 985.0,
+    "pendingCommission": 5504.11,
+    "activeCustomers": 837.0
+  }
+}

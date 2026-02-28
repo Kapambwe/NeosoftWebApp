@@ -1,0 +1,48 @@
+{
+  "stats": {
+    "totalRevenue": 247893.50,
+    "revenueGrowthPercentage": 12.5,
+    "activeCustomers": 1284,
+    "customerGrowthPercentage": 8.2,
+    "activeAffiliates": 156,
+    "newAffiliatesThisMonth": 15,
+    "supportTickets": 23,
+    "pendingTickets": 5,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  "owners": {
+    "totalShareholders": 4,
+    "totalEquityValue": 5000000.00,
+    "pendingDividends": 125000.00,
+    "totalDividendsPaid": 450000.00,
+    "currentFundingRound": "Series A",
+    "totalFundingRaised": 3500000.00,
+    "investmentRoundsCount": 3
+  },
+  "partners": {
+    "activePartners": 12,
+    "totalIntegrations": 15,
+    "connectedIntegrations": 8,
+    "monthlyPartnerRevenue": 45000.00,
+    "partnerRevenueGrowth": 18.3,
+    "pendingPartnerRequests": 3
+  },
+  "resellers": {
+    "activeResellers": 34,
+    "monthlyResellerRevenue": 87000.00,
+    "resellerRevenueGrowth": 22.7,
+    "totalResellerSales": 456,
+    "certifiedResellers": 28,
+    "certificationPrograms": 5,
+    "pendingTrainingRequests": 7
+  },
+  "influencers": {
+    "activeInfluencers": 156,
+    "runningCampaigns": 8,
+    "totalReferrals": 234,
+    "conversionsThisMonth": 67,
+    "totalCommissionPaid": 89500.00,
+    "pendingCommissions": 12350.00,
+    "averageConversionRate": 28.6
+  }
+}

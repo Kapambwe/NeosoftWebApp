@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Ghana-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 14,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 16
+  },
+  "country": "Ghana",
+  "affiliateName": "Accra Tech Hub",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 188.0,
+      "revenue": 127440.0,
+      "commission": 31860.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 230.0,
+      "revenue": 159300.0,
+      "commission": 39825.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 209.0,
+      "revenue": 140184.0,
+      "commission": 35046.0
+    }
+  ],
+  "summary": {
+    "paidCommission": 149742.0,
+    "totalRevenue": 637200.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 159300.0,
+    "totalRegistrations": 1049.0,
+    "pendingCommission": 9558.0,
+    "activeCustomers": 944.0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Uganda-1",
+  "country": "Uganda",
+  "affiliateName": "Uganda Enterprise Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 448.0,
+      "revenue": 992283.0,
+      "commission": 347299.05
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 509.0,
+      "revenue": 1111356.96,
+      "commission": 388974.94
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 570.0,
+      "revenue": 1190739.6,
+      "commission": 416758.86
+    }
+  ],
+  "summary": {
+    "paidCommission": 1319736.39,
+    "totalRevenue": 3969132.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1389196.2,
+    "totalRegistrations": 2037.0,
+    "pendingCommission": 69459.81,
+    "activeCustomers": 1874.0
+  }
+}

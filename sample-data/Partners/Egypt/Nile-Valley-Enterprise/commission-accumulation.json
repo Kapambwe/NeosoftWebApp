@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Egypt-0",
+  "country": "Egypt",
+  "affiliateName": "Nile Valley Enterprise",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 426.0,
+      "revenue": 980754.0,
+      "commission": 343263.9
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 485.0,
+      "revenue": 1098444.48,
+      "commission": 384455.57
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 543.0,
+      "revenue": 1176904.8,
+      "commission": 411916.68
+    }
+  ],
+  "summary": {
+    "paidCommission": 1304402.82,
+    "totalRevenue": 3923016.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1373055.6,
+    "totalRegistrations": 1940.0,
+    "pendingCommission": 68652.78,
+    "activeCustomers": 1784.0
+  }
+}

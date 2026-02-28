@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-South-Africa-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 2,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 13
+  },
+  "country": "South-Africa",
+  "affiliateName": "Durban Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 24.0,
+      "revenue": 40317.2,
+      "commission": 10079.3
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 29.0,
+      "revenue": 50396.5,
+      "commission": 12599.12
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 27.0,
+      "revenue": 44348.92,
+      "commission": 11087.23
+    }
+  ],
+  "summary": {
+    "paidCommission": 47372.71,
+    "totalRevenue": 201586.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 50396.5,
+    "totalRegistrations": 135.0,
+    "pendingCommission": 3023.79,
+    "activeCustomers": 121.0
+  }
+}

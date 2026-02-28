@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Uganda-1",
+  "country": "Uganda",
+  "affiliateName": "Kato Ssemakula",
+  "performanceMetrics": {
+    "engagementRate": 5.5,
+    "followerCount": 225634,
+    "averageOrderValue": 868.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 33.0,
+      "revenue": 30466.8,
+      "commission": 4570.02
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 41.0,
+      "revenue": 36560.16,
+      "commission": 5484.02
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 49.0,
+      "revenue": 40622.4,
+      "commission": 6093.36
+    }
+  ],
+  "summary": {
+    "paidCommission": 28029.46,
+    "totalRevenue": 203112.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 30466.8,
+    "totalRegistrations": 276.0,
+    "pendingCommission": 2437.34,
+    "activeCustomers": 234.0
+  }
+}

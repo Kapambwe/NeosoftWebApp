@@ -1,0 +1,17 @@
+{
+  "tier": "Gold",
+  "promoCode": "FLFTKIWG",
+  "name": "Karim Idrissi",
+  "email": "karim.idrissi@morocco.influence",
+  "country": "Morocco",
+  "joinedDate": "2023-01-01T00:00:00Z",
+  "socialMedia": {
+    "followers": 401602,
+    "engagementRate": 6.3,
+    "platform": "TikTok"
+  },
+  "type": "Influencer",
+  "id": "inf-Morocco-2",
+  "status": "Active",
+  "commissionRate": 15.0
+}

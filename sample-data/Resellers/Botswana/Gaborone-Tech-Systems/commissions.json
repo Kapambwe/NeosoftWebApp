@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Botswana-7359",
+  "resellerName": "Gaborone Tech Systems",
+  "country": "Botswana",
+  "currency": "BWP",
+  "commissionRate": 14.2,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 105,
+  "activeCustomers": 87,
+  "totalRevenue": 2105109,
+  "totalCommissionEarned": 298925.48,
+  "paidCommission": 224194.11,
+  "pendingCommission": 74731.37,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 67258.23,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.12,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 11,
+      "revenue": 507505.5,
+      "commission": 72468,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 14,
+      "revenue": 425641.5,
+      "commission": 37746,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 11,
+      "revenue": 251572.5,
+      "commission": 55269,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 290263.5,
+    "conversionRate": 23.6,
+    "customerRetentionRate": 88,
+    "averageCommissionPerSale": 54729
+  },
+  "joinedDate": "2022-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-17T00:00:00Z"
+}

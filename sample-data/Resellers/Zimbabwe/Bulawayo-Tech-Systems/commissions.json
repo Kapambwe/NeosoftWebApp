@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Zimbabwe-1828",
+  "resellerName": "Bulawayo Tech Systems",
+  "country": "Zimbabwe",
+  "currency": "USD",
+  "commissionRate": 14.2,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 119,
+  "activeCustomers": 62,
+  "totalRevenue": 320444,
+  "totalCommissionEarned": 45503.05,
+  "paidCommission": 34127.29,
+  "pendingCommission": 11375.76,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 10238.19,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 18,
+      "revenue": 48269,
+      "commission": 2886,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 13,
+      "revenue": 25158,
+      "commission": 3461,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 11,
+      "revenue": 23146,
+      "commission": 4652,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 33733,
+    "conversionRate": 16.1,
+    "customerRetentionRate": 92.9,
+    "averageCommissionPerSale": 3388
+  },
+  "joinedDate": "2022-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-20T00:00:00Z"
+}

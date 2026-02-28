@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Rwanda-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 12,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 9
+  },
+  "country": "Rwanda",
+  "affiliateName": "Rwanda Digital Partners",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 397.0,
+      "revenue": 589141.8,
+      "commission": 147285.45
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 486.0,
+      "revenue": 736427.25,
+      "commission": 184106.81
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 442.0,
+      "revenue": 648055.98,
+      "commission": 162014.0
+    }
+  ],
+  "summary": {
+    "paidCommission": 692241.62,
+    "totalRevenue": 2945709.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 736427.25,
+    "totalRegistrations": 2211.0,
+    "pendingCommission": 44185.63,
+    "activeCustomers": 1989.0
+  }
+}

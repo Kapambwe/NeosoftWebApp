@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Egypt-5889",
+  "partnerName": "Egypt Cloud Partners",
+  "country": "Egypt",
+  "currency": "EGP",
+  "commissionRate": 23.5,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 32,
+  "activeProjects": 16,
+  "totalCustomers": 83,
+  "totalRevenue": 12677140,
+  "totalCommissionEarned": 2979127.90,
+  "paidCommission": 2383302.32,
+  "pendingCommission": 595825.58,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 595825.58,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 3,
+      "revenue": 2105148,
+      "commission": 372465,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 6,
+      "revenue": 1821529,
+      "commission": 277357,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 1451606,
+      "commission": 195641,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 1830736,
+    "implementationSuccessRate": 99,
+    "customerSatisfactionScore": 4.9,
+    "averageCommissionPerProject": 210087,
+    "recurringRevenueShare": 40.9
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-13T00:00:00Z"
+}

@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Egypt-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 2,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 12
+  },
+  "country": "Egypt",
+  "affiliateName": "Cairo Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 200.0,
+      "revenue": 393768.8,
+      "commission": 98442.2
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 245.0,
+      "revenue": 492211.0,
+      "commission": 123052.75
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 223.0,
+      "revenue": 433145.68,
+      "commission": 108286.42
+    }
+  ],
+  "summary": {
+    "paidCommission": 462678.34,
+    "totalRevenue": 1968844.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 492211.0,
+    "totalRegistrations": 1116.0,
+    "pendingCommission": 29532.66,
+    "activeCustomers": 1004.0
+  }
+}

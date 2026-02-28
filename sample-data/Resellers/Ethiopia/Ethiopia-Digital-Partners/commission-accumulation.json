@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Ethiopia-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 13,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 5
+  },
+  "country": "Ethiopia",
+  "affiliateName": "Ethiopia Digital Partners",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 176.0,
+      "revenue": 350154.0,
+      "commission": 87538.5
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 215.0,
+      "revenue": 437692.5,
+      "commission": 109423.12
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 196.0,
+      "revenue": 385169.4,
+      "commission": 96292.35
+    }
+  ],
+  "summary": {
+    "paidCommission": 411430.95,
+    "totalRevenue": 1750770.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 437692.5,
+    "totalRegistrations": 980.0,
+    "pendingCommission": 26261.55,
+    "activeCustomers": 882.0
+  }
+}

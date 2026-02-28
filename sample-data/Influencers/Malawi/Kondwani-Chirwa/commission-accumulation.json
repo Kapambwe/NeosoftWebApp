@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Malawi-2",
+  "country": "Malawi",
+  "affiliateName": "Kondwani Chirwa",
+  "performanceMetrics": {
+    "engagementRate": 7.6,
+    "followerCount": 473634,
+    "averageOrderValue": 751.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 46.0,
+      "revenue": 37174.5,
+      "commission": 5576.18
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 58.0,
+      "revenue": 44609.4,
+      "commission": 6691.41
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 70.0,
+      "revenue": 49566.0,
+      "commission": 7434.9
+    }
+  ],
+  "summary": {
+    "paidCommission": 34200.54,
+    "totalRevenue": 247830.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 37174.5,
+    "totalRegistrations": 389.0,
+    "pendingCommission": 2973.96,
+    "activeCustomers": 330.0
+  }
+}

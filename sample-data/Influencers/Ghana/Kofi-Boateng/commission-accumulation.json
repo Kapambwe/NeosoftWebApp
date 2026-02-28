@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Ghana-2",
+  "country": "Ghana",
+  "affiliateName": "Kofi Boateng",
+  "performanceMetrics": {
+    "engagementRate": 4.1,
+    "followerCount": 167542,
+    "averageOrderValue": 367.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 95.0,
+      "revenue": 37378.95,
+      "commission": 5606.84
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 119.0,
+      "revenue": 44854.74,
+      "commission": 6728.21
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 143.0,
+      "revenue": 49838.6,
+      "commission": 7475.79
+    }
+  ],
+  "summary": {
+    "paidCommission": 34388.63,
+    "totalRevenue": 249193.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 37378.95,
+    "totalRegistrations": 799.0,
+    "pendingCommission": 2990.32,
+    "activeCustomers": 679.0
+  }
+}

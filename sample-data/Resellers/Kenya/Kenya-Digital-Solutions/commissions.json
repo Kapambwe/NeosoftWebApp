@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Kenya-5054",
+  "resellerName": "Kenya Digital Solutions",
+  "country": "Kenya",
+  "currency": "KES",
+  "commissionRate": 12,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 107,
+  "activeCustomers": 62,
+  "totalRevenue": 41049360,
+  "totalCommissionEarned": 4925923.20,
+  "paidCommission": 3694442.40,
+  "pendingCommission": 1231480.80,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 1108332.72,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.16,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 15,
+      "revenue": 5467704,
+      "commission": 904464,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 17,
+      "revenue": 5327124,
+      "commission": 501600,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 10,
+      "revenue": 3562944,
+      "commission": 514932,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 3950100,
+    "conversionRate": 13.6,
+    "customerRetentionRate": 85.1,
+    "averageCommissionPerSale": 324192
+  },
+  "joinedDate": "2022-05-01T00:00:00Z",
+  "lastActivityDate": "2024-11-24T00:00:00Z"
+}

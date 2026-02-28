@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Tanzania-5988",
+  "resellerName": "Kilimanjaro Tech Solutions",
+  "country": "Tanzania",
+  "currency": "TZS",
+  "commissionRate": 10.4,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 74,
+  "activeCustomers": 37,
+  "totalRevenue": 809170800,
+  "totalCommissionEarned": 84153763.20,
+  "paidCommission": 63115322.40,
+  "pendingCommission": 21038440.80,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 18934596.72,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 16,
+      "revenue": 121600750,
+      "commission": 9900550,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 9,
+      "revenue": 63156250,
+      "commission": 11228300,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 6,
+      "revenue": 94665050,
+      "commission": 8934700,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 40039300,
+    "conversionRate": 13.6,
+    "customerRetentionRate": 94.7,
+    "averageCommissionPerSale": 8650350
+  },
+  "joinedDate": "2022-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-12T00:00:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-South-Africa-0",
+  "country": "South-Africa",
+  "affiliateName": "Thabo Molefe",
+  "performanceMetrics": {
+    "engagementRate": 5.1,
+    "followerCount": 212220,
+    "averageOrderValue": 781.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 48.0,
+      "revenue": 39831.0,
+      "commission": 5974.65
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 60.0,
+      "revenue": 47797.2,
+      "commission": 7169.58
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 72.0,
+      "revenue": 53108.0,
+      "commission": 7966.2
+    }
+  ],
+  "summary": {
+    "paidCommission": 36644.52,
+    "totalRevenue": 265540.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 39831.0,
+    "totalRegistrations": 401.0,
+    "pendingCommission": 3186.48,
+    "activeCustomers": 340.0
+  }
+}

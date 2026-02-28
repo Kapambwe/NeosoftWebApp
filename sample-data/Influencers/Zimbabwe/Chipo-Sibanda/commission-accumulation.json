@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zimbabwe-3",
+  "country": "Zimbabwe",
+  "affiliateName": "Chipo Sibanda",
+  "performanceMetrics": {
+    "engagementRate": 5.6,
+    "followerCount": 99370,
+    "averageOrderValue": 314.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 18.0,
+      "revenue": 6311.4,
+      "commission": 946.71
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 23.0,
+      "revenue": 7573.68,
+      "commission": 1136.05
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 28.0,
+      "revenue": 8415.2,
+      "commission": 1262.28
+    }
+  ],
+  "summary": {
+    "paidCommission": 5806.49,
+    "totalRevenue": 42076.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 6311.4,
+    "totalRegistrations": 158.0,
+    "pendingCommission": 504.91,
+    "activeCustomers": 134.0
+  }
+}

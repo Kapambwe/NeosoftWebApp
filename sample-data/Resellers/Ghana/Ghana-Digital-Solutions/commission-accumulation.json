@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Ghana-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 12,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 12
+  },
+  "country": "Ghana",
+  "affiliateName": "Ghana Digital Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 366.0,
+      "revenue": 273036.0,
+      "commission": 68259.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 447.0,
+      "revenue": 341295.0,
+      "commission": 85323.75
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 406.0,
+      "revenue": 300339.6,
+      "commission": 75084.9
+    }
+  ],
+  "summary": {
+    "paidCommission": 320817.3,
+    "totalRevenue": 1365180.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 341295.0,
+    "totalRegistrations": 2034.0,
+    "pendingCommission": 20477.7,
+    "activeCustomers": 1830.0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Egypt-2412",
+  "partnerName": "North Africa Integration Hub",
+  "country": "Egypt",
+  "currency": "EGP",
+  "commissionRate": 24.6,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 16,
+  "activeProjects": 9,
+  "totalCustomers": 65,
+  "totalRevenue": 14616469,
+  "totalCommissionEarned": 3595651.37,
+  "paidCommission": 2876521.10,
+  "pendingCommission": 719130.27,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 719130.28,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 4,
+      "revenue": 2443761,
+      "commission": 534564,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 1921101,
+      "commission": 450368,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 1195236,
+      "commission": 142879,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 1503593,
+    "implementationSuccessRate": 92.1,
+    "customerSatisfactionScore": 4.7,
+    "averageCommissionPerProject": 276489,
+    "recurringRevenueShare": 35.5
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-11T00:00:00Z"
+}

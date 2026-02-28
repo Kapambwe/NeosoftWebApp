@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Ghana-1",
+  "country": "Ghana",
+  "affiliateName": "Ghana Integration Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1002.0,
+      "revenue": 1289347.5,
+      "commission": 451271.62
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1139.0,
+      "revenue": 1444069.2,
+      "commission": 505424.22
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1276.0,
+      "revenue": 1547217.0,
+      "commission": 541525.95
+    }
+  ],
+  "summary": {
+    "paidCommission": 1714832.17,
+    "totalRevenue": 5157390.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1805086.5,
+    "totalRegistrations": 4558.0,
+    "pendingCommission": 90254.33,
+    "activeCustomers": 4193.0
+  }
+}

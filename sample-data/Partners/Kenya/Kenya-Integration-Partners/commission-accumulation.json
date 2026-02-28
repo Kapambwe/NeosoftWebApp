@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Kenya-1",
+  "country": "Kenya",
+  "affiliateName": "Kenya Integration Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1072.0,
+      "revenue": 2414095.5,
+      "commission": 844933.42
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1218.0,
+      "revenue": 2703786.96,
+      "commission": 946325.44
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1364.0,
+      "revenue": 2896914.6,
+      "commission": 1013920.11
+    }
+  ],
+  "summary": {
+    "paidCommission": 3210747.02,
+    "totalRevenue": 9656382.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3379733.7,
+    "totalRegistrations": 4873.0,
+    "pendingCommission": 168986.68,
+    "activeCustomers": 4483.0
+  }
+}

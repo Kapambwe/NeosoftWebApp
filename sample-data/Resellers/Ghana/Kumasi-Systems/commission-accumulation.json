@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Ghana-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 11,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 19
+  },
+  "country": "Ghana",
+  "affiliateName": "Kumasi Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 399.0,
+      "revenue": 582724.6,
+      "commission": 145681.15
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 488.0,
+      "revenue": 728405.75,
+      "commission": 182101.44
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 443.0,
+      "revenue": 640997.06,
+      "commission": 160249.27
+    }
+  ],
+  "summary": {
+    "paidCommission": 684701.4,
+    "totalRevenue": 2913623.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 728405.75,
+    "totalRegistrations": 2219.0,
+    "pendingCommission": 43704.35,
+    "activeCustomers": 1997.0
+  }
+}

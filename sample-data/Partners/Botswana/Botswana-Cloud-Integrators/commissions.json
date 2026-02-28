@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Botswana-2111",
+  "partnerName": "Botswana Cloud Integrators",
+  "country": "Botswana",
+  "currency": "BWP",
+  "commissionRate": 18.9,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 38,
+  "activeProjects": 10,
+  "totalCustomers": 131,
+  "totalRevenue": 5661279,
+  "totalCommissionEarned": 1069981.73,
+  "paidCommission": 855985.38,
+  "pendingCommission": 213996.35,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 213996.34,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.12,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 4,
+      "revenue": 718092,
+      "commission": 87439.5,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 5,
+      "revenue": 708763.5,
+      "commission": 100359,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 684517.5,
+      "commission": 177552,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 610416,
+    "implementationSuccessRate": 96.6,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 166806,
+    "recurringRevenueShare": 30.5
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-25T00:00:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Nigeria-0",
+  "country": "Nigeria",
+  "affiliateName": "Chukwu Okafor",
+  "performanceMetrics": {
+    "engagementRate": 4.5,
+    "followerCount": 49136,
+    "averageOrderValue": 932.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 98.0,
+      "revenue": 97161.0,
+      "commission": 14574.15
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 122.0,
+      "revenue": 116593.2,
+      "commission": 17488.98
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 147.0,
+      "revenue": 129548.0,
+      "commission": 19432.2
+    }
+  ],
+  "summary": {
+    "paidCommission": 89388.12,
+    "totalRevenue": 647740.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 97161.0,
+    "totalRegistrations": 818.0,
+    "pendingCommission": 7772.88,
+    "activeCustomers": 695.0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Botswana-5072",
+  "resellerName": "Kalahari Digital Partners",
+  "country": "Botswana",
+  "currency": "BWP",
+  "commissionRate": 13.3,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 74,
+  "activeCustomers": 46,
+  "totalRevenue": 4031991,
+  "totalCommissionEarned": 536254.8,
+  "paidCommission": 402191.1,
+  "pendingCommission": 134063.7,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 120657.33,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.12,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 10,
+      "revenue": 509854.5,
+      "commission": 73980,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 7,
+      "revenue": 604314,
+      "commission": 73885.5,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 8,
+      "revenue": 325539,
+      "commission": 53581.5,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 470866.5,
+    "conversionRate": 12.2,
+    "customerRetentionRate": 94.7,
+    "averageCommissionPerSale": 57172.5
+  },
+  "joinedDate": "2022-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-10T00:00:00Z"
+}

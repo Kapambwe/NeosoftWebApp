@@ -1,0 +1,218 @@
+[
+  {
+    "resourceType": "Compute",
+    "currentAllocation": 1200,
+    "currentUtilization": 0.68,
+    "currentCost": 18500,
+    "recommendedAllocation": 950,
+    "projectedUtilization": 0.86,
+    "projectedCost": 14625,
+    "costSavings": 3875,
+    "performanceImpact": 0.97,
+    "justification": "Current over-provisioning detected across Kenya and South Africa regions. Recommended allocation maintains performance while reducing costs by 21%.",
+    "allocatedResources": [
+      {
+        "productId": "PROD-001",
+        "productName": "AccountingPro Suite",
+        "allocatedAmount": 280,
+        "utilizationRate": 0.89,
+        "cost": 4200,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-002",
+        "productName": "CdfWebApp",
+        "allocatedAmount": 220,
+        "utilizationRate": 0.82,
+        "cost": 3300,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-003",
+        "productName": "CouncilWebApp",
+        "allocatedAmount": 180,
+        "utilizationRate": 0.78,
+        "cost": 2700,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-004",
+        "productName": "LawyerWebApp",
+        "allocatedAmount": 140,
+        "utilizationRate": 0.91,
+        "cost": 2100,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-005",
+        "productName": "WaterUtilitiesWebApp",
+        "allocatedAmount": 130,
+        "utilizationRate": 0.75,
+        "cost": 1950,
+        "priority": 2
+      }
+    ]
+  },
+  {
+    "resourceType": "Storage",
+    "currentAllocation": 5500,
+    "currentUtilization": 0.62,
+    "currentCost": 8250,
+    "recommendedAllocation": 4200,
+    "projectedUtilization": 0.81,
+    "projectedCost": 6300,
+    "costSavings": 1950,
+    "performanceImpact": 0.98,
+    "justification": "Implement tiered storage strategy. Move 30% of data to cold storage tier based on access patterns.",
+    "allocatedResources": [
+      {
+        "productId": "PROD-001",
+        "productName": "AccountingPro Suite",
+        "allocatedAmount": 1200,
+        "utilizationRate": 0.84,
+        "cost": 1800,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-002",
+        "productName": "CdfWebApp",
+        "allocatedAmount": 980,
+        "utilizationRate": 0.79,
+        "cost": 1470,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-003",
+        "productName": "CouncilWebApp",
+        "allocatedAmount": 850,
+        "utilizationRate": 0.76,
+        "cost": 1275,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-004",
+        "productName": "LawyerWebApp",
+        "allocatedAmount": 620,
+        "utilizationRate": 0.88,
+        "cost": 930,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-005",
+        "productName": "WaterUtilitiesWebApp",
+        "allocatedAmount": 550,
+        "utilizationRate": 0.72,
+        "cost": 825,
+        "priority": 2
+      }
+    ]
+  },
+  {
+    "resourceType": "Bandwidth",
+    "currentAllocation": 2000,
+    "currentUtilization": 0.71,
+    "currentCost": 12000,
+    "recommendedAllocation": 1650,
+    "projectedUtilization": 0.86,
+    "projectedCost": 9900,
+    "costSavings": 2100,
+    "performanceImpact": 0.95,
+    "justification": "Optimize CDN usage and implement compression. Peak usage analysis shows 15% reduction possible.",
+    "allocatedResources": [
+      {
+        "productId": "PROD-001",
+        "productName": "AccountingPro Suite",
+        "allocatedAmount": 480,
+        "utilizationRate": 0.87,
+        "cost": 2880,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-002",
+        "productName": "CdfWebApp",
+        "allocatedAmount": 380,
+        "utilizationRate": 0.83,
+        "cost": 2280,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-003",
+        "productName": "CouncilWebApp",
+        "allocatedAmount": 320,
+        "utilizationRate": 0.80,
+        "cost": 1920,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-004",
+        "productName": "LawyerWebApp",
+        "allocatedAmount": 270,
+        "utilizationRate": 0.89,
+        "cost": 1620,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-005",
+        "productName": "WaterUtilitiesWebApp",
+        "allocatedAmount": 200,
+        "utilizationRate": 0.74,
+        "cost": 1200,
+        "priority": 2
+      }
+    ]
+  },
+  {
+    "resourceType": "Database",
+    "currentAllocation": 850,
+    "currentUtilization": 0.58,
+    "currentCost": 22500,
+    "recommendedAllocation": 680,
+    "projectedUtilization": 0.73,
+    "projectedCost": 18000,
+    "costSavings": 4500,
+    "performanceImpact": 0.96,
+    "justification": "Right-size database instances based on actual workload patterns. Implement read replicas for reporting.",
+    "allocatedResources": [
+      {
+        "productId": "PROD-001",
+        "productName": "AccountingPro Suite",
+        "allocatedAmount": 200,
+        "utilizationRate": 0.76,
+        "cost": 5400,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-002",
+        "productName": "CdfWebApp",
+        "allocatedAmount": 165,
+        "utilizationRate": 0.71,
+        "cost": 4455,
+        "priority": 0
+      },
+      {
+        "productId": "PROD-003",
+        "productName": "CouncilWebApp",
+        "allocatedAmount": 135,
+        "utilizationRate": 0.68,
+        "cost": 3645,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-004",
+        "productName": "LawyerWebApp",
+        "allocatedAmount": 110,
+        "utilizationRate": 0.79,
+        "cost": 2970,
+        "priority": 1
+      },
+      {
+        "productId": "PROD-005",
+        "productName": "WaterUtilitiesWebApp",
+        "allocatedAmount": 70,
+        "utilizationRate": 0.65,
+        "cost": 1530,
+        "priority": 2
+      }
+    ]
+  }
+]

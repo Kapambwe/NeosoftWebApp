@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Nigeria-2945",
+  "resellerName": "West Africa Digital Partners",
+  "country": "Nigeria",
+  "currency": "NGN",
+  "commissionRate": 14,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 71,
+  "activeCustomers": 93,
+  "totalRevenue": 139606740,
+  "totalCommissionEarned": 19544943.60,
+  "paidCommission": 14658707.70,
+  "pendingCommission": 4886235.90,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 4397612.31,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.1,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 18,
+      "revenue": 35010300,
+      "commission": 5718180,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 10,
+      "revenue": 21774480,
+      "commission": 1669200,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 5,
+      "revenue": 18681780,
+      "commission": 3516240,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 17731740,
+    "conversionRate": 18.5,
+    "customerRetentionRate": 89.7,
+    "averageCommissionPerSale": 2230800
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-13T00:00:00Z"
+}

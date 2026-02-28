@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-South-Africa-8991",
+  "resellerName": "Cape Business Systems",
+  "country": "South-Africa",
+  "currency": "ZAR",
+  "commissionRate": 13.1,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 108,
+  "activeCustomers": 40,
+  "totalRevenue": 4065541.5,
+  "totalCommissionEarned": 532585.94,
+  "paidCommission": 399439.45,
+  "pendingCommission": 133146.49,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 119831.84,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 15,
+      "revenue": 558052.5,
+      "commission": 139767.5,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 13,
+      "revenue": 573167,
+      "commission": 76923,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 9,
+      "revenue": 385743.5,
+      "commission": 48248,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 535279,
+    "conversionRate": 20.5,
+    "customerRetentionRate": 92.1,
+    "averageCommissionPerSale": 78495.5
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-10T00:00:00Z"
+}

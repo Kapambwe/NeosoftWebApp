@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Uganda-5581",
+  "resellerName": "Uganda Business Systems",
+  "country": "Uganda",
+  "currency": "UGX",
+  "commissionRate": 10.6,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 51,
+  "activeCustomers": 76,
+  "totalRevenue": 898758750,
+  "totalCommissionEarned": 95268427.50,
+  "paidCommission": 71451320.62,
+  "pendingCommission": 23817106.88,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 21435396.19,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 16,
+      "revenue": 99386250,
+      "commission": 20786250,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 13,
+      "revenue": 138810000,
+      "commission": 16192500,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 8,
+      "revenue": 144045000,
+      "commission": 9390000,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 93570000,
+    "conversionRate": 15,
+    "customerRetentionRate": 89,
+    "averageCommissionPerSale": 14460000
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-21T00:00:00Z"
+}

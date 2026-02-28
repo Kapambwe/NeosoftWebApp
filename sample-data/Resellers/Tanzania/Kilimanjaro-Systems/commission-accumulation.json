@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Tanzania-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 2,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 17
+  },
+  "country": "Tanzania",
+  "affiliateName": "Kilimanjaro Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 587.0,
+      "revenue": 900484.2,
+      "commission": 225121.05
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 718.0,
+      "revenue": 1125605.25,
+      "commission": 281401.31
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 652.0,
+      "revenue": 990532.62,
+      "commission": 247633.16
+    }
+  ],
+  "summary": {
+    "paidCommission": 1058068.94,
+    "totalRevenue": 4502421.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 1125605.25,
+    "totalRegistrations": 3264.0,
+    "pendingCommission": 67536.31,
+    "activeCustomers": 2937.0
+  }
+}

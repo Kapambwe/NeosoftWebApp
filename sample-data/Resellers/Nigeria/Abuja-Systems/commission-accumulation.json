@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Nigeria-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 6,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 13
+  },
+  "country": "Nigeria",
+  "affiliateName": "Abuja Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 369.0,
+      "revenue": 301963.2,
+      "commission": 75490.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 451.0,
+      "revenue": 377454.0,
+      "commission": 94363.5
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 410.0,
+      "revenue": 332159.52,
+      "commission": 83039.88
+    }
+  ],
+  "summary": {
+    "paidCommission": 354806.76,
+    "totalRevenue": 1509816.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 377454.0,
+    "totalRegistrations": 2054.0,
+    "pendingCommission": 22647.24,
+    "activeCustomers": 1848.0
+  }
+}

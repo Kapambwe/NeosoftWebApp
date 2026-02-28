@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Ghana-1",
+  "country": "Ghana",
+  "affiliateName": "Akosua Agyeman",
+  "performanceMetrics": {
+    "engagementRate": 3.2,
+    "followerCount": 31540,
+    "averageOrderValue": 1113.0,
+    "conversionRate": 2.98
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 20.0,
+      "revenue": 24541.65,
+      "commission": 3681.25
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 26.0,
+      "revenue": 29449.98,
+      "commission": 4417.5
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 31.0,
+      "revenue": 32722.2,
+      "commission": 4908.33
+    }
+  ],
+  "summary": {
+    "paidCommission": 22578.32,
+    "totalRevenue": 163611.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 24541.65,
+    "totalRegistrations": 174.0,
+    "pendingCommission": 1963.33,
+    "activeCustomers": 147.0
+  }
+}

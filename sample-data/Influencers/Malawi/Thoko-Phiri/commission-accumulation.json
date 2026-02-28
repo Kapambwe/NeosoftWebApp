@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Malawi-1",
+  "country": "Malawi",
+  "affiliateName": "Thoko Phiri",
+  "performanceMetrics": {
+    "engagementRate": 4.4,
+    "followerCount": 65880,
+    "averageOrderValue": 556.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 28.0,
+      "revenue": 16763.4,
+      "commission": 2514.51
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 35.0,
+      "revenue": 20116.08,
+      "commission": 3017.41
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 42.0,
+      "revenue": 22351.2,
+      "commission": 3352.68
+    }
+  ],
+  "summary": {
+    "paidCommission": 15422.33,
+    "totalRevenue": 111756.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 16763.4,
+    "totalRegistrations": 237.0,
+    "pendingCommission": 1341.07,
+    "activeCustomers": 201.0
+  }
+}

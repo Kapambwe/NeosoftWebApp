@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Morocco-7758",
+  "resellerName": "Morocco Business Solutions",
+  "country": "Morocco",
+  "currency": "MAD",
+  "commissionRate": 13.4,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 109,
+  "activeCustomers": 41,
+  "totalRevenue": 3150730,
+  "totalCommissionEarned": 422197.82,
+  "paidCommission": 316648.36,
+  "pendingCommission": 105549.46,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 94994.51,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 12,
+      "revenue": 295660,
+      "commission": 53020,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 9,
+      "revenue": 252330,
+      "commission": 57040,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 5,
+      "revenue": 292650,
+      "commission": 57600,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 317200,
+    "conversionRate": 15.1,
+    "customerRetentionRate": 89.7,
+    "averageCommissionPerSale": 32690
+  },
+  "joinedDate": "2022-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-16T00:00:00Z"
+}

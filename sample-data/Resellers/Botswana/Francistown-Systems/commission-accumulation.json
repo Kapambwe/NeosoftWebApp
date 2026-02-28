@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Botswana-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 4,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 6
+  },
+  "country": "Botswana",
+  "affiliateName": "Francistown Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 478.0,
+      "revenue": 918528.0,
+      "commission": 229632.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 584.0,
+      "revenue": 1148160.0,
+      "commission": 287040.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 531.0,
+      "revenue": 1010380.8,
+      "commission": 252595.2
+    }
+  ],
+  "summary": {
+    "paidCommission": 1079270.4,
+    "totalRevenue": 4592640.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 1148160.0,
+    "totalRegistrations": 2658.0,
+    "pendingCommission": 68889.6,
+    "activeCustomers": 2392.0
+  }
+}

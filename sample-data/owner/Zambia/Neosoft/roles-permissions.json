@@ -1,0 +1,474 @@
+{
+  "departments": [
+    "Engineering",
+    "Product",
+    "Customer Success",
+    "Finance",
+    "Operations",
+    "Leadership"
+  ],
+  "permissionCategories": [
+    {
+      "name": "Dashboard & Analytics",
+      "description": "Access to main dashboards and analytics tools",
+      "icon": "dashboard",
+      "permissions": [
+        "ViewDashboard",
+        "ViewAnalytics",
+        "ViewReports",
+        "ExportReports"
+      ]
+    },
+    {
+      "name": "Product Management",
+      "description": "Manage product features and performance",
+      "icon": "inventory",
+      "permissions": [
+        "ViewProductPerformance",
+        "ManageProductPerformance",
+        "ViewUsageAnalytics",
+        "ManageUsageAnalytics",
+        "ViewUserBehavior",
+        "ExportAnalytics"
+      ]
+    },
+    {
+      "name": "Customer Management",
+      "description": "Manage customer relationships and support",
+      "icon": "people",
+      "permissions": [
+        "ViewSupportTickets",
+        "ManageSupportTickets",
+        "ViewCustomerHealth",
+        "ManageCustomerHealth",
+        "ViewCustomerSatisfaction",
+        "ManageCustomerSatisfaction",
+        "ViewCustomerFeedback",
+        "ManageCustomerFeedback"
+      ]
+    },
+    {
+      "name": "Financial Management",
+      "description": "Manage financial operations and reporting",
+      "icon": "account_balance",
+      "permissions": [
+        "ViewTaxManagement",
+        "ManageTaxManagement",
+        "ViewTaxFilings",
+        "ManageTaxFilings",
+        "ViewTaxPayments",
+        "ProcessTaxPayments",
+        "ViewCapTable",
+        "ManageCapTable",
+        "ViewShareholders",
+        "ManageShareholders",
+        "ViewEquityGrants",
+        "ManageEquityGrants",
+        "ViewDividends",
+        "ManageDividends",
+        "ViewInvestmentRounds",
+        "ManageInvestmentRounds",
+        "ViewAssets",
+        "ManageAssets"
+      ]
+    },
+    {
+      "name": "Technical Operations",
+      "description": "Manage technical infrastructure and releases",
+      "icon": "build",
+      "permissions": [
+        "ViewIncidents",
+        "ManageIncidents",
+        "ViewReleases",
+        "ManageReleases",
+        "ViewTechnicalDebt",
+        "ManageTechnicalDebt",
+        "ViewUptimeMetrics"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "description": "Handle performance incidents and outages",
+      "icon": "warning",
+      "permissions": [
+        "ManageUsers",
+        "ManageRoles",
+        "ViewAuditLogs",
+        "ManageSettings"
+      ]
+    }
+  ],
+  "roleGroups": [
+    {
+      "name": "Leadership",
+      "description": "Executive leadership team",
+      "icon": "star",
+      "color": "#ef4444"
+    },
+    {
+      "name": "Engineering",
+      "description": "Software development and technical teams",
+      "icon": "code",
+      "color": "#3b82f6"
+    },
+    {
+      "name": "ProductManagement",
+      "description": "Product strategy and management",
+      "icon": "inventory",
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "CustomerSuccess",
+      "description": "Customer support and success",
+      "icon": "support_agent",
+      "color": "#10b981"
+    },
+    {
+      "name": "Finance",
+      "description": "Financial operations and compliance",
+      "icon": "account_balance",
+      "color": "#f59e0b"
+    },
+    {
+      "name": "Operations",
+      "description": "Business operations and analytics",
+      "icon": "business",
+      "color": "#06b6d4"
+    }
+  ],
+  "roles": [
+    {
+      "id": "ceo-001",
+      "name": "CEO",
+      "description": "Chief Executive Officer with full system access",
+      "roleGroup": "Leadership",
+      "userCount": 1,
+      "isSystem": true,
+      "color": "#ef4444",
+      "permissions": [
+        "ViewDashboard",
+        "ViewAnalytics",
+        "ViewReports",
+        "ViewProductPerformance",
+        "ViewCapTable",
+        "ManageCapTable",
+        "ViewShareholders",
+        "ManageShareholders"
+      ]
+    },
+    {
+      "id": "cto-001",
+      "name": "CTO",
+      "description": "Chief Technology Officer managing technical operations",
+      "roleGroup": "Leadership",
+      "userCount": 1,
+      "isSystem": true,
+      "color": "#ef4444",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ManageProductPerformance",
+        "ViewIncidents",
+        "ManageIncidents",
+        "ViewReleases",
+        "ManageReleases",
+        "ViewTechnicalDebt",
+        "ManageTechnicalDebt",
+        "ManageUsers"
+      ]
+    },
+    {
+      "id": "cfo-001",
+      "name": "CFO",
+      "description": "Chief Financial Officer managing financial operations",
+      "roleGroup": "Leadership",
+      "userCount": 1,
+      "isSystem": true,
+      "color": "#ef4444",
+      "permissions": [
+        "ViewDashboard",
+        "ViewReports",
+        "ViewTaxManagement",
+        "ManageTaxManagement",
+        "ViewCapTable",
+        "ManageCapTable",
+        "ViewShareholders",
+        "ManageShareholders",
+        "ViewAssets",
+        "ManageAssets"
+      ]
+    },
+    {
+      "id": "eng-mgr-001",
+      "name": "Engineering Manager",
+      "description": "Manages engineering teams and technical delivery",
+      "roleGroup": "Engineering",
+      "userCount": 3,
+      "isSystem": false,
+      "color": "#3b82f6",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ManageProductPerformance",
+        "ViewIncidents",
+        "ManageIncidents",
+        "ViewReleases",
+        "ManageReleases",
+        "ViewTechnicalDebt",
+        "ManageTechnicalDebt"
+      ]
+    },
+    {
+      "id": "sr-dev-001",
+      "name": "Senior Developer",
+      "description": "Experienced developer with advanced permissions",
+      "roleGroup": "Engineering",
+      "userCount": 12,
+      "isSystem": false,
+      "color": "#3b82f6",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ViewIncidents",
+        "ManageIncidents",
+        "ViewTechnicalDebt",
+        "ManageTechnicalDebt",
+        "ViewReleases"
+      ]
+    },
+    {
+      "id": "dev-001",
+      "name": "Developer",
+      "description": "Standard software developer",
+      "roleGroup": "Engineering",
+      "userCount": 25,
+      "isSystem": false,
+      "color": "#3b82f6",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ViewIncidents",
+        "ViewTechnicalDebt",
+        "ViewReleases"
+      ]
+    },
+    {
+      "id": "devops-001",
+      "name": "DevOps Engineer",
+      "description": "Manages deployment and infrastructure",
+      "roleGroup": "Engineering",
+      "userCount": 5,
+      "isSystem": false,
+      "color": "#3b82f6",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ManageProductPerformance",
+        "ViewIncidents",
+        "ManageIncidents",
+        "ViewReleases",
+        "ManageReleases",
+        "ViewUptimeMetrics"
+      ]
+    },
+    {
+      "id": "pm-001",
+      "name": "Product Manager",
+      "description": "Manages product strategy and roadmap",
+      "roleGroup": "ProductManagement",
+      "userCount": 6,
+      "isSystem": false,
+      "color": "#8b5cf6",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ViewUsageAnalytics",
+        "ManageUsageAnalytics",
+        "ViewCustomerFeedback",
+        "ManageCustomerFeedback",
+        "ViewReleases",
+        "ManageReleases"
+      ]
+    },
+    {
+      "id": "pa-001",
+      "name": "Product Analyst",
+      "description": "Analyzes product metrics and user behavior",
+      "roleGroup": "ProductManagement",
+      "userCount": 4,
+      "isSystem": false,
+      "color": "#8b5cf6",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ViewUsageAnalytics",
+        "ViewUserBehavior",
+        "ViewCustomerFeedback",
+        "ExportAnalytics"
+      ]
+    },
+    {
+      "id": "pd-001",
+      "name": "Product Designer",
+      "description": "Designs product features and user experience",
+      "roleGroup": "ProductManagement",
+      "userCount": 2,
+      "isSystem": false,
+      "color": "#8b5cf6",
+      "permissions": [
+        "ViewDashboard",
+        "ViewProductPerformance",
+        "ViewUsageAnalytics",
+        "ViewCustomerFeedback",
+        "ViewUserBehavior"
+      ]
+    },
+    {
+      "id": "cs-mgr-001",
+      "name": "CS Manager",
+      "description": "Manages customer success operations",
+      "roleGroup": "CustomerSuccess",
+      "userCount": 2,
+      "isSystem": false,
+      "color": "#10b981",
+      "permissions": [
+        "ViewDashboard",
+        "ViewSupportTickets",
+        "ManageSupportTickets",
+        "ViewCustomerHealth",
+        "ManageCustomerHealth",
+        "ViewCustomerSatisfaction",
+        "ManageCustomerSatisfaction",
+        "ViewCustomerFeedback",
+        "ManageCustomerFeedback"
+      ]
+    },
+    {
+      "id": "se-001",
+      "name": "Support Engineer",
+      "description": "Provides technical customer support",
+      "roleGroup": "CustomerSuccess",
+      "userCount": 15,
+      "isSystem": false,
+      "color": "#10b981",
+      "permissions": [
+        "ViewDashboard",
+        "ViewSupportTickets",
+        "ManageSupportTickets",
+        "ViewCustomerHealth",
+        "ViewCustomerFeedback"
+      ]
+    },
+    {
+      "id": "csr-001",
+      "name": "Customer Success Rep",
+      "description": "Manages customer relationships and onboarding",
+      "roleGroup": "CustomerSuccess",
+      "userCount": 11,
+      "isSystem": false,
+      "color": "#10b981",
+      "permissions": [
+        "ViewDashboard",
+        "ViewSupportTickets",
+        "ViewCustomerHealth",
+        "ManageCustomerHealth",
+        "ViewCustomerSatisfaction"
+      ]
+    },
+    {
+      "id": "tm-001",
+      "name": "Tax Manager",
+      "description": "Manages tax compliance and filings",
+      "roleGroup": "Finance",
+      "userCount": 2,
+      "isSystem": false,
+      "color": "#f59e0b",
+      "permissions": [
+        "ViewDashboard",
+        "ViewTaxManagement",
+        "ManageTaxManagement",
+        "ViewTaxFilings",
+        "ManageTaxFilings",
+        "ViewTaxPayments",
+        "ProcessTaxPayments"
+      ]
+    },
+    {
+      "id": "fa-001",
+      "name": "Financial Analyst",
+      "description": "Analyzes financial data and reporting",
+      "roleGroup": "Finance",
+      "userCount": 3,
+      "isSystem": false,
+      "color": "#f59e0b",
+      "permissions": [
+        "ViewDashboard",
+        "ViewReports",
+        "ExportReports",
+        "ViewTaxManagement",
+        "ViewCapTable",
+        "ViewShareholders",
+        "ViewAssets"
+      ]
+    },
+    {
+      "id": "em-001",
+      "name": "Equity Manager",
+      "description": "Manages equity and shareholder relations",
+      "roleGroup": "Finance",
+      "userCount": 1,
+      "isSystem": false,
+      "color": "#f59e0b",
+      "permissions": [
+        "ViewDashboard",
+        "ViewCapTable",
+        "ManageCapTable",
+        "ViewShareholders",
+        "ManageShareholders",
+        "ViewEquityGrants",
+        "ManageEquityGrants",
+        "ViewDividends",
+        "ManageDividends",
+        "ViewInvestmentRounds",
+        "ManageInvestmentRounds"
+      ]
+    },
+    {
+      "id": "om-001",
+      "name": "Operations Manager",
+      "description": "Manages operational efficiency and processes",
+      "roleGroup": "Operations",
+      "userCount": 2,
+      "isSystem": false,
+      "color": "#06b6d4",
+      "permissions": [
+        "ViewDashboard",
+        "ViewAnalytics",
+        "ViewReports",
+        "ExportReports",
+        "ViewUsageAnalytics",
+        "ViewProductPerformance",
+        "ViewAssets",
+        "ManageAssets"
+      ]
+    },
+    {
+      "id": "da-001",
+      "name": "Data Analyst",
+      "description": "Analyzes business data and metrics",
+      "roleGroup": "Operations",
+      "userCount": 4,
+      "isSystem": false,
+      "color": "#06b6d4",
+      "permissions": [
+        "ViewDashboard",
+        "ViewAnalytics",
+        "ViewReports",
+        "ExportReports",
+        "ViewUsageAnalytics",
+        "ViewUserBehavior",
+        "ExportAnalytics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Ghana-1407",
+  "partnerName": "Digital Solutions Ghana",
+  "country": "Ghana",
+  "currency": "GHS",
+  "commissionRate": 23.6,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 29,
+  "activeProjects": 12,
+  "totalCustomers": 143,
+  "totalRevenue": 6323676,
+  "totalCommissionEarned": 1492387.54,
+  "paidCommission": 1193910.03,
+  "pendingCommission": 298477.51,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 298477.51,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 4,
+      "revenue": 810648,
+      "commission": 116844,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 5,
+      "revenue": 883104,
+      "commission": 81864,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 363444,
+      "commission": 60732,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 702780,
+    "implementationSuccessRate": 93,
+    "customerSatisfactionScore": 4.6,
+    "averageCommissionPerProject": 63300,
+    "recurringRevenueShare": 44
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-16T00:00:00Z"
+}

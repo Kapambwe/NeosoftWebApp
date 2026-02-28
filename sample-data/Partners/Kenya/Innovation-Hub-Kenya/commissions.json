@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Kenya-8151",
+  "partnerName": "Innovation Hub Kenya",
+  "country": "Kenya",
+  "currency": "KES",
+  "commissionRate": 24,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 43,
+  "activeProjects": 20,
+  "totalCustomers": 65,
+  "totalRevenue": 36854928,
+  "totalCommissionEarned": 8845182.72,
+  "paidCommission": 7076146.18,
+  "pendingCommission": 1769036.54,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 1769036.54,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.16,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 7138164,
+      "commission": 1844040,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 5304948,
+      "commission": 1932216,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 8974812,
+      "commission": 871332,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 7407708,
+    "implementationSuccessRate": 92.8,
+    "customerSatisfactionScore": 4.5,
+    "averageCommissionPerProject": 1380588,
+    "recurringRevenueShare": 32.3
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-20T00:00:00Z"
+}

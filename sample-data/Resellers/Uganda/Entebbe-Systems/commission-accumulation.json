@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Uganda-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 3,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 7
+  },
+  "country": "Uganda",
+  "affiliateName": "Entebbe Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 350.0,
+      "revenue": 285926.4,
+      "commission": 71481.6
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 428.0,
+      "revenue": 357408.0,
+      "commission": 89352.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 389.0,
+      "revenue": 314519.04,
+      "commission": 78629.76
+    }
+  ],
+  "summary": {
+    "paidCommission": 335963.52,
+    "totalRevenue": 1429632.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 357408.0,
+    "totalRegistrations": 1947.0,
+    "pendingCommission": 21444.48,
+    "activeCustomers": 1752.0
+  }
+}

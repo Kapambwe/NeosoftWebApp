@@ -1,0 +1,36 @@
+{
+  "role": "influencer",
+  "userId": "INF-ZM-001",
+  "pages": {
+    "dashboard": true,
+    "customers": true,
+    "analytics": true,
+    "commissions": true,
+    "products": "view",
+    "support": false,
+    "reports": true,
+    "settings": "limited",
+    "users": false,
+    "financial": false
+  },
+  "features": {
+    "exportData": true,
+    "bulkActions": false,
+    "apiAccess": false,
+    "customReports": false,
+    "viewOwnCustomers": true,
+    "viewAllCustomers": false,
+    "editCustomers": false,
+    "deleteCustomers": false,
+    "viewCommissions": true,
+    "requestPayout": true,
+    "viewAnalytics": true,
+    "createReferralLinks": true,
+    "viewMarketingMaterials": true
+  },
+  "limits": {
+    "maxReferrals": 100,
+    "maxActiveCustomers": 50,
+    "dataRetentionDays": 90
+  }
+}

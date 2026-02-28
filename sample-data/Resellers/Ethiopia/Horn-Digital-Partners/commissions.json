@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Ethiopia-1747",
+  "resellerName": "Horn Digital Partners",
+  "country": "Ethiopia",
+  "currency": "ETB",
+  "commissionRate": 12.2,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 101,
+  "activeCustomers": 46,
+  "totalRevenue": 17241840,
+  "totalCommissionEarned": 2103504.48,
+  "paidCommission": 1577628.36,
+  "pendingCommission": 525876.12,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 473288.51,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 13,
+      "revenue": 1724576,
+      "commission": 277760,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 16,
+      "revenue": 2463384,
+      "commission": 247408,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 9,
+      "revenue": 2158128,
+      "commission": 125440,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 1332576,
+    "conversionRate": 14.6,
+    "customerRetentionRate": 93.9,
+    "averageCommissionPerSale": 193872
+  },
+  "joinedDate": "2022-05-01T00:00:00Z",
+  "lastActivityDate": "2024-11-14T00:00:00Z"
+}

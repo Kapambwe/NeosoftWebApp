@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Nigeria-7728",
+  "resellerName": "Nigeria Business Systems",
+  "country": "Nigeria",
+  "currency": "NGN",
+  "commissionRate": 14.1,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 58,
+  "activeCustomers": 94,
+  "totalRevenue": 247524420,
+  "totalCommissionEarned": 34900943.22,
+  "paidCommission": 26175707.42,
+  "pendingCommission": 8725235.80,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 7852712.23,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.1,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 17,
+      "revenue": 32100120,
+      "commission": 5990400,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 12,
+      "revenue": 20633340,
+      "commission": 3166020,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 7,
+      "revenue": 17959500,
+      "commission": 2730000,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 12156300,
+    "conversionRate": 23.4,
+    "customerRetentionRate": 85.3,
+    "averageCommissionPerSale": 3435900
+  },
+  "joinedDate": "2022-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-18T00:00:00Z"
+}

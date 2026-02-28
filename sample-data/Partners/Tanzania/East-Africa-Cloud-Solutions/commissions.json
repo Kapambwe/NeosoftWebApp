@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Tanzania-1796",
+  "partnerName": "East Africa Cloud Solutions",
+  "country": "Tanzania",
+  "currency": "TZS",
+  "commissionRate": 16.2,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 16,
+  "activeProjects": 8,
+  "totalCustomers": 139,
+  "totalRevenue": 697740850,
+  "totalCommissionEarned": 113034017.70,
+  "paidCommission": 90427214.16,
+  "pendingCommission": 22606803.54,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 22606803.54,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 6,
+      "revenue": 110027000,
+      "commission": 14602900,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 3,
+      "revenue": 156495900,
+      "commission": 27546700,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 147829100,
+      "commission": 13387950,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 104398750,
+    "implementationSuccessRate": 98.6,
+    "customerSatisfactionScore": 4.7,
+    "averageCommissionPerProject": 31612200,
+    "recurringRevenueShare": 27.9
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-14T00:00:00Z"
+}

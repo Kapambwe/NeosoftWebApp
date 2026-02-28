@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Nigeria-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 4,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 7
+  },
+  "country": "Nigeria",
+  "affiliateName": "Lagos Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 502.0,
+      "revenue": 504912.0,
+      "commission": 126228.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 614.0,
+      "revenue": 631140.0,
+      "commission": 157785.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 558.0,
+      "revenue": 555403.2,
+      "commission": 138850.8
+    }
+  ],
+  "summary": {
+    "paidCommission": 593271.6,
+    "totalRevenue": 2524560.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 631140.0,
+    "totalRegistrations": 2792.0,
+    "pendingCommission": 37868.4,
+    "activeCustomers": 2512.0
+  }
+}

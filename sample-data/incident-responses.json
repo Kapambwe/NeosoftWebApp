@@ -1,0 +1,392 @@
+[
+  {
+    "incidentId": "INC-2024-001",
+    "incidentTime": "2024-12-20T14:35:00Z",
+    "severity": 1,
+    "productId": "PROD-001",
+    "productName": "AccountingPro Suite",
+    "issueDescription": "Database connection pool exhaustion causing 503 errors for Kenya region users",
+    "affectedUsers": 285,
+    "estimatedRevenueLoss": 8500,
+    "shouldNotifyCustomers": true,
+    "requiresEscalation": true,
+    "escalationLevel": "Management",
+    "notificationMessage": "We are currently experiencing database connection pool exhaustion causing 503 errors for kenya region users. Our team is actively working on a resolution. We apologize for any inconvenience.",
+    "immediateActions": [
+      {
+        "actionId": "ACT-001-01",
+        "description": "Investigate root cause",
+        "assignedTo": "DevOps Team - Nairobi",
+        "estimatedMinutes": 15,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-001-02",
+        "description": "Check system metrics and logs",
+        "assignedTo": "SRE Team - Kenya",
+        "estimatedMinutes": 10,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-001-03",
+        "description": "Notify customers via status page",
+        "assignedTo": "Communications Team",
+        "estimatedMinutes": 5,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-001-04",
+        "description": "Increase database connection pool size",
+        "assignedTo": "Database Team",
+        "estimatedMinutes": 20,
+        "priority": 0,
+        "isCompleted": false
+      }
+    ],
+    "followUpActions": [
+      {
+        "actionId": "ACT-001-11",
+        "description": "Conduct post-mortem analysis",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 120,
+        "priority": 1,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-001-12",
+        "description": "Implement preventive measures - auto-scaling connection pools",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 480,
+        "priority": 2,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-001-13",
+        "description": "Update runbooks and documentation",
+        "assignedTo": "DevOps Team",
+        "estimatedMinutes": 60,
+        "priority": 2,
+        "isCompleted": false
+      }
+    ],
+    "stakeholdersToNotify": [
+      "Engineering Manager",
+      "DevOps Lead",
+      "CTO",
+      "Customer Success VP"
+    ]
+  },
+  {
+    "incidentId": "INC-2024-002",
+    "incidentTime": "2024-12-20T11:20:00Z",
+    "severity": 2,
+    "productId": "PROD-002",
+    "productName": "CdfWebApp",
+    "issueDescription": "Elevated API response times in South Africa region - average 3.2s vs normal 450ms",
+    "affectedUsers": 142,
+    "estimatedRevenueLoss": 3200,
+    "shouldNotifyCustomers": false,
+    "requiresEscalation": false,
+    "escalationLevel": "Team Lead",
+    "notificationMessage": "",
+    "immediateActions": [
+      {
+        "actionId": "ACT-002-01",
+        "description": "Investigate root cause",
+        "assignedTo": "DevOps Team - Cape Town",
+        "estimatedMinutes": 15,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-002-02",
+        "description": "Check system metrics and logs",
+        "assignedTo": "SRE Team - South Africa",
+        "estimatedMinutes": 10,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-002-03",
+        "description": "Review recent deployments",
+        "assignedTo": "DevOps Team",
+        "estimatedMinutes": 20,
+        "priority": 1,
+        "isCompleted": false
+      }
+    ],
+    "followUpActions": [
+      {
+        "actionId": "ACT-002-11",
+        "description": "Conduct post-mortem analysis",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 120,
+        "priority": 1,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-002-12",
+        "description": "Implement preventive measures",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 480,
+        "priority": 2,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-002-13",
+        "description": "Update runbooks and documentation",
+        "assignedTo": "DevOps Team",
+        "estimatedMinutes": 60,
+        "priority": 2,
+        "isCompleted": false
+      }
+    ],
+    "stakeholdersToNotify": [
+      "Engineering Manager",
+      "DevOps Lead"
+    ]
+  },
+  {
+    "incidentId": "INC-2024-003",
+    "incidentTime": "2024-12-20T09:45:00Z",
+    "severity": 0,
+    "productId": "PROD-003",
+    "productName": "CouncilWebApp",
+    "issueDescription": "Complete service outage - payment gateway integration failure affecting all regions",
+    "affectedUsers": 485,
+    "estimatedRevenueLoss": 25000,
+    "shouldNotifyCustomers": true,
+    "requiresEscalation": true,
+    "escalationLevel": "Executive",
+    "notificationMessage": "We are currently experiencing complete service outage - payment gateway integration failure affecting all regions. Our team is actively working on a resolution. We apologize for any inconvenience.",
+    "immediateActions": [
+      {
+        "actionId": "ACT-003-01",
+        "description": "Investigate root cause",
+        "assignedTo": "DevOps Team - Primary",
+        "estimatedMinutes": 15,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-003-02",
+        "description": "Check system metrics and logs",
+        "assignedTo": "SRE Team - Global",
+        "estimatedMinutes": 10,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-003-03",
+        "description": "Notify customers via status page",
+        "assignedTo": "Communications Team",
+        "estimatedMinutes": 5,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-003-04",
+        "description": "Engage payment gateway provider",
+        "assignedTo": "Integration Team",
+        "estimatedMinutes": 30,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-003-05",
+        "description": "Activate backup payment processor",
+        "assignedTo": "Integration Team",
+        "estimatedMinutes": 45,
+        "priority": 0,
+        "isCompleted": false
+      }
+    ],
+    "followUpActions": [
+      {
+        "actionId": "ACT-003-11",
+        "description": "Conduct post-mortem analysis",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 120,
+        "priority": 1,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-003-12",
+        "description": "Implement preventive measures - redundant payment gateways",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 480,
+        "priority": 2,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-003-13",
+        "description": "Update runbooks and documentation",
+        "assignedTo": "DevOps Team",
+        "estimatedMinutes": 60,
+        "priority": 2,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-003-14",
+        "description": "Review SLA with payment gateway provider",
+        "assignedTo": "Business Operations",
+        "estimatedMinutes": 240,
+        "priority": 1,
+        "isCompleted": false
+      }
+    ],
+    "stakeholdersToNotify": [
+      "Engineering Manager",
+      "DevOps Lead",
+      "CTO",
+      "Customer Success VP",
+      "CEO",
+      "CFO"
+    ]
+  },
+  {
+    "incidentId": "INC-2024-004",
+    "incidentTime": "2024-12-20T16:10:00Z",
+    "severity": 3,
+    "productId": "PROD-001",
+    "productName": "AccountingPro Suite",
+    "issueDescription": "Minor CSS rendering issue on mobile devices in Egypt region",
+    "affectedUsers": 28,
+    "estimatedRevenueLoss": 200,
+    "shouldNotifyCustomers": false,
+    "requiresEscalation": false,
+    "escalationLevel": "None",
+    "notificationMessage": "",
+    "immediateActions": [
+      {
+        "actionId": "ACT-004-01",
+        "description": "Investigate root cause",
+        "assignedTo": "Frontend Team",
+        "estimatedMinutes": 15,
+        "priority": 0,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-004-02",
+        "description": "Check system metrics and logs",
+        "assignedTo": "SRE Team",
+        "estimatedMinutes": 10,
+        "priority": 0,
+        "isCompleted": false
+      }
+    ],
+    "followUpActions": [
+      {
+        "actionId": "ACT-004-11",
+        "description": "Conduct post-mortem analysis",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 120,
+        "priority": 1,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-004-12",
+        "description": "Implement preventive measures",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 480,
+        "priority": 2,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-004-13",
+        "description": "Update runbooks and documentation",
+        "assignedTo": "DevOps Team",
+        "estimatedMinutes": 60,
+        "priority": 2,
+        "isCompleted": false
+      }
+    ],
+    "stakeholdersToNotify": [
+      "Engineering Manager",
+      "DevOps Lead"
+    ]
+  },
+  {
+    "incidentId": "INC-2024-005",
+    "incidentTime": "2024-12-20T13:25:00Z",
+    "severity": 1,
+    "productId": "PROD-004",
+    "productName": "LawyerWebApp",
+    "issueDescription": "Intermittent authentication failures in Nigeria region - OAuth provider timeout",
+    "affectedUsers": 178,
+    "estimatedRevenueLoss": 5600,
+    "shouldNotifyCustomers": true,
+    "requiresEscalation": true,
+    "escalationLevel": "Management",
+    "notificationMessage": "We are currently experiencing intermittent authentication failures in nigeria region - oauth provider timeout. Our team is actively working on a resolution. We apologize for any inconvenience.",
+    "immediateActions": [
+      {
+        "actionId": "ACT-005-01",
+        "description": "Investigate root cause",
+        "assignedTo": "DevOps Team - Lagos",
+        "estimatedMinutes": 15,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-005-02",
+        "description": "Check system metrics and logs",
+        "assignedTo": "SRE Team - Nigeria",
+        "estimatedMinutes": 10,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-005-03",
+        "description": "Notify customers via status page",
+        "assignedTo": "Communications Team",
+        "estimatedMinutes": 5,
+        "priority": 0,
+        "isCompleted": true
+      },
+      {
+        "actionId": "ACT-005-04",
+        "description": "Contact OAuth provider support",
+        "assignedTo": "Integration Team",
+        "estimatedMinutes": 25,
+        "priority": 0,
+        "isCompleted": false
+      }
+    ],
+    "followUpActions": [
+      {
+        "actionId": "ACT-005-11",
+        "description": "Conduct post-mortem analysis",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 120,
+        "priority": 1,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-005-12",
+        "description": "Implement preventive measures - local auth caching",
+        "assignedTo": "Engineering Team",
+        "estimatedMinutes": 480,
+        "priority": 2,
+        "isCompleted": false
+      },
+      {
+        "actionId": "ACT-005-13",
+        "description": "Update runbooks and documentation",
+        "assignedTo": "DevOps Team",
+        "estimatedMinutes": 60,
+        "priority": 2,
+        "isCompleted": false
+      }
+    ],
+    "stakeholdersToNotify": [
+      "Engineering Manager",
+      "DevOps Lead",
+      "CTO",
+      "Customer Success VP"
+    ]
+  }
+]

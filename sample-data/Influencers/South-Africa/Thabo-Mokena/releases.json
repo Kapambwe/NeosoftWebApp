@@ -1,0 +1,63 @@
+[
+  {
+    "id": "rel-sa-001",
+    "version": "3.2.1",
+    "name": "South African Tax Compliance Update",
+    "description": "Updates for 2024/2025 tax year including new SARS requirements and VAT rate adjustments",
+    "releaseType": "Feature",
+    "status": "Released",
+    "priority": "High",
+    "plannedDate": "2024-11-15T00:00:00Z",
+    "actualDate": "2024-11-15T08:00:00Z",
+    "environment": "Production",
+    "releaseManager": "Sipho Ndlovu",
+    "developmentTeam": "Compliance Team ZA",
+    "features": [
+      "Updated SARS tax tables for 2024/2025",
+      "Enhanced VAT calculation engine",
+      "New UIF contribution rates",
+      "PAYE updates for remote workers",
+      "Skills Development Levy adjustments"
+    ],
+    "bugFixes": [
+      "Fixed ZAR rounding issues in tax calculations",
+      "Resolved CIPC filing status sync",
+      "Corrected B-BBEE scorecard calculations"
+    ],
+    "breakingChanges": [],
+    "rollbackPlan": "Automated rollback with tax calculation validation",
+    "testingStatus": "Passed",
+    "approvalStatus": "Approved",
+    "deploymentNotes": "Deployed successfully across SA region with zero downtime"
+  },
+  {
+    "id": "rel-sa-002",
+    "version": "3.1.5",
+    "name": "Mobile App Enhancement",
+    "description": "Improved mobile experience for South African users",
+    "releaseType": "Enhancement",
+    "status": "Released",
+    "priority": "Medium",
+    "plannedDate": "2024-10-20T00:00:00Z",
+    "actualDate": "2024-10-20T10:00:00Z",
+    "environment": "Production",
+    "releaseManager": "Thandi Mthembu",
+    "developmentTeam": "Mobile Team",
+    "features": [
+      "Offline invoice creation",
+      "Biometric authentication support",
+      "Improved data sync over slow connections",
+      "Local currency display enhancements"
+    ],
+    "bugFixes": [
+      "Fixed crash on Android 14",
+      "Resolved PDF generation on iOS",
+      "Fixed language switching issues (English/Afrikaans)"
+    ],
+    "breakingChanges": [],
+    "rollbackPlan": "App store version revert available",
+    "testingStatus": "Passed",
+    "approvalStatus": "Approved",
+    "deploymentNotes": "Rolled out to 100% of SA users"
+  }
+]

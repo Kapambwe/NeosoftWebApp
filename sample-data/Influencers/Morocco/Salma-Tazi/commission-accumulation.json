@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Morocco-3",
+  "country": "Morocco",
+  "affiliateName": "Salma Tazi",
+  "performanceMetrics": {
+    "engagementRate": 3.7,
+    "followerCount": 90200,
+    "averageOrderValue": 788.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 30.0,
+      "revenue": 25767.6,
+      "commission": 3865.14
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 38.0,
+      "revenue": 30921.12,
+      "commission": 4638.17
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 46.0,
+      "revenue": 34356.8,
+      "commission": 5153.52
+    }
+  ],
+  "summary": {
+    "paidCommission": 23706.19,
+    "totalRevenue": 171784.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 25767.6,
+    "totalRegistrations": 257.0,
+    "pendingCommission": 2061.41,
+    "activeCustomers": 218.0
+  }
+}

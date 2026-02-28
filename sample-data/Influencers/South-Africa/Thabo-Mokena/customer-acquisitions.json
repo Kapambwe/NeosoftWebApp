@@ -1,0 +1,58 @@
+[
+  {
+    "id": "acq-sa-001",
+    "month": "November 2024",
+    "newCustomers": 156,
+    "leadSource": "Digital Marketing",
+    "conversionRate": 12.5,
+    "averageContractValue": 24500.00,
+    "customerSegment": "Small Business",
+    "region": "Gauteng",
+    "churnRate": 1.8,
+    "retentionRate": 98.2,
+    "campaignName": "Gauteng SME Drive",
+    "totalRevenue": 3822000.00
+  },
+  {
+    "id": "acq-sa-002",
+    "month": "November 2024",
+    "newCustomers": 89,
+    "leadSource": "Partner Referral",
+    "conversionRate": 18.2,
+    "averageContractValue": 35200.00,
+    "customerSegment": "Medium Enterprise",
+    "region": "Western Cape",
+    "churnRate": 1.2,
+    "retentionRate": 98.8,
+    "campaignName": "Cape Town Business Network",
+    "totalRevenue": 3132800.00
+  },
+  {
+    "id": "acq-sa-003",
+    "month": "November 2024",
+    "newCustomers": 67,
+    "leadSource": "Industry Events",
+    "conversionRate": 15.8,
+    "averageContractValue": 28900.00,
+    "customerSegment": "Small Business",
+    "region": "KwaZulu-Natal",
+    "churnRate": 2.1,
+    "retentionRate": 97.9,
+    "campaignName": "Durban Expo 2024",
+    "totalRevenue": 1936300.00
+  },
+  {
+    "id": "acq-sa-004",
+    "month": "October 2024",
+    "newCustomers": 142,
+    "leadSource": "Influencer Marketing",
+    "conversionRate": 14.2,
+    "averageContractValue": 22800.00,
+    "customerSegment": "Startup",
+    "region": "Gauteng",
+    "churnRate": 2.5,
+    "retentionRate": 97.5,
+    "campaignName": "SA Startup Week",
+    "totalRevenue": 3237600.00
+  }
+]

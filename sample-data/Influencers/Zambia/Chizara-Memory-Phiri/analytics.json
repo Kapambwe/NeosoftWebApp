@@ -1,0 +1,65 @@
+{
+  "period": {
+    "start": "2025-01-01T00:00:00Z",
+    "end": "2025-01-31T23:59:59Z"
+  },
+  "metrics": {
+    "totalCustomers": 35,
+    "activeCustomers": 33,
+    "newCustomers": 2,
+    "churnedCustomers": 0,
+    "totalRevenue": 5249.65,
+    "mrr": 5249.65,
+    "conversionRate": 0.74,
+    "averageCustomerValue": 158.78
+  },
+  "trends": [
+    {
+      "date": "2025-01-01",
+      "customers": 33,
+      "revenue": 5249.65,
+      "conversions": 0
+    },
+    {
+      "date": "2025-01-08",
+      "customers": 33,
+      "revenue": 5249.65,
+      "conversions": 0
+    },
+    {
+      "date": "2025-01-15",
+      "customers": 34,
+      "revenue": 5399.64,
+      "conversions": 1
+    },
+    {
+      "date": "2025-01-22",
+      "customers": 35,
+      "revenue": 5399.64,
+      "conversions": 1
+    },
+    {
+      "date": "2025-01-31",
+      "customers": 35,
+      "revenue": 5399.64,
+      "conversions": 0
+    }
+  ],
+  "topProducts": [
+    {
+      "product": "Professional Plan",
+      "customers": 18,
+      "revenue": 2699.82
+    },
+    {
+      "product": "Enterprise Plan",
+      "customers": 10,
+      "revenue": 4999.90
+    },
+    {
+      "product": "Basic Plan",
+      "customers": 7,
+      "revenue": 349.93
+    }
+  ]
+}

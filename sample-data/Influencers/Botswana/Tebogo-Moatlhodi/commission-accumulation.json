@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Botswana-0",
+  "country": "Botswana",
+  "affiliateName": "Tebogo Moatlhodi",
+  "performanceMetrics": {
+    "engagementRate": 6.3,
+    "followerCount": 74179,
+    "averageOrderValue": 1102.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 114.0,
+      "revenue": 133893.0,
+      "commission": 20083.95
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 143.0,
+      "revenue": 160671.6,
+      "commission": 24100.74
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 171.0,
+      "revenue": 178524.0,
+      "commission": 26778.6
+    }
+  ],
+  "summary": {
+    "paidCommission": 123181.56,
+    "totalRevenue": 892620.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 133893.0,
+    "totalRegistrations": 954.0,
+    "pendingCommission": 10711.44,
+    "activeCustomers": 810.0
+  }
+}

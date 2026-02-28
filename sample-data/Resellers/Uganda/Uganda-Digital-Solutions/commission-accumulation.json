@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Uganda-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 9,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 14
+  },
+  "country": "Uganda",
+  "affiliateName": "Uganda Digital Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 412.0,
+      "revenue": 212901.6,
+      "commission": 53225.4
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 504.0,
+      "revenue": 266127.0,
+      "commission": 66531.75
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 458.0,
+      "revenue": 234191.76,
+      "commission": 58547.94
+    }
+  ],
+  "summary": {
+    "paidCommission": 250159.38,
+    "totalRevenue": 1064508.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 266127.0,
+    "totalRegistrations": 2293.0,
+    "pendingCommission": 15967.62,
+    "activeCustomers": 2063.0
+  }
+}

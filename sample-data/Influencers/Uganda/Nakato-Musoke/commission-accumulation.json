@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Uganda-0",
+  "country": "Uganda",
+  "affiliateName": "Nakato Musoke",
+  "performanceMetrics": {
+    "engagementRate": 2.2,
+    "followerCount": 107400,
+    "averageOrderValue": 1141.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 20.0,
+      "revenue": 25159.05,
+      "commission": 3773.86
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 26.0,
+      "revenue": 30190.86,
+      "commission": 4528.63
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 31.0,
+      "revenue": 33545.4,
+      "commission": 5031.81
+    }
+  ],
+  "summary": {
+    "paidCommission": 23146.33,
+    "totalRevenue": 167727.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 25159.05,
+    "totalRegistrations": 174.0,
+    "pendingCommission": 2012.72,
+    "activeCustomers": 147.0
+  }
+}

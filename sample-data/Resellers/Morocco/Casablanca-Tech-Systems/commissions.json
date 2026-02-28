@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Morocco-5309",
+  "resellerName": "Casablanca Tech Systems",
+  "country": "Morocco",
+  "currency": "MAD",
+  "commissionRate": 12.9,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 72,
+  "activeCustomers": 70,
+  "totalRevenue": 1693430,
+  "totalCommissionEarned": 218452.47,
+  "paidCommission": 163839.35,
+  "pendingCommission": 54613.12,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 49151.80,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 17,
+      "revenue": 496620,
+      "commission": 64220,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 8,
+      "revenue": 333340,
+      "commission": 27530,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 7,
+      "revenue": 408820,
+      "commission": 27910,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 262520,
+    "conversionRate": 22.9,
+    "customerRetentionRate": 92.8,
+    "averageCommissionPerSale": 31590
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-25T00:00:00Z"
+}

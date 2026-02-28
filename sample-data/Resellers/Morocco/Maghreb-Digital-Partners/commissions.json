@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Morocco-1854",
+  "resellerName": "Maghreb Digital Partners",
+  "country": "Morocco",
+  "currency": "MAD",
+  "commissionRate": 10.7,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 115,
+  "activeCustomers": 87,
+  "totalRevenue": 2069560,
+  "totalCommissionEarned": 221442.92,
+  "paidCommission": 166082.19,
+  "pendingCommission": 55360.73,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 49824.66,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 9,
+      "revenue": 533820,
+      "commission": 54220,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 10,
+      "revenue": 306590,
+      "commission": 23440,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 7,
+      "revenue": 262920,
+      "commission": 50530,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 210850,
+    "conversionRate": 19.6,
+    "customerRetentionRate": 89.7,
+    "averageCommissionPerSale": 17590
+  },
+  "joinedDate": "2022-05-01T00:00:00Z",
+  "lastActivityDate": "2024-11-24T00:00:00Z"
+}

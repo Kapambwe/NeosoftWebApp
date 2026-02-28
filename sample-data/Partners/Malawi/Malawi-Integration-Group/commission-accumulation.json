@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Malawi-1",
+  "country": "Malawi",
+  "affiliateName": "Malawi Integration Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 357.0,
+      "revenue": 428031.0,
+      "commission": 149810.85
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 406.0,
+      "revenue": 479394.72,
+      "commission": 167788.15
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 454.0,
+      "revenue": 513637.2,
+      "commission": 179773.02
+    }
+  ],
+  "summary": {
+    "paidCommission": 569281.23,
+    "totalRevenue": 1712124.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 599243.4,
+    "totalRegistrations": 1624.0,
+    "pendingCommission": 29962.17,
+    "activeCustomers": 1494.0
+  }
+}

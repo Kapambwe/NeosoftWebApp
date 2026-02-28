@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Kenya-3241",
+  "partnerName": "East African Cloud Partners",
+  "country": "Kenya",
+  "currency": "KES",
+  "commissionRate": 17.5,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 23,
+  "activeProjects": 21,
+  "totalCustomers": 140,
+  "totalRevenue": 66214896,
+  "totalCommissionEarned": 11587606.80,
+  "paidCommission": 9270085.44,
+  "pendingCommission": 2317521.36,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 2317521.36,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.16,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 5,
+      "revenue": 10557888,
+      "commission": 919644,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 4,
+      "revenue": 6664152,
+      "commission": 1523412,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 7705632,
+      "commission": 1484604,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 9141396,
+    "implementationSuccessRate": 97.4,
+    "customerSatisfactionScore": 4.9,
+    "averageCommissionPerProject": 853512,
+    "recurringRevenueShare": 28.5
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-12T00:00:00Z"
+}

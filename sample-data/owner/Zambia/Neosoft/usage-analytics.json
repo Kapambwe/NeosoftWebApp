@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ua-001",
+    "productName": "Business Management Suite",
+    "activeUsers": 1247,
+    "totalSessions": 8934,
+    "averageSessionDuration": 24.5,
+    "pageViews": 45678,
+    "bounceRate": 12.3,
+    "conversionRate": 3.8,
+    "retentionRate": 87.2,
+    "churnRate": 2.1,
+    "monthlyGrowth": 15.6,
+    "topFeatures": [
+      "Dashboard",
+      "Reports",
+      "User Management",
+      "Analytics",
+      "Settings"
+    ],
+    "deviceBreakdown": {
+      "desktop": 68.5,
+      "mobile": 24.2,
+      "tablet": 7.3
+    },
+    "geographicDistribution": {
+      "US": 45.2,
+      "UK": 18.7,
+      "Canada": 12.4,
+      "Australia": 8.9,
+      "Other": 14.8
+    },
+    "lastUpdated": "2024-01-30T00:00:00Z"
+  },
+  {
+    "id": "ua-002",
+    "productName": "Legal Practice Management",
+    "activeUsers": 892,
+    "totalSessions": 5643,
+    "averageSessionDuration": 32.1,
+    "pageViews": 28934,
+    "bounceRate": 8.7,
+    "conversionRate": 4.2,
+    "retentionRate": 91.5,
+    "churnRate": 1.8,
+    "monthlyGrowth": 22.3,
+    "topFeatures": [
+      "Case Management",
+      "Document Library",
+      "Time Tracking",
+      "Billing",
+      "Client Portal"
+    ],
+    "deviceBreakdown": {
+      "desktop": 78.9,
+      "mobile": 15.6,
+      "tablet": 5.5
+    },
+    "geographicDistribution": {
+      "US": 52.1,
+      "UK": 21.3,
+      "Canada": 15.2,
+      "Australia": 6.8,
+      "Other": 4.6
+    },
+    "lastUpdated": "2024-01-30T00:00:00Z"
+  },
+  {
+    "id": "ua-003",
+    "productName": "Education Management System",
+    "activeUsers": 2156,
+    "totalSessions": 12847,
+    "averageSessionDuration": 18.7,
+    "pageViews": 67234,
+    "bounceRate": 15.2,
+    "conversionRate": 2.9,
+    "retentionRate": 82.4,
+    "churnRate": 3.2,
+    "monthlyGrowth": 28.9,
+    "topFeatures": [
+      "Student Portal",
+      "Grade Management",
+      "Attendance",
+      "Parent Communication",
+      "Curriculum Planning"
+    ],
+    "deviceBreakdown": {
+      "desktop": 45.2,
+      "mobile": 38.7,
+      "tablet": 16.1
+    },
+    "geographicDistribution": {
+      "US": 38.9,
+      "UK": 16.4,
+      "Canada": 18.7,
+      "Australia": 12.3,
+      "Other": 13.7
+    },
+    "lastUpdated": "2024-01-30T00:00:00Z"
+  },
+  {
+    "id": "ua-004",
+    "productName": "Healthcare Management",
+    "activeUsers": 634,
+    "totalSessions": 3892,
+    "averageSessionDuration": 28.9,
+    "pageViews": 19456,
+    "bounceRate": 9.1,
+    "conversionRate": 5.1,
+    "retentionRate": 94.2,
+    "churnRate": 1.2,
+    "monthlyGrowth": 18.4,
+    "topFeatures": [
+      "Patient Records",
+      "Appointment Scheduling",
+      "Billing",
+      "Insurance Management",
+      "Reporting"
+    ],
+    "deviceBreakdown": {
+      "desktop": 82.3,
+      "mobile": 12.1,
+      "tablet": 5.6
+    },
+    "geographicDistribution": {
+      "US": 67.8,
+      "UK": 12.4,
+      "Canada": 11.2,
+      "Australia": 5.1,
+      "Other": 3.5
+    },
+    "lastUpdated": "2024-01-30T00:00:00Z"
+  }
+]

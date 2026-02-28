@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Botswana-0",
+  "country": "Botswana",
+  "affiliateName": "Kalahari Enterprise Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 972.0,
+      "revenue": 2828919.5,
+      "commission": 990121.82
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1105.0,
+      "revenue": 3168389.84,
+      "commission": 1108936.44
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1237.0,
+      "revenue": 3394703.4,
+      "commission": 1188146.19
+    }
+  ],
+  "summary": {
+    "paidCommission": 3762462.93,
+    "totalRevenue": 11315678.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3960487.3,
+    "totalRegistrations": 4420.0,
+    "pendingCommission": 198024.37,
+    "activeCustomers": 4066.0
+  }
+}

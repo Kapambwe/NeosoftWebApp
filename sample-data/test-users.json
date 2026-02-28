@@ -1,0 +1,3684 @@
+[
+  {
+    "email": "admin@neosoft.zm",
+    "country": "Zambia",
+    "userType": "Owner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000001",
+    "lastName": "Administrator",
+    "username": "admin",
+    "company": "Neosoft",
+    "firstName": "System",
+    "isActive": true,
+    "roles": [
+      "Administrator",
+      "SuperUser"
+    ],
+    "password": "admin123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "manager@neosoft.zm",
+    "country": "Zambia",
+    "userType": "Owner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000002",
+    "lastName": "Kasongo",
+    "username": "manager",
+    "company": "Neosoft",
+    "firstName": "Mwamba",
+    "isActive": true,
+    "roles": [
+      "Manager",
+      "User"
+    ],
+    "password": "manager123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "developer@neosoft.zm",
+    "country": "Zambia",
+    "userType": "Owner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000003",
+    "lastName": "Mulenga",
+    "username": "developer",
+    "company": "Neosoft",
+    "firstName": "Chilufya",
+    "isActive": true,
+    "roles": [
+      "Developer",
+      "User"
+    ],
+    "password": "developer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "analyst@neosoft.zm",
+    "country": "Zambia",
+    "userType": "Owner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000004",
+    "lastName": "Phiri",
+    "username": "analyst",
+    "company": "Neosoft",
+    "firstName": "Thandiwe",
+    "isActive": true,
+    "roles": [
+      "Analyst",
+      "User"
+    ],
+    "password": "analyst123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "support@neosoft.zm",
+    "country": "Zambia",
+    "userType": "Owner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000005",
+    "lastName": "Mwanza",
+    "username": "support",
+    "company": "Neosoft",
+    "firstName": "Bupe",
+    "isActive": true,
+    "roles": [
+      "Support",
+      "User"
+    ],
+    "password": "support123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "finance@neosoft.zm",
+    "country": "Zambia",
+    "userType": "Owner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000006",
+    "lastName": "Banda",
+    "username": "finance",
+    "company": "Neosoft",
+    "firstName": "Kabuswe",
+    "isActive": true,
+    "roles": [
+      "Finance",
+      "User"
+    ],
+    "password": "finance123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mohamed_hassan_egypt@egypt.influence",
+    "country": "Egypt",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000007",
+    "lastName": "Hassan",
+    "username": "mohamed_hassan_egypt",
+    "company": "Mohamed-Hassan",
+    "firstName": "Mohamed",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "fatima_mahmoud_egypt@egypt.influence",
+    "country": "Egypt",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000008",
+    "lastName": "Mahmoud",
+    "username": "fatima_mahmoud_egypt",
+    "company": "Fatima-Mahmoud",
+    "firstName": "Fatima",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "ahmed_ibrahim_egypt@egypt.influence",
+    "country": "Egypt",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000009",
+    "lastName": "Ibrahim",
+    "username": "ahmed_ibrahim_egypt",
+    "company": "Ahmed-Ibrahim",
+    "firstName": "Ahmed",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "nour_khalil_egypt@egypt.influence",
+    "country": "Egypt",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000010",
+    "lastName": "Khalil",
+    "username": "nour_khalil_egypt",
+    "company": "Nour-Khalil",
+    "firstName": "Nour",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "omar_samir_egypt@egypt.influence",
+    "country": "Egypt",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000011",
+    "lastName": "Samir",
+    "username": "omar_samir_egypt",
+    "company": "Omar-Samir",
+    "firstName": "Omar",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@cairotechsolutions.com",
+    "country": "Egypt",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000012",
+    "lastName": "Team",
+    "username": "reseller_cairo_tech_solutions_egypt",
+    "company": "Cairo-Tech-Solutions",
+    "firstName": "Cairo",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@egyptdigitalpartners.com",
+    "country": "Egypt",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000013",
+    "lastName": "Team",
+    "username": "reseller_egypt_digital_partners_egypt",
+    "company": "Egypt-Digital-Partners",
+    "firstName": "Egypt",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@alexandriasystems.com",
+    "country": "Egypt",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000014",
+    "lastName": "Team",
+    "username": "reseller_alexandria_systems_egypt",
+    "company": "Alexandria-Systems",
+    "firstName": "Alexandria",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@nilevalleyenterprise.com",
+    "country": "Egypt",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000015",
+    "lastName": "Solutions",
+    "username": "partner_nile_valley_enterprise_egypt",
+    "company": "Nile-Valley-Enterprise",
+    "firstName": "Nile",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@egyptianintegrationgroup.com",
+    "country": "Egypt",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000016",
+    "lastName": "Solutions",
+    "username": "partner_egyptian_integration_group_egypt",
+    "company": "Egyptian-Integration-Group",
+    "firstName": "Egyptian",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@pyramidsolutionspartners.com",
+    "country": "Egypt",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000017",
+    "lastName": "Solutions",
+    "username": "partner_pyramid_solutions_partners_egypt",
+    "company": "Pyramid-Solutions-Partners",
+    "firstName": "Pyramid",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "thabo_molefe_southafrica@south-africa.influence",
+    "country": "South-Africa",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000018",
+    "lastName": "Molefe",
+    "username": "thabo_molefe_southafrica",
+    "company": "Thabo-Molefe",
+    "firstName": "Thabo",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "nomsa_khumalo_southafrica@south-africa.influence",
+    "country": "South-Africa",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000019",
+    "lastName": "Khumalo",
+    "username": "nomsa_khumalo_southafrica",
+    "company": "Nomsa-Khumalo",
+    "firstName": "Nomsa",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "sipho_dlamini_southafrica@south-africa.influence",
+    "country": "South-Africa",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000020",
+    "lastName": "Dlamini",
+    "username": "sipho_dlamini_southafrica",
+    "company": "Sipho-Dlamini",
+    "firstName": "Sipho",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "zanele_nkosi_southafrica@south-africa.influence",
+    "country": "South-Africa",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000021",
+    "lastName": "Nkosi",
+    "username": "zanele_nkosi_southafrica",
+    "company": "Zanele-Nkosi",
+    "firstName": "Zanele",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mandla_mbatha_southafrica@south-africa.influence",
+    "country": "South-Africa",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000022",
+    "lastName": "Mbatha",
+    "username": "mandla_mbatha_southafrica",
+    "company": "Mandla-Mbatha",
+    "firstName": "Mandla",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@capetechsolutions.com",
+    "country": "South-Africa",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000023",
+    "lastName": "Team",
+    "username": "reseller_cape_tech_solutions_southafrica",
+    "company": "Cape-Tech-Solutions",
+    "firstName": "Cape",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@johannesburgdigital.com",
+    "country": "South-Africa",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000024",
+    "lastName": "Team",
+    "username": "reseller_johannesburg_digital_southafrica",
+    "company": "Johannesburg-Digital",
+    "firstName": "Johannesburg",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@durbansystems.com",
+    "country": "South-Africa",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000025",
+    "lastName": "Team",
+    "username": "reseller_durban_systems_southafrica",
+    "company": "Durban-Systems",
+    "firstName": "Durban",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@africanenterprisepartners.com",
+    "country": "South-Africa",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000026",
+    "lastName": "Solutions",
+    "username": "partner_african_enterprise_partners_southafrica",
+    "company": "African-Enterprise-Partners",
+    "firstName": "African",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@saintegrationgroup.com",
+    "country": "South-Africa",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000027",
+    "lastName": "Solutions",
+    "username": "partner_sa_integration_group_southafrica",
+    "company": "SA-Integration-Group",
+    "firstName": "SA",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@ubuntusolutions.com",
+    "country": "South-Africa",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000028",
+    "lastName": "Solutions",
+    "username": "partner_ubuntu_solutions_southafrica",
+    "company": "Ubuntu-Solutions",
+    "firstName": "Ubuntu",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "tebogo_moatlhodi_botswana@botswana.influence",
+    "country": "Botswana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000029",
+    "lastName": "Moatlhodi",
+    "username": "tebogo_moatlhodi_botswana",
+    "company": "Tebogo-Moatlhodi",
+    "firstName": "Tebogo",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "kefilwe_gabaraane_botswana@botswana.influence",
+    "country": "Botswana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000030",
+    "lastName": "Gabaraane",
+    "username": "kefilwe_gabaraane_botswana",
+    "company": "Kefilwe-Gabaraane",
+    "firstName": "Kefilwe",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "tshepo_kgosidintsi_botswana@botswana.influence",
+    "country": "Botswana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000031",
+    "lastName": "Kgosidintsi",
+    "username": "tshepo_kgosidintsi_botswana",
+    "company": "Tshepo-Kgosidintsi",
+    "firstName": "Tshepo",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "lorato_mogapi_botswana@botswana.influence",
+    "country": "Botswana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000032",
+    "lastName": "Mogapi",
+    "username": "lorato_mogapi_botswana",
+    "company": "Lorato-Mogapi",
+    "firstName": "Lorato",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "thato_seretse_botswana@botswana.influence",
+    "country": "Botswana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000033",
+    "lastName": "Seretse",
+    "username": "thato_seretse_botswana",
+    "company": "Thato-Seretse",
+    "firstName": "Thato",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@gaboronetechhub.com",
+    "country": "Botswana",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000034",
+    "lastName": "Team",
+    "username": "reseller_gaborone_tech_hub_botswana",
+    "company": "Gaborone-Tech-Hub",
+    "firstName": "Gaborone",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@botswanadigitalsolutions.com",
+    "country": "Botswana",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000035",
+    "lastName": "Team",
+    "username": "reseller_botswana_digital_solutions_botswana",
+    "company": "Botswana-Digital-Solutions",
+    "firstName": "Botswana",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@francistownsystems.com",
+    "country": "Botswana",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000036",
+    "lastName": "Team",
+    "username": "reseller_francistown_systems_botswana",
+    "company": "Francistown-Systems",
+    "firstName": "Francistown",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@kalaharienterprisepartners.com",
+    "country": "Botswana",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000037",
+    "lastName": "Solutions",
+    "username": "partner_kalahari_enterprise_partners_botswana",
+    "company": "Kalahari-Enterprise-Partners",
+    "firstName": "Kalahari",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@botswanaintegrationgroup.com",
+    "country": "Botswana",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000038",
+    "lastName": "Solutions",
+    "username": "partner_botswana_integration_group_botswana",
+    "company": "Botswana-Integration-Group",
+    "firstName": "Botswana",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@okavangosolutions.com",
+    "country": "Botswana",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000039",
+    "lastName": "Solutions",
+    "username": "partner_okavango_solutions_botswana",
+    "company": "Okavango-Solutions",
+    "firstName": "Okavango",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "chukwu_okafor_nigeria@nigeria.influence",
+    "country": "Nigeria",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000040",
+    "lastName": "Okafor",
+    "username": "chukwu_okafor_nigeria",
+    "company": "Chukwu-Okafor",
+    "firstName": "Chukwu",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "ngozi_adeleke_nigeria@nigeria.influence",
+    "country": "Nigeria",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000041",
+    "lastName": "Adeleke",
+    "username": "ngozi_adeleke_nigeria",
+    "company": "Ngozi-Adeleke",
+    "firstName": "Ngozi",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "olumide_balogun_nigeria@nigeria.influence",
+    "country": "Nigeria",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000042",
+    "lastName": "Balogun",
+    "username": "olumide_balogun_nigeria",
+    "company": "Olumide-Balogun",
+    "firstName": "Olumide",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "amaka_nwosu_nigeria@nigeria.influence",
+    "country": "Nigeria",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000043",
+    "lastName": "Nwosu",
+    "username": "amaka_nwosu_nigeria",
+    "company": "Amaka-Nwosu",
+    "firstName": "Amaka",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "tunde_adeyemi_nigeria@nigeria.influence",
+    "country": "Nigeria",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000044",
+    "lastName": "Adeyemi",
+    "username": "tunde_adeyemi_nigeria",
+    "company": "Tunde-Adeyemi",
+    "firstName": "Tunde",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@lagostechsolutions.com",
+    "country": "Nigeria",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000045",
+    "lastName": "Team",
+    "username": "reseller_lagos_tech_solutions_nigeria",
+    "company": "Lagos-Tech-Solutions",
+    "firstName": "Lagos",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@nigeriadigitalpartners.com",
+    "country": "Nigeria",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000046",
+    "lastName": "Team",
+    "username": "reseller_nigeria_digital_partners_nigeria",
+    "company": "Nigeria-Digital-Partners",
+    "firstName": "Nigeria",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@abujasystems.com",
+    "country": "Nigeria",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000047",
+    "lastName": "Team",
+    "username": "reseller_abuja_systems_nigeria",
+    "company": "Abuja-Systems",
+    "firstName": "Abuja",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@westafricaenterprise.com",
+    "country": "Nigeria",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000048",
+    "lastName": "Solutions",
+    "username": "partner_west_africa_enterprise_nigeria",
+    "company": "West-Africa-Enterprise",
+    "firstName": "West",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@nigerianintegrationgroup.com",
+    "country": "Nigeria",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000049",
+    "lastName": "Solutions",
+    "username": "partner_nigerian_integration_group_nigeria",
+    "company": "Nigerian-Integration-Group",
+    "firstName": "Nigerian",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@nigerdeltapartners.com",
+    "country": "Nigeria",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000050",
+    "lastName": "Solutions",
+    "username": "partner_niger_delta_partners_nigeria",
+    "company": "Niger-Delta-Partners",
+    "firstName": "Niger",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "jean_paul_rwanda@rwanda.influence",
+    "country": "Rwanda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000051",
+    "lastName": "Paul",
+    "username": "jean_paul_rwanda",
+    "company": "Jean-Paul-Uwimana",
+    "firstName": "Jean",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "grace_mukamana_rwanda@rwanda.influence",
+    "country": "Rwanda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000052",
+    "lastName": "Mukamana",
+    "username": "grace_mukamana_rwanda",
+    "company": "Grace-Mukamana",
+    "firstName": "Grace",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "eric_habimana_rwanda@rwanda.influence",
+    "country": "Rwanda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000053",
+    "lastName": "Habimana",
+    "username": "eric_habimana_rwanda",
+    "company": "Eric-Habimana",
+    "firstName": "Eric",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "divine_uwase_rwanda@rwanda.influence",
+    "country": "Rwanda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000054",
+    "lastName": "Uwase",
+    "username": "divine_uwase_rwanda",
+    "company": "Divine-Uwase",
+    "firstName": "Divine",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "patrick_nkurunziza_rwanda@rwanda.influence",
+    "country": "Rwanda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000055",
+    "lastName": "Nkurunziza",
+    "username": "patrick_nkurunziza_rwanda",
+    "company": "Patrick-Nkurunziza",
+    "firstName": "Patrick",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@kigalitechsolutions.com",
+    "country": "Rwanda",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000056",
+    "lastName": "Team",
+    "username": "reseller_kigali_tech_solutions_rwanda",
+    "company": "Kigali-Tech-Solutions",
+    "firstName": "Kigali",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@rwandadigitalpartners.com",
+    "country": "Rwanda",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000057",
+    "lastName": "Team",
+    "username": "reseller_rwanda_digital_partners_rwanda",
+    "company": "Rwanda-Digital-Partners",
+    "firstName": "Rwanda",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@gisenyisystems.com",
+    "country": "Rwanda",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000058",
+    "lastName": "Team",
+    "username": "reseller_gisenyi_systems_rwanda",
+    "company": "Gisenyi-Systems",
+    "firstName": "Gisenyi",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@landofthousandhillspartners.com",
+    "country": "Rwanda",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000059",
+    "lastName": "Solutions",
+    "username": "partner_land_of_thousand_hills_partners_rwanda",
+    "company": "Land-of-Thousand-Hills-Partners",
+    "firstName": "Land",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@rwandaintegrationgroup.com",
+    "country": "Rwanda",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000060",
+    "lastName": "Solutions",
+    "username": "partner_rwanda_integration_group_rwanda",
+    "company": "Rwanda-Integration-Group",
+    "firstName": "Rwanda",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@virungasolutions.com",
+    "country": "Rwanda",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000061",
+    "lastName": "Solutions",
+    "username": "partner_virunga_solutions_rwanda",
+    "company": "Virunga-Solutions",
+    "firstName": "Virunga",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mulenga_phiri_zambia@zambia.influence",
+    "country": "Zambia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000062",
+    "lastName": "Phiri",
+    "username": "mulenga_phiri_zambia",
+    "company": "Mulenga-Phiri",
+    "firstName": "Mulenga",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "chanda_mwansa_zambia@zambia.influence",
+    "country": "Zambia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000063",
+    "lastName": "Mwansa",
+    "username": "chanda_mwansa_zambia",
+    "company": "Chanda-Mwansa",
+    "firstName": "Chanda",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "bwalya_tembo_zambia@zambia.influence",
+    "country": "Zambia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000064",
+    "lastName": "Tembo",
+    "username": "bwalya_tembo_zambia",
+    "company": "Bwalya-Tembo",
+    "firstName": "Bwalya",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mutale_banda_zambia@zambia.influence",
+    "country": "Zambia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000065",
+    "lastName": "Banda",
+    "username": "mutale_banda_zambia",
+    "company": "Mutale-Banda",
+    "firstName": "Mutale",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "kabwe_sakala_zambia@zambia.influence",
+    "country": "Zambia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000066",
+    "lastName": "Sakala",
+    "username": "kabwe_sakala_zambia",
+    "company": "Kabwe-Sakala",
+    "firstName": "Kabwe",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@lusakatechsolutions.com",
+    "country": "Zambia",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000067",
+    "lastName": "Team",
+    "username": "reseller_lusaka_tech_solutions_zambia",
+    "company": "Lusaka-Tech-Solutions",
+    "firstName": "Lusaka",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@zambiadigitalpartners.com",
+    "country": "Zambia",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000068",
+    "lastName": "Team",
+    "username": "reseller_zambia_digital_partners_zambia",
+    "company": "Zambia-Digital-Partners",
+    "firstName": "Zambia",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@ndolasystems.com",
+    "country": "Zambia",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000069",
+    "lastName": "Team",
+    "username": "reseller_ndola_systems_zambia",
+    "company": "Ndola-Systems",
+    "firstName": "Ndola",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@zambezienterprisegroup.com",
+    "country": "Zambia",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000070",
+    "lastName": "Solutions",
+    "username": "partner_zambezi_enterprise_group_zambia",
+    "company": "Zambezi-Enterprise-Group",
+    "firstName": "Zambezi",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@zambiaintegrationpartners.com",
+    "country": "Zambia",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000071",
+    "lastName": "Solutions",
+    "username": "partner_zambia_integration_partners_zambia",
+    "company": "Zambia-Integration-Partners",
+    "firstName": "Zambia",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@victoriafallssolutions.com",
+    "country": "Zambia",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000072",
+    "lastName": "Solutions",
+    "username": "partner_victoria_falls_solutions_zambia",
+    "company": "Victoria-Falls-Solutions",
+    "firstName": "Victoria",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "tendai_moyo_zimbabwe@zimbabwe.influence",
+    "country": "Zimbabwe",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000073",
+    "lastName": "Moyo",
+    "username": "tendai_moyo_zimbabwe",
+    "company": "Tendai-Moyo",
+    "firstName": "Tendai",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "rudo_ncube_zimbabwe@zimbabwe.influence",
+    "country": "Zimbabwe",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000074",
+    "lastName": "Ncube",
+    "username": "rudo_ncube_zimbabwe",
+    "company": "Rudo-Ncube",
+    "firstName": "Rudo",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "takudzwa_mpofu_zimbabwe@zimbabwe.influence",
+    "country": "Zimbabwe",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000075",
+    "lastName": "Mpofu",
+    "username": "takudzwa_mpofu_zimbabwe",
+    "company": "Takudzwa-Mpofu",
+    "firstName": "Takudzwa",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "chipo_sibanda_zimbabwe@zimbabwe.influence",
+    "country": "Zimbabwe",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000076",
+    "lastName": "Sibanda",
+    "username": "chipo_sibanda_zimbabwe",
+    "company": "Chipo-Sibanda",
+    "firstName": "Chipo",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "farai_gumbo_zimbabwe@zimbabwe.influence",
+    "country": "Zimbabwe",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000077",
+    "lastName": "Gumbo",
+    "username": "farai_gumbo_zimbabwe",
+    "company": "Farai-Gumbo",
+    "firstName": "Farai",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@hararetechhub.com",
+    "country": "Zimbabwe",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000078",
+    "lastName": "Team",
+    "username": "reseller_harare_tech_hub_zimbabwe",
+    "company": "Harare-Tech-Hub",
+    "firstName": "Harare",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@zimbabwedigitalpartners.com",
+    "country": "Zimbabwe",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000079",
+    "lastName": "Team",
+    "username": "reseller_zimbabwe_digital_partners_zimbabwe",
+    "company": "Zimbabwe-Digital-Partners",
+    "firstName": "Zimbabwe",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@bulawayosolutions.com",
+    "country": "Zimbabwe",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000080",
+    "lastName": "Team",
+    "username": "reseller_bulawayo_solutions_zimbabwe",
+    "company": "Bulawayo-Solutions",
+    "firstName": "Bulawayo",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@zimbabweenterprisesystems.com",
+    "country": "Zimbabwe",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000081",
+    "lastName": "Solutions",
+    "username": "partner_zimbabwe_enterprise_systems_zimbabwe",
+    "company": "Zimbabwe-Enterprise-Systems",
+    "firstName": "Zimbabwe",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@zambeziintegration.com",
+    "country": "Zimbabwe",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000082",
+    "lastName": "Solutions",
+    "username": "partner_zambezi_integration_zimbabwe",
+    "company": "Zambezi-Integration",
+    "firstName": "Zambezi",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@victoriapartners.com",
+    "country": "Zimbabwe",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000083",
+    "lastName": "Solutions",
+    "username": "partner_victoria_partners_zimbabwe",
+    "company": "Victoria-Partners",
+    "firstName": "Victoria",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "kwame_mensah_ghana@ghana.influence",
+    "country": "Ghana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000084",
+    "lastName": "Mensah",
+    "username": "kwame_mensah_ghana",
+    "company": "Kwame-Mensah",
+    "firstName": "Kwame",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "akosua_agyeman_ghana@ghana.influence",
+    "country": "Ghana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000085",
+    "lastName": "Agyeman",
+    "username": "akosua_agyeman_ghana",
+    "company": "Akosua-Agyeman",
+    "firstName": "Akosua",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "kofi_boateng_ghana@ghana.influence",
+    "country": "Ghana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000086",
+    "lastName": "Boateng",
+    "username": "kofi_boateng_ghana",
+    "company": "Kofi-Boateng",
+    "firstName": "Kofi",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "ama_osei_ghana@ghana.influence",
+    "country": "Ghana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000087",
+    "lastName": "Osei",
+    "username": "ama_osei_ghana",
+    "company": "Ama-Osei",
+    "firstName": "Ama",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "yaw_asante_ghana@ghana.influence",
+    "country": "Ghana",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000088",
+    "lastName": "Asante",
+    "username": "yaw_asante_ghana",
+    "company": "Yaw-Asante",
+    "firstName": "Yaw",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@accratechhub.com",
+    "country": "Ghana",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000089",
+    "lastName": "Team",
+    "username": "reseller_accra_tech_hub_ghana",
+    "company": "Accra-Tech-Hub",
+    "firstName": "Accra",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@ghanadigitalsolutions.com",
+    "country": "Ghana",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000090",
+    "lastName": "Team",
+    "username": "reseller_ghana_digital_solutions_ghana",
+    "company": "Ghana-Digital-Solutions",
+    "firstName": "Ghana",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@kumasisystems.com",
+    "country": "Ghana",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000091",
+    "lastName": "Team",
+    "username": "reseller_kumasi_systems_ghana",
+    "company": "Kumasi-Systems",
+    "firstName": "Kumasi",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@goldcoastenterprise.com",
+    "country": "Ghana",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000092",
+    "lastName": "Solutions",
+    "username": "partner_gold_coast_enterprise_ghana",
+    "company": "Gold-Coast-Enterprise",
+    "firstName": "Gold",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@ghanaintegrationpartners.com",
+    "country": "Ghana",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000093",
+    "lastName": "Solutions",
+    "username": "partner_ghana_integration_partners_ghana",
+    "company": "Ghana-Integration-Partners",
+    "firstName": "Ghana",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@ashantisolutionsgroup.com",
+    "country": "Ghana",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000094",
+    "lastName": "Solutions",
+    "username": "partner_ashanti_solutions_group_ghana",
+    "company": "Ashanti-Solutions-Group",
+    "firstName": "Ashanti",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "youssef_alami_morocco@morocco.influence",
+    "country": "Morocco",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000095",
+    "lastName": "Alami",
+    "username": "youssef_alami_morocco",
+    "company": "Youssef-Alami",
+    "firstName": "Youssef",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "amina_bennani_morocco@morocco.influence",
+    "country": "Morocco",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000096",
+    "lastName": "Bennani",
+    "username": "amina_bennani_morocco",
+    "company": "Amina-Bennani",
+    "firstName": "Amina",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "karim_idrissi_morocco@morocco.influence",
+    "country": "Morocco",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000097",
+    "lastName": "Idrissi",
+    "username": "karim_idrissi_morocco",
+    "company": "Karim-Idrissi",
+    "firstName": "Karim",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "salma_tazi_morocco@morocco.influence",
+    "country": "Morocco",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000098",
+    "lastName": "Tazi",
+    "username": "salma_tazi_morocco",
+    "company": "Salma-Tazi",
+    "firstName": "Salma",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mehdi_fassi_morocco@morocco.influence",
+    "country": "Morocco",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000099",
+    "lastName": "Fassi",
+    "username": "mehdi_fassi_morocco",
+    "company": "Mehdi-Fassi",
+    "firstName": "Mehdi",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@casablancatechhub.com",
+    "country": "Morocco",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000100",
+    "lastName": "Team",
+    "username": "reseller_casablanca_tech_hub_morocco",
+    "company": "Casablanca-Tech-Hub",
+    "firstName": "Casablanca",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@moroccodigitalsolutions.com",
+    "country": "Morocco",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000101",
+    "lastName": "Team",
+    "username": "reseller_morocco_digital_solutions_morocco",
+    "company": "Morocco-Digital-Solutions",
+    "firstName": "Morocco",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@rabatsystems.com",
+    "country": "Morocco",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000102",
+    "lastName": "Team",
+    "username": "reseller_rabat_systems_morocco",
+    "company": "Rabat-Systems",
+    "firstName": "Rabat",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@maghrebenterprisepartners.com",
+    "country": "Morocco",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000103",
+    "lastName": "Solutions",
+    "username": "partner_maghreb_enterprise_partners_morocco",
+    "company": "Maghreb-Enterprise-Partners",
+    "firstName": "Maghreb",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@atlasintegrationgroup.com",
+    "country": "Morocco",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000104",
+    "lastName": "Solutions",
+    "username": "partner_atlas_integration_group_morocco",
+    "company": "Atlas-Integration-Group",
+    "firstName": "Atlas",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@moroccansolutionsnetwork.com",
+    "country": "Morocco",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000105",
+    "lastName": "Solutions",
+    "username": "partner_moroccan_solutions_network_morocco",
+    "company": "Moroccan-Solutions-Network",
+    "firstName": "Moroccan",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "juma_mwangi_tanzania@tanzania.influence",
+    "country": "Tanzania",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000106",
+    "lastName": "Mwangi",
+    "username": "juma_mwangi_tanzania",
+    "company": "Juma-Mwangi",
+    "firstName": "Juma",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "amina_hassan_tanzania@tanzania.influence",
+    "country": "Tanzania",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000107",
+    "lastName": "Hassan",
+    "username": "amina_hassan_tanzania",
+    "company": "Amina-Hassan",
+    "firstName": "Amina",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "bakari_salum_tanzania@tanzania.influence",
+    "country": "Tanzania",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000108",
+    "lastName": "Salum",
+    "username": "bakari_salum_tanzania",
+    "company": "Bakari-Salum",
+    "firstName": "Bakari",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "fatuma_ali_tanzania@tanzania.influence",
+    "country": "Tanzania",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000109",
+    "lastName": "Ali",
+    "username": "fatuma_ali_tanzania",
+    "company": "Fatuma-Ali",
+    "firstName": "Fatuma",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "hamisi_rashid_tanzania@tanzania.influence",
+    "country": "Tanzania",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000110",
+    "lastName": "Rashid",
+    "username": "hamisi_rashid_tanzania",
+    "company": "Hamisi-Rashid",
+    "firstName": "Hamisi",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@dartechsolutions.com",
+    "country": "Tanzania",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000111",
+    "lastName": "Team",
+    "username": "reseller_dar_tech_solutions_tanzania",
+    "company": "Dar-Tech-Solutions",
+    "firstName": "Dar",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@tanzaniadigital.com",
+    "country": "Tanzania",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000112",
+    "lastName": "Team",
+    "username": "reseller_tanzania_digital_tanzania",
+    "company": "Tanzania-Digital",
+    "firstName": "Tanzania",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@kilimanjarosystems.com",
+    "country": "Tanzania",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000113",
+    "lastName": "Team",
+    "username": "reseller_kilimanjaro_systems_tanzania",
+    "company": "Kilimanjaro-Systems",
+    "firstName": "Kilimanjaro",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@serengetienterprisepartners.com",
+    "country": "Tanzania",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000114",
+    "lastName": "Solutions",
+    "username": "partner_serengeti_enterprise_partners_tanzania",
+    "company": "Serengeti-Enterprise-Partners",
+    "firstName": "Serengeti",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@zanzibarintegration.com",
+    "country": "Tanzania",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000115",
+    "lastName": "Solutions",
+    "username": "partner_zanzibar_integration_tanzania",
+    "company": "Zanzibar-Integration",
+    "firstName": "Zanzibar",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@tanzaniasolutionsgroup.com",
+    "country": "Tanzania",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000116",
+    "lastName": "Solutions",
+    "username": "partner_tanzania_solutions_group_tanzania",
+    "company": "Tanzania-Solutions-Group",
+    "firstName": "Tanzania",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "nakato_musoke_uganda@uganda.influence",
+    "country": "Uganda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000117",
+    "lastName": "Musoke",
+    "username": "nakato_musoke_uganda",
+    "company": "Nakato-Musoke",
+    "firstName": "Nakato",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "kato_ssemakula_uganda@uganda.influence",
+    "country": "Uganda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000118",
+    "lastName": "Ssemakula",
+    "username": "kato_ssemakula_uganda",
+    "company": "Kato-Ssemakula",
+    "firstName": "Kato",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "namuli_okello_uganda@uganda.influence",
+    "country": "Uganda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000119",
+    "lastName": "Okello",
+    "username": "namuli_okello_uganda",
+    "company": "Namuli-Okello",
+    "firstName": "Namuli",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "wasswa_mukasa_uganda@uganda.influence",
+    "country": "Uganda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000120",
+    "lastName": "Mukasa",
+    "username": "wasswa_mukasa_uganda",
+    "company": "Wasswa-Mukasa",
+    "firstName": "Wasswa",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "nabirye_katende_uganda@uganda.influence",
+    "country": "Uganda",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000121",
+    "lastName": "Katende",
+    "username": "nabirye_katende_uganda",
+    "company": "Nabirye-Katende",
+    "firstName": "Nabirye",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@kampalatechhub.com",
+    "country": "Uganda",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000122",
+    "lastName": "Team",
+    "username": "reseller_kampala_tech_hub_uganda",
+    "company": "Kampala-Tech-Hub",
+    "firstName": "Kampala",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@ugandadigitalsolutions.com",
+    "country": "Uganda",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000123",
+    "lastName": "Team",
+    "username": "reseller_uganda_digital_solutions_uganda",
+    "company": "Uganda-Digital-Solutions",
+    "firstName": "Uganda",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@entebbesystems.com",
+    "country": "Uganda",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000124",
+    "lastName": "Team",
+    "username": "reseller_entebbe_systems_uganda",
+    "company": "Entebbe-Systems",
+    "firstName": "Entebbe",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@pearlafricapartners.com",
+    "country": "Uganda",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000125",
+    "lastName": "Solutions",
+    "username": "partner_pearl_africa_partners_uganda",
+    "company": "Pearl-Africa-Partners",
+    "firstName": "Pearl",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@ugandaenterprisegroup.com",
+    "country": "Uganda",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000126",
+    "lastName": "Solutions",
+    "username": "partner_uganda_enterprise_group_uganda",
+    "company": "Uganda-Enterprise-Group",
+    "firstName": "Uganda",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@nileintegrationsystems.com",
+    "country": "Uganda",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000127",
+    "lastName": "Solutions",
+    "username": "partner_nile_integration_systems_uganda",
+    "company": "Nile-Integration-Systems",
+    "firstName": "Nile",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "abebe_bekele_ethiopia@ethiopia.influence",
+    "country": "Ethiopia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000128",
+    "lastName": "Bekele",
+    "username": "abebe_bekele_ethiopia",
+    "company": "Abebe-Bekele",
+    "firstName": "Abebe",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "tigist_alemayehu_ethiopia@ethiopia.influence",
+    "country": "Ethiopia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000129",
+    "lastName": "Alemayehu",
+    "username": "tigist_alemayehu_ethiopia",
+    "company": "Tigist-Alemayehu",
+    "firstName": "Tigist",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "yohannes_haile_ethiopia@ethiopia.influence",
+    "country": "Ethiopia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000130",
+    "lastName": "Haile",
+    "username": "yohannes_haile_ethiopia",
+    "company": "Yohannes-Haile",
+    "firstName": "Yohannes",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mulu_tesfaye_ethiopia@ethiopia.influence",
+    "country": "Ethiopia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000131",
+    "lastName": "Tesfaye",
+    "username": "mulu_tesfaye_ethiopia",
+    "company": "Mulu-Tesfaye",
+    "firstName": "Mulu",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "dawit_girma_ethiopia@ethiopia.influence",
+    "country": "Ethiopia",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000132",
+    "lastName": "Girma",
+    "username": "dawit_girma_ethiopia",
+    "company": "Dawit-Girma",
+    "firstName": "Dawit",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@addistechsolutions.com",
+    "country": "Ethiopia",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000133",
+    "lastName": "Team",
+    "username": "reseller_addis_tech_solutions_ethiopia",
+    "company": "Addis-Tech-Solutions",
+    "firstName": "Addis",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@ethiopiadigitalpartners.com",
+    "country": "Ethiopia",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000134",
+    "lastName": "Team",
+    "username": "reseller_ethiopia_digital_partners_ethiopia",
+    "company": "Ethiopia-Digital-Partners",
+    "firstName": "Ethiopia",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@bahirdarsystems.com",
+    "country": "Ethiopia",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000135",
+    "lastName": "Team",
+    "username": "reseller_bahir_dar_systems_ethiopia",
+    "company": "Bahir-Dar-Systems",
+    "firstName": "Bahir",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@ethiopianenterprisegroup.com",
+    "country": "Ethiopia",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000136",
+    "lastName": "Solutions",
+    "username": "partner_ethiopian_enterprise_group_ethiopia",
+    "company": "Ethiopian-Enterprise-Group",
+    "firstName": "Ethiopian",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@abyssiniaintegration.com",
+    "country": "Ethiopia",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000137",
+    "lastName": "Solutions",
+    "username": "partner_abyssinia_integration_ethiopia",
+    "company": "Abyssinia-Integration",
+    "firstName": "Abyssinia",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@riftvalleypartners.com",
+    "country": "Ethiopia",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000138",
+    "lastName": "Solutions",
+    "username": "partner_rift_valley_partners_ethiopia",
+    "company": "Rift-Valley-Partners",
+    "firstName": "Rift",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "akinyi_maina_kenya@kenya.influence",
+    "country": "Kenya",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000139",
+    "lastName": "Maina",
+    "username": "akinyi_maina_kenya",
+    "company": "Akinyi-Maina",
+    "firstName": "Akinyi",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "kamau_omondi_kenya@kenya.influence",
+    "country": "Kenya",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000140",
+    "lastName": "Omondi",
+    "username": "kamau_omondi_kenya",
+    "company": "Kamau-Omondi",
+    "firstName": "Kamau",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mwangi_wambui_kenya@kenya.influence",
+    "country": "Kenya",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000141",
+    "lastName": "Wambui",
+    "username": "mwangi_wambui_kenya",
+    "company": "Mwangi-Wambui",
+    "firstName": "Mwangi",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "njeri_kipchoge_kenya@kenya.influence",
+    "country": "Kenya",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000142",
+    "lastName": "Kipchoge",
+    "username": "njeri_kipchoge_kenya",
+    "company": "Njeri-Kipchoge",
+    "firstName": "Njeri",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "wanjiku_kariuki_kenya@kenya.influence",
+    "country": "Kenya",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000143",
+    "lastName": "Kariuki",
+    "username": "wanjiku_kariuki_kenya",
+    "company": "Wanjiku-Kariuki",
+    "firstName": "Wanjiku",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@nairobitechsolutions.com",
+    "country": "Kenya",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000144",
+    "lastName": "Team",
+    "username": "reseller_nairobi_tech_solutions_kenya",
+    "company": "Nairobi-Tech-Solutions",
+    "firstName": "Nairobi",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@kenyadigitalpartners.com",
+    "country": "Kenya",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000145",
+    "lastName": "Team",
+    "username": "reseller_kenya_digital_partners_kenya",
+    "company": "Kenya-Digital-Partners",
+    "firstName": "Kenya",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@mombasasystems.com",
+    "country": "Kenya",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000146",
+    "lastName": "Team",
+    "username": "reseller_mombasa_systems_kenya",
+    "company": "Mombasa-Systems",
+    "firstName": "Mombasa",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@eastafricaenterprise.com",
+    "country": "Kenya",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000147",
+    "lastName": "Solutions",
+    "username": "partner_east_africa_enterprise_kenya",
+    "company": "East-Africa-Enterprise",
+    "firstName": "East",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@kenyaintegrationpartners.com",
+    "country": "Kenya",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000148",
+    "lastName": "Solutions",
+    "username": "partner_kenya_integration_partners_kenya",
+    "company": "Kenya-Integration-Partners",
+    "firstName": "Kenya",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@maasaisolutionsgroup.com",
+    "country": "Kenya",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000149",
+    "lastName": "Solutions",
+    "username": "partner_maasai_solutions_group_kenya",
+    "company": "Maasai-Solutions-Group",
+    "firstName": "Maasai",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "chisomo_banda_malawi@malawi.influence",
+    "country": "Malawi",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000150",
+    "lastName": "Banda",
+    "username": "chisomo_banda_malawi",
+    "company": "Chisomo-Banda",
+    "firstName": "Chisomo",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "thoko_phiri_malawi@malawi.influence",
+    "country": "Malawi",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000151",
+    "lastName": "Phiri",
+    "username": "thoko_phiri_malawi",
+    "company": "Thoko-Phiri",
+    "firstName": "Thoko",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "kondwani_chirwa_malawi@malawi.influence",
+    "country": "Malawi",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000152",
+    "lastName": "Chirwa",
+    "username": "kondwani_chirwa_malawi",
+    "company": "Kondwani-Chirwa",
+    "firstName": "Kondwani",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "chimwemwe_mwale_malawi@malawi.influence",
+    "country": "Malawi",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000153",
+    "lastName": "Mwale",
+    "username": "chimwemwe_mwale_malawi",
+    "company": "Chimwemwe-Mwale",
+    "firstName": "Chimwemwe",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "mphatso_kumwenda_malawi@malawi.influence",
+    "country": "Malawi",
+    "userType": "Influencer",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Analytics"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000154",
+    "lastName": "Kumwenda",
+    "username": "mphatso_kumwenda_malawi",
+    "company": "Mphatso-Kumwenda",
+    "firstName": "Mphatso",
+    "isActive": true,
+    "roles": [
+      "Influencer",
+      "Affiliate"
+    ],
+    "password": "influencer123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@lilongwetechhub.com",
+    "country": "Malawi",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000155",
+    "lastName": "Team",
+    "username": "reseller_lilongwe_tech_hub_malawi",
+    "company": "Lilongwe-Tech-Hub",
+    "firstName": "Lilongwe",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@malawidigitalpartners.com",
+    "country": "Malawi",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000156",
+    "lastName": "Team",
+    "username": "reseller_malawi_digital_partners_malawi",
+    "company": "Malawi-Digital-Partners",
+    "firstName": "Malawi",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "contact@blantyresolutions.com",
+    "country": "Malawi",
+    "userType": "Reseller",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Customers",
+      "Manage.Sales"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000157",
+    "lastName": "Team",
+    "username": "reseller_blantyre_solutions_malawi",
+    "company": "Blantyre-Solutions",
+    "firstName": "Blantyre",
+    "isActive": true,
+    "roles": [
+      "Reseller",
+      "Affiliate",
+      "Sales"
+    ],
+    "password": "reseller123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@lakemalawisystems.com",
+    "country": "Malawi",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000158",
+    "lastName": "Solutions",
+    "username": "partner_lake_malawi_systems_malawi",
+    "company": "Lake-Malawi-Systems",
+    "firstName": "Lake",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@malawiintegrationgroup.com",
+    "country": "Malawi",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000159",
+    "lastName": "Solutions",
+    "username": "partner_malawi_integration_group_malawi",
+    "company": "Malawi-Integration-Group",
+    "firstName": "Malawi",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  },
+  {
+    "email": "partnerships@shirepartners.com",
+    "country": "Malawi",
+    "userType": "Partner",
+    "permissions": [
+      "View.Dashboard",
+      "View.Commission",
+      "View.Integration",
+      "Manage.Partnership"
+    ],
+    "id": "550e8400-e29b-41d4-a716-000000000160",
+    "lastName": "Solutions",
+    "username": "partner_shire_partners_malawi",
+    "company": "Shire-Partners",
+    "firstName": "Shire",
+    "isActive": true,
+    "roles": [
+      "Partner",
+      "Affiliate",
+      "Integration"
+    ],
+    "password": "partner123",
+    "requiresTwoFactor": false
+  }
+]

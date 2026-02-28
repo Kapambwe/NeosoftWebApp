@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-South-Africa-0",
+  "country": "South-Africa",
+  "affiliateName": "African Enterprise Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1002.0,
+      "revenue": 1188432.0,
+      "commission": 415951.2
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1139.0,
+      "revenue": 1331043.84,
+      "commission": 465865.34
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1275.0,
+      "revenue": 1426118.4,
+      "commission": 499141.44
+    }
+  ],
+  "summary": {
+    "paidCommission": 1580614.56,
+    "totalRevenue": 4753728.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1663804.8,
+    "totalRegistrations": 4557.0,
+    "pendingCommission": 83190.24,
+    "activeCustomers": 4192.0
+  }
+}

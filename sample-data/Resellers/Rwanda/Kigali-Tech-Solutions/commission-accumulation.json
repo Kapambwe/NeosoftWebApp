@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Rwanda-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 4,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 15
+  },
+  "country": "Rwanda",
+  "affiliateName": "Kigali Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 252.0,
+      "revenue": 235489.2,
+      "commission": 58872.3
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 308.0,
+      "revenue": 294361.5,
+      "commission": 73590.38
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 280.0,
+      "revenue": 259038.12,
+      "commission": 64759.53
+    }
+  ],
+  "summary": {
+    "paidCommission": 276699.81,
+    "totalRevenue": 1177446.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 294361.5,
+    "totalRegistrations": 1403.0,
+    "pendingCommission": 17661.69,
+    "activeCustomers": 1262.0
+  }
+}

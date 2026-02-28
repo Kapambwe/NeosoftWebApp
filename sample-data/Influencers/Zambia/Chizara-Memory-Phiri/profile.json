@@ -1,0 +1,34 @@
+{
+  "id": "INF-ZM-001",
+  "name": "Chizara Memory Phiri",
+  "username": "chizara-memory-phiri",
+  "role": "influencer",
+  "country": "Zambia",
+  "email": "chizara@example.com",
+  "phone": "+260 977 123 456",
+  "joinDate": "2024-01-15T00:00:00Z",
+  "status": "active",
+  "tier": "gold",
+  "avatar": "/images/avatars/chizara.jpg",
+  "bio": "Fashion & Lifestyle influencer based in Lusaka, Zambia. Passionate about promoting local businesses and technology adoption.",
+  "specialization": "Fashion & Lifestyle",
+  "followers": {
+    "instagram": 125000,
+    "facebook": 89000,
+    "twitter": 45000,
+    "tiktok": 210000
+  },
+  "socialLinks": {
+    "facebook": "https://facebook.com/chizaraphiri",
+    "twitter": "https://twitter.com/chizaraphiri",
+    "instagram": "https://instagram.com/chizaraphiri",
+    "tiktok": "https://tiktok.com/@chizaraphiri"
+  },
+  "stats": {
+    "totalReferrals": 47,
+    "activeCustomers": 35,
+    "totalEarnings": 12450.00,
+    "monthlyEarnings": 1850.00,
+    "conversionRate": 0.74
+  }
+}

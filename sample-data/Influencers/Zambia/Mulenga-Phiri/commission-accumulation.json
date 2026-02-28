@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zambia-0",
+  "country": "Zambia",
+  "affiliateName": "Mulenga Phiri",
+  "performanceMetrics": {
+    "engagementRate": 6.8,
+    "followerCount": 239683,
+    "averageOrderValue": 694.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 140.0,
+      "revenue": 103683.6,
+      "commission": 15552.54
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 175.0,
+      "revenue": 124420.32,
+      "commission": 18663.05
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 210.0,
+      "revenue": 138244.8,
+      "commission": 20736.72
+    }
+  ],
+  "summary": {
+    "paidCommission": 95388.91,
+    "totalRevenue": 691224.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 103683.6,
+    "totalRegistrations": 1172.0,
+    "pendingCommission": 8294.69,
+    "activeCustomers": 996.0
+  }
+}

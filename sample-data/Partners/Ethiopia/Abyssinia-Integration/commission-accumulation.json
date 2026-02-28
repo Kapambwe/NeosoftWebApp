@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Ethiopia-1",
+  "country": "Ethiopia",
+  "affiliateName": "Abyssinia Integration",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1228.0,
+      "revenue": 2469289.5,
+      "commission": 864251.32
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1396.0,
+      "revenue": 2765604.24,
+      "commission": 967961.48
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1564.0,
+      "revenue": 2963147.4,
+      "commission": 1037101.59
+    }
+  ],
+  "summary": {
+    "paidCommission": 3284155.03,
+    "totalRevenue": 9877158.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3457005.3,
+    "totalRegistrations": 5586.0,
+    "pendingCommission": 172850.27,
+    "activeCustomers": 5139.0
+  }
+}

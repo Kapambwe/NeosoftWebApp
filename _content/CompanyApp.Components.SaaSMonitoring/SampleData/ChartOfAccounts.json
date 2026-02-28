@@ -1,0 +1,412 @@
+[
+    {
+        "Id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "AccountCode": "1000",
+        "AccountName": "Cash - Operating Account",
+        "AccountType": 0,
+        "AccountCategory": 0,
+        "Balance": 150000.0,
+        "Description": "Primary operating cash account"
+    },
+    {
+        "Id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+        "AccountCode": "1010",
+        "AccountName": "Cash - Reserve Account",
+        "AccountType": 0,
+        "AccountCategory": 0,
+        "Balance": 500000.0,
+        "Description": "Cash reserves for emergencies"
+    },
+    {
+        "Id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+        "AccountCode": "1100",
+        "AccountName": "Bank - Standard Chartered",
+        "AccountType": 0,
+        "AccountCategory": 1,
+        "Balance": 2500000.0,
+        "Description": "Main business banking account"
+    },
+    {
+        "Id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+        "AccountCode": "1200",
+        "AccountName": "Accounts Receivable - Subscriptions",
+        "AccountType": 0,
+        "AccountCategory": 2,
+        "Balance": 850000.0,
+        "Description": "Outstanding subscription payments"
+    },
+    {
+        "Id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+        "AccountCode": "1300",
+        "AccountName": "Prepaid Software Licenses",
+        "AccountType": 0,
+        "AccountCategory": 3,
+        "Balance": 75000.0,
+        "Description": "Prepaid third-party software licenses"
+    },
+    {
+        "Id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+        "AccountCode": "1400",
+        "AccountName": "Computer Equipment",
+        "AccountType": 0,
+        "AccountCategory": 4,
+        "Balance": 350000.0,
+        "Description": "Laptops, servers, and other hardware"
+    },
+    {
+        "Id": "a7b8c9d0-e1f2-3456-7890-abcdef012345",
+        "AccountCode": "1500",
+        "AccountName": "Software Development Assets",
+        "AccountType": 0,
+        "AccountCategory": 5,
+        "Balance": 1200000.0,
+        "Description": "Capitalized development costs"
+    },
+    {
+        "Id": "b8c9d0e1-f2a3-4567-8901-bcdef0123456",
+        "AccountCode": "2000",
+        "AccountName": "Accounts Payable - Vendors",
+        "AccountType": 1,
+        "AccountCategory": 6,
+        "Balance": 425000.0,
+        "Description": "Amounts owed to vendors"
+    },
+    {
+        "Id": "c9d0e1f2-a3b4-5678-9012-cdef01234567",
+        "AccountCode": "2100",
+        "AccountName": "Credit Card - Business",
+        "AccountType": 1,
+        "AccountCategory": 7,
+        "Balance": 35000.0,
+        "Description": "Business credit card balance"
+    },
+    {
+        "Id": "d0e1f2a3-b4c5-6789-0123-def012345678",
+        "AccountCode": "2200",
+        "AccountName": "Accrued Payroll",
+        "AccountType": 1,
+        "AccountCategory": 8,
+        "Balance": 285000.0,
+        "Description": "Unpaid employee salaries and bonuses"
+    },
+    {
+        "Id": "e1f2a3b4-c5d6-7890-1234-ef0123456789",
+        "AccountCode": "2300",
+        "AccountName": "Deferred Revenue - Annual Subscriptions",
+        "AccountType": 1,
+        "AccountCategory": 9,
+        "Balance": 1850000.0,
+        "Description": "Prepaid annual subscriptions"
+    },
+    {
+        "Id": "f2a3b4c5-d6e7-8901-2345-f01234567890",
+        "AccountCode": "2400",
+        "AccountName": "Long Term Loan - Bank",
+        "AccountType": 1,
+        "AccountCategory": 10,
+        "Balance": 500000.0,
+        "Description": "Business expansion loan"
+    },
+    {
+        "Id": "a3b4c5d6-e7f8-9012-3456-012345678901",
+        "AccountCode": "3000",
+        "AccountName": "Common Stock",
+        "AccountType": 2,
+        "AccountCategory": 11,
+        "Balance": 1000000.0,
+        "Description": "Issued common stock"
+    },
+    {
+        "Id": "b4c5d6e7-f8a9-0123-4567-123456789012",
+        "AccountCode": "3100",
+        "AccountName": "Retained Earnings",
+        "AccountType": 2,
+        "AccountCategory": 12,
+        "Balance": 2350000.0,
+        "Description": "Accumulated profits"
+    },
+    {
+        "Id": "c5d6e7f8-a9b0-1234-5678-234567890123",
+        "AccountCode": "4000",
+        "AccountName": "Subscription Revenue - Council Management",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 450000.0,
+        "Description": "Council management system subscriptions",
+        "Tags": ["Council", "Subscription", "Recurring"]
+    },
+    {
+        "Id": "d6e7f8a9-b0c1-2345-6789-345678901234",
+        "AccountCode": "4010",
+        "AccountName": "Subscription Revenue - Forest Management",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 320000.0,
+        "Description": "Forest management system subscriptions",
+        "Tags": ["Forest", "Subscription", "Recurring"]
+    },
+    {
+        "Id": "e7f8a9b0-c1d2-3456-7890-456789012345",
+        "AccountCode": "4020",
+        "AccountName": "Subscription Revenue - Water Management",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 380000.0,
+        "Description": "Water management system subscriptions",
+        "Tags": ["Water", "Subscription", "Recurring"]
+    },
+    {
+        "Id": "f8a9b0c1-d2e3-4567-8901-567890123456",
+        "AccountCode": "4030",
+        "AccountName": "Subscription Revenue - Police Management",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 520000.0,
+        "Description": "Police management system subscriptions",
+        "Tags": ["Police", "Subscription", "Recurring"]
+    },
+    {
+        "Id": "a9b0c1d2-e3f4-5678-9012-678901234567",
+        "AccountCode": "4040",
+        "AccountName": "Subscription Revenue - Court Cases Management",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 290000.0,
+        "Description": "Court cases management system subscriptions",
+        "Tags": ["Court", "Legal", "Subscription"]
+    },
+    {
+        "Id": "b0c1d2e3-f4a5-6789-0123-789012345678",
+        "AccountCode": "4050",
+        "AccountName": "Subscription Revenue - Financial Crime Management",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 410000.0,
+        "Description": "Financial crime management system subscriptions",
+        "Tags": ["FinCrime", "Subscription", "Recurring"]
+    },
+    {
+        "Id": "c1d2e3f4-a5b6-7890-1234-890123456789",
+        "AccountCode": "4060",
+        "AccountName": "Subscription Revenue - Small Business Management",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 185000.0,
+        "Description": "Small scale businesses management system subscriptions",
+        "Tags": ["SMB", "Subscription", "Recurring"]
+    },
+    {
+        "Id": "d2e3f4a5-b6c7-8901-2345-901234567890",
+        "AccountCode": "4070",
+        "AccountName": "Subscription Revenue - Banking as a Service",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 850000.0,
+        "Description": "Banking as a service platform subscriptions",
+        "Tags": ["Banking", "FinTech", "Subscription"]
+    },
+    {
+        "Id": "e3f4a5b6-c7d8-9012-3456-012345678901",
+        "AccountCode": "4080",
+        "AccountName": "Subscription Revenue - Real-Time Payment System",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 720000.0,
+        "Description": "Real-time payment system subscriptions",
+        "Tags": ["Payment", "FinTech", "Subscription"]
+    },
+    {
+        "Id": "f4a5b6c7-d8e9-0123-4567-123456789012",
+        "AccountCode": "4090",
+        "AccountName": "Subscription Revenue - Minerals Trading Platform",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 550000.0,
+        "Description": "Real-time minerals trading platform subscriptions",
+        "Tags": ["Mining", "Trading", "Subscription"]
+    },
+    {
+        "Id": "a5b6c7d8-e9f0-1234-5678-234567890123",
+        "AccountCode": "4100",
+        "AccountName": "Subscription Revenue - AgriTech Platform",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 340000.0,
+        "Description": "Agricultural technology platform subscriptions",
+        "Tags": ["Agriculture", "AgriTech", "Subscription"]
+    },
+    {
+        "Id": "b6c7d8e9-f0a1-2345-6789-345678901234",
+        "AccountCode": "4110",
+        "AccountName": "Subscription Revenue - Animal Tracking System",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 275000.0,
+        "Description": "Track and trace animals system subscriptions",
+        "Tags": ["Livestock", "Tracking", "Subscription"]
+    },
+    {
+        "Id": "c7d8e9f0-a1b2-3456-7890-456789012345",
+        "AccountCode": "4120",
+        "AccountName": "Subscription Revenue - Government Auditing",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 480000.0,
+        "Description": "Government auditing system subscriptions",
+        "Tags": ["Auditing", "Government", "Subscription"]
+    },
+    {
+        "Id": "d8e9f0a1-b2c3-4567-8901-567890123456",
+        "AccountCode": "4130",
+        "AccountName": "Subscription Revenue - Shopping Mall System",
+        "AccountType": 3,
+        "AccountCategory": 13,
+        "Balance": 395000.0,
+        "Description": "Shopping mall management system subscriptions",
+        "Tags": ["Retail", "Mall", "Subscription"]
+    },
+    {
+        "Id": "e9f0a1b2-c3d4-4567-8901-678901234567",
+        "AccountCode": "4200",
+        "AccountName": "Professional Services Revenue",
+        "AccountType": 3,
+        "AccountCategory": 14,
+        "Balance": 225000.0,
+        "Description": "Consulting and implementation services"
+    },
+    {
+        "Id": "f0a1b2c3-d4e5-4567-8901-789012345678",
+        "AccountCode": "4300",
+        "AccountName": "Interest Income",
+        "AccountType": 3,
+        "AccountCategory": 15,
+        "Balance": 5000.0,
+        "Description": "Interest earned on deposits"
+    },
+    {
+        "Id": "a1b2c3d4-e5f6-7890-1234-890123456789",
+        "AccountCode": "5000",
+        "AccountName": "Cloud Infrastructure - Azure",
+        "AccountType": 4,
+        "AccountCategory": 16,
+        "Balance": 125000.0,
+        "Description": "Microsoft Azure cloud services"
+    },
+    {
+        "Id": "b2c3d4e5-f6a7-8901-2345-901234567890",
+        "AccountCode": "5010",
+        "AccountName": "Cloud Infrastructure - AWS",
+        "AccountType": 4,
+        "AccountCategory": 16,
+        "Balance": 98000.0,
+        "Description": "Amazon Web Services"
+    },
+    {
+        "Id": "c3d4e5f6-a7b8-9012-3456-012345678901",
+        "AccountCode": "5020",
+        "AccountName": "Cloud Infrastructure - Google Cloud",
+        "AccountType": 4,
+        "AccountCategory": 16,
+        "Balance": 65000.0,
+        "Description": "Google Cloud Platform services"
+    },
+    {
+        "Id": "d4e5f6a7-b8c9-0123-4567-123456789012",
+        "AccountCode": "5100",
+        "AccountName": "Salaries - Engineering",
+        "AccountType": 4,
+        "AccountCategory": 17,
+        "Balance": 850000.0,
+        "Description": "Software engineering salaries"
+    },
+    {
+        "Id": "e5f6a7b8-c9d0-1234-5678-234567890123",
+        "AccountCode": "5110",
+        "AccountName": "Salaries - Sales & Marketing",
+        "AccountType": 4,
+        "AccountCategory": 17,
+        "Balance": 420000.0,
+        "Description": "Sales and marketing team salaries"
+    },
+    {
+        "Id": "f6a7b8c9-d0e1-2345-6789-345678901234",
+        "AccountCode": "5120",
+        "AccountName": "Salaries - Customer Support",
+        "AccountType": 4,
+        "AccountCategory": 17,
+        "Balance": 280000.0,
+        "Description": "Customer support team salaries"
+    },
+    {
+        "Id": "a7b8c9d0-e1f2-3456-7890-456789012345",
+        "AccountCode": "5200",
+        "AccountName": "Marketing & Advertising",
+        "AccountType": 4,
+        "AccountCategory": 18,
+        "Balance": 95000.0,
+        "Description": "Digital marketing and advertising expenses"
+    },
+    {
+        "Id": "b8c9d0e1-f2a3-4567-8901-567890123456",
+        "AccountCode": "5300",
+        "AccountName": "Research & Development",
+        "AccountType": 4,
+        "AccountCategory": 19,
+        "Balance": 175000.0,
+        "Description": "Product research and development"
+    },
+    {
+        "Id": "c9d0e1f2-a3b4-5678-9012-678901234567",
+        "AccountCode": "5400",
+        "AccountName": "Office Rent",
+        "AccountType": 4,
+        "AccountCategory": 20,
+        "Balance": 45000.0,
+        "Description": "Office space rental"
+    },
+    {
+        "Id": "d0e1f2a3-b4c5-6789-0123-789012345678",
+        "AccountCode": "5410",
+        "AccountName": "Utilities",
+        "AccountType": 4,
+        "AccountCategory": 20,
+        "Balance": 8500.0,
+        "Description": "Electricity, water, internet"
+    },
+    {
+        "Id": "e1f2a3b4-c5d6-7890-1234-890123456789",
+        "AccountCode": "5500",
+        "AccountName": "Professional Fees",
+        "AccountType": 4,
+        "AccountCategory": 20,
+        "Balance": 35000.0,
+        "Description": "Legal and accounting fees"
+    },
+    {
+        "Id": "f2a3b4c5-d6e7-8901-2345-901234567890",
+        "AccountCode": "5600",
+        "AccountName": "Software Licenses & Subscriptions",
+        "AccountType": 4,
+        "AccountCategory": 20,
+        "Balance": 42000.0,
+        "Description": "Third-party software tools"
+    },
+    {
+        "Id": "a3b4c5d6-e7f8-9012-3456-012345678901",
+        "AccountCode": "5700",
+        "AccountName": "Interest Expense",
+        "AccountType": 4,
+        "AccountCategory": 21,
+        "Balance": 12500.0,
+        "Description": "Interest on loans"
+    },
+    {
+        "Id": "b4c5d6e7-f8a9-0123-4567-123456789012",
+        "AccountCode": "5800",
+        "AccountName": "Taxes & Licenses",
+        "AccountType": 4,
+        "AccountCategory": 22,
+        "Balance": 85000.0,
+        "Description": "Business taxes and licenses"
+    }
+]

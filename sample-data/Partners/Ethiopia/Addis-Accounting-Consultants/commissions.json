@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Ethiopia-1957",
+  "partnerName": "Addis Accounting Consultants",
+  "country": "Ethiopia",
+  "currency": "ETB",
+  "commissionRate": 21.6,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 21,
+  "activeProjects": 9,
+  "totalCustomers": 122,
+  "totalRevenue": 28241192,
+  "totalCommissionEarned": 6100097.47,
+  "paidCommission": 4880077.98,
+  "pendingCommission": 1220019.49,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 1220019.50,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 5,
+      "revenue": 4195464,
+      "commission": 843976,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 5,
+      "revenue": 3396008,
+      "commission": 654472,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 2893632,
+      "commission": 616112,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 3900176,
+    "implementationSuccessRate": 92.3,
+    "customerSatisfactionScore": 4.6,
+    "averageCommissionPerProject": 622272,
+    "recurringRevenueShare": 26.4
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-26T00:00:00Z"
+}

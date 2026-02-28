@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Zimbabwe-1502",
+  "partnerName": "Zimbabwe Accounting Consultants",
+  "country": "Zimbabwe",
+  "currency": "USD",
+  "commissionRate": 15,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 28,
+  "activeProjects": 8,
+  "totalCustomers": 135,
+  "totalRevenue": 293615,
+  "totalCommissionEarned": 44042.25,
+  "paidCommission": 35233.8,
+  "pendingCommission": 8808.45,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 8808.45,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 81728,
+      "commission": 8865,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 3,
+      "revenue": 66375,
+      "commission": 7868,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 67982,
+      "commission": 5997,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 42181,
+    "implementationSuccessRate": 92.1,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 10198,
+    "recurringRevenueShare": 37.9
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-20T00:00:00Z"
+}

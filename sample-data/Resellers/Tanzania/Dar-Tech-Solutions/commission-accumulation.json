@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Tanzania-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 4,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 14
+  },
+  "country": "Tanzania",
+  "affiliateName": "Dar Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 217.0,
+      "revenue": 203238.4,
+      "commission": 50809.6
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 265.0,
+      "revenue": 254048.0,
+      "commission": 63512.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 241.0,
+      "revenue": 223562.24,
+      "commission": 55890.56
+    }
+  ],
+  "summary": {
+    "paidCommission": 238805.12,
+    "totalRevenue": 1016192.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 254048.0,
+    "totalRegistrations": 1209.0,
+    "pendingCommission": 15242.88,
+    "activeCustomers": 1088.0
+  }
+}

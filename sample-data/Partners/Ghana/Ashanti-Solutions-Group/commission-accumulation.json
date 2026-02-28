@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Ghana-2",
+  "country": "Ghana",
+  "affiliateName": "Ashanti Solutions Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1246.0,
+      "revenue": 3014563.5,
+      "commission": 1055097.23
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1416.0,
+      "revenue": 3376311.12,
+      "commission": 1181708.89
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1586.0,
+      "revenue": 3617476.2,
+      "commission": 1266116.67
+    }
+  ],
+  "summary": {
+    "paidCommission": 4009369.46,
+    "totalRevenue": 12058254.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 4220388.9,
+    "totalRegistrations": 5665.0,
+    "pendingCommission": 211019.44,
+    "activeCustomers": 5211.0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Malawi-8452",
+  "partnerName": "Malawi Cloud Integrators",
+  "country": "Malawi",
+  "currency": "MWK",
+  "commissionRate": 19.8,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 44,
+  "activeProjects": 15,
+  "totalCustomers": 90,
+  "totalRevenue": 551001150,
+  "totalCommissionEarned": 109098227.70,
+  "paidCommission": 87278582.16,
+  "pendingCommission": 21819645.54,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 21819645.54,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 4,
+      "revenue": 65600850,
+      "commission": 12055050,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 5,
+      "revenue": 69237000,
+      "commission": 10657500,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 65911650,
+      "commission": 13198500,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 56080500,
+    "implementationSuccessRate": 96,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 9439500,
+    "recurringRevenueShare": 38.1
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-19T00:00:00Z"
+}

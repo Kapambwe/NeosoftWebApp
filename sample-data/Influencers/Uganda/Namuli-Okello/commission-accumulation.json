@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Uganda-2",
+  "country": "Uganda",
+  "affiliateName": "Namuli Okello",
+  "performanceMetrics": {
+    "engagementRate": 4.5,
+    "followerCount": 470210,
+    "averageOrderValue": 966.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 38.0,
+      "revenue": 39847.5,
+      "commission": 5977.12
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 48.0,
+      "revenue": 47817.0,
+      "commission": 7172.55
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 58.0,
+      "revenue": 53130.0,
+      "commission": 7969.5
+    }
+  ],
+  "summary": {
+    "paidCommission": 36659.7,
+    "totalRevenue": 265650.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 39847.5,
+    "totalRegistrations": 324.0,
+    "pendingCommission": 3187.8,
+    "activeCustomers": 275.0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Tanzania-1",
+  "country": "Tanzania",
+  "affiliateName": "Zanzibar Integration",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 592.0,
+      "revenue": 586429.75,
+      "commission": 205250.41
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 673.0,
+      "revenue": 656801.32,
+      "commission": 229880.46
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 754.0,
+      "revenue": 703715.7,
+      "commission": 246300.5
+    }
+  ],
+  "summary": {
+    "paidCommission": 779951.57,
+    "totalRevenue": 2345719.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 821001.65,
+    "totalRegistrations": 2693.0,
+    "pendingCommission": 41050.08,
+    "activeCustomers": 2477.0
+  }
+}

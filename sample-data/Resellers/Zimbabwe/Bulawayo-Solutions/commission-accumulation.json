@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Zimbabwe-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 6,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 23
+  },
+  "country": "Zimbabwe",
+  "affiliateName": "Bulawayo Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 118.0,
+      "revenue": 133650.0,
+      "commission": 33412.5
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 145.0,
+      "revenue": 167062.5,
+      "commission": 41765.62
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 132.0,
+      "revenue": 147015.0,
+      "commission": 36753.75
+    }
+  ],
+  "summary": {
+    "paidCommission": 157038.75,
+    "totalRevenue": 668250.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 167062.5,
+    "totalRegistrations": 661.0,
+    "pendingCommission": 10023.75,
+    "activeCustomers": 594.0
+  }
+}

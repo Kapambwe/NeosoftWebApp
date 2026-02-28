@@ -1,0 +1,37 @@
+[
+    {
+        "Id": "CHS-001",
+        "CustomerId": "CUST-001",
+        "HealthScore": 85,
+        "Status": 0,
+        "CalculationDate": "2026-01-31T10:00:00Z"
+    },
+    {
+        "Id": "CHS-002",
+        "CustomerId": "CUST-002",
+        "HealthScore": 95,
+        "Status": 1,
+        "CalculationDate": "2026-01-31T10:00:00Z"
+    },
+    {
+        "Id": "CHS-003",
+        "CustomerId": "CUST-003",
+        "HealthScore": 60,
+        "Status": 2,
+        "CalculationDate": "2026-01-31T10:00:00Z"
+    },
+    {
+        "Id": "CHS-004",
+        "CustomerId": "CUST-004",
+        "HealthScore": 75,
+        "Status": 0,
+        "CalculationDate": "2026-01-31T10:00:00Z"
+    },
+    {
+        "Id": "CHS-005",
+        "CustomerId": "CUST-005",
+        "HealthScore": 40,
+        "Status": 3,
+        "CalculationDate": "2026-01-31T10:00:00Z"
+    }
+]

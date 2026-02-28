@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Malawi-4725",
+  "resellerName": "Northern Digital Systems",
+  "country": "Malawi",
+  "currency": "MWK",
+  "commissionRate": 14.1,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 64,
+  "activeCustomers": 83,
+  "totalRevenue": 161545650,
+  "totalCommissionEarned": 22777936.65,
+  "paidCommission": 17083452.49,
+  "pendingCommission": 5694484.16,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 5125035.75,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 17,
+      "revenue": 31742550,
+      "commission": 3675000,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 17,
+      "revenue": 29020950,
+      "commission": 2252250,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 6,
+      "revenue": 29899800,
+      "commission": 2320500,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 35415450,
+    "conversionRate": 14,
+    "customerRetentionRate": 97.5,
+    "averageCommissionPerSale": 3468150
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-17T00:00:00Z"
+}

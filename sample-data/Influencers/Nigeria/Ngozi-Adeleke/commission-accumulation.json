@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Nigeria-1",
+  "country": "Nigeria",
+  "affiliateName": "Ngozi Adeleke",
+  "performanceMetrics": {
+    "engagementRate": 5.0,
+    "followerCount": 215703,
+    "averageOrderValue": 740.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 77.0,
+      "revenue": 60939.0,
+      "commission": 9140.85
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 96.0,
+      "revenue": 73126.8,
+      "commission": 10969.02
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 116.0,
+      "revenue": 81252.0,
+      "commission": 12187.8
+    }
+  ],
+  "summary": {
+    "paidCommission": 56063.88,
+    "totalRevenue": 406260.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 60939.0,
+    "totalRegistrations": 646.0,
+    "pendingCommission": 4875.12,
+    "activeCustomers": 549.0
+  }
+}

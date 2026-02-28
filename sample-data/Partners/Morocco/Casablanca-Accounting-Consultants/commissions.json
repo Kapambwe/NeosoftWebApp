@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Morocco-5089",
+  "partnerName": "Casablanca Accounting Consultants",
+  "country": "Morocco",
+  "currency": "MAD",
+  "commissionRate": 16.1,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 29,
+  "activeProjects": 18,
+  "totalCustomers": 105,
+  "totalRevenue": 3285450,
+  "totalCommissionEarned": 528957.45,
+  "paidCommission": 423165.96,
+  "pendingCommission": 105791.49,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 105791.49,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 3,
+      "revenue": 797780,
+      "commission": 85600,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 4,
+      "revenue": 723500,
+      "commission": 69550,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 4,
+      "revenue": 689220,
+      "commission": 96340,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 442150,
+    "implementationSuccessRate": 97.3,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 134660,
+    "recurringRevenueShare": 28.2
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-05-01T00:00:00Z",
+  "lastActivityDate": "2024-11-22T00:00:00Z"
+}

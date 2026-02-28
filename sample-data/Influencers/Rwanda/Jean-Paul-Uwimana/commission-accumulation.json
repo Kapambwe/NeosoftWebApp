@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Rwanda-0",
+  "country": "Rwanda",
+  "affiliateName": "Jean Paul Uwimana",
+  "performanceMetrics": {
+    "engagementRate": 2.1,
+    "followerCount": 197296,
+    "averageOrderValue": 943.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 168.0,
+      "revenue": 169032.75,
+      "commission": 25354.91
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 211.0,
+      "revenue": 202839.3,
+      "commission": 30425.9
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 253.0,
+      "revenue": 225377.0,
+      "commission": 33806.55
+    }
+  ],
+  "summary": {
+    "paidCommission": 155510.13,
+    "totalRevenue": 1126885.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 169032.75,
+    "totalRegistrations": 1407.0,
+    "pendingCommission": 13522.62,
+    "activeCustomers": 1195.0
+  }
+}

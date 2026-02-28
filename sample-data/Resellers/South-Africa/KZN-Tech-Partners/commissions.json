@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-South-Africa-8215",
+  "resellerName": "KZN Tech Partners",
+  "country": "South-Africa",
+  "currency": "ZAR",
+  "commissionRate": 13.2,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 112,
+  "activeCustomers": 48,
+  "totalRevenue": 5072644.5,
+  "totalCommissionEarned": 669589.07,
+  "paidCommission": 502191.8,
+  "pendingCommission": 167397.27,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 150657.54,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 9,
+      "revenue": 796184.5,
+      "commission": 141340,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 10,
+      "revenue": 753320,
+      "commission": 55056,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 13,
+      "revenue": 457394,
+      "commission": 78366,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 440614.5,
+    "conversionRate": 20.6,
+    "customerRetentionRate": 94.6,
+    "averageCommissionPerSale": 47267.5
+  },
+  "joinedDate": "2022-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-24T00:00:00Z"
+}

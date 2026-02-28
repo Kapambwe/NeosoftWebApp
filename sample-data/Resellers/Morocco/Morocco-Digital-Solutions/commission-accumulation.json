@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Morocco-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 14,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 18
+  },
+  "country": "Morocco",
+  "affiliateName": "Morocco Digital Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 61.0,
+      "revenue": 95900.4,
+      "commission": 23975.1
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 75.0,
+      "revenue": 119875.5,
+      "commission": 29968.88
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 68.0,
+      "revenue": 105490.44,
+      "commission": 26372.61
+    }
+  ],
+  "summary": {
+    "paidCommission": 112682.97,
+    "totalRevenue": 479502.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 119875.5,
+    "totalRegistrations": 341.0,
+    "pendingCommission": 7192.53,
+    "activeCustomers": 306.0
+  }
+}

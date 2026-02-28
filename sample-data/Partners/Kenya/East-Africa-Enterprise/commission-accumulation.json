@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Kenya-0",
+  "country": "Kenya",
+  "affiliateName": "East Africa Enterprise",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1341.0,
+      "revenue": 2974172.25,
+      "commission": 1040960.29
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1524.0,
+      "revenue": 3331072.92,
+      "commission": 1165875.52
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1707.0,
+      "revenue": 3569006.7,
+      "commission": 1249152.34
+    }
+  ],
+  "summary": {
+    "paidCommission": 3955649.09,
+    "totalRevenue": 11896689.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 4163841.15,
+    "totalRegistrations": 6097.0,
+    "pendingCommission": 208192.06,
+    "activeCustomers": 5609.0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Egypt-2",
+  "country": "Egypt",
+  "affiliateName": "Pyramid Solutions Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1266.0,
+      "revenue": 2367741.5,
+      "commission": 828709.52
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1438.0,
+      "revenue": 2651870.48,
+      "commission": 928154.67
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1611.0,
+      "revenue": 2841289.8,
+      "commission": 994451.43
+    }
+  ],
+  "summary": {
+    "paidCommission": 3149096.2,
+    "totalRevenue": 9470966.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3314838.1,
+    "totalRegistrations": 5755.0,
+    "pendingCommission": 165741.9,
+    "activeCustomers": 5294.0
+  }
+}

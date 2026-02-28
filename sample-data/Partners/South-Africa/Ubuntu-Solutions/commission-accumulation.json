@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-South-Africa-2",
+  "country": "South-Africa",
+  "affiliateName": "Ubuntu Solutions",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1032.0,
+      "revenue": 1836883.5,
+      "commission": 642909.22
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1173.0,
+      "revenue": 2057309.52,
+      "commission": 720058.33
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1314.0,
+      "revenue": 2204260.2,
+      "commission": 771491.07
+    }
+  ],
+  "summary": {
+    "paidCommission": 2443055.05,
+    "totalRevenue": 7347534.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 2571636.9,
+    "totalRegistrations": 4693.0,
+    "pendingCommission": 128581.85,
+    "activeCustomers": 4317.0
+  }
+}

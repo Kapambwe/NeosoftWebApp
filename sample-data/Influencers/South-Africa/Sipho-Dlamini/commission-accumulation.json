@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-South-Africa-2",
+  "country": "South-Africa",
+  "affiliateName": "Sipho Dlamini",
+  "performanceMetrics": {
+    "engagementRate": 7.8,
+    "followerCount": 398727,
+    "averageOrderValue": 588.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 165.0,
+      "revenue": 103458.6,
+      "commission": 15518.79
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 207.0,
+      "revenue": 124150.32,
+      "commission": 18622.55
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 248.0,
+      "revenue": 137944.8,
+      "commission": 20691.72
+    }
+  ],
+  "summary": {
+    "paidCommission": 95181.91,
+    "totalRevenue": 689724.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 103458.6,
+    "totalRegistrations": 1380.0,
+    "pendingCommission": 8276.69,
+    "activeCustomers": 1173.0
+  }
+}

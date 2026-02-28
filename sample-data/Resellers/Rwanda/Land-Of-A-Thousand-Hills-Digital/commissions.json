@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Rwanda-6765",
+  "resellerName": "Land Of A Thousand Hills Digital",
+  "country": "Rwanda",
+  "currency": "RWF",
+  "commissionRate": 10,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 113,
+  "activeCustomers": 46,
+  "totalRevenue": 231583000,
+  "totalCommissionEarned": 23158300.0,
+  "paidCommission": 17368725.00,
+  "pendingCommission": 5789575.00,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 5210617.50,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 19,
+      "revenue": 38640800,
+      "commission": 8429300,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 9,
+      "revenue": 41058600,
+      "commission": 5267900,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 10,
+      "revenue": 34690700,
+      "commission": 3565100,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 26473700,
+    "conversionRate": 19,
+    "customerRetentionRate": 97.6,
+    "averageCommissionPerSale": 3840100
+  },
+  "joinedDate": "2022-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-11T00:00:00Z"
+}
