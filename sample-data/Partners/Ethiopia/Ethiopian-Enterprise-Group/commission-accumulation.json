@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Ethiopia-0",
+  "country": "Ethiopia",
+  "affiliateName": "Ethiopian Enterprise Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 95.0,
+      "revenue": 243974.0,
+      "commission": 85390.9
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 108.0,
+      "revenue": 273250.88,
+      "commission": 95637.81
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 121.0,
+      "revenue": 292768.8,
+      "commission": 102469.08
+    }
+  ],
+  "summary": {
+    "paidCommission": 324485.42,
+    "totalRevenue": 975896.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 341563.6,
+    "totalRegistrations": 433.0,
+    "pendingCommission": 17078.18,
+    "activeCustomers": 398.0
+  }
+}

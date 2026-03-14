@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Egypt-0",
+  "country": "Egypt",
+  "affiliateName": "Mohamed Hassan",
+  "performanceMetrics": {
+    "engagementRate": 5.3,
+    "followerCount": 402836,
+    "averageOrderValue": 437.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 47.0,
+      "revenue": 22090.35,
+      "commission": 3313.55
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 59.0,
+      "revenue": 26508.42,
+      "commission": 3976.26
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 71.0,
+      "revenue": 29453.8,
+      "commission": 4418.07
+    }
+  ],
+  "summary": {
+    "paidCommission": 20323.12,
+    "totalRevenue": 147269.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 22090.35,
+    "totalRegistrations": 397.0,
+    "pendingCommission": 1767.23,
+    "activeCustomers": 337.0
+  }
+}

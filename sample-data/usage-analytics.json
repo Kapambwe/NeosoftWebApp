@@ -1,0 +1,80 @@
+[
+  {
+    "productId": "APP-001",
+    "productName": "AccountingPro",
+    "dailyActiveUsers": 410,
+    "monthlyActiveUsers": 1240,
+    "totalSessions": 18500,
+    "averageSessionMinutes": 28,
+    "featureAdoptionRate": 0.76,
+    "retentionRate": 0.91,
+    "churnRate": 0.09,
+    "dauMauRatio": 0.331,
+    "lastUpdated": "2025-01-23T06:00:00Z"
+  },
+  {
+    "productId": "APP-002",
+    "productName": "HRManagementSuite",
+    "dailyActiveUsers": 245,
+    "monthlyActiveUsers": 870,
+    "totalSessions": 11200,
+    "averageSessionMinutes": 22,
+    "featureAdoptionRate": 0.68,
+    "retentionRate": 0.87,
+    "churnRate": 0.13,
+    "dauMauRatio": 0.282,
+    "lastUpdated": "2025-01-23T06:00:00Z"
+  },
+  {
+    "productId": "APP-003",
+    "productName": "InventoryTracker",
+    "dailyActiveUsers": 158,
+    "monthlyActiveUsers": 540,
+    "totalSessions": 7800,
+    "averageSessionMinutes": 18,
+    "featureAdoptionRate": 0.59,
+    "retentionRate": 0.83,
+    "churnRate": 0.17,
+    "dauMauRatio": 0.293,
+    "lastUpdated": "2025-01-23T06:00:00Z"
+  },
+  {
+    "productId": "APP-004",
+    "productName": "PayrollManager",
+    "dailyActiveUsers": 195,
+    "monthlyActiveUsers": 720,
+    "totalSessions": 9400,
+    "averageSessionMinutes": 35,
+    "featureAdoptionRate": 0.72,
+    "retentionRate": 0.85,
+    "churnRate": 0.15,
+    "dauMauRatio": 0.271,
+    "lastUpdated": "2025-01-23T06:00:00Z"
+  },
+  {
+    "productId": "APP-005",
+    "productName": "CRMPlatform",
+    "dailyActiveUsers": 524,
+    "monthlyActiveUsers": 1580,
+    "totalSessions": 24600,
+    "averageSessionMinutes": 42,
+    "featureAdoptionRate": 0.84,
+    "retentionRate": 0.94,
+    "churnRate": 0.06,
+    "dauMauRatio": 0.332,
+    "lastUpdated": "2025-01-23T06:00:00Z"
+  },
+  {
+    "productId": "APP-006",
+    "productName": "ProjectManager",
+    "dailyActiveUsers": 98,
+    "monthlyActiveUsers": 390,
+    "totalSessions": 4200,
+    "averageSessionMinutes": 15,
+    "featureAdoptionRate": 0.44,
+    "retentionRate": 0.74,
+    "churnRate": 0.26,
+    "dauMauRatio": 0.251,
+    "lastUpdated": "2025-01-23T06:00:00Z"
+  }
+]

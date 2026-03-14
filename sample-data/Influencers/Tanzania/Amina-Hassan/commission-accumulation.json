@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Tanzania-1",
+  "country": "Tanzania",
+  "affiliateName": "Amina Hassan",
+  "performanceMetrics": {
+    "engagementRate": 5.1,
+    "followerCount": 108544,
+    "averageOrderValue": 822.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 73.0,
+      "revenue": 63746.1,
+      "commission": 9561.91
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 91.0,
+      "revenue": 76495.32,
+      "commission": 11474.3
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 109.0,
+      "revenue": 84994.8,
+      "commission": 12749.22
+    }
+  ],
+  "summary": {
+    "paidCommission": 58646.41,
+    "totalRevenue": 424974.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 63746.1,
+    "totalRegistrations": 609.0,
+    "pendingCommission": 5099.69,
+    "activeCustomers": 517.0
+  }
+}

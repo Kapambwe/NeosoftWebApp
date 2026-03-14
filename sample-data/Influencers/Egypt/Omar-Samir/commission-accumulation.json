@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Egypt-4",
+  "country": "Egypt",
+  "affiliateName": "Omar Samir",
+  "performanceMetrics": {
+    "engagementRate": 3.9,
+    "followerCount": 103659,
+    "averageOrderValue": 862.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 103.0,
+      "revenue": 95035.5,
+      "commission": 14255.32
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 129.0,
+      "revenue": 114042.6,
+      "commission": 17106.39
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 155.0,
+      "revenue": 126714.0,
+      "commission": 19007.1
+    }
+  ],
+  "summary": {
+    "paidCommission": 87432.66,
+    "totalRevenue": 633570.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 95035.5,
+    "totalRegistrations": 865.0,
+    "pendingCommission": 7602.84,
+    "activeCustomers": 735.0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Ghana-3263",
+  "resellerName": "Gold Coast Digital Partners",
+  "country": "Ghana",
+  "currency": "GHS",
+  "commissionRate": 14.9,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 88,
+  "activeCustomers": 82,
+  "totalRevenue": 3242568,
+  "totalCommissionEarned": 483142.63,
+  "paidCommission": 362356.97,
+  "pendingCommission": 120785.66,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 108707.09,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 12,
+      "revenue": 315648,
+      "commission": 63720,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 9,
+      "revenue": 440964,
+      "commission": 42396,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 12,
+      "revenue": 265908,
+      "commission": 66312,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 307272,
+    "conversionRate": 16.1,
+    "customerRetentionRate": 97.7,
+    "averageCommissionPerSale": 39744
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-25T00:00:00Z"
+}

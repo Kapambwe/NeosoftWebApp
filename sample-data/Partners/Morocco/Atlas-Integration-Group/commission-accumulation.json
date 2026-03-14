@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Morocco-1",
+  "country": "Morocco",
+  "affiliateName": "Atlas Integration Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1113.0,
+      "revenue": 3125832.5,
+      "commission": 1094041.38
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1265.0,
+      "revenue": 3500932.4,
+      "commission": 1225326.34
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1416.0,
+      "revenue": 3750999.0,
+      "commission": 1312849.65
+    }
+  ],
+  "summary": {
+    "paidCommission": 4157357.22,
+    "totalRevenue": 12503330.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 4376165.5,
+    "totalRegistrations": 5060.0,
+    "pendingCommission": 218808.28,
+    "activeCustomers": 4655.0
+  }
+}

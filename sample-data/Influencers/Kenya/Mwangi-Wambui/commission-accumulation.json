@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Kenya-2",
+  "country": "Kenya",
+  "affiliateName": "Mwangi Wambui",
+  "performanceMetrics": {
+    "engagementRate": 2.9,
+    "followerCount": 61280,
+    "averageOrderValue": 749.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 62.0,
+      "revenue": 49658.7,
+      "commission": 7448.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 78.0,
+      "revenue": 59590.44,
+      "commission": 8938.57
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 93.0,
+      "revenue": 66211.6,
+      "commission": 9931.74
+    }
+  ],
+  "summary": {
+    "paidCommission": 45686.0,
+    "totalRevenue": 331058.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 49658.7,
+    "totalRegistrations": 521.0,
+    "pendingCommission": 3972.7,
+    "activeCustomers": 442.0
+  }
+}

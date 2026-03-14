@@ -1,0 +1,23 @@
+[
+    {
+        "AgentId": "AGENT-001",
+        "AgentName": "Alice",
+        "TicketsResolved": 5,
+        "AverageResolutionTimeMinutes": 240,
+        "CustomerSatisfactionScore": 4.8
+    },
+    {
+        "AgentId": "AGENT-002",
+        "AgentName": "Bob",
+        "TicketsResolved": 3,
+        "AverageResolutionTimeMinutes": 360,
+        "CustomerSatisfactionScore": 4.5
+    },
+    {
+        "AgentId": "AGENT-003",
+        "AgentName": "Charlie",
+        "TicketsResolved": 2,
+        "AverageResolutionTimeMinutes": 480,
+        "CustomerSatisfactionScore": 4.2
+    }
+]

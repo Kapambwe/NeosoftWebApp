@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Morocco-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 6,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 14
+  },
+  "country": "Morocco",
+  "affiliateName": "Casablanca Tech Hub",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 487.0,
+      "revenue": 880479.0,
+      "commission": 220119.75
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 596.0,
+      "revenue": 1100598.75,
+      "commission": 275149.69
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 542.0,
+      "revenue": 968526.9,
+      "commission": 242131.72
+    }
+  ],
+  "summary": {
+    "paidCommission": 1034562.82,
+    "totalRevenue": 4402395.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 1100598.75,
+    "totalRegistrations": 2711.0,
+    "pendingCommission": 66035.93,
+    "activeCustomers": 2439.0
+  }
+}

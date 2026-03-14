@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Rwanda-4",
+  "country": "Rwanda",
+  "affiliateName": "Patrick Nkurunziza",
+  "performanceMetrics": {
+    "engagementRate": 3.7,
+    "followerCount": 303884,
+    "averageOrderValue": 1127.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 125.0,
+      "revenue": 149947.35,
+      "commission": 22492.1
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 156.0,
+      "revenue": 179936.82,
+      "commission": 26990.52
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 187.0,
+      "revenue": 199929.8,
+      "commission": 29989.47
+    }
+  ],
+  "summary": {
+    "paidCommission": 137951.56,
+    "totalRevenue": 999649.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 149947.35,
+    "totalRegistrations": 1044.0,
+    "pendingCommission": 11995.79,
+    "activeCustomers": 887.0
+  }
+}

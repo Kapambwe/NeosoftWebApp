@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Rwanda-3",
+  "country": "Rwanda",
+  "affiliateName": "Divine Uwase",
+  "performanceMetrics": {
+    "engagementRate": 4.6,
+    "followerCount": 392332,
+    "averageOrderValue": 453.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 150.0,
+      "revenue": 72434.7,
+      "commission": 10865.2
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 188.0,
+      "revenue": 86921.64,
+      "commission": 13038.25
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 225.0,
+      "revenue": 96579.6,
+      "commission": 14486.94
+    }
+  ],
+  "summary": {
+    "paidCommission": 66639.92,
+    "totalRevenue": 482898.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 72434.7,
+    "totalRegistrations": 1255.0,
+    "pendingCommission": 5794.78,
+    "activeCustomers": 1066.0
+  }
+}

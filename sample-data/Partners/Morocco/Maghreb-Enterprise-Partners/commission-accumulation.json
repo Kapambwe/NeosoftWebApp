@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Morocco-0",
+  "country": "Morocco",
+  "affiliateName": "Maghreb Enterprise Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1441.0,
+      "revenue": 1978034.5,
+      "commission": 692312.08
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1637.0,
+      "revenue": 2215398.64,
+      "commission": 775389.52
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1834.0,
+      "revenue": 2373641.4,
+      "commission": 830774.49
+    }
+  ],
+  "summary": {
+    "paidCommission": 2630785.88,
+    "totalRevenue": 7912138.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 2769248.3,
+    "totalRegistrations": 6550.0,
+    "pendingCommission": 138462.42,
+    "activeCustomers": 6026.0
+  }
+}

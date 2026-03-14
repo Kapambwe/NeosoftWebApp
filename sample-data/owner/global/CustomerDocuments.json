@@ -1,0 +1,35 @@
+[
+    {
+        "Id": "DOC-001",
+        "CustomerId": "CUST-001",
+        "FileName": "Service_Agreement_2022.pdf",
+        "DocumentType": "Contract",
+        "FileSize": 245760,
+        "FileUrl": "/documents/CUST-001/Service_Agreement_2022.pdf",
+        "UploadedBy": "Sarah Mwansa",
+        "UploadedDate": "2024-01-31T10:00:00Z",
+        "Description": "Initial service agreement"
+    },
+    {
+        "Id": "DOC-002",
+        "CustomerId": "CUST-001",
+        "FileName": "SOW_Q4_2023.pdf",
+        "DocumentType": "Proposal",
+        "FileSize": 189440,
+        "FileUrl": "/documents/CUST-001/SOW_Q4_2023.pdf",
+        "UploadedBy": "John Banda",
+        "UploadedDate": "2025-10-31T10:00:00Z",
+        "Description": "Statement of work for Q4 expansion"
+    },
+    {
+        "Id": "DOC-003",
+        "CustomerId": "CUST-002",
+        "FileName": "Integration_Specs.docx",
+        "DocumentType": "Technical",
+        "FileSize": 134217,
+        "FileUrl": "/documents/CUST-002/Integration_Specs.docx",
+        "UploadedBy": "Tech Team",
+        "UploadedDate": "2025-07-31T10:00:00Z",
+        "Description": "API integration specifications"
+    }
+]

@@ -1,0 +1,145 @@
+{
+  "alerts": [
+    {
+      "alertId": "ALERT-001",
+      "title": "High Churn Risk Detected",
+      "description": "Customer 'Acme Corp' showing multiple churn indicators based on network analysis",
+      "severity": "Critical",
+      "category": "Churn",
+      "entityId": "CUST-001",
+      "entityType": "Customer",
+      "status": "Active",
+      "timestamp": "2024-01-15T10:30:00Z",
+      "recommendedActions": [
+        "Schedule executive meeting",
+        "Review account health",
+        "Assess renewal readiness"
+      ]
+    },
+    {
+      "alertId": "ALERT-002",
+      "title": "Unusual Usage Pattern",
+      "description": "API usage increased 300% in last 48 hours - potential security concern",
+      "severity": "High",
+      "category": "Usage",
+      "entityId": "CUST-005",
+      "entityType": "Customer",
+      "status": "Active",
+      "timestamp": "2024-01-15T08:15:00Z",
+      "recommendedActions": [
+        "Verify API key",
+        "Contact customer",
+        "Review access logs"
+      ]
+    },
+    {
+      "alertId": "ALERT-003",
+      "title": "Network Concentration Risk",
+      "description": "Single customer represents 35% of total revenue - diversification recommended",
+      "severity": "Medium",
+      "category": "Revenue",
+      "entityId": "CUST-003",
+      "entityType": "Customer",
+      "status": "Active",
+      "timestamp": "2024-01-15T06:45:00Z",
+      "recommendedActions": [
+        "Expand customer base",
+        "Review contract terms"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "decisionId": "DEC-001",
+      "decisionType": "customer_health",
+      "recommendation": "Customer health declining - intervention recommended within 7 days",
+      "confidenceScore": 0.87,
+      "severity": "High",
+      "decisionTime": "2024-01-15T08:30:00Z",
+      "explanation": {
+        "summary": "Customer showing multiple decline indicators",
+        "keyReasons": [
+          "Usage Metrics: Decreased by 45% over 30 days",
+          "Network Position: Declining connections to other active users",
+          "Payment History: 2 late payments in last quarter"
+        ]
+      },
+      "suggestedActions": [
+        {
+          "title": "Executive Outreach",
+          "priority": "High"
+        },
+        {
+          "title": "Feature Training",
+          "priority": "Medium"
+        },
+        {
+          "title": "Account Review",
+          "priority": "High"
+        }
+      ]
+    },
+    {
+      "decisionId": "DEC-002",
+      "decisionType": "resource_allocation",
+      "recommendation": "Cloud cost optimization opportunity identified - potential $15K/month savings",
+      "confidenceScore": 0.92,
+      "severity": "Medium",
+      "decisionTime": "2024-01-15T05:30:00Z",
+      "explanation": {
+        "summary": "Multiple cost optimization opportunities identified",
+        "keyReasons": [
+          "Resource Utilization: 15 instances running at <30% capacity",
+          "Storage Tiering: 2.5TB in hot storage with low access patterns",
+          "Reserved Instances: Opportunity for 40% savings on compute"
+        ]
+      },
+      "suggestedActions": [
+        {
+          "title": "Right-size Instances",
+          "priority": "Medium"
+        },
+        {
+          "title": "Implement Storage Tiering",
+          "priority": "Low"
+        },
+        {
+          "title": "Purchase Reserved Capacity",
+          "priority": "High"
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Declining Engagement",
+      "description": "User engagement decreased 35% across customer base",
+      "category": "Engagement",
+      "confidenceScore": 0.82,
+      "occurrences": 47
+    },
+    {
+      "name": "Weekend Usage Spike",
+      "description": "40% of usage occurring outside business hours",
+      "category": "Usage",
+      "confidenceScore": 0.91,
+      "occurrences": 156
+    },
+    {
+      "name": "Payment Delays",
+      "description": "Average payment time increased from 15 to 28 days",
+      "category": "Financial",
+      "confidenceScore": 0.78,
+      "occurrences": 23
+    }
+  ],
+  "networkMetrics": {
+    "totalNodes": 247,
+    "totalEdges": 1853,
+    "averageDegree": 7.5,
+    "networkDensity": 0.031,
+    "clusteringCoefficient": 0.42,
+    "numberOfCommunities": 8,
+    "modularity": 0.65
+  }
+}

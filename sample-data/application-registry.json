@@ -1,0 +1,226 @@
+[
+  {
+    "id": "app-001",
+    "name": "School Management System",
+    "shortName": "SchoolWeb",
+    "slug": "school",
+    "description": "Comprehensive school administration and student management solution for educational institutions",
+    "tagline": "Streamline Your School Operations",
+    "registrationRoute": "/register/school",
+    "landingPageUrl": "https://school.yourcompany.com",
+    "productionUrl": "https://school.yourcompany.com",
+    "monthlyPrice": 179.99,
+    "annualPrice": 1799.99,
+    "currency": "USD",
+    "trialDays": 14,
+    "targetAudience": "Schools, educational institutions, administrators",
+    "industries": ["Education", "K-12", "Higher Education", "Training Centers"],
+    "features": [
+      "Student Information Management",
+      "Grade Tracking & Report Cards",
+      "Attendance Management",
+      "Parent Portal Access",
+      "Class Scheduling",
+      "Fee Management",
+      "Library Management",
+      "Transport Management"
+    ],
+    "keyBenefits": [
+      "Save 10+ hours per week on administrative tasks",
+      "Improve parent-teacher communication",
+      "Real-time attendance tracking",
+      "Automated report card generation"
+    ],
+    "brandColor": "#4A90E2",
+    "secondaryColor": "#F0F4F8",
+    "logoUrl": "/images/apps/school-logo.png",
+    "heroImageUrl": "/images/apps/school-hero.jpg",
+    "isActive": true,
+    "allowsAffiliateRegistration": true,
+    "requiresEmailVerification": true,
+    "requiresPaymentUpfront": false,
+    "testimonials": [
+      {
+        "customerName": "Sarah Johnson",
+        "company": "Lincoln Elementary School",
+        "title": "Principal",
+        "quote": "This system has transformed how we manage our school. Parents love the portal!",
+        "avatarUrl": "/images/testimonials/sarah-j.jpg",
+        "rating": 5
+      },
+      {
+        "customerName": "Michael Chen",
+        "company": "Riverside High School",
+        "title": "Administrator",
+        "quote": "The grade tracking feature alone has saved us countless hours. Highly recommended!",
+        "avatarUrl": "/images/testimonials/michael-c.jpg",
+        "rating": 5
+      }
+    ],
+    "trustBadges": ["SSL Secure", "GDPR Compliant", "99.9% Uptime", "24/7 Support"],
+    "moneyBackGuarantee": "30-day money-back guarantee",
+    "supportAvailability": "24/7 email and chat support"
+  },
+  {
+    "id": "app-002",
+    "name": "SaaS Management Web Platform",
+    "shortName": "SaaSWeb",
+    "slug": "saas",
+    "description": "Multi-tenant SaaS management and analytics platform for growing software companies",
+    "tagline": "Scale Your SaaS Business with Confidence",
+    "registrationRoute": "/register/saas",
+    "landingPageUrl": "https://saas.yourcompany.com",
+    "productionUrl": "https://saas.yourcompany.com",
+    "monthlyPrice": 499.99,
+    "annualPrice": 4999.99,
+    "currency": "USD",
+    "trialDays": 14,
+    "targetAudience": "SaaS companies, product managers, analytics teams",
+    "industries": ["Software", "SaaS", "Technology", "Startups"],
+    "features": [
+      "Multi-Tenant Architecture",
+      "Real-time Analytics Dashboard",
+      "Subscription Management",
+      "Billing Automation",
+      "API Management",
+      "Usage Tracking",
+      "Customer Portal",
+      "Revenue Analytics"
+    ],
+    "keyBenefits": [
+      "Reduce churn by 30% with predictive analytics",
+      "Automate billing and reduce errors",
+      "Scale to thousands of tenants",
+      "Real-time business insights"
+    ],
+    "brandColor": "#6C5CE7",
+    "secondaryColor": "#F5F3FF",
+    "logoUrl": "/images/apps/saas-logo.png",
+    "heroImageUrl": "/images/apps/saas-hero.jpg",
+    "isActive": true,
+    "allowsAffiliateRegistration": true,
+    "requiresEmailVerification": true,
+    "requiresPaymentUpfront": false,
+    "testimonials": [
+      {
+        "customerName": "David Martinez",
+        "company": "TechStart Solutions",
+        "title": "CEO",
+        "quote": "The analytics have been game-changing for our business decisions. Worth every penny!",
+        "avatarUrl": "/images/testimonials/david-m.jpg",
+        "rating": 5
+      }
+    ],
+    "trustBadges": ["SOC 2 Certified", "ISO 27001", "99.99% Uptime SLA", "Enterprise Support"],
+    "moneyBackGuarantee": "30-day money-back guarantee",
+    "supportAvailability": "24/7 priority support with dedicated account manager"
+  },
+  {
+    "id": "app-003",
+    "name": "Lawyer Web Practice Management",
+    "shortName": "LegalWeb",
+    "slug": "legal",
+    "description": "Complete law firm case and client management system with billing and document management",
+    "tagline": "Manage Your Practice with Confidence",
+    "registrationRoute": "/register/legal",
+    "landingPageUrl": "https://legal.yourcompany.com",
+    "productionUrl": "https://legal.yourcompany.com",
+    "monthlyPrice": 249.99,
+    "annualPrice": 2499.99,
+    "currency": "USD",
+    "trialDays": 14,
+    "targetAudience": "Law firms, legal practitioners, paralegals",
+    "industries": ["Legal", "Law Firms", "Corporate Legal", "Solo Practitioners"],
+    "features": [
+      "Case Management",
+      "Document Management with Encryption",
+      "Time Tracking & Billing",
+      "Client Portal",
+      "Court Calendar Integration",
+      "Conflict Checking",
+      "Trust Accounting",
+      "Legal Research Integration"
+    ],
+    "keyBenefits": [
+      "Increase billable hours by 20%",
+      "Secure document storage with encryption",
+      "Automated time tracking",
+      "Client portal for better communication"
+    ],
+    "brandColor": "#2C3E50",
+    "secondaryColor": "#ECF0F1",
+    "logoUrl": "/images/apps/legal-logo.png",
+    "heroImageUrl": "/images/apps/legal-hero.jpg",
+    "isActive": true,
+    "allowsAffiliateRegistration": true,
+    "requiresEmailVerification": true,
+    "requiresPaymentUpfront": false,
+    "testimonials": [
+      {
+        "customerName": "Jennifer Williams",
+        "company": "Johnson & Associates Law Firm",
+        "title": "Managing Partner",
+        "quote": "The time tracking and billing features have significantly improved our revenue collection.",
+        "avatarUrl": "/images/testimonials/jennifer-w.jpg",
+        "rating": 5
+      }
+    ],
+    "trustBadges": ["ABA Approved", "Bank-Level Security", "HIPAA Compliant", "Legal Tech Certified"],
+    "moneyBackGuarantee": "30-day money-back guarantee",
+    "supportAvailability": "Business hours support with legal tech specialists"
+  },
+  {
+    "id": "app-004",
+    "name": "Accounting Web Suite",
+    "shortName": "AccountingWeb",
+    "slug": "accounting",
+    "description": "Professional accounting and financial management platform for businesses and accountants",
+    "tagline": "Simplify Your Accounting, Amplify Your Growth",
+    "registrationRoute": "/register/accounting",
+    "landingPageUrl": "https://accounting.yourcompany.com",
+    "productionUrl": "https://accounting.yourcompany.com",
+    "monthlyPrice": 349.99,
+    "annualPrice": 3499.99,
+    "currency": "USD",
+    "trialDays": 14,
+    "targetAudience": "Accounting firms, CPAs, small businesses, finance teams",
+    "industries": ["Accounting", "Finance", "Small Business", "Professional Services"],
+    "features": [
+      "General Ledger",
+      "Accounts Payable/Receivable",
+      "Bank Reconciliation",
+      "Financial Reporting",
+      "Tax Preparation",
+      "Budgeting & Forecasting",
+      "Multi-Currency Support",
+      "Audit Trail"
+    ],
+    "keyBenefits": [
+      "Close books 50% faster",
+      "Real-time financial insights",
+      "Automated bank reconciliation",
+      "Tax-ready reports"
+    ],
+    "brandColor": "#27AE60",
+    "secondaryColor": "#E8F8F5",
+    "logoUrl": "/images/apps/accounting-logo.png",
+    "heroImageUrl": "/images/apps/accounting-hero.jpg",
+    "isActive": true,
+    "allowsAffiliateRegistration": true,
+    "requiresEmailVerification": true,
+    "requiresPaymentUpfront": false,
+    "testimonials": [
+      {
+        "customerName": "Robert Thompson",
+        "company": "Premier Accounting Services",
+        "title": "CPA",
+        "quote": "This software has streamlined our entire accounting process. Our clients love the reports!",
+        "avatarUrl": "/images/testimonials/robert-t.jpg",
+        "rating": 5
+      }
+    ],
+    "trustBadges": ["IRS Approved", "GAAP Compliant", "Bank-Level Encryption", "CPA Recommended"],
+    "moneyBackGuarantee": "30-day money-back guarantee",
+    "supportAvailability": "24/7 support during tax season, business hours otherwise"
+  }
+]

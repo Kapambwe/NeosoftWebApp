@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Uganda-1952",
+  "resellerName": "Kampala Tech Solutions",
+  "country": "Uganda",
+  "currency": "UGX",
+  "commissionRate": 14.9,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 89,
+  "activeCustomers": 71,
+  "totalRevenue": 678300000,
+  "totalCommissionEarned": 101066700.00,
+  "paidCommission": 75800025.00,
+  "pendingCommission": 25266675.00,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 22740007.50,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 17,
+      "revenue": 184485000,
+      "commission": 18618750,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 17,
+      "revenue": 130770000,
+      "commission": 20786250,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 13,
+      "revenue": 80681250,
+      "commission": 10758750,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 71865000,
+    "conversionRate": 20.4,
+    "customerRetentionRate": 94.6,
+    "averageCommissionPerSale": 14790000
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-18T00:00:00Z"
+}

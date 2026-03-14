@@ -1,0 +1,86 @@
+[
+    {
+        "TemplateId": "tmpl-council-mgmt",
+        "TemplateName": "Council Management System - Standard Chart of Accounts",
+        "ProductType": "Council Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-forest-mgmt",
+        "TemplateName": "Forest Management System - Standard Chart of Accounts",
+        "ProductType": "Forest Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-water-mgmt",
+        "TemplateName": "Water Management System - Standard Chart of Accounts",
+        "ProductType": "Water Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-police-mgmt",
+        "TemplateName": "Police Management System - Standard Chart of Accounts",
+        "ProductType": "Police Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-court-cases-mgmt",
+        "TemplateName": "Court Cases Management System - Standard Chart of Accounts",
+        "ProductType": "Court Cases Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-financial-crime-mgmt",
+        "TemplateName": "Financial Crime Management System - Standard Chart of Accounts",
+        "ProductType": "Financial Crime Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-small-biz-mgmt",
+        "TemplateName": "Small Scale Businesses Management System - Standard Chart of Accounts",
+        "ProductType": "Small Scale Businesses Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-banking-as-a-service",
+        "TemplateName": "Banking as a Service Management System - Standard Chart of Accounts",
+        "ProductType": "Banking as a Service Management System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-realtime-payment",
+        "TemplateName": "Real-Time Payment System - Standard Chart of Accounts",
+        "ProductType": "Real-Time Payment System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-minerals-trading",
+        "TemplateName": "Real-Time Minerals Trading Platform - Standard Chart of Accounts",
+        "ProductType": "Real-Time Minerals Trading Platform",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-agritech",
+        "TemplateName": "AgriTech Platform - Standard Chart of Accounts",
+        "ProductType": "AgriTech Platform",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-animal-tracking",
+        "TemplateName": "Animal Tracking System - Standard Chart of Accounts",
+        "ProductType": "Animal Tracking System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-gov-auditing",
+        "TemplateName": "Government Auditing System - Standard Chart of Accounts",
+        "ProductType": "Government Auditing System",
+        "Accounts": []
+    },
+    {
+        "TemplateId": "tmpl-shopping-mall",
+        "TemplateName": "Shopping Mall System - Standard Chart of Accounts",
+        "ProductType": "Shopping Mall System",
+        "Accounts": []
+    }
+]

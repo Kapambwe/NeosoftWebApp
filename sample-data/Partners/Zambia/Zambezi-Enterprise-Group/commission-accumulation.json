@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Zambia-0",
+  "country": "Zambia",
+  "affiliateName": "Zambezi Enterprise Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 843.0,
+      "revenue": 1374648.25,
+      "commission": 481126.89
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 958.0,
+      "revenue": 1539606.04,
+      "commission": 538862.11
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1073.0,
+      "revenue": 1649577.9,
+      "commission": 577352.26
+    }
+  ],
+  "summary": {
+    "paidCommission": 1828282.17,
+    "totalRevenue": 5498593.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1924507.55,
+    "totalRegistrations": 3834.0,
+    "pendingCommission": 96225.38,
+    "activeCustomers": 3527.0
+  }
+}

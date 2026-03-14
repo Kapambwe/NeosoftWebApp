@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Zambia-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 10,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 18
+  },
+  "country": "Zambia",
+  "affiliateName": "Zambia Digital Partners",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 405.0,
+      "revenue": 681744.0,
+      "commission": 170436.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 496.0,
+      "revenue": 852180.0,
+      "commission": 213045.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 451.0,
+      "revenue": 749918.4,
+      "commission": 187479.6
+    }
+  ],
+  "summary": {
+    "paidCommission": 801049.2,
+    "totalRevenue": 3408720.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 852180.0,
+    "totalRegistrations": 2255.0,
+    "pendingCommission": 51130.8,
+    "activeCustomers": 2029.0
+  }
+}

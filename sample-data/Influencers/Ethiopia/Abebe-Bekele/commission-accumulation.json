@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Ethiopia-0",
+  "country": "Ethiopia",
+  "affiliateName": "Abebe Bekele",
+  "performanceMetrics": {
+    "engagementRate": 3.1,
+    "followerCount": 490213,
+    "averageOrderValue": 523.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 29.0,
+      "revenue": 16317.6,
+      "commission": 2447.64
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 36.0,
+      "revenue": 19581.12,
+      "commission": 2937.17
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 44.0,
+      "revenue": 21756.8,
+      "commission": 3263.52
+    }
+  ],
+  "summary": {
+    "paidCommission": 15012.19,
+    "totalRevenue": 108784.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 16317.6,
+    "totalRegistrations": 245.0,
+    "pendingCommission": 1305.41,
+    "activeCustomers": 208.0
+  }
+}

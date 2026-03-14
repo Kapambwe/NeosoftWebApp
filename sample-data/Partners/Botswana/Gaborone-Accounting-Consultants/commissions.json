@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Botswana-1856",
+  "partnerName": "Gaborone Accounting Consultants",
+  "country": "Botswana",
+  "currency": "BWP",
+  "commissionRate": 18.4,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 21,
+  "activeProjects": 15,
+  "totalCustomers": 89,
+  "totalRevenue": 7212699,
+  "totalCommissionEarned": 1327136.62,
+  "paidCommission": 1061709.3,
+  "pendingCommission": 265427.32,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 265427.32,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.12,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 4,
+      "revenue": 708615,
+      "commission": 166333.5,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 6,
+      "revenue": 960660,
+      "commission": 159097.5,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 507627,
+      "commission": 156816,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 868468.5,
+    "implementationSuccessRate": 98.4,
+    "customerSatisfactionScore": 4.6,
+    "averageCommissionPerProject": 92947.5,
+    "recurringRevenueShare": 36.4
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-22T00:00:00Z"
+}

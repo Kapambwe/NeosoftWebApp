@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Zambia-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 6,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 3
+  },
+  "country": "Zambia",
+  "affiliateName": "Ndola Systems",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 49.0,
+      "revenue": 27290.4,
+      "commission": 6822.6
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 60.0,
+      "revenue": 34113.0,
+      "commission": 8528.25
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 55.0,
+      "revenue": 30019.44,
+      "commission": 7504.86
+    }
+  ],
+  "summary": {
+    "paidCommission": 32066.22,
+    "totalRevenue": 136452.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 34113.0,
+    "totalRegistrations": 277.0,
+    "pendingCommission": 2046.78,
+    "activeCustomers": 249.0
+  }
+}

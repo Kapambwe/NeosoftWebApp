@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Tanzania-2",
+  "country": "Tanzania",
+  "affiliateName": "Bakari Salum",
+  "performanceMetrics": {
+    "engagementRate": 3.2,
+    "followerCount": 466292,
+    "averageOrderValue": 577.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 43.0,
+      "revenue": 26484.3,
+      "commission": 3972.64
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 54.0,
+      "revenue": 31781.16,
+      "commission": 4767.17
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 64.0,
+      "revenue": 35312.4,
+      "commission": 5296.86
+    }
+  ],
+  "summary": {
+    "paidCommission": 24365.56,
+    "totalRevenue": 176562.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 26484.3,
+    "totalRegistrations": 361.0,
+    "pendingCommission": 2118.74,
+    "activeCustomers": 306.0
+  }
+}

@@ -1,0 +1,200 @@
+[
+    {
+        "Id": "TICK-001",
+        "CustomerId": "CUST-001",
+        "Title": "Login Issue",
+        "Description": "I can't login to my account.",
+        "Status": 0,
+        "Priority": 0,
+        "CreatedDate": "2026-01-30T10:00:00Z",
+        "AssignedToId": "AGENT-001",
+        "TeamId": "TEAM-01"
+    },
+    {
+        "Id": "TICK-002",
+        "CustomerId": "CUST-002",
+        "Title": "Billing Question",
+        "Description": "I have a question about my last invoice.",
+        "Status": 0,
+        "Priority": 1,
+        "CreatedDate": "2026-01-29T10:00:00Z",
+        "AssignedToId": "AGENT-002",
+        "TeamId": "TEAM-01"
+    },
+    {
+        "Id": "TICK-003",
+        "CustomerId": "CUST-003",
+        "Title": "Feature Request",
+        "Description": "I would like to request a new feature.",
+        "Status": 0,
+        "Priority": 2,
+        "CreatedDate": "2026-01-28T10:00:00Z",
+        "AssignedToId": "AGENT-001",
+        "TeamId": "TEAM-02"
+    },
+    {
+        "Id": "TICK-004",
+        "CustomerId": "CUST-001",
+        "Title": "Slow performance",
+        "Description": "The application is running very slow.",
+        "Status": 1,
+        "Priority": 0,
+        "CreatedDate": "2026-01-30T10:00:00Z",
+        "AssignedToId": "AGENT-003",
+        "TeamId": "TEAM-02"
+    },
+    {
+        "Id": "TICK-005",
+        "CustomerId": "CUST-004",
+        "Title": "Export not working",
+        "Description": "I can't export my data to CSV.",
+        "Status": 3,
+        "Priority": 1,
+        "CreatedDate": "2026-01-26T10:00:00Z",
+        "ClosedDate": "2026-01-27T10:00:00Z",
+        "AssignedToId": "AGENT-002",
+        "TeamId": "TEAM-01"
+    },
+    {
+        "Id": "TICK-006",
+        "CustomerId": "CUST-005",
+        "Title": "User interface issue",
+        "Description": "A button is not visible on the main dashboard.",
+        "Status": 0,
+        "Priority": 1,
+        "CreatedDate": "2026-01-31T04:00:00Z",
+        "AssignedToId": "AGENT-001",
+        "TeamId": "TEAM-01"
+    },
+    {
+        "Id": "TICK-007",
+        "CustomerId": "CUST-006",
+        "Title": "API integration help",
+        "Description": "I need help integrating with your API.",
+        "Status": 1,
+        "Priority": 0,
+        "CreatedDate": "2026-01-29T10:00:00Z",
+        "AssignedToId": "AGENT-003",
+        "TeamId": "TEAM-02"
+    },
+    {
+        "Id": "TICK-008",
+        "CustomerId": "CUST-007",
+        "Title": "Subscription upgrade",
+        "Description": "How can I upgrade my subscription plan?",
+        "Status": 0,
+        "Priority": 2,
+        "CreatedDate": "2026-01-31T08:00:00Z"
+    },
+    {
+        "Id": "TICK-009",
+        "CustomerId": "CUST-008",
+        "Title": "Report generation fails",
+        "Description": "The monthly report fails to generate.",
+        "Status": 0,
+        "Priority": 0,
+        "CreatedDate": "2026-01-30T10:00:00Z"
+    },
+    {
+        "Id": "TICK-010",
+        "CustomerId": "CUST-002",
+        "Title": "Password reset link not received",
+        "Description": "I requested a password reset but did not get the email.",
+        "Status": 3,
+        "Priority": 1,
+        "CreatedDate": "2026-01-28T10:00:00Z",
+        "ClosedDate": "2026-01-28T10:00:00Z"
+    },
+    {
+        "Id": "TICK-011",
+        "CustomerId": "CUST-009",
+        "Title": "Two-factor authentication setup",
+        "Description": "I'm having trouble setting up 2FA.",
+        "Status": 0,
+        "Priority": 1,
+        "CreatedDate": "2026-01-31T09:00:00Z"
+    },
+    {
+        "Id": "TICK-012",
+        "CustomerId": "CUST-010",
+        "Title": "Question about data privacy",
+        "Description": "Where can I find your data privacy policy?",
+        "Status": 3,
+        "Priority": 2,
+        "CreatedDate": "2026-01-27T10:00:00Z",
+        "ClosedDate": "2026-01-27T10:00:00Z"
+    },
+    {
+        "Id": "TICK-013",
+        "CustomerId": "CUST-001",
+        "Title": "Mobile app crash",
+        "Description": "The mobile app crashes on startup.",
+        "Status": 0,
+        "Priority": 0,
+        "CreatedDate": "2026-01-30T04:00:00Z"
+    },
+    {
+        "Id": "TICK-014",
+        "CustomerId": "CUST-011",
+        "Title": "How to add a new user?",
+        "Description": "I need instructions on how to add a new team member.",
+        "Status": 0,
+        "Priority": 2,
+        "CreatedDate": "2026-01-31T05:00:00Z"
+    },
+    {
+        "Id": "TICK-015",
+        "CustomerId": "CUST-012",
+        "Title": "Incorrect data on dashboard",
+        "Description": "The revenue numbers on my dashboard seem incorrect.",
+        "Status": 1,
+        "Priority": 0,
+        "CreatedDate": "2026-01-30T10:00:00Z"
+    },
+    {
+        "Id": "TICK-016",
+        "CustomerId": "CUST-003",
+        "Title": "Can't upload profile picture",
+        "Description": "I get an error when I try to upload a profile picture.",
+        "Status": 0,
+        "Priority": 1,
+        "CreatedDate": "2026-01-29T10:00:00Z"
+    },
+    {
+        "Id": "TICK-017",
+        "CustomerId": "CUST-013",
+        "Title": "Video tutorial request",
+        "Description": "Do you have video tutorials for the new features?",
+        "Status": 3,
+        "Priority": 2,
+        "CreatedDate": "2026-01-25T10:00:00Z",
+        "ClosedDate": "2026-01-26T10:00:00Z"
+    },
+    {
+        "Id": "TICK-018",
+        "CustomerId": "CUST-014",
+        "Title": "Payment failed",
+        "Description": "My credit card payment failed.",
+        "Status": 0,
+        "Priority": 0,
+        "CreatedDate": "2026-01-31T09:00:00Z"
+    },
+    {
+        "Id": "TICK-019",
+        "CustomerId": "CUST-015",
+        "Title": "Email notification preferences",
+        "Description": "How can I change my email notification settings?",
+        "Status": 0,
+        "Priority": 2,
+        "CreatedDate": "2026-01-30T10:00:00Z"
+    },
+    {
+        "Id": "TICK-020",
+        "CustomerId": "CUST-001",
+        "Title": "API rate limit question",
+        "Description": "What are the rate limits for the API?",
+        "Status": 1,
+        "Priority": 1,
+        "CreatedDate": "2026-01-29T10:00:00Z"
+    }
+]

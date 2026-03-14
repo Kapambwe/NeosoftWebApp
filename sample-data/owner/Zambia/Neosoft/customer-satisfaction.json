@@ -1,0 +1,84 @@
+{
+  "satisfactionSummary": {
+    "averageCSAT": 4.2,
+    "netPromoterScore": 45,
+    "promoterPercentage": 55.0,
+    "passivePercentage": 35.0,
+    "detractorPercentage": 10.0,
+    "responseRate": 72.5,
+    "totalResponses": 1250,
+    "trendDirection": 1,
+    "trendPercentage": 5.2
+  },
+  "npsDistribution": [
+    {
+      "category": "Promoters (9-10)",
+      "percentage": 55.0,
+      "count": 825
+    },
+    {
+      "category": "Passives (7-8)",
+      "percentage": 35.0,
+      "count": 525
+    },
+    {
+      "category": "Detractors (0-6)",
+      "percentage": 10.0,
+      "count": 150
+    }
+  ],
+  "csatTrend": [
+    {
+      "month": "Aug 2023",
+      "score": 4.1,
+      "responseCount": 180
+    },
+    {
+      "month": "Sep 2023",
+      "score": 4.2,
+      "responseCount": 195
+    },
+    {
+      "month": "Oct 2023",
+      "score": 4.3,
+      "responseCount": 210
+    },
+    {
+      "month": "Nov 2023",
+      "score": 4.2,
+      "responseCount": 225
+    },
+    {
+      "month": "Dec 2023",
+      "score": 4.4,
+      "responseCount": 240
+    },
+    {
+      "month": "Jan 2024",
+      "score": 4.2,
+      "responseCount": 200
+    }
+  ],
+  "productScores": [
+    {
+      "productId": "PROD-001",
+      "productName": "QuickBooks Online",
+      "csat": 4.3,
+      "nps": 48,
+      "responseCount": 320,
+      "promoters": 180,
+      "passives": 100,
+      "detractors": 40
+    },
+    {
+      "productId": "PROD-002",
+      "productName": "Enterprise Accounting",
+      "csat": 4.5,
+      "nps": 52,
+      "responseCount": 280,
+      "promoters": 165,
+      "passives": 85,
+      "detractors": 30
+    }
+  ]
+}

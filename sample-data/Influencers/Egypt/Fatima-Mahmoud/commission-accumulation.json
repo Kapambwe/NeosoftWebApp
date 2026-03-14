@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Egypt-1",
+  "country": "Egypt",
+  "affiliateName": "Fatima Mahmoud",
+  "performanceMetrics": {
+    "engagementRate": 7.0,
+    "followerCount": 358225,
+    "averageOrderValue": 997.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 122.0,
+      "revenue": 129510.3,
+      "commission": 19426.54
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 152.0,
+      "revenue": 155412.36,
+      "commission": 23311.85
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 183.0,
+      "revenue": 172680.4,
+      "commission": 25902.06
+    }
+  ],
+  "summary": {
+    "paidCommission": 119149.48,
+    "totalRevenue": 863402.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 129510.3,
+    "totalRegistrations": 1019.0,
+    "pendingCommission": 10360.82,
+    "activeCustomers": 866.0
+  }
+}

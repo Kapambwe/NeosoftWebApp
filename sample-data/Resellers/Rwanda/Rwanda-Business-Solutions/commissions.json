@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Rwanda-3848",
+  "resellerName": "Rwanda Business Solutions",
+  "country": "Rwanda",
+  "currency": "RWF",
+  "commissionRate": 14.3,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 73,
+  "activeCustomers": 63,
+  "totalRevenue": 276743500,
+  "totalCommissionEarned": 39574320.50,
+  "paidCommission": 29680740.38,
+  "pendingCommission": 9893580.12,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 8904222.11,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 14,
+      "revenue": 31235600,
+      "commission": 7047700,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 12,
+      "revenue": 33107800,
+      "commission": 3264800,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 9,
+      "revenue": 39537300,
+      "commission": 4887300,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 28968500,
+    "conversionRate": 12.1,
+    "customerRetentionRate": 96.2,
+    "averageCommissionPerSale": 2609200
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-11T00:00:00Z"
+}

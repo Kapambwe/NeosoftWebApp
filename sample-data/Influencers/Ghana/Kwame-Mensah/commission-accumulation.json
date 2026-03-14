@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Ghana-0",
+  "country": "Ghana",
+  "affiliateName": "Kwame Mensah",
+  "performanceMetrics": {
+    "engagementRate": 3.6,
+    "followerCount": 373492,
+    "averageOrderValue": 622.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 100.0,
+      "revenue": 66336.3,
+      "commission": 9950.44
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 125.0,
+      "revenue": 79603.56,
+      "commission": 11940.53
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 150.0,
+      "revenue": 88448.4,
+      "commission": 13267.26
+    }
+  ],
+  "summary": {
+    "paidCommission": 61029.4,
+    "totalRevenue": 442242.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 66336.3,
+    "totalRegistrations": 837.0,
+    "pendingCommission": 5306.9,
+    "activeCustomers": 711.0
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TAX-001",
+    "taxType": "CorporateTax",
+    "taxPeriod": "2024-Q4",
+    "assessedAmount": 285000.00,
+    "paidAmount": 285000.00,
+    "outstandingAmount": 0.00,
+    "dueDate": "2025-01-31T00:00:00Z",
+    "status": "Paid"
+  },
+  {
+    "id": "TAX-002",
+    "taxType": "VAT",
+    "taxPeriod": "2024-Q4",
+    "assessedAmount": 142500.00,
+    "paidAmount": 100000.00,
+    "outstandingAmount": 42500.00,
+    "dueDate": "2025-01-20T00:00:00Z",
+    "status": "PartiallyPaid"
+  },
+  {
+    "id": "TAX-003",
+    "taxType": "PayrollTax",
+    "taxPeriod": "2024-Q3",
+    "assessedAmount": 98400.00,
+    "paidAmount": 98400.00,
+    "outstandingAmount": 0.00,
+    "dueDate": "2024-10-15T00:00:00Z",
+    "status": "Paid"
+  },
+  {
+    "id": "TAX-004",
+    "taxType": "WithholdingTax",
+    "taxPeriod": "2024-Q3",
+    "assessedAmount": 45600.00,
+    "paidAmount": 0.00,
+    "outstandingAmount": 45600.00,
+    "dueDate": "2024-10-31T00:00:00Z",
+    "status": "Overdue"
+  },
+  {
+    "id": "TAX-005",
+    "taxType": "CorporateTax",
+    "taxPeriod": "2024-Q3",
+    "assessedAmount": 275000.00,
+    "paidAmount": 275000.00,
+    "outstandingAmount": 0.00,
+    "dueDate": "2024-10-31T00:00:00Z",
+    "status": "Paid"
+  },
+  {
+    "id": "TAX-006",
+    "taxType": "VAT",
+    "taxPeriod": "2025-Q1",
+    "assessedAmount": 160000.00,
+    "paidAmount": 0.00,
+    "outstandingAmount": 160000.00,
+    "dueDate": "2025-04-20T00:00:00Z",
+    "status": "Pending"
+  },
+  {
+    "id": "TAX-007",
+    "taxType": "PayrollTax",
+    "taxPeriod": "2025-Q1",
+    "assessedAmount": 102000.00,
+    "paidAmount": 60000.00,
+    "outstandingAmount": 42000.00,
+    "dueDate": "2025-04-15T00:00:00Z",
+    "status": "PartiallyPaid"
+  },
+  {
+    "id": "TAX-008",
+    "taxType": "WithholdingTax",
+    "taxPeriod": "2024-Q4",
+    "assessedAmount": 52000.00,
+    "paidAmount": 52000.00,
+    "outstandingAmount": 0.00,
+    "dueDate": "2025-01-31T00:00:00Z",
+    "status": "Paid"
+  }
+]

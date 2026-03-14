@@ -1,0 +1,17 @@
+{
+  "tier": "Gold",
+  "promoCode": "KLC9FAS7",
+  "name": "Fatima Mahmoud",
+  "email": "fatima.mahmoud@egypt.influence",
+  "country": "Egypt",
+  "joinedDate": "2023-08-01T00:00:00Z",
+  "socialMedia": {
+    "followers": 358225,
+    "engagementRate": 7.0,
+    "platform": "TikTok"
+  },
+  "type": "Influencer",
+  "id": "inf-Egypt-1",
+  "status": "Active",
+  "commissionRate": 15.0
+}

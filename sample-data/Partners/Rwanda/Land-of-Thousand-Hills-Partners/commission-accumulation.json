@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Rwanda-0",
+  "country": "Rwanda",
+  "affiliateName": "Land of Thousand Hills Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1323.0,
+      "revenue": 4053003.75,
+      "commission": 1418551.31
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1504.0,
+      "revenue": 4539364.2,
+      "commission": 1588777.47
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1684.0,
+      "revenue": 4863604.5,
+      "commission": 1702261.58
+    }
+  ],
+  "summary": {
+    "paidCommission": 5390494.99,
+    "totalRevenue": 16212015.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 5674205.25,
+    "totalRegistrations": 6017.0,
+    "pendingCommission": 283710.26,
+    "activeCustomers": 5535.0
+  }
+}

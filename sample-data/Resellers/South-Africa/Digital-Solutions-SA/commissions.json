@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-South-Africa-4881",
+  "resellerName": "Digital Solutions SA",
+  "country": "South-Africa",
+  "currency": "ZAR",
+  "commissionRate": 13.5,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 99,
+  "activeCustomers": 38,
+  "totalRevenue": 4253668,
+  "totalCommissionEarned": 574245.18,
+  "paidCommission": 430683.88,
+  "pendingCommission": 143561.3,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 129205.16,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 10,
+      "revenue": 977725,
+      "commission": 71021.5,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 16,
+      "revenue": 473544.5,
+      "commission": 87209,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 9,
+      "revenue": 726809.5,
+      "commission": 74425.5,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 591371,
+    "conversionRate": 17.5,
+    "customerRetentionRate": 92.5,
+    "averageCommissionPerSale": 64602
+  },
+  "joinedDate": "2022-03-01T00:00:00Z",
+  "lastActivityDate": "2024-11-26T00:00:00Z"
+}

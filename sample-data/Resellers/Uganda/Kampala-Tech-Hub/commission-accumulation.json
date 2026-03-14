@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Uganda-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 2,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 12
+  },
+  "country": "Uganda",
+  "affiliateName": "Kampala Tech Hub",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 700.0,
+      "revenue": 682579.2,
+      "commission": 170644.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 856.0,
+      "revenue": 853224.0,
+      "commission": 213306.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 778.0,
+      "revenue": 750837.12,
+      "commission": 187709.28
+    }
+  ],
+  "summary": {
+    "paidCommission": 802030.56,
+    "totalRevenue": 3412896.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 853224.0,
+    "totalRegistrations": 3894.0,
+    "pendingCommission": 51193.44,
+    "activeCustomers": 3504.0
+  }
+}

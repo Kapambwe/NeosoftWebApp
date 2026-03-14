@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Kenya-6268",
+  "resellerName": "Rift Valley Tech Partners",
+  "country": "Kenya",
+  "currency": "KES",
+  "commissionRate": 13.1,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 67,
+  "activeCustomers": 61,
+  "totalRevenue": 21469140,
+  "totalCommissionEarned": 2812457.34,
+  "paidCommission": 2109343.00,
+  "pendingCommission": 703114.34,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 632802.90,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.16,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 14,
+      "revenue": 4755168,
+      "commission": 957396,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 10,
+      "revenue": 4152192,
+      "commission": 482328,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 13,
+      "revenue": 3378012,
+      "commission": 528000,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 4281420,
+    "conversionRate": 13,
+    "customerRetentionRate": 87.3,
+    "averageCommissionPerSale": 444048
+  },
+  "joinedDate": "2022-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-27T00:00:00Z"
+}

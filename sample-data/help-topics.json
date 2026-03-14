@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Quick Start Guide",
+    "description": "Get up and running in under 10 minutes.",
+    "icon": "rocket_launch",
+    "url": "#"
+  },
+  {
+    "title": "Affiliate Programme",
+    "description": "Learn how to earn commissions through referrals.",
+    "icon": "share",
+    "url": "#"
+  },
+  {
+    "title": "Products & Pricing",
+    "description": "Create, manage and price your SaaS products.",
+    "icon": "inventory",
+    "url": "#"
+  },
+  {
+    "title": "Customer Management",
+    "description": "Onboard and manage your customer accounts.",
+    "icon": "people",
+    "url": "#"
+  },
+  {
+    "title": "Billing & Payouts",
+    "description": "Understand commissions, invoicing and payments.",
+    "icon": "payments",
+    "url": "#"
+  },
+  {
+    "title": "Security & Privacy",
+    "description": "Protect your account and understand data handling.",
+    "icon": "security",
+    "url": "#"
+  }
+]

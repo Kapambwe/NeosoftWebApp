@@ -1,0 +1,144 @@
+{
+  "id": "bp-config-001",
+  "programName": "CompanyApp Affiliate Program",
+  "programDescription": "Global affiliate program supporting influencers, resellers, and strategic partners",
+  "supportedCountries": ["US", "CA", "UK", "AU", "DE", "FR", "ES", "IT", "NL", "SE", "NO", "DK", "FI"],
+  "supportedCurrencies": ["USD", "CAD", "GBP", "AUD", "EUR", "SEK", "NOK", "DKK"],
+  "attributionWindowDays": 30,
+  "lastClickAttribution": true,
+  "firstClickAttribution": false,
+  "multiTouchAttribution": false,
+  "commissionHoldPeriod": 30,
+  "refundGracePeriod": 30,
+  "minimumPayoutAmount": 50.0,
+  "paymentFrequencyDays": 30,
+  "paymentMethods": ["Bank Transfer", "PayPal", "Stripe", "Wire Transfer"],
+  "requiresFTCDisclosure": true,
+  "requiresGDPRCompliance": true,
+  "requiresCCPACompliance": true,
+  "requiresCustomerConsent": true,
+  "requiresAffiliateVerification": true,
+  "requiresContentApproval": true,
+  "prohibitsSpam": true,
+  "prohibitsPaidSearch": false,
+  "prohibitsBrandBidding": true,
+  "prohibitedChannels": ["Adult Content", "Gambling", "Illegal Activities", "Hate Speech"],
+  "enableClickFraudDetection": true,
+  "enableConversionFraudDetection": true,
+  "maxClicksPerIpPerDay": 10,
+  "maxConversionsPerIpPerDay": 1,
+  "requireEmailVerification": true,
+  "countryRules": {
+    "US": {
+      "countryCode": "US",
+      "countryName": "United States",
+      "requiredDisclosures": [
+        "FTC Material Connection Disclosure: #ad #sponsored #affiliate",
+        "This post contains affiliate links. I may earn a commission if you purchase through these links."
+      ],
+      "prohibitedPractices": [
+        "Deceptive advertising",
+        "False income claims",
+        "Misleading product representations",
+        "Failure to disclose material connections"
+      ],
+      "requiresTaxReporting": true,
+      "taxReportingThreshold": "$600 annually",
+      "requiredDocuments": ["W-9 Form", "Tax ID Number"]
+    },
+    "EU": {
+      "countryCode": "EU",
+      "countryName": "European Union",
+      "requiredDisclosures": [
+        "GDPR Privacy Notice: We process your data in accordance with GDPR",
+        "Cookie Consent: This site uses cookies for tracking affiliate referrals",
+        "Advertising Disclosure: This content contains affiliate partnerships"
+      ],
+      "prohibitedPractices": [
+        "Processing personal data without consent",
+        "Excessive data collection",
+        "Failure to provide data subject rights",
+        "Cross-border data transfers without safeguards"
+      ],
+      "requiresTaxReporting": true,
+      "taxReportingThreshold": "€1000 annually",
+      "requiredDocuments": ["VAT Number", "Business Registration"]
+    },
+    "UK": {
+      "countryCode": "UK",
+      "countryName": "United Kingdom",
+      "requiredDisclosures": [
+        "ASA Advertising Standards: #ad #gifted #affiliate",
+        "ICO Data Protection: Your data is processed in accordance with UK GDPR"
+      ],
+      "prohibitedPractices": [
+        "Misleading advertising",
+        "Unsolicited marketing communications",
+        "Failure to comply with ASA guidelines"
+      ],
+      "requiresTaxReporting": true,
+      "taxReportingThreshold": "£1000 annually",
+      "requiredDocuments": ["UTR Number", "National Insurance Number"]
+    },
+    "CA": {
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "requiredDisclosures": [
+        "Competition Act Compliance: Material connections must be disclosed",
+        "PIPEDA Privacy: Personal information is protected under PIPEDA"
+      ],
+      "prohibitedPractices": [
+        "Deceptive marketing practices",
+        "Spam communications",
+        "Privacy violations"
+      ],
+      "requiresTaxReporting": true,
+      "taxReportingThreshold": "CAD $500 annually",
+      "requiredDocuments": ["SIN or Business Number"]
+    },
+    "AU": {
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "requiredDisclosures": [
+        "ACCC Consumer Law: #ad #sponsored #affiliate",
+        "Privacy Act: Personal information handled in accordance with Privacy Act"
+      ],
+      "prohibitedPractices": [
+        "Misleading or deceptive conduct",
+        "Unconscionable conduct",
+        "Privacy breaches"
+      ],
+      "requiresTaxReporting": true,
+      "taxReportingThreshold": "AUD $600 annually",
+      "requiredDocuments": ["ABN", "TFN"]
+    }
+  },
+  "requiredDisclosures": [
+    "Material connection disclosure",
+    "Privacy policy link",
+    "Terms of service acceptance",
+    "Cookie usage notification"
+  ],
+  "prohibitedPractices": [
+    "Spam marketing",
+    "False income claims",
+    "Misleading product descriptions",
+    "Brand bidding without permission",
+    "Cookie stuffing",
+    "Click fraud",
+    "Incentivized traffic",
+    "Adult content promotion"
+  ],
+  "enableRealTimeReporting": true,
+  "enableAdvancedAnalytics": true,
+  "dataRetentionDays": 2555,
+  "requiredNotifications": [
+    "Commission approval",
+    "Payment processing",
+    "Policy updates",
+    "Performance milestones",
+    "Compliance violations"
+  ],
+  "responseTimeHours": 24,
+  "supportChannels": ["Email", "Live Chat", "Phone", "Help Center"]
+}

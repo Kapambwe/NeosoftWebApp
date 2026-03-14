@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Ethiopia-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 6,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 11
+  },
+  "country": "Ethiopia",
+  "affiliateName": "Addis Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 174.0,
+      "revenue": 129701.6,
+      "commission": 32425.4
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 213.0,
+      "revenue": 162127.0,
+      "commission": 40531.75
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 194.0,
+      "revenue": 142671.76,
+      "commission": 35667.94
+    }
+  ],
+  "summary": {
+    "paidCommission": 152399.38,
+    "totalRevenue": 648508.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 162127.0,
+    "totalRegistrations": 972.0,
+    "pendingCommission": 9727.62,
+    "activeCustomers": 874.0
+  }
+}

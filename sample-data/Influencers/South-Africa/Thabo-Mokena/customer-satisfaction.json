@@ -1,0 +1,64 @@
+{
+  "satisfactionSummary": {
+    "averageCSAT": 4.6,
+    "netPromoterScore": 52,
+    "promoterPercentage": 62.0,
+    "passivePercentage": 28.0,
+    "detractorPercentage": 10.0,
+    "responseRate": 78.5,
+    "totalResponses": 1850,
+    "trendDirection": 1,
+    "trendPercentage": 6.8
+  },
+  "npsDistribution": [
+    {
+      "category": "Promoters (9-10)",
+      "percentage": 62.0,
+      "count": 1147
+    },
+    {
+      "category": "Passives (7-8)",
+      "percentage": 28.0,
+      "count": 518
+    },
+    {
+      "category": "Detractors (0-6)",
+      "percentage": 10.0,
+      "count": 185
+    }
+  ],
+  "regionalSatisfaction": [
+    {
+      "region": "Gauteng",
+      "score": 4.7,
+      "responses": 720
+    },
+    {
+      "region": "Western Cape",
+      "score": 4.6,
+      "responses": 580
+    },
+    {
+      "region": "KwaZulu-Natal",
+      "score": 4.5,
+      "responses": 350
+    },
+    {
+      "region": "Eastern Cape",
+      "score": 4.4,
+      "responses": 200
+    }
+  ],
+  "topPraises": [
+    "Easy to use interface",
+    "Excellent customer support",
+    "Comprehensive reporting features",
+    "Reliable performance",
+    "Good value for money"
+  ],
+  "topComplaints": [
+    "Mobile app needs improvement",
+    "Some features could be more intuitive",
+    "Occasional slow loading times"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Zimbabwe-8560",
+  "partnerName": "African Tech Integrators",
+  "country": "Zimbabwe",
+  "currency": "USD",
+  "commissionRate": 17.2,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 38,
+  "activeProjects": 21,
+  "totalCustomers": 116,
+  "totalRevenue": 257229,
+  "totalCommissionEarned": 44243.39,
+  "paidCommission": 35394.71,
+  "pendingCommission": 8848.68,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 8848.68,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 3,
+      "revenue": 47547,
+      "commission": 8319,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 69137,
+      "commission": 11870,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 31206,
+      "commission": 6607,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 58733,
+    "implementationSuccessRate": 93.4,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 14230,
+    "recurringRevenueShare": 33.1
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-11T00:00:00Z"
+}

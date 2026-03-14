@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Nigeria-8738",
+  "resellerName": "Lagos Tech Solutions",
+  "country": "Nigeria",
+  "currency": "NGN",
+  "commissionRate": 10.8,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 91,
+  "activeCustomers": 89,
+  "totalRevenue": 267497880,
+  "totalCommissionEarned": 28889771.04,
+  "paidCommission": 21667328.28,
+  "pendingCommission": 7222442.76,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 6500198.48,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.1,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 19,
+      "revenue": 32004180,
+      "commission": 2680080,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 7,
+      "revenue": 23318880,
+      "commission": 2938260,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 7,
+      "revenue": 26821860,
+      "commission": 3816540,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 11799840,
+    "conversionRate": 16.7,
+    "customerRetentionRate": 86.7,
+    "averageCommissionPerSale": 3354000
+  },
+  "joinedDate": "2022-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-27T00:00:00Z"
+}

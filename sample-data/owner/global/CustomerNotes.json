@@ -1,0 +1,38 @@
+[
+    {
+        "Id": "NOTE-001",
+        "CustomerId": "CUST-001",
+        "Content": "Great customer, always pays on time. Interested in expanding to additional modules.",
+        "AuthorName": "Sarah Mwansa",
+        "AuthorEmail": "sarah@company.com",
+        "IsPinned": true,
+        "CreatedDate": "2026-01-21T10:00:00Z"
+    },
+    {
+        "Id": "NOTE-002",
+        "CustomerId": "CUST-001",
+        "Content": "Discussed potential upgrade to Enterprise tier during Q1 2024.",
+        "AuthorName": "John Banda",
+        "AuthorEmail": "john@company.com",
+        "IsPinned": false,
+        "CreatedDate": "2026-01-26T10:00:00Z"
+    },
+    {
+        "Id": "NOTE-003",
+        "CustomerId": "CUST-002",
+        "Content": "Key stakeholder is Mary Banda. Very technical and detail-oriented.",
+        "AuthorName": "Sarah Mwansa",
+        "AuthorEmail": "sarah@company.com",
+        "IsPinned": true,
+        "CreatedDate": "2026-01-11T10:00:00Z"
+    },
+    {
+        "Id": "NOTE-004",
+        "CustomerId": "CUST-003",
+        "Content": "Still in trial period. Need to follow up with demo of advanced features.",
+        "AuthorName": "Mary Phiri",
+        "AuthorEmail": "mary@company.com",
+        "IsPinned": false,
+        "CreatedDate": "2026-01-29T10:00:00Z"
+    }
+]

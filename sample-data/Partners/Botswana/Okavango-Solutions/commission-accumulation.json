@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Botswana-2",
+  "country": "Botswana",
+  "affiliateName": "Okavango Solutions",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1123.0,
+      "revenue": 2324520.0,
+      "commission": 813582.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1276.0,
+      "revenue": 2603462.4,
+      "commission": 911211.84
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1429.0,
+      "revenue": 2789424.0,
+      "commission": 976298.4
+    }
+  ],
+  "summary": {
+    "paidCommission": 3091611.6,
+    "totalRevenue": 9298080.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3254328.0,
+    "totalRegistrations": 5105.0,
+    "pendingCommission": 162716.4,
+    "activeCustomers": 4696.0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Egypt-3",
+  "country": "Egypt",
+  "affiliateName": "Nour Khalil",
+  "performanceMetrics": {
+    "engagementRate": 7.8,
+    "followerCount": 123912,
+    "averageOrderValue": 786.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 64.0,
+      "revenue": 53880.3,
+      "commission": 8082.04
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 80.0,
+      "revenue": 64656.36,
+      "commission": 9698.45
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 96.0,
+      "revenue": 71840.4,
+      "commission": 10776.06
+    }
+  ],
+  "summary": {
+    "paidCommission": 49569.88,
+    "totalRevenue": 359202.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 53880.3,
+    "totalRegistrations": 538.0,
+    "pendingCommission": 4310.42,
+    "activeCustomers": 457.0
+  }
+}

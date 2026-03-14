@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Nigeria-1",
+  "country": "Nigeria",
+  "affiliateName": "Nigerian Integration Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 429.0,
+      "revenue": 1210953.0,
+      "commission": 423833.55
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 488.0,
+      "revenue": 1356267.36,
+      "commission": 474693.58
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 546.0,
+      "revenue": 1453143.6,
+      "commission": 508600.26
+    }
+  ],
+  "summary": {
+    "paidCommission": 1610567.49,
+    "totalRevenue": 4843812.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1695334.2,
+    "totalRegistrations": 1953.0,
+    "pendingCommission": 84766.71,
+    "activeCustomers": 1796.0
+  }
+}

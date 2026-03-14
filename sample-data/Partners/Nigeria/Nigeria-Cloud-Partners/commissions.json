@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Nigeria-1915",
+  "partnerName": "Nigeria Cloud Partners",
+  "country": "Nigeria",
+  "currency": "NGN",
+  "commissionRate": 18.7,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 26,
+  "activeProjects": 21,
+  "totalCustomers": 73,
+  "totalRevenue": 337400700,
+  "totalCommissionEarned": 63093930.90,
+  "paidCommission": 50475144.72,
+  "pendingCommission": 12618786.18,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 12618786.18,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.1,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 46617480,
+      "commission": 13885560,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 6,
+      "revenue": 44536440,
+      "commission": 5486520,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 5,
+      "revenue": 49884900,
+      "commission": 9934080,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 31934760,
+    "implementationSuccessRate": 96.3,
+    "customerSatisfactionScore": 4.5,
+    "averageCommissionPerProject": 9902100,
+    "recurringRevenueShare": 32.7
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-26T00:00:00Z"
+}

@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Botswana-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 8,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 5
+  },
+  "country": "Botswana",
+  "affiliateName": "Gaborone Tech Hub",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 719.0,
+      "revenue": 1061539.2,
+      "commission": 265384.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 879.0,
+      "revenue": 1326924.0,
+      "commission": 331731.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 799.0,
+      "revenue": 1167693.12,
+      "commission": 291923.28
+    }
+  ],
+  "summary": {
+    "paidCommission": 1247308.56,
+    "totalRevenue": 5307696.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 1326924.0,
+    "totalRegistrations": 3996.0,
+    "pendingCommission": 79615.44,
+    "activeCustomers": 3596.0
+  }
+}

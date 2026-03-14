@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Zimbabwe-1",
+  "country": "Zimbabwe",
+  "affiliateName": "Zambezi Integration",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1039.0,
+      "revenue": 1851822.0,
+      "commission": 648137.7
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1181.0,
+      "revenue": 2074040.64,
+      "commission": 725914.22
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1323.0,
+      "revenue": 2222186.4,
+      "commission": 777765.24
+    }
+  ],
+  "summary": {
+    "paidCommission": 2462923.26,
+    "totalRevenue": 7407288.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 2592550.8,
+    "totalRegistrations": 4725.0,
+    "pendingCommission": 129627.54,
+    "activeCustomers": 4347.0
+  }
+}

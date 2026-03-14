@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Zimbabwe-0",
+  "country": "Zimbabwe",
+  "affiliateName": "Tendai Moyo",
+  "performanceMetrics": {
+    "engagementRate": 2.6,
+    "followerCount": 331421,
+    "averageOrderValue": 304.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 26.0,
+      "revenue": 8572.8,
+      "commission": 1285.92
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 33.0,
+      "revenue": 10287.36,
+      "commission": 1543.1
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 39.0,
+      "revenue": 11430.4,
+      "commission": 1714.56
+    }
+  ],
+  "summary": {
+    "paidCommission": 7886.98,
+    "totalRevenue": 57152.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 8572.8,
+    "totalRegistrations": 222.0,
+    "pendingCommission": 685.82,
+    "activeCustomers": 188.0
+  }
+}

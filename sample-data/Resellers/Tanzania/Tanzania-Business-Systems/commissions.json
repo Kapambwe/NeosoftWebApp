@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Tanzania-1017",
+  "resellerName": "Tanzania Business Systems",
+  "country": "Tanzania",
+  "currency": "TZS",
+  "commissionRate": 10.8,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 74,
+  "activeCustomers": 74,
+  "totalRevenue": 451127150,
+  "totalCommissionEarned": 48721732.20,
+  "paidCommission": 36541299.15,
+  "pendingCommission": 12180433.05,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 10962389.74,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 14,
+      "revenue": 61633450,
+      "commission": 6504800,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 8,
+      "revenue": 82301700,
+      "commission": 7000650,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 12,
+      "revenue": 53401400,
+      "commission": 14074150,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 76015450,
+    "conversionRate": 18.1,
+    "customerRetentionRate": 88.4,
+    "averageCommissionPerSale": 4053750
+  },
+  "joinedDate": "2022-06-01T00:00:00Z",
+  "lastActivityDate": "2024-11-25T00:00:00Z"
+}

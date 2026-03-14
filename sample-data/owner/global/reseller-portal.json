@@ -1,0 +1,29 @@
+{
+  "profile": {
+    "name": "Acme Resellers Ltd",
+    "tier": "Silver",
+    "resellerCode": "RSL-0001",
+    "commissionRate": 12,
+    "email": "reseller@acme.co.zm",
+    "company": "Acme Resellers Ltd",
+    "memberSince": "2024-01-15T00:00:00Z"
+  },
+  "stats": {
+    "activeCustomers": 38,
+    "newCustomersThisMonth": 4,
+    "monthlyRevenue": 24800,
+    "revenueGrowthPercent": 8.5,
+    "commissionsEarned": 2976,
+    "pendingPayout": 1240,
+    "openDeals": 7,
+    "dealsClosingThisMonth": 3
+  },
+  "recentActivity": [
+    { "date": "2026-03-07T00:00:00Z", "type": "New Customer",  "description": "Signed up: Zesco Ltd",                "amount": 1200 },
+    { "date": "2026-03-06T00:00:00Z", "type": "Commission",   "description": "Commission paid — Feb batch",         "amount": 1840 },
+    { "date": "2026-03-05T00:00:00Z", "type": "Renewal",      "description": "Renewal: Lusaka City Council",        "amount": 980  },
+    { "date": "2026-03-04T00:00:00Z", "type": "New Deal",     "description": "Pipeline: Zamtel Enterprise",         "amount": 4500 },
+    { "date": "2026-03-02T00:00:00Z", "type": "New Customer", "description": "Signed up: First National Bank",      "amount": 2400 },
+    { "date": "2026-03-01T00:00:00Z", "type": "Support",      "description": "Ticket #1042 resolved",               "amount": 0    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Kenya-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 4,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 8
+  },
+  "country": "Kenya",
+  "affiliateName": "Nairobi Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 43.0,
+      "revenue": 76818.0,
+      "commission": 19204.5
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 53.0,
+      "revenue": 96022.5,
+      "commission": 24005.62
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 48.0,
+      "revenue": 84499.8,
+      "commission": 21124.95
+    }
+  ],
+  "summary": {
+    "paidCommission": 90261.15,
+    "totalRevenue": 384090.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 96022.5,
+    "totalRegistrations": 242.0,
+    "pendingCommission": 5761.35,
+    "activeCustomers": 217.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tier": "Gold",
+  "promoCode": "DZ41N7XT",
+  "name": "Njeri Kipchoge",
+  "email": "njeri.kipchoge@kenya.influence",
+  "country": "Kenya",
+  "joinedDate": "2023-06-01T00:00:00Z",
+  "socialMedia": {
+    "followers": 429424,
+    "engagementRate": 4.5,
+    "platform": "Instagram"
+  },
+  "type": "Influencer",
+  "id": "inf-Kenya-3",
+  "status": "Active",
+  "commissionRate": 15.0
+}
