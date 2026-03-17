@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "monthlyTarget": 30000,
+    "monthlyActual": 24800,
+    "pipelineValue": 47600,
+    "openDeals": 7,
+    "dealsWon": 5,
+    "winRate": 71.0,
+    "avgDealSize": 4760,
+    "avgCloseDays": 18
+  },
+  "deals": [
+    { "customerId": "CUST-041", "company": "Zesco Ltd",              "contact": "Brian Tembo",   "stage": "Proposal",    "value": 8500,  "probability": 60,  "closeDate": "2026-03-15T00:00:00Z" },
+    { "customerId": "CUST-042", "company": "Zamtel Enterprise",      "contact": "Naledi Moyo",   "stage": "Negotiation", "value": 12000, "probability": 80,  "closeDate": "2026-03-20T00:00:00Z" },
+    { "customerId": "CUST-043", "company": "First National Bank",    "contact": "Grace Phiri",   "stage": "Won",         "value": 6800,  "probability": 100, "closeDate": "2026-02-28T00:00:00Z" },
+    { "customerId": "CUST-044", "company": "Lusaka City Council",    "contact": "Joseph Banda",  "stage": "Discovery",   "value": 4200,  "probability": 30,  "closeDate": "2026-04-05T00:00:00Z" },
+    { "customerId": "CUST-045", "company": "Shoprite Zambia",        "contact": "Mary Kaputa",   "stage": "Won",         "value": 9400,  "probability": 100, "closeDate": "2026-03-01T00:00:00Z" },
+    { "customerId": "CUST-046", "company": "Stanbic Bank Zambia",    "contact": "Richard Mwale", "stage": "Proposal",    "value": 5600,  "probability": 55,  "closeDate": "2026-03-25T00:00:00Z" },
+    { "customerId": "CUST-047", "company": "MTN Zambia",             "contact": "Esther Lungu",  "stage": "Negotiation", "value": 11000, "probability": 75,  "closeDate": "2026-03-18T00:00:00Z" },
+    { "customerId": "CUST-048", "company": "Airtel Zambia",          "contact": "Charles Daka",  "stage": "Lost",        "value": 3200,  "probability": 0,   "closeDate": "2026-02-20T00:00:00Z" },
+    { "customerId": "CUST-049", "company": "ZCCM Investments",       "contact": "Priscilla Zulu","stage": "Discovery",   "value": 7800,  "probability": 25,  "closeDate": "2026-04-12T00:00:00Z" },
+    { "customerId": "CUST-050", "company": "Zambia Revenue Auth.",   "contact": "Steven Mulenga","stage": "Won",         "value": 4100,  "probability": 100, "closeDate": "2026-03-03T00:00:00Z" }
+  ]
+}

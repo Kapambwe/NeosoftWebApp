@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Uganda-9173",
+  "partnerName": "Kampala Accounting Consultants",
+  "country": "Uganda",
+  "currency": "UGX",
+  "commissionRate": 21.4,
+  "partnershipLevel": "Strategic",
+  "status": "Active",
+  "totalProjects": 34,
+  "activeProjects": 22,
+  "totalCustomers": 78,
+  "totalRevenue": 1667868750,
+  "totalCommissionEarned": 356923912.50,
+  "paidCommission": 285539130.00,
+  "pendingCommission": 71384782.50,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 71384782.50,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 4,
+      "revenue": 183851250,
+      "commission": 30607500,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 276438750,
+      "commission": 20970000,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 2,
+      "revenue": 229740000,
+      "commission": 27858750,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 271781250,
+    "implementationSuccessRate": 94.1,
+    "customerSatisfactionScore": 4.9,
+    "averageCommissionPerProject": 29621250,
+    "recurringRevenueShare": 32.6
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-04-01T00:00:00Z",
+  "lastActivityDate": "2024-11-18T00:00:00Z"
+}

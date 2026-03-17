@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Nigeria-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 13,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 18
+  },
+  "country": "Nigeria",
+  "affiliateName": "Nigeria Digital Partners",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 691.0,
+      "revenue": 912912.0,
+      "commission": 228228.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 845.0,
+      "revenue": 1141140.0,
+      "commission": 285285.0
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 768.0,
+      "revenue": 1004203.2,
+      "commission": 251050.8
+    }
+  ],
+  "summary": {
+    "paidCommission": 1072671.6,
+    "totalRevenue": 4564560.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 1141140.0,
+    "totalRegistrations": 3843.0,
+    "pendingCommission": 68468.4,
+    "activeCustomers": 3458.0
+  }
+}

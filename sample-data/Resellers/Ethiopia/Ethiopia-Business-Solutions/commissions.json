@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Ethiopia-6563",
+  "resellerName": "Ethiopia Business Solutions",
+  "country": "Ethiopia",
+  "currency": "ETB",
+  "commissionRate": 14.3,
+  "tier": "Platinum",
+  "status": "Active",
+  "totalSales": 53,
+  "activeCustomers": 83,
+  "totalRevenue": 16520560,
+  "totalCommissionEarned": 2362440.08,
+  "paidCommission": 1771830.06,
+  "pendingCommission": 590610.02,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 531549.02,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 16,
+      "revenue": 1942976,
+      "commission": 428008,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 9,
+      "revenue": 1120112,
+      "commission": 244664,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 11,
+      "revenue": 1416576,
+      "commission": 153832,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 1520512,
+    "conversionRate": 16.1,
+    "customerRetentionRate": 92.2,
+    "averageCommissionPerSale": 85456
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-20T00:00:00Z"
+}

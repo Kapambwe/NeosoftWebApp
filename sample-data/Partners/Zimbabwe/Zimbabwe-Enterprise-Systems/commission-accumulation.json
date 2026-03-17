@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Zimbabwe-0",
+  "country": "Zimbabwe",
+  "affiliateName": "Zimbabwe Enterprise Systems",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 155.0,
+      "revenue": 454281.0,
+      "commission": 158998.35
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 177.0,
+      "revenue": 508794.72,
+      "commission": 178078.15
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 198.0,
+      "revenue": 545137.2,
+      "commission": 190798.02
+    }
+  ],
+  "summary": {
+    "paidCommission": 604193.73,
+    "totalRevenue": 1817124.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 635993.4,
+    "totalRegistrations": 709.0,
+    "pendingCommission": 31799.67,
+    "activeCustomers": 652.0
+  }
+}

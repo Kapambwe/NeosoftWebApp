@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Nigeria-2",
+  "country": "Nigeria",
+  "affiliateName": "Niger Delta Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 273.0,
+      "revenue": 776668.5,
+      "commission": 271833.97
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 310.0,
+      "revenue": 869868.72,
+      "commission": 304454.05
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 348.0,
+      "revenue": 932002.2,
+      "commission": 326200.77
+    }
+  ],
+  "summary": {
+    "paidCommission": 1032969.1,
+    "totalRevenue": 3106674.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1087335.9,
+    "totalRegistrations": 1243.0,
+    "pendingCommission": 54366.8,
+    "activeCustomers": 1143.0
+  }
+}

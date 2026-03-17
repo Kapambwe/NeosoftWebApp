@@ -1,0 +1,86 @@
+{
+  "roles": [
+    {
+      "id": "ROLE-001",
+      "name": "Owner",
+      "description": "Full platform access — manages all applications, customers, billing, and system settings.",
+      "permissions": [
+        "Dashboard.View",
+        "Analytics.View",
+        "Customers.ViewAll",
+        "Customers.Manage",
+        "Applications.ViewAll",
+        "Applications.Manage",
+        "Subscriptions.ViewAll",
+        "Subscriptions.Manage",
+        "Billing.ViewAll",
+        "Billing.Manage",
+        "Reports.ViewAll",
+        "Reports.Export",
+        "Settings.Manage",
+        "Users.Manage",
+        "Roles.Manage",
+        "Incidents.ViewAll",
+        "Incidents.Manage",
+        "SupportTickets.ViewAll",
+        "SupportTickets.Manage",
+        "Equity.Manage",
+        "TaxFilings.Manage",
+        "Payroll.ViewAll",
+        "Affiliates.Manage"
+      ]
+    },
+    {
+      "id": "ROLE-002",
+      "name": "Partner",
+      "description": "Partner access — can view and manage assigned customers, subscriptions, and generate reports.",
+      "permissions": [
+        "Dashboard.View",
+        "Analytics.View",
+        "Customers.ViewAssigned",
+        "Customers.Manage",
+        "Applications.ViewAll",
+        "Subscriptions.ViewAssigned",
+        "Subscriptions.Manage",
+        "Billing.ViewAssigned",
+        "Reports.ViewAssigned",
+        "Reports.Export",
+        "SupportTickets.ViewAssigned",
+        "SupportTickets.Create",
+        "Incidents.ViewAll"
+      ]
+    },
+    {
+      "id": "ROLE-003",
+      "name": "Reseller",
+      "description": "Reseller access — can provision new customers, manage subscriptions, and view reseller commissions.",
+      "permissions": [
+        "Dashboard.View",
+        "Customers.ViewOwn",
+        "Customers.Create",
+        "Applications.ViewAll",
+        "Subscriptions.ViewOwn",
+        "Subscriptions.Create",
+        "Billing.ViewOwn",
+        "Reports.ViewOwn",
+        "SupportTickets.Create",
+        "SupportTickets.ViewOwn",
+        "Commissions.ViewOwn"
+      ]
+    },
+    {
+      "id": "ROLE-004",
+      "name": "Influencer",
+      "description": "Influencer/Affiliate access — can view referral links, track conversions, and access commission reports.",
+      "permissions": [
+        "Dashboard.View",
+        "Affiliates.ViewOwn",
+        "Referrals.ViewOwn",
+        "Commissions.ViewOwn",
+        "Reports.ViewOwn",
+        "MarketingMaterials.View"
+      ]
+    }
+  ],
+  "users": []
+}

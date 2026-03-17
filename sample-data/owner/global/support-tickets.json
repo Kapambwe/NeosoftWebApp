@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TICKET-001",
+    "title": "Unable to export financial reports to PDF",
+    "category": "Technical",
+    "priority": "High",
+    "status": "Resolved",
+    "customerName": "Sade Okafor",
+    "assignedToName": "Ibrahim Kamara",
+    "createdDate": "2025-01-10T08:30:00Z",
+    "customerSatisfactionRating": 4,
+    "actualResolutionHours": 6.5
+  },
+  {
+    "id": "TICKET-002",
+    "title": "Invoice generation failed for large orders",
+    "category": "Technical",
+    "priority": "Critical",
+    "status": "InProgress",
+    "customerName": "Bongani Dlamini",
+    "assignedToName": "Yetunde Adebayo",
+    "createdDate": "2025-01-20T11:15:00Z",
+    "customerSatisfactionRating": null,
+    "actualResolutionHours": 0.0
+  },
+  {
+    "id": "TICKET-003",
+    "title": "Monthly subscription charge appears incorrect",
+    "category": "Billing",
+    "priority": "Medium",
+    "status": "Resolved",
+    "customerName": "Amina Mwangi",
+    "assignedToName": "Chisom Eze",
+    "createdDate": "2025-01-05T14:00:00Z",
+    "customerSatisfactionRating": 5,
+    "actualResolutionHours": 3.0
+  },
+  {
+    "id": "TICKET-004",
+    "title": "Request to add bulk employee import feature",
+    "category": "Feature",
+    "priority": "Low",
+    "status": "Open",
+    "customerName": "Kwabena Asante",
+    "assignedToName": "",
+    "createdDate": "2025-01-22T09:45:00Z",
+    "customerSatisfactionRating": null,
+    "actualResolutionHours": 0.0
+  },
+  {
+    "id": "TICKET-005",
+    "title": "Two-factor authentication not sending SMS",
+    "category": "Account",
+    "priority": "High",
+    "status": "Escalated",
+    "customerName": "Nadia El-Sayed",
+    "assignedToName": "Ibrahim Kamara",
+    "createdDate": "2025-01-18T16:30:00Z",
+    "customerSatisfactionRating": null,
+    "actualResolutionHours": 0.0
+  },
+  {
+    "id": "TICKET-006",
+    "title": "QuickBooks integration sync failing",
+    "category": "Integration",
+    "priority": "High",
+    "status": "InProgress",
+    "customerName": "Thabo Nkosi",
+    "assignedToName": "Yetunde Adebayo",
+    "createdDate": "2025-01-17T10:00:00Z",
+    "customerSatisfactionRating": null,
+    "actualResolutionHours": 0.0
+  },
+  {
+    "id": "TICKET-007",
+    "title": "Dashboard loading slowly on mobile devices",
+    "category": "Technical",
+    "priority": "Medium",
+    "status": "Closed",
+    "customerName": "Grace Owusu",
+    "assignedToName": "Chisom Eze",
+    "createdDate": "2024-12-20T13:00:00Z",
+    "customerSatisfactionRating": 3,
+    "actualResolutionHours": 18.0
+  },
+  {
+    "id": "TICKET-008",
+    "title": "Need to update billing contact information",
+    "category": "Billing",
+    "priority": "Low",
+    "status": "Closed",
+    "customerName": "Emeka Nwosu",
+    "assignedToName": "Chisom Eze",
+    "createdDate": "2024-12-28T09:00:00Z",
+    "customerSatisfactionRating": 5,
+    "actualResolutionHours": 1.5
+  },
+  {
+    "id": "TICKET-009",
+    "title": "Payroll tax calculations incorrect for Zambian employees",
+    "category": "Technical",
+    "priority": "Critical",
+    "status": "Open",
+    "customerName": "Mutale Banda",
+    "assignedToName": "",
+    "createdDate": "2025-01-23T07:30:00Z",
+    "customerSatisfactionRating": null,
+    "actualResolutionHours": 0.0
+  },
+  {
+    "id": "TICKET-010",
+    "title": "Request to enable SSO with Google Workspace",
+    "category": "Feature",
+    "priority": "Medium",
+    "status": "Open",
+    "customerName": "Aisha Kamara",
+    "assignedToName": "",
+    "createdDate": "2025-01-21T12:00:00Z",
+    "customerSatisfactionRating": null,
+    "actualResolutionHours": 0.0
+  }
+]

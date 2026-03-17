@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Ghana-0",
+  "country": "Ghana",
+  "affiliateName": "Gold Coast Enterprise",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 1609.0,
+      "revenue": 2381712.0,
+      "commission": 833599.2
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 1828.0,
+      "revenue": 2667517.44,
+      "commission": 933631.1
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 2047.0,
+      "revenue": 2858054.4,
+      "commission": 1000319.04
+    }
+  ],
+  "summary": {
+    "paidCommission": 3167676.96,
+    "totalRevenue": 9526848.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 3334396.8,
+    "totalRegistrations": 7314.0,
+    "pendingCommission": 166719.84,
+    "activeCustomers": 6728.0
+  }
+}

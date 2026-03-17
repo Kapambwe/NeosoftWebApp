@@ -1,0 +1,58 @@
+[
+  {
+    "id": "FB-SA-001",
+    "title": "Love the multi-currency support!",
+    "description": "The ability to handle ZAR, USD, and EUR seamlessly has made our international transactions so much easier. Great feature for South African businesses!",
+    "customerName": "Johannesburg Traders Ltd",
+    "customerEmail": "admin@jbtraders.co.za",
+    "type": "General",
+    "priority": "Medium",
+    "status": "Completed",
+    "upvoteCount": 52,
+    "rating": 4.9,
+    "createdDate": "2024-10-15T00:00:00Z",
+    "assignedTo": "Product Team"
+  },
+  {
+    "id": "FB-SA-002",
+    "title": "Request: Integration with SARS eFiling",
+    "description": "It would be amazing if we could submit VAT returns directly through the system to SARS eFiling portal.",
+    "customerName": "Cape Town Accounting Services",
+    "customerEmail": "info@ctaccounting.co.za",
+    "type": "FeatureRequest",
+    "priority": "High",
+    "status": "InDevelopment",
+    "upvoteCount": 145,
+    "rating": 4.5,
+    "createdDate": "2024-11-02T00:00:00Z",
+    "assignedTo": "Product Team"
+  },
+  {
+    "id": "FB-SA-003",
+    "title": "BEE Compliance Reporting",
+    "description": "Please add support for Broad-Based Black Economic Empowerment compliance reporting. This is critical for SA businesses.",
+    "customerName": "Durban Enterprises",
+    "customerEmail": "compliance@durbanent.co.za",
+    "type": "FeatureRequest",
+    "priority": "High",
+    "status": "UnderReview",
+    "upvoteCount": 89,
+    "rating": 4.3,
+    "createdDate": "2024-11-18T00:00:00Z",
+    "assignedTo": "Product Team"
+  },
+  {
+    "id": "FB-SA-004",
+    "title": "Excellent CIPC integration",
+    "description": "The Companies and Intellectual Property Commission integration saves us so much time. Well done!",
+    "customerName": "Pretoria Legal Services",
+    "customerEmail": "support@ptyalegal.co.za",
+    "type": "General",
+    "priority": "Low",
+    "status": "Completed",
+    "upvoteCount": 38,
+    "rating": 5.0,
+    "createdDate": "2024-09-22T00:00:00Z",
+    "assignedTo": "Product Team"
+  }
+]

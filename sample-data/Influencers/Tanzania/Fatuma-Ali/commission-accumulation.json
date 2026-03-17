@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Tanzania-3",
+  "country": "Tanzania",
+  "affiliateName": "Fatuma Ali",
+  "performanceMetrics": {
+    "engagementRate": 5.4,
+    "followerCount": 247699,
+    "averageOrderValue": 1061.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 101.0,
+      "revenue": 114747.15,
+      "commission": 17212.07
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 127.0,
+      "revenue": 137696.58,
+      "commission": 20654.49
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 152.0,
+      "revenue": 152996.2,
+      "commission": 22949.43
+    }
+  ],
+  "summary": {
+    "paidCommission": 105567.38,
+    "totalRevenue": 764981.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 114747.15,
+    "totalRegistrations": 849.0,
+    "pendingCommission": 9179.77,
+    "activeCustomers": 721.0
+  }
+}

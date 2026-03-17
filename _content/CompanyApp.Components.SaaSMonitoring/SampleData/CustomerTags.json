@@ -1,0 +1,38 @@
+[
+    {
+        "Id": "TAG-001",
+        "Name": "High-Value",
+        "Color": "#10b981",
+        "Description": "High revenue customers"
+    },
+    {
+        "Id": "TAG-002",
+        "Name": "At-Risk",
+        "Color": "#ef4444",
+        "Description": "Customers at risk of churning"
+    },
+    {
+        "Id": "TAG-003",
+        "Name": "Growth",
+        "Color": "#3b82f6",
+        "Description": "Growing customer accounts"
+    },
+    {
+        "Id": "TAG-004",
+        "Name": "VIP",
+        "Color": "#8b5cf6",
+        "Description": "VIP customers requiring special attention"
+    },
+    {
+        "Id": "TAG-005",
+        "Name": "New",
+        "Color": "#06b6d4",
+        "Description": "Recently onboarded customers"
+    },
+    {
+        "Id": "TAG-006",
+        "Name": "Champion",
+        "Color": "#f59e0b",
+        "Description": "Product champions and advocates"
+    }
+]

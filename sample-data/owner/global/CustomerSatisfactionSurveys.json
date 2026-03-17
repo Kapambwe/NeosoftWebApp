@@ -1,0 +1,34 @@
+[
+    {
+        "Id": "SURV-001",
+        "CustomerId": "CUST-004",
+        "TicketId": "TICK-005",
+        "OverallSatisfaction": 5,
+        "Feedback": "Excellent support!",
+        "SurveyDate": "2026-01-27T10:00:00Z"
+    },
+    {
+        "Id": "SURV-002",
+        "CustomerId": "CUST-002",
+        "TicketId": "TICK-010",
+        "OverallSatisfaction": 4,
+        "Feedback": "The issue was resolved quickly.",
+        "SurveyDate": "2026-01-28T10:00:00Z"
+    },
+    {
+        "Id": "SURV-003",
+        "CustomerId": "CUST-010",
+        "TicketId": "TICK-012",
+        "OverallSatisfaction": 3,
+        "Feedback": "The answer was a bit generic.",
+        "SurveyDate": "2026-01-27T10:00:00Z"
+    },
+    {
+        "Id": "SURV-004",
+        "CustomerId": "CUST-013",
+        "TicketId": "TICK-017",
+        "OverallSatisfaction": 5,
+        "Feedback": "Very helpful and friendly support agent.",
+        "SurveyDate": "2026-01-26T10:00:00Z"
+    }
+]

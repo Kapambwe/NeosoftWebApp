@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-South-Africa-1",
+  "country": "South-Africa",
+  "affiliateName": "Nomsa Khumalo",
+  "performanceMetrics": {
+    "engagementRate": 4.2,
+    "followerCount": 268537,
+    "averageOrderValue": 1026.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 83.0,
+      "revenue": 90801.0,
+      "commission": 13620.15
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 104.0,
+      "revenue": 108961.2,
+      "commission": 16344.18
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 125.0,
+      "revenue": 121068.0,
+      "commission": 18160.2
+    }
+  ],
+  "summary": {
+    "paidCommission": 83536.92,
+    "totalRevenue": 605340.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 90801.0,
+    "totalRegistrations": 695.0,
+    "pendingCommission": 7264.08,
+    "activeCustomers": 590.0
+  }
+}

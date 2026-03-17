@@ -1,0 +1,299 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+    "username": "sarah.tech.us",
+    "email": "sarah.anderson@techinfluencer.com",
+    "firstName": "Sarah",
+    "lastName": "Anderson",
+    "role": "Tech Influencer",
+    "department": "Marketing",
+    "country": "United States",
+    "company": "Tech Reviews Pro",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerFeedback",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics",
+      "View.Releases"
+    ]
+  },
+  {
+    "id": "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e",
+    "username": "james.dev.uk",
+    "email": "james.mitchell@devinfluencer.co.uk",
+    "firstName": "James",
+    "lastName": "Mitchell",
+    "role": "Developer Influencer",
+    "department": "Engineering",
+    "country": "United Kingdom",
+    "company": "Code Mastery",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.TechnicalDebt",
+      "View.Incidents",
+      "View.Releases",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f",
+    "username": "maria.social.es",
+    "email": "maria.garcia@socialtech.es",
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "role": "Social Media Influencer",
+    "department": "Marketing",
+    "country": "Spain",
+    "company": "Social Impact Media",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.CustomerSatisfaction",
+      "View.CustomerFeedback",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "d4e5f6a7-b8c9-7d8e-1f2a-3b4c5d6e7f8a",
+    "username": "kevin.youtube.ca",
+    "email": "kevin.chen@youtubetech.ca",
+    "firstName": "Kevin",
+    "lastName": "Chen",
+    "role": "YouTube Tech Reviewer",
+    "department": "Marketing",
+    "country": "Canada",
+    "company": "Tech Unboxed",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.Releases",
+      "View.CustomerFeedback"
+    ]
+  },
+  {
+    "id": "e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b",
+    "username": "lisa.podcast.au",
+    "email": "lisa.thompson@techpodcast.au",
+    "firstName": "Lisa",
+    "lastName": "Thompson",
+    "role": "Tech Podcaster",
+    "department": "Marketing",
+    "country": "Australia",
+    "company": "Tech Talk Radio",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.UsageAnalytics",
+      "View.CustomerSatisfaction"
+    ]
+  },
+  {
+    "id": "f6a7b8c9-d0e1-9f0a-3b4c-5d6e7f8a9b0c",
+    "username": "chizara.zm",
+    "email": "chizara.phiri@zambiatech.zm",
+    "firstName": "Chizara Memory",
+    "lastName": "Phiri",
+    "role": "Social Media Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Digital Creators",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerFeedback",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "a7b8c9d0-e1f2-0a1b-4c5d-6e7f8a9b0c1d",
+    "username": "ken.dumbo.zm",
+    "email": "ken.dumbo@zambiaentertainment.zm",
+    "firstName": "Ken",
+    "lastName": "Dumbo",
+    "role": "Entertainment Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Creators Network",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics",
+      "View.Releases"
+    ]
+  },
+  {
+    "id": "b8c9d0e1-f2a3-1b2c-5d6e-7f8a9b0c1d2e",
+    "username": "junior.bally.zm",
+    "email": "junior.bally@zambianmusic.zm",
+    "firstName": "Junior",
+    "lastName": "Bally",
+    "role": "Music Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Music Promoters",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.CustomerSatisfaction",
+      "View.CustomerFeedback",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "c9d0e1f2-a3b4-2c3d-6e7f-8a9b0c1d2e3f",
+    "username": "idc.light.zm",
+    "email": "idc.light@zambiacomedy.zm",
+    "firstName": "IDC",
+    "lastName": "Light",
+    "role": "Comedy Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Comedy Circuit",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a",
+    "username": "mwizukanji.zm",
+    "email": "mwizukanji@zambiatech.zm",
+    "firstName": "Mwizukanji",
+    "lastName": "",
+    "role": "Social Media Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Digital Influencers",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics",
+      "View.Releases"
+    ]
+  },
+  {
+    "id": "e1f2a3b4-c5d6-4e5f-8a9b-0c1d2e3f4a5b",
+    "username": "kachana.zm",
+    "email": "kachana@zambiafashion.zm",
+    "firstName": "Kachana",
+    "lastName": "Zulu",
+    "role": "Fashion & Lifestyle Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Style Icons",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.CustomerSatisfaction",
+      "View.CustomerFeedback",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "f2a3b4c5-d6e7-5f6a-9b0c-1d2e3f4a5b6c",
+    "username": "chester.zm",
+    "email": "chester@zambiamusic.zm",
+    "firstName": "Chester",
+    "lastName": "Banda",
+    "role": "Music Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Artists United",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics",
+      "View.Releases"
+    ]
+  },
+  {
+    "id": "a3b4c5d6-e7f8-6a7b-0c1d-2e3f4a5b6c7d",
+    "username": "towela.zm",
+    "email": "towela@zambiaradio.zm",
+    "firstName": "Towela",
+    "lastName": "Kaira",
+    "role": "Radio Personality",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Broadcasting Network",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerFeedback",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "b4c5d6e7-f8a9-7b8c-1d2e-3f4a5b6c7d8e",
+    "username": "pompi.zm",
+    "email": "pompi@zambiagospel.zm",
+    "firstName": "Pompi",
+    "lastName": "Kabaso",
+    "role": "Gospel Music Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Gospel Alliance",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.CustomerSatisfaction",
+      "View.CustomerFeedback",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "c5d6e7f8-a9b0-8c9d-2e3f-4a5b6c7d8e9f",
+    "username": "yo.maps.zm",
+    "email": "yo.maps@zambiamusic.zm",
+    "firstName": "Yo",
+    "lastName": "Maps",
+    "role": "Music Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Music Industry",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics",
+      "View.Releases"
+    ]
+  },
+  {
+    "id": "d6e7f8a9-b0c1-9d0e-3f4a-5b6c7d8e9f0a",
+    "username": "slapdee.zm",
+    "email": "slapdee@zambiahiphop.zm",
+    "firstName": "Slapdee",
+    "lastName": "Mwila",
+    "role": "Hip Hop Influencer",
+    "department": "Marketing",
+    "country": "Zambia",
+    "company": "Zambian Hip Hop Association",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerSatisfaction",
+      "View.UsageAnalytics",
+      "View.Releases"
+    ]
+  }
+]

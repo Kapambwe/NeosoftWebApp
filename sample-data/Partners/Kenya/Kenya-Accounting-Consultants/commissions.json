@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Kenya-2278",
+  "partnerName": "Kenya Accounting Consultants",
+  "country": "Kenya",
+  "currency": "KES",
+  "commissionRate": 18.7,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 28,
+  "activeProjects": 14,
+  "totalCustomers": 93,
+  "totalRevenue": 58387824,
+  "totalCommissionEarned": 10918523.09,
+  "paidCommission": 8734818.47,
+  "pendingCommission": 2183704.62,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 2183704.62,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.16,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 5,
+      "revenue": 10390116,
+      "commission": 1988580,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 8398764,
+      "commission": 1868460,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 6881424,
+      "commission": 1614888,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 7323096,
+    "implementationSuccessRate": 94.5,
+    "customerSatisfactionScore": 4.9,
+    "averageCommissionPerProject": 1427316,
+    "recurringRevenueShare": 44.5
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-17T00:00:00Z"
+}

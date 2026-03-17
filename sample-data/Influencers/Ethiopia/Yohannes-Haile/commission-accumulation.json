@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Ethiopia-2",
+  "country": "Ethiopia",
+  "affiliateName": "Yohannes Haile",
+  "performanceMetrics": {
+    "engagementRate": 5.0,
+    "followerCount": 230364,
+    "averageOrderValue": 643.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 163.0,
+      "revenue": 111978.45,
+      "commission": 16796.77
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 204.0,
+      "revenue": 134374.14,
+      "commission": 20156.12
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 245.0,
+      "revenue": 149304.6,
+      "commission": 22395.69
+    }
+  ],
+  "summary": {
+    "paidCommission": 103020.17,
+    "totalRevenue": 746523.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 111978.45,
+    "totalRegistrations": 1366.0,
+    "pendingCommission": 8958.28,
+    "activeCustomers": 1161.0
+  }
+}

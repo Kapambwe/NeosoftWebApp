@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Malawi-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 7,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 7
+  },
+  "country": "Malawi",
+  "affiliateName": "Malawi Digital Partners",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 460.0,
+      "revenue": 896859.2,
+      "commission": 224214.8
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 562.0,
+      "revenue": 1121074.0,
+      "commission": 280268.5
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 511.0,
+      "revenue": 986545.12,
+      "commission": 246636.28
+    }
+  ],
+  "summary": {
+    "paidCommission": 1053809.56,
+    "totalRevenue": 4484296.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 1121074.0,
+    "totalRegistrations": 2558.0,
+    "pendingCommission": 67264.44,
+    "activeCustomers": 2302.0
+  }
+}

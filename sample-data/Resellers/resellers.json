@@ -1,0 +1,93 @@
+[
+  {
+    "id": "11111111-2222-3333-4444-555555555551",
+    "username": "acme.reseller.us",
+    "email": "john.smith@acmereseller.com",
+    "firstName": "John",
+    "lastName": "Smith",
+    "role": "Senior Reseller Manager",
+    "department": "Sales",
+    "country": "United States",
+    "company": "Acme Software Resellers",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerHealth",
+      "View.CustomerFeedback",
+      "View.CustomerSatisfaction",
+      "View.SupportTickets",
+      "View.UsageAnalytics",
+      "View.Releases",
+      "Manage.CustomerHealth",
+      "Manage.SupportTickets"
+    ]
+  },
+  {
+    "id": "22222222-3333-4444-5555-666666666662",
+    "username": "techsolutions.uk",
+    "email": "emma.williams@techsolutions.co.uk",
+    "firstName": "Emma",
+    "lastName": "Williams",
+    "role": "Reseller Account Manager",
+    "department": "Sales",
+    "country": "United Kingdom",
+    "company": "Tech Solutions Ltd",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerHealth",
+      "View.CustomerSatisfaction",
+      "View.SupportTickets",
+      "Manage.SupportTickets",
+      "View.Releases",
+      "View.UsageAnalytics"
+    ]
+  },
+  {
+    "id": "33333333-4444-5555-6666-777777777773",
+    "username": "maple.reseller.ca",
+    "email": "robert.brown@maplereseller.ca",
+    "firstName": "Robert",
+    "lastName": "Brown",
+    "role": "Regional Reseller Director",
+    "department": "Sales",
+    "country": "Canada",
+    "company": "Maple Technology Resellers",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.UptimeMetrics",
+      "View.Incidents",
+      "View.Releases",
+      "View.CustomerHealth",
+      "View.CustomerSatisfaction",
+      "View.SupportTickets",
+      "Manage.SupportTickets",
+      "View.UsageAnalytics",
+      "Manage.CustomerHealth"
+    ]
+  },
+  {
+    "id": "44444444-5555-6666-7777-888888888884",
+    "username": "aussie.tech.au",
+    "email": "olivia.davis@aussietech.au",
+    "firstName": "Olivia",
+    "lastName": "Davis",
+    "role": "Reseller Sales Executive",
+    "department": "Sales",
+    "country": "Australia",
+    "company": "Aussie Tech Distributors",
+    "permissions": [
+      "View.Dashboard",
+      "View.Analytics",
+      "View.ProductPerformance",
+      "View.CustomerSatisfaction",
+      "View.CustomerFeedback",
+      "View.SupportTickets",
+      "View.Releases"
+    ]
+  }
+]

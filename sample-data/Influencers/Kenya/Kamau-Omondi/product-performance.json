@@ -1,0 +1,17 @@
+[
+  {
+    "productId": "PROD-001",
+    "productName": "AccountingPro Suite",
+    "monthlyActiveUsers": 14831,
+    "dailyActiveUsers": 2043,
+    "averageSessionDuration": 25,
+    "bounceRate": 0.9,
+    "conversionRate": 0.11,
+    "revenue": 174045.00,
+    "customerSatisfactionScore": 4.5,
+    "supportTickets": 22,
+    "uptime": 99.87,
+    "performanceScore": 94,
+    "lastUpdated": "2024-12-01T12:00:00Z"
+  }
+]

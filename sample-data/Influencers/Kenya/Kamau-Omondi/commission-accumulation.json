@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Kenya-1",
+  "country": "Kenya",
+  "affiliateName": "Kamau Omondi",
+  "performanceMetrics": {
+    "engagementRate": 7.1,
+    "followerCount": 75181,
+    "averageOrderValue": 1023.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 80.0,
+      "revenue": 87159.6,
+      "commission": 13073.94
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 100.0,
+      "revenue": 104591.52,
+      "commission": 15688.73
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 120.0,
+      "revenue": 116212.8,
+      "commission": 17431.92
+    }
+  ],
+  "summary": {
+    "paidCommission": 80186.83,
+    "totalRevenue": 581064.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 87159.6,
+    "totalRegistrations": 669.0,
+    "pendingCommission": 6972.77,
+    "activeCustomers": 568.0
+  }
+}

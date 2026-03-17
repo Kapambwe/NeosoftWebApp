@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Malawi-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 14,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 24
+  },
+  "country": "Malawi",
+  "affiliateName": "Lilongwe Tech Hub",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 551.0,
+      "revenue": 400722.4,
+      "commission": 100180.6
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 673.0,
+      "revenue": 500903.0,
+      "commission": 125225.75
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 612.0,
+      "revenue": 440794.64,
+      "commission": 110198.66
+    }
+  ],
+  "summary": {
+    "paidCommission": 470848.82,
+    "totalRevenue": 2003612.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 500903.0,
+    "totalRegistrations": 3063.0,
+    "pendingCommission": 30054.18,
+    "activeCustomers": 2756.0
+  }
+}

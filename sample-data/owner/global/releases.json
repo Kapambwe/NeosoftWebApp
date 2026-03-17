@@ -1,0 +1,211 @@
+[
+  {
+    "id": "REL-001",
+    "version": "3.2.0",
+    "productName": "AccountingPro",
+    "type": "Major",
+    "status": "Deployed",
+    "plannedDate": "2025-01-15T00:00:00Z",
+    "deployedDate": "2025-01-15T02:30:00Z",
+    "featureCount": 8,
+    "bugFixCount": 14,
+    "deploymentDurationMinutes": 42,
+    "releaseNotes": "Major release introducing multi-currency support, advanced tax automation, and redesigned invoice templates.",
+    "owner": "Amara Osei",
+    "features": [
+      "Multi-currency transaction support",
+      "Automated VAT calculation for 12 African jurisdictions",
+      "New invoice template designer",
+      "Bank reconciliation improvements",
+      "Bulk transaction import (CSV/Excel)",
+      "Mobile-first dashboard redesign",
+      "Advanced profit & loss forecasting",
+      "Audit trail export to PDF"
+    ],
+    "bugFixes": [
+      "Fixed PDF export timeout on large reports",
+      "Resolved duplicate invoice numbering edge case",
+      "Fixed decimal rounding in tax computations",
+      "Corrected date filtering in financial reports"
+    ]
+  },
+  {
+    "id": "REL-002",
+    "version": "2.1.4",
+    "productName": "HRManagementSuite",
+    "type": "Patch",
+    "status": "Deployed",
+    "plannedDate": "2025-01-08T00:00:00Z",
+    "deployedDate": "2025-01-08T03:00:00Z",
+    "featureCount": 1,
+    "bugFixCount": 6,
+    "deploymentDurationMinutes": 18,
+    "releaseNotes": "Patch release fixing leave balance calculation issues and improving attendance report performance.",
+    "owner": "Ngozi Chukwu",
+    "features": [
+      "Added leave balance rollover configuration"
+    ],
+    "bugFixes": [
+      "Fixed leave balance calculation for part-time employees",
+      "Resolved attendance report timeout for companies > 500 employees",
+      "Fixed employee termination date not updating correctly",
+      "Corrected payslip generation for employees with multiple roles",
+      "Fixed SSO login redirect loop",
+      "Resolved email notification not sending on leave approval"
+    ]
+  },
+  {
+    "id": "REL-003",
+    "version": "1.8.2",
+    "productName": "CRMPlatform",
+    "type": "Minor",
+    "status": "Deployed",
+    "plannedDate": "2024-12-20T00:00:00Z",
+    "deployedDate": "2024-12-20T01:15:00Z",
+    "featureCount": 4,
+    "bugFixCount": 9,
+    "deploymentDurationMinutes": 28,
+    "releaseNotes": "Minor release with pipeline automation, improved contact deduplication, and WhatsApp integration.",
+    "owner": "Tunde Ogundimu",
+    "features": [
+      "Automated sales pipeline progression rules",
+      "WhatsApp Business API integration",
+      "Contact deduplication engine",
+      "Custom deal stage configuration"
+    ],
+    "bugFixes": [
+      "Fixed duplicate contacts appearing in search results",
+      "Resolved calendar sync issues with Google Calendar",
+      "Fixed email template rendering on Outlook",
+      "Corrected activity log timestamps to local timezone"
+    ]
+  },
+  {
+    "id": "REL-004",
+    "version": "2.5.0",
+    "productName": "PayrollManager",
+    "type": "Minor",
+    "status": "Testing",
+    "plannedDate": "2025-02-10T00:00:00Z",
+    "deployedDate": null,
+    "featureCount": 5,
+    "bugFixCount": 7,
+    "deploymentDurationMinutes": 0,
+    "releaseNotes": "Upcoming release with Zambian ZRA integration, improved batch processing, and payslip customization.",
+    "owner": "Kwame Asante-Boateng",
+    "features": [
+      "Zambia Revenue Authority (ZRA) e-filing integration",
+      "Asynchronous payroll batch processing",
+      "Custom payslip template builder",
+      "Multi-entity payroll consolidation",
+      "Statutory deduction updates for Kenya SHIF"
+    ],
+    "bugFixes": [
+      "Fixed PAYE calculation for employees with multiple income sources",
+      "Resolved NSSF deduction cap not applying correctly",
+      "Fixed payroll period locking preventing amendments"
+    ]
+  },
+  {
+    "id": "REL-005",
+    "version": "1.3.1",
+    "productName": "InventoryTracker",
+    "type": "Hotfix",
+    "status": "Deployed",
+    "plannedDate": "2025-01-12T00:00:00Z",
+    "deployedDate": "2025-01-12T22:45:00Z",
+    "featureCount": 0,
+    "bugFixCount": 3,
+    "deploymentDurationMinutes": 12,
+    "releaseNotes": "Emergency hotfix for stock level sync issue causing negative inventory alerts.",
+    "owner": "Chidi Nwosu",
+    "features": [],
+    "bugFixes": [
+      "Fixed stock level sync race condition causing negative inventory",
+      "Resolved barcode scanner input validation error",
+      "Fixed warehouse transfer not updating source location"
+    ]
+  },
+  {
+    "id": "REL-006",
+    "version": "1.0.5",
+    "productName": "ProjectManager",
+    "type": "Patch",
+    "status": "Staged",
+    "plannedDate": "2025-01-30T00:00:00Z",
+    "deployedDate": null,
+    "featureCount": 2,
+    "bugFixCount": 5,
+    "deploymentDurationMinutes": 0,
+    "releaseNotes": "Patch improving Gantt chart performance and fixing task dependency visualization issues.",
+    "owner": "Fatou Seck",
+    "features": [
+      "Gantt chart export to PNG/PDF",
+      "Task dependency critical path highlighting"
+    ],
+    "bugFixes": [
+      "Fixed Gantt chart freezing on projects > 200 tasks",
+      "Resolved task completion percentage not saving",
+      "Fixed resource allocation overallocation warning"
+    ]
+  },
+  {
+    "id": "REL-007",
+    "version": "3.1.0",
+    "productName": "AccountingPro",
+    "type": "Minor",
+    "status": "Deployed",
+    "plannedDate": "2024-10-01T00:00:00Z",
+    "deployedDate": "2024-10-02T01:00:00Z",
+    "featureCount": 5,
+    "bugFixCount": 10,
+    "deploymentDurationMinutes": 35,
+    "releaseNotes": "Minor release with expense management enhancements and vendor portal.",
+    "owner": "Amara Osei",
+    "features": [
+      "Expense approval workflow",
+      "Vendor self-service portal",
+      "Automated recurring expense detection",
+      "Receipt OCR scanning",
+      "Expense policy enforcement rules"
+    ],
+    "bugFixes": [
+      "Fixed chart of accounts not exporting correctly",
+      "Resolved currency conversion rounding errors",
+      "Fixed journal entry reversal not posting"
+    ]
+  },
+  {
+    "id": "REL-008",
+    "version": "2.0.0",
+    "productName": "HRManagementSuite",
+    "type": "Major",
+    "status": "Deployed",
+    "plannedDate": "2024-07-15T00:00:00Z",
+    "deployedDate": "2024-07-16T02:00:00Z",
+    "featureCount": 12,
+    "bugFixCount": 20,
+    "deploymentDurationMinutes": 65,
+    "releaseNotes": "Version 2.0 complete rewrite with modern UI, performance system, and AI-powered recruitment screening.",
+    "owner": "Ngozi Chukwu",
+    "features": [
+      "Complete UI overhaul with Material Design",
+      "AI-powered CV screening and ranking",
+      "360-degree performance review system",
+      "Learning Management System (LMS)",
+      "Employee self-service mobile app",
+      "Org chart builder",
+      "Succession planning module",
+      "Advanced analytics dashboard",
+      "Biometric attendance integration",
+      "Multi-language support (English, French, Swahili, Arabic)",
+      "Configurable workflow engine",
+      "Employee lifecycle management"
+    ],
+    "bugFixes": [
+      "Migrated all legacy data to new schema",
+      "Fixed all known performance issues from v1.x",
+      "Resolved all security vulnerabilities identified in penetration test"
+    ]
+  }
+]

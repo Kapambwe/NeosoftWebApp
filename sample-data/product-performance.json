@@ -1,0 +1,74 @@
+[
+  {
+    "productId": "PROD-001",
+    "productName": "AccountingPro",
+    "healthStatus": "Excellent",
+    "revenue": 485000.00,
+    "activeUsers": 1240,
+    "uptimePercentage": 99.92,
+    "averageResponseTimeMs": 142.5,
+    "activeIncidents": 0,
+    "totalActiveUsers": 1240,
+    "errorRate": 0.08
+  },
+  {
+    "productId": "PROD-002",
+    "productName": "HRManagementSuite",
+    "healthStatus": "Good",
+    "revenue": 312000.00,
+    "activeUsers": 870,
+    "uptimePercentage": 99.75,
+    "averageResponseTimeMs": 198.3,
+    "activeIncidents": 1,
+    "totalActiveUsers": 870,
+    "errorRate": 0.25
+  },
+  {
+    "productId": "PROD-003",
+    "productName": "InventoryTracker",
+    "healthStatus": "Good",
+    "revenue": 198500.00,
+    "activeUsers": 540,
+    "uptimePercentage": 99.60,
+    "averageResponseTimeMs": 215.7,
+    "activeIncidents": 1,
+    "totalActiveUsers": 540,
+    "errorRate": 0.40
+  },
+  {
+    "productId": "PROD-004",
+    "productName": "PayrollManager",
+    "healthStatus": "Fair",
+    "revenue": 276000.00,
+    "activeUsers": 720,
+    "uptimePercentage": 98.90,
+    "averageResponseTimeMs": 320.1,
+    "activeIncidents": 2,
+    "totalActiveUsers": 720,
+    "errorRate": 1.10
+  },
+  {
+    "productId": "PROD-005",
+    "productName": "CRMPlatform",
+    "healthStatus": "Excellent",
+    "revenue": 562000.00,
+    "activeUsers": 1580,
+    "uptimePercentage": 99.95,
+    "averageResponseTimeMs": 118.4,
+    "activeIncidents": 0,
+    "totalActiveUsers": 1580,
+    "errorRate": 0.05
+  },
+  {
+    "productId": "PROD-006",
+    "productName": "ProjectManager",
+    "healthStatus": "Poor",
+    "revenue": 145000.00,
+    "activeUsers": 390,
+    "uptimePercentage": 97.80,
+    "averageResponseTimeMs": 485.2,
+    "activeIncidents": 3,
+    "totalActiveUsers": 390,
+    "errorRate": 2.20
+  }
+]

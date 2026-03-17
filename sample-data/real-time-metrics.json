@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Total MRR",
+    "value": 143955,
+    "previousValue": 137820,
+    "unit": "USD",
+    "trend": 0,
+    "percentageChange": 4.45,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Active Customers",
+    "value": 1045,
+    "previousValue": 1018,
+    "unit": "count",
+    "trend": 0,
+    "percentageChange": 2.65,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Churn Rate",
+    "value": 2.3,
+    "previousValue": 2.8,
+    "unit": "%",
+    "trend": 1,
+    "percentageChange": -17.86,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Average Response Time",
+    "value": 385,
+    "previousValue": 420,
+    "unit": "ms",
+    "trend": 1,
+    "percentageChange": -8.33,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "System Uptime",
+    "value": 99.94,
+    "previousValue": 99.89,
+    "unit": "%",
+    "trend": 0,
+    "percentageChange": 0.05,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Customer Satisfaction Score",
+    "value": 4.6,
+    "previousValue": 4.5,
+    "unit": "score",
+    "trend": 0,
+    "percentageChange": 2.22,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "New Signups (30 days)",
+    "value": 127,
+    "previousValue": 98,
+    "unit": "count",
+    "trend": 0,
+    "percentageChange": 29.59,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Support Tickets Open",
+    "value": 42,
+    "previousValue": 58,
+    "unit": "count",
+    "trend": 1,
+    "percentageChange": -27.59,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Average Resolution Time",
+    "value": 4.2,
+    "previousValue": 5.8,
+    "unit": "hours",
+    "trend": 1,
+    "percentageChange": -27.59,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Daily Active Users",
+    "value": 8942,
+    "previousValue": 8125,
+    "unit": "count",
+    "trend": 0,
+    "percentageChange": 10.06,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "API Success Rate",
+    "value": 99.87,
+    "previousValue": 99.82,
+    "unit": "%",
+    "trend": 0,
+    "percentageChange": 0.05,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Cloud Costs (Monthly)",
+    "value": 52000,
+    "previousValue": 54200,
+    "unit": "USD",
+    "trend": 1,
+    "percentageChange": -4.06,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Revenue Per Customer",
+    "value": 137.75,
+    "previousValue": 135.42,
+    "unit": "USD",
+    "trend": 0,
+    "percentageChange": 1.72,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Customer Lifetime Value",
+    "value": 4850,
+    "previousValue": 4620,
+    "unit": "USD",
+    "trend": 0,
+    "percentageChange": 4.98,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  },
+  {
+    "name": "Net Promoter Score",
+    "value": 68,
+    "previousValue": 64,
+    "unit": "score",
+    "trend": 0,
+    "percentageChange": 6.25,
+    "lastUpdated": "2024-12-20T15:00:00Z"
+  }
+]

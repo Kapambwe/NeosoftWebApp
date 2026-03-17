@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Getting Started",
+    "question": "How do I create my first product?",
+    "answer": "Navigate to Products & Services in the sidebar, then click 'New Product'. Fill in the product name, type, and pricing details. Your product will be available immediately for linking and referrals.",
+    "isExpanded": false
+  },
+  {
+    "category": "Getting Started",
+    "question": "How do Affiliate links work?",
+    "answer": "Go to Affiliate Portal → Generate Link. Select a product and click Generate. Share the unique link with your audience. Each click and conversion is tracked in real time under Affiliate Portal → My Links.",
+    "isExpanded": false
+  },
+  {
+    "category": "Getting Started",
+    "question": "How do I invite team members?",
+    "answer": "Owners can add team members under Settings → Users & Roles. Assign roles such as Partner, Reseller, or Influencer. Each role has scoped permissions as documented in the Roles guide.",
+    "isExpanded": false
+  },
+  {
+    "category": "Billing & Payments",
+    "question": "When are commission payments processed?",
+    "answer": "Commissions are processed on the 1st and 15th of every month. You must have a minimum balance of ZMW 100 to trigger a payout. Payments are sent to the bank account registered under your profile.",
+    "isExpanded": false
+  },
+  {
+    "category": "Billing & Payments",
+    "question": "What payment methods are supported?",
+    "answer": "We support Zambian bank transfers, Airtel Money, MTN Mobile Money, and Visa/Mastercard debit cards. Add or update your payment method in Settings → Billing.",
+    "isExpanded": false
+  },
+  {
+    "category": "Billing & Payments",
+    "question": "How is VAT calculated on my commissions?",
+    "answer": "VAT at the standard Zambia rate (16%) is automatically deducted before payout. Your monthly payout statement includes a full VAT breakdown for your records.",
+    "isExpanded": false
+  },
+  {
+    "category": "Account & Security",
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Go to Settings → Security and toggle on 'Two-Factor Authentication'. Scan the QR code with an authenticator app (e.g. Google Authenticator) and confirm with a one-time code.",
+    "isExpanded": false
+  },
+  {
+    "category": "Account & Security",
+    "question": "I forgot my password. What do I do?",
+    "answer": "On the login page, click 'Forgot Password'. Enter your registered email and we'll send a reset link. The link expires in 30 minutes. Check your spam folder if you don't see it.",
+    "isExpanded": false
+  },
+  {
+    "category": "Account & Security",
+    "question": "Can I have multiple accounts?",
+    "answer": "Each email address may only be associated with one CompanyApp account. If you need access under a different company, contact support to set up a separate company workspace.",
+    "isExpanded": false
+  },
+  {
+    "category": "Products & Referrals",
+    "question": "What products can I create referral links for?",
+    "answer": "You can generate referral links for any active product listed in your Products & Services page. Pre-loaded system products (School Management, Payroll, Legal, etc.) are available by default.",
+    "isExpanded": false
+  },
+  {
+    "category": "Products & Referrals",
+    "question": "How is a 'conversion' counted?",
+    "answer": "A conversion is recorded when someone uses your referral link to complete a paid subscription sign-up. Free trials are counted as leads, not conversions, until they upgrade to a paid plan.",
+    "isExpanded": false
+  },
+  {
+    "category": "Products & Referrals",
+    "question": "Can I share a referral link on social media?",
+    "answer": "Yes. Use the Share buttons on the Generate Link page to post to WhatsApp, Facebook, or copy the link. Each platform is tracked separately in your link analytics.",
+    "isExpanded": false
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Tanzania-7588",
+  "partnerName": "Digital Innovation Hub TZ",
+  "country": "Tanzania",
+  "currency": "TZS",
+  "commissionRate": 22,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 43,
+  "activeProjects": 21,
+  "totalCustomers": 103,
+  "totalRevenue": 877224450,
+  "totalCommissionEarned": 192989379.00,
+  "paidCommission": 154391503.20,
+  "pendingCommission": 38597875.80,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 38597875.80,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 160838700,
+      "commission": 28291650,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 2,
+      "revenue": 88348250,
+      "commission": 16273750,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 4,
+      "revenue": 149107500,
+      "commission": 11068500,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 165388300,
+    "implementationSuccessRate": 98.8,
+    "customerSatisfactionScore": 4.6,
+    "averageCommissionPerProject": 32058700,
+    "recurringRevenueShare": 26.8
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-26T00:00:00Z"
+}

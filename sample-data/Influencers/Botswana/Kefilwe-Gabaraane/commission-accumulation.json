@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Botswana-1",
+  "country": "Botswana",
+  "affiliateName": "Kefilwe Gabaraane",
+  "performanceMetrics": {
+    "engagementRate": 3.0,
+    "followerCount": 133433,
+    "averageOrderValue": 441.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 62.0,
+      "revenue": 29238.3,
+      "commission": 4385.74
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 78.0,
+      "revenue": 35085.96,
+      "commission": 5262.89
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 93.0,
+      "revenue": 38984.4,
+      "commission": 5847.66
+    }
+  ],
+  "summary": {
+    "paidCommission": 26899.24,
+    "totalRevenue": 194922.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 29238.3,
+    "totalRegistrations": 520.0,
+    "pendingCommission": 2339.06,
+    "activeCustomers": 442.0
+  }
+}

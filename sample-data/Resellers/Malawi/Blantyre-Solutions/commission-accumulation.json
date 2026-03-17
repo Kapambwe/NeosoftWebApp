@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Malawi-2",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 12,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 19
+  },
+  "country": "Malawi",
+  "affiliateName": "Blantyre Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 365.0,
+      "revenue": 239468.0,
+      "commission": 59867.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 447.0,
+      "revenue": 299335.0,
+      "commission": 74833.75
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 406.0,
+      "revenue": 263414.8,
+      "commission": 65853.7
+    }
+  ],
+  "summary": {
+    "paidCommission": 281374.9,
+    "totalRevenue": 1197340.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 299335.0,
+    "totalRegistrations": 2032.0,
+    "pendingCommission": 17960.1,
+    "activeCustomers": 1828.0
+  }
+}

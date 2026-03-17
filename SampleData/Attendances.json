@@ -1,0 +1,27 @@
+[
+    {
+        "Id": "ATT-001",
+        "EmployeeId": "EMP-001",
+        "EmployeeName": "Sarah Mwansa",
+        "DepartmentId": "DEPT-001",
+        "Date": "2026-01-31T00:00:00Z",
+        "ClockInTime": "2026-01-31T08:00:00Z",
+        "ClockOutTime": "2026-01-31T17:00:00Z",
+        "TotalHours": 9.0,
+        "Status": 0,
+        "IsLate": false
+    },
+    {
+        "Id": "ATT-002",
+        "EmployeeId": "EMP-002",
+        "EmployeeName": "John Phiri",
+        "DepartmentId": "DEPT-002",
+        "Date": "2026-01-31T00:00:00Z",
+        "ClockInTime": "2026-01-31T08:15:00Z",
+        "ClockOutTime": "2026-01-31T17:00:00Z",
+        "TotalHours": 8.75,
+        "Status": 0,
+        "IsLate": true,
+        "LateBy": "00:15:00"
+    }
+]

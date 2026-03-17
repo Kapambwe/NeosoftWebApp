@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Ethiopia-2",
+  "country": "Ethiopia",
+  "affiliateName": "Rift Valley Partners",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Diamond Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 233.0,
+      "revenue": 439650.0,
+      "commission": 153877.5
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 265.0,
+      "revenue": 492408.0,
+      "commission": 172342.8
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 297.0,
+      "revenue": 527580.0,
+      "commission": 184653.0
+    }
+  ],
+  "summary": {
+    "paidCommission": 584734.5,
+    "totalRevenue": 1758600.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 615510.0,
+    "totalRegistrations": 1063.0,
+    "pendingCommission": 30775.5,
+    "activeCustomers": 977.0
+  }
+}

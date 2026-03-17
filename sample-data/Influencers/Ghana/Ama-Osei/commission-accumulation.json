@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Ghana-3",
+  "country": "Ghana",
+  "affiliateName": "Ama Osei",
+  "performanceMetrics": {
+    "engagementRate": 2.1,
+    "followerCount": 262119,
+    "averageOrderValue": 372.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 136.0,
+      "revenue": 53735.4,
+      "commission": 8060.31
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 170.0,
+      "revenue": 64482.48,
+      "commission": 9672.37
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 204.0,
+      "revenue": 71647.2,
+      "commission": 10747.08
+    }
+  ],
+  "summary": {
+    "paidCommission": 49436.57,
+    "totalRevenue": 358236.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 53735.4,
+    "totalRegistrations": 1134.0,
+    "pendingCommission": 4298.83,
+    "activeCustomers": 963.0
+  }
+}

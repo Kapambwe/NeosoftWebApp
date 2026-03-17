@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-South-Africa-5128",
+  "partnerName": "Africa Cloud Integrators",
+  "country": "South-Africa",
+  "currency": "ZAR",
+  "commissionRate": 20.2,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 16,
+  "activeProjects": 15,
+  "totalCustomers": 84,
+  "totalRevenue": 5577657.5,
+  "totalCommissionEarned": 1126686.82,
+  "paidCommission": 901349.46,
+  "pendingCommission": 225337.36,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 225337.36,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Wire Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 857456.5,
+      "commission": 299996,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 3,
+      "revenue": 960742,
+      "commission": 248880.5,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 4,
+      "revenue": 1093294.5,
+      "commission": 219983.5,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 931660,
+    "implementationSuccessRate": 99.3,
+    "customerSatisfactionScore": 4.8,
+    "averageCommissionPerProject": 193288,
+    "recurringRevenueShare": 28.6
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-08-01T00:00:00Z",
+  "lastActivityDate": "2024-11-26T00:00:00Z"
+}

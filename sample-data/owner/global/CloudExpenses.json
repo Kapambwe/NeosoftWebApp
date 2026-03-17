@@ -1,0 +1,902 @@
+[
+    {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "Provider": "Azure",
+        "ServiceName": "Compute-Service-1",
+        "ResourceId": "resource-00000000",
+        "Cost": 2500.50,
+        "Currency": "USD",
+        "BillingDate": "2026-01-15T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 500.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000001",
+        "Provider": "AWS",
+        "ServiceName": "Storage-Service-2",
+        "ResourceId": "resource-00000001",
+        "Cost": 1500.75,
+        "Currency": "USD",
+        "BillingDate": "2026-01-20T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 300.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000002",
+        "Provider": "Google Cloud",
+        "ServiceName": "Network-Service-3",
+        "ResourceId": "resource-00000002",
+        "Cost": 800.25,
+        "Currency": "USD",
+        "BillingDate": "2026-01-25T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 100.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000003",
+        "Provider": "Azure",
+        "ServiceName": "Database-Service-4",
+        "ResourceId": "resource-00000003",
+        "Cost": 3000.10,
+        "Currency": "USD",
+        "BillingDate": "2026-01-10T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 200.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000004",
+        "Provider": "AWS",
+        "ServiceName": "Kubernetes-Service-5",
+        "ResourceId": "resource-00000004",
+        "Cost": 2000.99,
+        "Currency": "USD",
+        "BillingDate": "2026-01-05T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 150.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000005",
+        "Provider": "Google Cloud",
+        "ServiceName": "Compute-Service-6",
+        "ResourceId": "resource-00000005",
+        "Cost": 1200.50,
+        "Currency": "USD",
+        "BillingDate": "2026-01-12T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 400.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000006",
+        "Provider": "Azure",
+        "ServiceName": "Storage-Service-7",
+        "ResourceId": "resource-00000006",
+        "Cost": 700.40,
+        "Currency": "USD",
+        "BillingDate": "2026-01-18T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 250.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000007",
+        "Provider": "AWS",
+        "ServiceName": "Network-Service-8",
+        "ResourceId": "resource-00000007",
+        "Cost": 1800.60,
+        "Currency": "USD",
+        "BillingDate": "2026-01-22T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 120.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000008",
+        "Provider": "Google Cloud",
+        "ServiceName": "Database-Service-9",
+        "ResourceId": "resource-00000008",
+        "Cost": 900.30,
+        "Currency": "USD",
+        "BillingDate": "2026-01-08T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 80.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000009",
+        "Provider": "Azure",
+        "ServiceName": "Kubernetes-Service-10",
+        "ResourceId": "resource-00000009",
+        "Cost": 400.10,
+        "Currency": "USD",
+        "BillingDate": "2026-01-14T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 70.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000010",
+        "Provider": "AWS",
+        "ServiceName": "Compute-Service-11",
+        "ResourceId": "resource-00000010",
+        "Cost": 3500.80,
+        "Currency": "USD",
+        "BillingDate": "2026-01-01T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 600.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000011",
+        "Provider": "Google Cloud",
+        "ServiceName": "Storage-Service-12",
+        "ResourceId": "resource-00000011",
+        "Cost": 1000.20,
+        "Currency": "USD",
+        "BillingDate": "2026-01-07T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 350.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000012",
+        "Provider": "Azure",
+        "ServiceName": "Network-Service-13",
+        "ResourceId": "resource-00000012",
+        "Cost": 2200.70,
+        "Currency": "USD",
+        "BillingDate": "2026-01-11T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 180.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000013",
+        "Provider": "AWS",
+        "ServiceName": "Database-Service-14",
+        "ResourceId": "resource-00000013",
+        "Cost": 600.90,
+        "Currency": "USD",
+        "BillingDate": "2026-01-16T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 90.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000014",
+        "Provider": "Google Cloud",
+        "ServiceName": "Kubernetes-Service-15",
+        "ResourceId": "resource-00000014",
+        "Cost": 1700.0,
+        "Currency": "USD",
+        "BillingDate": "2026-01-21T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 130.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000015",
+        "Provider": "Azure",
+        "ServiceName": "Compute-Service-16",
+        "ResourceId": "resource-00000015",
+        "Cost": 2800.50,
+        "Currency": "USD",
+        "BillingDate": "2026-01-09T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 550.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000016",
+        "Provider": "AWS",
+        "ServiceName": "Storage-Service-17",
+        "ResourceId": "resource-00000016",
+        "Cost": 950.40,
+        "Currency": "USD",
+        "BillingDate": "2026-01-13T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 320.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000017",
+        "Provider": "Google Cloud",
+        "ServiceName": "Network-Service-18",
+        "ResourceId": "resource-00000017",
+        "Cost": 1400.60,
+        "Currency": "USD",
+        "BillingDate": "2026-01-19T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 110.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000018",
+        "Provider": "Azure",
+        "ServiceName": "Database-Service-19",
+        "ResourceId": "resource-00000018",
+        "Cost": 750.30,
+        "Currency": "USD",
+        "BillingDate": "2026-01-23T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 85.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000019",
+        "Provider": "AWS",
+        "ServiceName": "Kubernetes-Service-20",
+        "ResourceId": "resource-00000019",
+        "Cost": 2600.10,
+        "Currency": "USD",
+        "BillingDate": "2026-01-02T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 140.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000020",
+        "Provider": "Google Cloud",
+        "ServiceName": "Compute-Service-21",
+        "ResourceId": "resource-00000020",
+        "Cost": 1900.80,
+        "Currency": "USD",
+        "BillingDate": "2026-01-06T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 480.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000021",
+        "Provider": "Azure",
+        "ServiceName": "Storage-Service-22",
+        "ResourceId": "resource-00000021",
+        "Cost": 1100.20,
+        "Currency": "USD",
+        "BillingDate": "2026-01-10T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 380.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000022",
+        "Provider": "AWS",
+        "ServiceName": "Network-Service-23",
+        "ResourceId": "resource-00000022",
+        "Cost": 850.70,
+        "Currency": "USD",
+        "BillingDate": "2026-01-17T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 160.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000023",
+        "Provider": "Google Cloud",
+        "ServiceName": "Database-Service-24",
+        "ResourceId": "resource-00000023",
+        "Cost": 2900.90,
+        "Currency": "USD",
+        "BillingDate": "2026-01-24T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 100.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000024",
+        "Provider": "Azure",
+        "ServiceName": "Kubernetes-Service-25",
+        "ResourceId": "resource-00000024",
+        "Cost": 1600.0,
+        "Currency": "USD",
+        "BillingDate": "2026-01-03T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 110.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000025",
+        "Provider": "AWS",
+        "ServiceName": "Compute-Service-26",
+        "ResourceId": "resource-00000025",
+        "Cost": 500.50,
+        "Currency": "USD",
+        "BillingDate": "2026-01-08T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 200.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000026",
+        "Provider": "Google Cloud",
+        "ServiceName": "Storage-Service-27",
+        "ResourceId": "resource-00000026",
+        "Cost": 2700.75,
+        "Currency": "USD",
+        "BillingDate": "2026-01-15T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 450.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000027",
+        "Provider": "Azure",
+        "ServiceName": "Network-Service-28",
+        "ResourceId": "resource-00000027",
+        "Cost": 1300.25,
+        "Currency": "USD",
+        "BillingDate": "2026-01-20T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 90.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000028",
+        "Provider": "AWS",
+        "ServiceName": "Database-Service-29",
+        "ResourceId": "resource-00000028",
+        "Cost": 650.10,
+        "Currency": "USD",
+        "BillingDate": "2026-01-25T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 75.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000029",
+        "Provider": "Google Cloud",
+        "ServiceName": "Kubernetes-Service-30",
+        "ResourceId": "resource-00000029",
+        "Cost": 2100.99,
+        "Currency": "USD",
+        "BillingDate": "2026-01-10T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 160.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000030",
+        "Provider": "Azure",
+        "ServiceName": "Compute-Service-31",
+        "ResourceId": "resource-00000030",
+        "Cost": 1800.50,
+        "Currency": "USD",
+        "BillingDate": "2026-01-05T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 420.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000031",
+        "Provider": "AWS",
+        "ServiceName": "Storage-Service-32",
+        "ResourceId": "resource-00000031",
+        "Cost": 780.40,
+        "Currency": "USD",
+        "BillingDate": "2026-01-12T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 280.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000032",
+        "Provider": "Google Cloud",
+        "ServiceName": "Network-Service-33",
+        "ResourceId": "resource-00000032",
+        "Cost": 250.60,
+        "Currency": "USD",
+        "BillingDate": "2026-01-18T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 140.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000033",
+        "Provider": "Azure",
+        "ServiceName": "Database-Service-34",
+        "ResourceId": "resource-00000033",
+        "Cost": 1100.30,
+        "Currency": "USD",
+        "BillingDate": "2026-01-22T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 95.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000034",
+        "Provider": "AWS",
+        "ServiceName": "Kubernetes-Service-35",
+        "ResourceId": "resource-00000034",
+        "Cost": 1400.10,
+        "Currency": "USD",
+        "BillingDate": "2026-01-08T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 100.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000035",
+        "Provider": "Google Cloud",
+        "ServiceName": "Compute-Service-36",
+        "ResourceId": "resource-00000035",
+        "Cost": 2900.80,
+        "Currency": "USD",
+        "BillingDate": "2026-01-14T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 500.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000036",
+        "Provider": "Azure",
+        "ServiceName": "Storage-Service-37",
+        "ResourceId": "resource-00000036",
+        "Cost": 900.20,
+        "Currency": "USD",
+        "BillingDate": "2026-01-01T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 300.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000037",
+        "Provider": "AWS",
+        "ServiceName": "Network-Service-38",
+        "ResourceId": "resource-00000037",
+        "Cost": 1600.70,
+        "Currency": "USD",
+        "BillingDate": "2026-01-07T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 150.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000038",
+        "Provider": "Google Cloud",
+        "ServiceName": "Database-Service-39",
+        "ResourceId": "resource-00000038",
+        "Cost": 1000.90,
+        "Currency": "USD",
+        "BillingDate": "2026-01-11T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 80.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000039",
+        "Provider": "Azure",
+        "ServiceName": "Kubernetes-Service-40",
+        "ResourceId": "resource-00000039",
+        "Cost": 2300.0,
+        "Currency": "USD",
+        "BillingDate": "2026-01-16T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 170.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000040",
+        "Provider": "AWS",
+        "ServiceName": "Compute-Service-41",
+        "ResourceId": "resource-00000040",
+        "Cost": 1200.50,
+        "Currency": "USD",
+        "BillingDate": "2026-01-21T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 380.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000041",
+        "Provider": "Google Cloud",
+        "ServiceName": "Storage-Service-42",
+        "ResourceId": "resource-00000041",
+        "Cost": 800.75,
+        "Currency": "USD",
+        "BillingDate": "2026-01-04T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 290.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000042",
+        "Provider": "Azure",
+        "ServiceName": "Network-Service-43",
+        "ResourceId": "resource-00000042",
+        "Cost": 1900.25,
+        "Currency": "USD",
+        "BillingDate": "2026-01-09T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 100.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000043",
+        "Provider": "AWS",
+        "ServiceName": "Database-Service-44",
+        "ResourceId": "resource-00000043",
+        "Cost": 450.10,
+        "Currency": "USD",
+        "BillingDate": "2026-01-15T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 60.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000044",
+        "Provider": "Google Cloud",
+        "ServiceName": "Kubernetes-Service-45",
+        "ResourceId": "resource-00000044",
+        "Cost": 2500.99,
+        "Currency": "USD",
+        "BillingDate": "2026-01-20T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 190.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000045",
+        "Provider": "Azure",
+        "ServiceName": "Compute-Service-46",
+        "ResourceId": "resource-00000045",
+        "Cost": 1300.50,
+        "Currency": "USD",
+        "BillingDate": "2026-01-03T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-compute",
+        "CostCategory": "Compute",
+        "UsageQuantity": 410.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000046",
+        "Provider": "AWS",
+        "ServiceName": "Storage-Service-47",
+        "ResourceId": "resource-00000046",
+        "Cost": 700.40,
+        "Currency": "USD",
+        "BillingDate": "2026-01-08T10:00:00Z",
+        "Region": "EU-West",
+        "ResourceGroup": "rg-storage",
+        "CostCategory": "Storage",
+        "UsageQuantity": 260.0,
+        "UsageUnit": "GB",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Sales"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000047",
+        "Provider": "Google Cloud",
+        "ServiceName": "Network-Service-48",
+        "ResourceId": "resource-00000047",
+        "Cost": 1500.60,
+        "Currency": "USD",
+        "BillingDate": "2026-01-14T10:00:00Z",
+        "Region": "Asia-Pacific",
+        "ResourceGroup": "rg-network",
+        "CostCategory": "Network",
+        "UsageQuantity": 130.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Marketing"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000048",
+        "Provider": "Azure",
+        "ServiceName": "Database-Service-49",
+        "ResourceId": "resource-00000048",
+        "Cost": 850.30,
+        "Currency": "USD",
+        "BillingDate": "2026-01-19T10:00:00Z",
+        "Region": "US-East",
+        "ResourceGroup": "rg-database",
+        "CostCategory": "Database",
+        "UsageQuantity": 90.0,
+        "UsageUnit": "Requests",
+        "Tags": {
+            "Environment": "Production",
+            "Department": "Engineering"
+        }
+    },
+    {
+        "Id": "00000000-0000-0000-0000-000000000049",
+        "Provider": "AWS",
+        "ServiceName": "Kubernetes-Service-50",
+        "ResourceId": "resource-00000049",
+        "Cost": 1900.10,
+        "Currency": "USD",
+        "BillingDate": "2026-01-24T10:00:00Z",
+        "Region": "US-West",
+        "ResourceGroup": "rg-kubernetes",
+        "CostCategory": "Kubernetes",
+        "UsageQuantity": 150.0,
+        "UsageUnit": "Hours",
+        "Tags": {
+            "Environment": "Development",
+            "Department": "Sales"
+        }
+    }
+]

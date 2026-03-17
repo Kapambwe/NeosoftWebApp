@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Malawi-7052",
+  "resellerName": "Southern Tech Partners",
+  "country": "Malawi",
+  "currency": "MWK",
+  "commissionRate": 11.9,
+  "tier": "Gold",
+  "status": "Active",
+  "totalSales": 114,
+  "activeCustomers": 56,
+  "totalRevenue": 245586600,
+  "totalCommissionEarned": 29224805.40,
+  "paidCommission": 21918604.05,
+  "pendingCommission": 7306201.35,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 6575581.22,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 19,
+      "revenue": 56955150,
+      "commission": 7531650,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 17,
+      "revenue": 42344400,
+      "commission": 4104450,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 10,
+      "revenue": 35458500,
+      "commission": 5909400,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 35306250,
+    "conversionRate": 19,
+    "customerRetentionRate": 96.5,
+    "averageCommissionPerSale": 2969400
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-10T00:00:00Z"
+}

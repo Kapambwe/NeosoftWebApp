@@ -1,0 +1,32 @@
+[
+  {
+    "month": "Jan",
+    "conversions": 120,
+    "revenue": 48000
+  },
+  {
+    "month": "Feb",
+    "conversions": 135,
+    "revenue": 54000
+  },
+  {
+    "month": "Mar",
+    "conversions": 148,
+    "revenue": 59200
+  },
+  {
+    "month": "Apr",
+    "conversions": 156,
+    "revenue": 62400
+  },
+  {
+    "month": "May",
+    "conversions": 165,
+    "revenue": 66000
+  },
+  {
+    "month": "Jun",
+    "conversions": 172,
+    "revenue": 68800
+  }
+]

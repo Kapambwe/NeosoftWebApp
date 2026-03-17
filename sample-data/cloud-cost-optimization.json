@@ -1,0 +1,104 @@
+{
+  "currentMonthlyCost": 52000,
+  "optimizedMonthlyCost": 36400,
+  "annualSavings": 187200,
+  "opportunities": [
+    {
+      "title": "Right-size EC2 Instances",
+      "description": "18 instances across Kenya and Nigeria regions are over-provisioned. Analysis shows 25% of capacity unused during peak hours.",
+      "type": 0,
+      "monthlySavings": 5200,
+      "implementationEffort": 2,
+      "recommendedAction": "Migrate to smaller instance types during maintenance window. Schedule for weekend deployment.",
+      "affectedRegions": ["Kenya", "Nigeria", "South Africa"],
+      "estimatedImplementationDays": 14
+    },
+    {
+      "title": "Purchase Reserved Instances",
+      "description": "Convert 25 on-demand instances to 1-year reserved instances for stable workloads in production environments.",
+      "type": 1,
+      "monthlySavings": 7200,
+      "implementationEffort": 1,
+      "recommendedAction": "Purchase reserved instances for AccountingPro Suite and CdfWebApp workloads",
+      "affectedRegions": ["Kenya", "South Africa", "Nigeria", "Rwanda"],
+      "estimatedImplementationDays": 3
+    },
+    {
+      "title": "Implement Spot Instances",
+      "description": "Use spot instances for batch processing, data analytics, and non-critical workloads. Potential 60-70% cost savings.",
+      "type": 2,
+      "monthlySavings": 3100,
+      "implementationEffort": 4,
+      "recommendedAction": "Migrate batch jobs and reporting workloads to spot instance fleet with fallback to on-demand",
+      "affectedRegions": ["Kenya", "Nigeria", "Egypt"],
+      "estimatedImplementationDays": 30
+    },
+    {
+      "title": "Optimize Storage Tiers",
+      "description": "Move 3.5TB of infrequently accessed data to cheaper storage tiers. Implement lifecycle policies for automated transitions.",
+      "type": 3,
+      "monthlySavings": 1800,
+      "implementationEffort": 2,
+      "recommendedAction": "Implement lifecycle policies for S3 buckets. Transition data older than 90 days to Glacier",
+      "affectedRegions": ["All Regions"],
+      "estimatedImplementationDays": 7
+    },
+    {
+      "title": "Remove Unused Resources",
+      "description": "12 EBS volumes, 7 load balancers, and 15 elastic IPs are no longer in use across all regions.",
+      "type": 4,
+      "monthlySavings": 1100,
+      "implementationEffort": 1,
+      "recommendedAction": "Audit and remove unused resources. Create automated cleanup scripts to prevent future waste",
+      "affectedRegions": ["All Regions"],
+      "estimatedImplementationDays": 5
+    },
+    {
+      "title": "Optimize Database Licensing",
+      "description": "Switch from commercial database licenses to open-source alternatives where appropriate. PostgreSQL migration opportunity identified.",
+      "type": 5,
+      "monthlySavings": 3200,
+      "implementationEffort": 5,
+      "recommendedAction": "Migrate non-critical databases to PostgreSQL. Keep mission-critical systems on current platform",
+      "affectedRegions": ["Kenya", "South Africa"],
+      "estimatedImplementationDays": 90
+    },
+    {
+      "title": "Implement Auto-Scaling",
+      "description": "Configure auto-scaling policies to match capacity with actual demand. Current static provisioning leads to 40% waste during off-peak hours.",
+      "type": 0,
+      "monthlySavings": 2800,
+      "implementationEffort": 3,
+      "recommendedAction": "Implement auto-scaling groups with scale-down during nights and weekends",
+      "affectedRegions": ["Kenya", "Nigeria", "Ghana", "Rwanda"],
+      "estimatedImplementationDays": 21
+    },
+    {
+      "title": "Consolidate Data Transfer",
+      "description": "Optimize data transfer between regions. Reduce cross-region traffic by implementing regional caching.",
+      "type": 3,
+      "monthlySavings": 1500,
+      "implementationEffort": 3,
+      "recommendedAction": "Deploy CloudFront distributions and regional caching layers",
+      "affectedRegions": ["All Regions"],
+      "estimatedImplementationDays": 14
+    }
+  ],
+  "implementationRoadmap": [
+    {
+      "phase": "Quick Wins (0-30 days)",
+      "totalSavings": 9400,
+      "actions": ["Remove Unused Resources", "Purchase Reserved Instances", "Optimize Storage Tiers"]
+    },
+    {
+      "phase": "Medium Term (30-90 days)",
+      "totalSavings": 11100,
+      "actions": ["Right-size EC2 Instances", "Implement Auto-Scaling", "Implement Spot Instances", "Consolidate Data Transfer"]
+    },
+    {
+      "phase": "Long Term (90+ days)",
+      "totalSavings": 3200,
+      "actions": ["Optimize Database Licensing"]
+    }
+  ]
+}

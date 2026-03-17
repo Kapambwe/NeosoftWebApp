@@ -1,0 +1,239 @@
+[
+  {
+    "productId": "PROD-001",
+    "productName": "AccountingPro Suite",
+    "currentPrice": 149,
+    "currentSubscribers": 520,
+    "currentMRR": 77480,
+    "recommendedPrice": 179,
+    "projectedSubscribers": 485,
+    "projectedMRR": 86815,
+    "marketAveragePrice": 185,
+    "priceElasticity": -0.58,
+    "competitorMinPrice": 99,
+    "competitorMaxPrice": 249,
+    "revenueImpact": 9335,
+    "churnRisk": 0.07,
+    "recommendation": "Increase price by 20% with grandfathering for existing customers. Add premium tier at $249 for enterprises.",
+    "scenarios": [
+      {
+        "scenarioName": "$129/month",
+        "price": 129,
+        "estimatedSubscribers": 548,
+        "estimatedMRR": 70692,
+        "probabilityOfSuccess": 0.92,
+        "assumptions": [
+          "Price elasticity of -0.58",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$149/month",
+        "price": 149,
+        "estimatedSubscribers": 520,
+        "estimatedMRR": 77480,
+        "probabilityOfSuccess": 0.85,
+        "assumptions": [
+          "Price elasticity of -0.58",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$179/month",
+        "price": 179,
+        "estimatedSubscribers": 485,
+        "estimatedMRR": 86815,
+        "probabilityOfSuccess": 0.76,
+        "assumptions": [
+          "Price elasticity of -0.58",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$199/month",
+        "price": 199,
+        "estimatedSubscribers": 468,
+        "estimatedMRR": 93132,
+        "probabilityOfSuccess": 0.67,
+        "assumptions": [
+          "Price elasticity of -0.58",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$229/month",
+        "price": 229,
+        "estimatedSubscribers": 442,
+        "estimatedMRR": 101218,
+        "probabilityOfSuccess": 0.52,
+        "assumptions": [
+          "Price elasticity of -0.58",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "PROD-002",
+    "productName": "CdfWebApp",
+    "currentPrice": 99,
+    "currentSubscribers": 380,
+    "currentMRR": 37620,
+    "recommendedPrice": 119,
+    "projectedSubscribers": 355,
+    "projectedMRR": 42245,
+    "marketAveragePrice": 125,
+    "priceElasticity": -0.65,
+    "competitorMinPrice": 79,
+    "competitorMaxPrice": 179,
+    "revenueImpact": 4625,
+    "churnRisk": 0.09,
+    "recommendation": "Increase price by 20% and bundle with AccountingPro Suite for discounted package pricing.",
+    "scenarios": [
+      {
+        "scenarioName": "$89/month",
+        "price": 89,
+        "estimatedSubscribers": 402,
+        "estimatedMRR": 35778,
+        "probabilityOfSuccess": 0.88,
+        "assumptions": [
+          "Price elasticity of -0.65",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$99/month",
+        "price": 99,
+        "estimatedSubscribers": 380,
+        "estimatedMRR": 37620,
+        "probabilityOfSuccess": 0.85,
+        "assumptions": [
+          "Price elasticity of -0.65",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$119/month",
+        "price": 119,
+        "estimatedSubscribers": 355,
+        "estimatedMRR": 42245,
+        "probabilityOfSuccess": 0.81,
+        "assumptions": [
+          "Price elasticity of -0.65",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$139/month",
+        "price": 139,
+        "estimatedSubscribers": 338,
+        "estimatedMRR": 46982,
+        "probabilityOfSuccess": 0.74,
+        "assumptions": [
+          "Price elasticity of -0.65",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$159/month",
+        "price": 159,
+        "estimatedSubscribers": 318,
+        "estimatedMRR": 50562,
+        "probabilityOfSuccess": 0.58,
+        "assumptions": [
+          "Price elasticity of -0.65",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "PROD-003",
+    "productName": "CouncilWebApp",
+    "currentPrice": 199,
+    "currentSubscribers": 145,
+    "currentMRR": 28855,
+    "recommendedPrice": 229,
+    "projectedSubscribers": 138,
+    "projectedMRR": 31602,
+    "marketAveragePrice": 245,
+    "priceElasticity": -0.48,
+    "competitorMinPrice": 159,
+    "competitorMaxPrice": 349,
+    "revenueImpact": 2747,
+    "churnRisk": 0.05,
+    "recommendation": "Moderate price increase of 15%. Low churn risk due to high switching costs in government sector.",
+    "scenarios": [
+      {
+        "scenarioName": "$179/month",
+        "price": 179,
+        "estimatedSubscribers": 152,
+        "estimatedMRR": 27208,
+        "probabilityOfSuccess": 0.90,
+        "assumptions": [
+          "Price elasticity of -0.48",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$199/month",
+        "price": 199,
+        "estimatedSubscribers": 145,
+        "estimatedMRR": 28855,
+        "probabilityOfSuccess": 0.85,
+        "assumptions": [
+          "Price elasticity of -0.48",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$229/month",
+        "price": 229,
+        "estimatedSubscribers": 138,
+        "estimatedMRR": 31602,
+        "probabilityOfSuccess": 0.79,
+        "assumptions": [
+          "Price elasticity of -0.48",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$259/month",
+        "price": 259,
+        "estimatedSubscribers": 132,
+        "estimatedMRR": 34188,
+        "probabilityOfSuccess": 0.74,
+        "assumptions": [
+          "Price elasticity of -0.48",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      },
+      {
+        "scenarioName": "$299/month",
+        "price": 299,
+        "estimatedSubscribers": 125,
+        "estimatedMRR": 37375,
+        "probabilityOfSuccess": 0.61,
+        "assumptions": [
+          "Price elasticity of -0.48",
+          "No competitive response",
+          "6-month implementation period"
+        ]
+      }
+    ]
+  }
+]

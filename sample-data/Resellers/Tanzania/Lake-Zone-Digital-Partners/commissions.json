@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Tanzania-5231",
+  "resellerName": "Lake Zone Digital Partners",
+  "country": "Tanzania",
+  "currency": "TZS",
+  "commissionRate": 14.4,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 114,
+  "activeCustomers": 70,
+  "totalRevenue": 725047850,
+  "totalCommissionEarned": 104406890.40,
+  "paidCommission": 78305167.80,
+  "pendingCommission": 26101722.60,
+  "lastPaymentDate": "2024-10-01T00:00:00Z",
+  "lastPaymentAmount": 23491550.34,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "PayPal",
+  "taxRate": 0.18,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 9,
+      "revenue": 63017600,
+      "commission": 14050650,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 13,
+      "revenue": 50059700,
+      "commission": 14687500,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 14,
+      "revenue": 64881150,
+      "commission": 5703450,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 71242600,
+    "conversionRate": 14.7,
+    "customerRetentionRate": 92.1,
+    "averageCommissionPerSale": 9033400
+  },
+  "joinedDate": "2022-05-01T00:00:00Z",
+  "lastActivityDate": "2024-11-10T00:00:00Z"
+}

@@ -1,0 +1,58 @@
+{
+  "partnerId": "PAR-Rwanda-1811",
+  "partnerName": "Digital Innovation Hub Rwanda",
+  "country": "Rwanda",
+  "currency": "RWF",
+  "commissionRate": 22.2,
+  "partnershipLevel": "Premier",
+  "status": "Active",
+  "totalProjects": 25,
+  "activeProjects": 18,
+  "totalCustomers": 110,
+  "totalRevenue": 556777100,
+  "totalCommissionEarned": 123604516.20,
+  "paidCommission": 98883612.96,
+  "pendingCommission": 24720903.24,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 24720903.24,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.15,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "projects": 7,
+      "revenue": 85323700,
+      "commission": 18322700,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "projects": 3,
+      "revenue": 58284600,
+      "commission": 13642200,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "projects": 3,
+      "revenue": 64986900,
+      "commission": 12755600,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageProjectValue": 50244700,
+    "implementationSuccessRate": 95.4,
+    "customerSatisfactionScore": 4.6,
+    "averageCommissionPerProject": 13886400,
+    "recurringRevenueShare": 38.6
+  },
+  "specializations": [
+    "Cloud Integration",
+    "Custom Development",
+    "Data Migration"
+  ],
+  "partnershipDate": "2021-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-14T00:00:00Z"
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "Id": "EB-001",
+        "EmployeeId": "EMP-001",
+        "EmployeeName": "Sarah Mwansa",
+        "BenefitId": "BEN-001",
+        "BenefitName": "Health Insurance",
+        "EnrollmentDate": "2025-01-31T10:00:00Z",
+        "Status": 0,
+        "EmployeeCost": 50.0,
+        "EmployerCost": 200.0
+    }
+]

@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Kenya-3",
+  "country": "Kenya",
+  "affiliateName": "Njeri Kipchoge",
+  "performanceMetrics": {
+    "engagementRate": 4.5,
+    "followerCount": 429424,
+    "averageOrderValue": 557.0,
+    "conversionRate": 3.0
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 152.0,
+      "revenue": 90401.1,
+      "commission": 13560.16
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 190.0,
+      "revenue": 108481.32,
+      "commission": 16272.2
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 229.0,
+      "revenue": 120534.8,
+      "commission": 18080.22
+    }
+  ],
+  "summary": {
+    "paidCommission": 83169.01,
+    "totalRevenue": 602674.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 90401.1,
+    "totalRegistrations": 1273.0,
+    "pendingCommission": 7232.09,
+    "activeCustomers": 1082.0
+  }
+}

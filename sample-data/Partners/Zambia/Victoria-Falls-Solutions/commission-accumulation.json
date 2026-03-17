@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Zambia-2",
+  "country": "Zambia",
+  "affiliateName": "Victoria Falls Solutions",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Gold Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 802.0,
+      "revenue": 1819791.0,
+      "commission": 636926.85
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 912.0,
+      "revenue": 2038165.92,
+      "commission": 713358.07
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 1021.0,
+      "revenue": 2183749.2,
+      "commission": 764312.22
+    }
+  ],
+  "summary": {
+    "paidCommission": 2420322.03,
+    "totalRevenue": 7279164.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 2547707.4,
+    "totalRegistrations": 3648.0,
+    "pendingCommission": 127385.37,
+    "activeCustomers": 3356.0
+  }
+}

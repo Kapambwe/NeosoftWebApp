@@ -1,0 +1,55 @@
+{
+  "affiliateId": "par-Rwanda-1",
+  "country": "Rwanda",
+  "affiliateName": "Rwanda Integration Group",
+  "partnershipMetrics": {
+    "integrationCapabilities": [
+      "API",
+      "SSO",
+      "Webhooks",
+      "Custom Integrations"
+    ],
+    "certificationLevel": "Platinum Certified",
+    "partnershipLevel": "Strategic",
+    "serviceOfferings": [
+      "Implementation",
+      "Training",
+      "Support",
+      "Custom Development"
+    ],
+    "dedicatedTeam": true
+  },
+  "affiliateType": "Partner",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 632.0,
+      "revenue": 989891.25,
+      "commission": 346461.94
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 719.0,
+      "revenue": 1108678.2,
+      "commission": 388037.37
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 805.0,
+      "revenue": 1187869.5,
+      "commission": 415754.32
+    }
+  ],
+  "summary": {
+    "paidCommission": 1316555.36,
+    "totalRevenue": 3959565.0,
+    "commissionRate": 35.0,
+    "totalCommissionEarned": 1385847.75,
+    "totalRegistrations": 2876.0,
+    "pendingCommission": 69292.39,
+    "activeCustomers": 2645.0
+  }
+}

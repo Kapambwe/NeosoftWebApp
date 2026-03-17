@@ -1,0 +1,32 @@
+[
+  {
+    "productId": "PROD-001",
+    "productName": "AccountingPro Suite",
+    "monthlyActiveUsers": 12500,
+    "dailyActiveUsers": 3800,
+    "averageSessionDuration": 32.5,
+    "bounceRate": 0.09,
+    "conversionRate": 0.11,
+    "revenue": 185000.00,
+    "customerSatisfactionScore": 4.6,
+    "supportTickets": 18,
+    "uptime": 99.9,
+    "performanceScore": 91.2,
+    "lastUpdated": "2024-12-01T12:00:00Z"
+  },
+  {
+    "productId": "PROD-002",
+    "productName": "PayrollMaster",
+    "monthlyActiveUsers": 8900,
+    "dailyActiveUsers": 2400,
+    "averageSessionDuration": 28.3,
+    "bounceRate": 0.07,
+    "conversionRate": 0.13,
+    "revenue": 142000.00,
+    "customerSatisfactionScore": 4.7,
+    "supportTickets": 12,
+    "uptime": 99.95,
+    "performanceScore": 93.5,
+    "lastUpdated": "2024-12-01T12:00:00Z"
+  }
+]

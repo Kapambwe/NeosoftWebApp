@@ -1,0 +1,44 @@
+{
+  "affiliateId": "inf-Rwanda-2",
+  "country": "Rwanda",
+  "affiliateName": "Eric Habimana",
+  "performanceMetrics": {
+    "engagementRate": 2.4,
+    "followerCount": 12194,
+    "averageOrderValue": 868.0,
+    "conversionRate": 2.99
+  },
+  "affiliateType": "Influencer",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 28.0,
+      "revenue": 26560.8,
+      "commission": 3984.12
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 36.0,
+      "revenue": 31872.96,
+      "commission": 4780.94
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 43.0,
+      "revenue": 35414.4,
+      "commission": 5312.16
+    }
+  ],
+  "summary": {
+    "paidCommission": 24435.94,
+    "totalRevenue": 177072.0,
+    "commissionRate": 15.0,
+    "totalCommissionEarned": 26560.8,
+    "totalRegistrations": 240.0,
+    "pendingCommission": 2124.86,
+    "activeCustomers": 204.0
+  }
+}

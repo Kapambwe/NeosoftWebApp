@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Zambia-0",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 11,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 11
+  },
+  "country": "Zambia",
+  "affiliateName": "Lusaka Tech Solutions",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 607.0,
+      "revenue": 743820.0,
+      "commission": 185955.0
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 742.0,
+      "revenue": 929775.0,
+      "commission": 232443.75
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 674.0,
+      "revenue": 818202.0,
+      "commission": 204550.5
+    }
+  ],
+  "summary": {
+    "paidCommission": 873988.5,
+    "totalRevenue": 3719100.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 929775.0,
+    "totalRegistrations": 3374.0,
+    "pendingCommission": 55786.5,
+    "activeCustomers": 3036.0
+  }
+}

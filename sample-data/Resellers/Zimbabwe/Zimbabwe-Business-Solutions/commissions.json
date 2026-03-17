@@ -1,0 +1,51 @@
+{
+  "resellerId": "RES-Zimbabwe-9433",
+  "resellerName": "Zimbabwe Business Solutions",
+  "country": "Zimbabwe",
+  "currency": "USD",
+  "commissionRate": 12.1,
+  "tier": "Silver",
+  "status": "Active",
+  "totalSales": 64,
+  "activeCustomers": 37,
+  "totalRevenue": 283126,
+  "totalCommissionEarned": 34258.25,
+  "paidCommission": 25693.69,
+  "pendingCommission": 8564.56,
+  "lastPaymentDate": "2024-11-01T00:00:00Z",
+  "lastPaymentAmount": 7708.11,
+  "nextPaymentDate": "2025-01-01T00:00:00Z",
+  "paymentMethod": "Bank Transfer",
+  "taxRate": 0.2,
+  "monthlyCommissions": [
+    {
+      "month": "2024-11",
+      "sales": 19,
+      "revenue": 32510,
+      "commission": 3314,
+      "status": "Pending"
+    },
+    {
+      "month": "2024-10",
+      "sales": 6,
+      "revenue": 36693,
+      "commission": 3703,
+      "status": "Paid"
+    },
+    {
+      "month": "2024-09",
+      "sales": 6,
+      "revenue": 35177,
+      "commission": 4303,
+      "status": "Paid"
+    }
+  ],
+  "performanceMetrics": {
+    "averageDealSize": 33005,
+    "conversionRate": 19.4,
+    "customerRetentionRate": 91.6,
+    "averageCommissionPerSale": 3662
+  },
+  "joinedDate": "2022-07-01T00:00:00Z",
+  "lastActivityDate": "2024-11-23T00:00:00Z"
+}

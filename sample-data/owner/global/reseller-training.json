@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "completedCourses": 4,
+    "totalCourses": 10,
+    "certifications": 1,
+    "pendingCerts": 2,
+    "hoursLearned": 14,
+    "currentLevel": "Silver",
+    "nextLevel": "Gold",
+    "coursesToNextLevel": 2
+  },
+  "courses": [
+    { "title": "Product Fundamentals",           "category": "Product",   "duration": "2h 30m", "level": "Beginner",      "status": "Completed",   "progress": 100 },
+    { "title": "Sales Techniques for SaaS",      "category": "Sales",     "duration": "3h 00m", "level": "Intermediate",  "status": "Completed",   "progress": 100 },
+    { "title": "Customer Onboarding Playbook",   "category": "Customer",  "duration": "1h 45m", "level": "Beginner",      "status": "Completed",   "progress": 100 },
+    { "title": "Reseller Portal Deep Dive",      "category": "Platform",  "duration": "2h 00m", "level": "Intermediate",  "status": "Completed",   "progress": 100 },
+    { "title": "Advanced Deal Closing",          "category": "Sales",     "duration": "2h 15m", "level": "Advanced",      "status": "In Progress", "progress": 60  },
+    { "title": "Technical Integration Guide",    "category": "Technical", "duration": "3h 30m", "level": "Advanced",      "status": "In Progress", "progress": 25  },
+    { "title": "Competitive Positioning",        "category": "Sales",     "duration": "1h 30m", "level": "Intermediate",  "status": "Not Started", "progress": 0   },
+    { "title": "Customer Success Strategies",    "category": "Customer",  "duration": "2h 00m", "level": "Intermediate",  "status": "Not Started", "progress": 0   },
+    { "title": "Billing & Commission Guide",     "category": "Platform",  "duration": "1h 15m", "level": "Beginner",      "status": "Not Started", "progress": 0   },
+    { "title": "Gold Reseller Certification",    "category": "Cert",      "duration": "4h 00m", "level": "Advanced",      "status": "Not Started", "progress": 0   }
+  ],
+  "certifications": [
+    { "name": "Certified Reseller Partner",     "description": "Entry-level reseller accreditation",  "earned": true,  "requirement": "Complete Product Fundamentals",       "earnedDate": "2025-09-15T00:00:00Z" },
+    { "name": "Silver Reseller",                "description": "Intermediate reseller qualification",  "earned": true,  "requirement": "Complete 4 core courses",              "earnedDate": "2025-12-01T00:00:00Z" },
+    { "name": "Gold Reseller",                  "description": "Advanced reseller designation",        "earned": false, "requirement": "Complete all core + 2 advanced courses","earnedDate": null },
+    { "name": "Platinum Reseller",              "description": "Elite partner accreditation",          "earned": false, "requirement": "Gold + 50 customers + 12 months",     "earnedDate": null },
+    { "name": "Technical Pre-Sales Specialist", "description": "Technical demonstration skills",       "earned": false, "requirement": "Complete Technical Integration Guide", "earnedDate": null },
+    { "name": "Customer Success Practitioner",  "description": "Customer retention excellence",        "earned": false, "requirement": "Complete Customer Success Strategies", "earnedDate": null }
+  ],
+  "resources": [
+    { "title": "Product Brochures Pack",      "description": "Ready-to-use marketing materials for all products",              "type": "PDF"       },
+    { "title": "Sales Playbook 2026",         "description": "Objection handling, pricing guides, competitive analysis",        "type": "PDF"       },
+    { "title": "Onboarding Checklist",        "description": "Step-by-step new customer onboarding template",                  "type": "Document"  },
+    { "title": "API Integration Docs",        "description": "Technical documentation for enterprise integrations",            "type": "Technical" },
+    { "title": "Commission Structure Guide",  "description": "Detailed breakdown of tier rates and bonuses",                   "type": "PDF"       },
+    { "title": "Brand Asset Library",         "description": "Logos, banners, and co-branded templates",                       "type": "Media"     },
+    { "title": "Demo Environment Access",     "description": "Request access to sandbox for product demos",                    "type": "Platform"  },
+    { "title": "Partner Community Forum",     "description": "Connect with other resellers and share best practices",          "type": "Community" }
+  ]
+}

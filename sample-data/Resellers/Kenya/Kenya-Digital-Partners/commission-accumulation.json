@@ -1,0 +1,48 @@
+{
+  "affiliateId": "res-Kenya-1",
+  "businessMetrics": {
+    "targetMarket": "SMB and Enterprise",
+    "yearsInBusiness": 13,
+    "salesChannels": [
+      "Direct Sales",
+      "Online Portal",
+      "Partner Network"
+    ],
+    "certifiedStaff": 7
+  },
+  "country": "Kenya",
+  "affiliateName": "Kenya Digital Partners",
+  "affiliateType": "Reseller",
+  "monthlyAccumulations": [
+    {
+      "status": "Paid",
+      "month": "2024-01",
+      "newCustomers": 560.0,
+      "revenue": 570690.8,
+      "commission": 142672.7
+    },
+    {
+      "status": "Paid",
+      "month": "2024-02",
+      "newCustomers": 685.0,
+      "revenue": 713363.5,
+      "commission": 178340.88
+    },
+    {
+      "status": "Pending",
+      "month": "2024-03",
+      "newCustomers": 623.0,
+      "revenue": 627759.88,
+      "commission": 156939.97
+    }
+  ],
+  "summary": {
+    "paidCommission": 670561.69,
+    "totalRevenue": 2853454.0,
+    "commissionRate": 25.0,
+    "totalCommissionEarned": 713363.5,
+    "totalRegistrations": 3115.0,
+    "pendingCommission": 42801.81,
+    "activeCustomers": 2803.0
+  }
+}

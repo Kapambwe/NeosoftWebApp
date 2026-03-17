@@ -1,0 +1,37 @@
+[
+    {
+        "Id": "BEN-001",
+        "BenefitCode": "BEN-001",
+        "BenefitName": "Health Insurance",
+        "Description": "Comprehensive health insurance coverage",
+        "BenefitType": 0,
+        "Status": 0,
+        "EmployerCost": 200.0,
+        "EmployeeCost": 50.0,
+        "Provider": "Madison Insurance",
+        "EnrolledEmployeeCount": 50
+    },
+    {
+        "Id": "BEN-002",
+        "BenefitCode": "BEN-002",
+        "BenefitName": "Retirement Plan",
+        "Description": "Company pension scheme",
+        "BenefitType": 1,
+        "Status": 0,
+        "EmployerCost": 300.0,
+        "EmployeeCost": 100.0,
+        "Provider": "NAPSA",
+        "EnrolledEmployeeCount": 60
+    },
+    {
+        "Id": "BEN-003",
+        "BenefitCode": "BEN-003",
+        "BenefitName": "Transport Allowance",
+        "Description": "Monthly transport allowance",
+        "BenefitType": 2,
+        "Status": 0,
+        "EmployerCost": 150.0,
+        "EmployeeCost": 0.0,
+        "EnrolledEmployeeCount": 70
+    }
+]

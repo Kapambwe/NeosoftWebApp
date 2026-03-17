@@ -1,0 +1,26 @@
+[
+    {
+        "Id": "FB-001",
+        "CustomerId": "CUST-001",
+        "Type": 0,
+        "Title": "It would be great to have a dark mode.",
+        "SubmittedDate": "2026-01-21T10:00:00Z",
+        "Votes": 5
+    },
+    {
+        "Id": "FB-002",
+        "CustomerId": "CUST-002",
+        "Type": 1,
+        "Title": "The new update is buggy.",
+        "SubmittedDate": "2026-01-26T10:00:00Z",
+        "Votes": 1
+    },
+    {
+        "Id": "FB-003",
+        "CustomerId": "CUST-003",
+        "Type": 2,
+        "Title": "I love the new reporting features!",
+        "SubmittedDate": "2026-01-29T10:00:00Z",
+        "Votes": 10
+    }
+]
