@@ -1,0 +1,369 @@
+{
+  "industryKey": "newspaper",
+  "displayName": "Online Newspaper / Media",
+  "sourceSpec": "OnlineNewspaper.md",
+  "institution": "EntertainmentMedia",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "NEWS-CT-001",
+      "name": "Support Independent Journalism",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Mission-driven subscribe from $3/month with exclusive newsletter",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-002",
+      "name": "Breaking News First",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Instant alerts for elections, courts, sports, markets",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["PushNotification", "SMS", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-003",
+      "name": "Local Community Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "District-focused stories that drive local subscriptions",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-004",
+      "name": "Paywall Meter Offer",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Subscription offer after free article meter is exhausted",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["InApp", "Email", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-005",
+      "name": "Morning Brief Campaign",
+      "category": "CustomerRetention",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Daily top stories, weather, traffic, FX, jobs",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-006",
+      "name": "Student Discount Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "University-verified 70% off student plan",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-007",
+      "name": "Professional Vertical Newsletters",
+      "category": "RevenueGrowth",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Legal / business / tax / policy newsletters for professionals",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-008",
+      "name": "Election Surge Pack",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Live results, maps, fact checks — time-boxed subscription push",
+      "defaultTrigger": "SeasonalPromotion",
+      "suggestedChannels": ["InApp", "PushNotification", "Email", "Ads"],
+      "isActive": false
+    },
+    {
+      "id": "NEWS-CT-009",
+      "name": "Corporate Subscription Seats",
+      "category": "RevenueGrowth",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Multi-seat corporate packages for companies and NGOs",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-010",
+      "name": "Refer-a-Friend Subscription",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Give a month / get a month referral loop",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-011",
+      "name": "Free Trial Conversion",
+      "category": "CustomerAcquisition",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Trial ending → upgrade sequence",
+      "defaultTrigger": "TrialEnding",
+      "suggestedChannels": ["Email", "InApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CT-012",
+      "name": "Churn Win-back 60-day",
+      "category": "CustomerReengagement",
+      "industryKey": "newspaper",
+      "institution": "EntertainmentMedia",
+      "description": "Re-engage cancelled or inactive subscribers",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "PushNotification"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "NEWS-CA-001",
+      "name": "Support Journalism CTA",
+      "assetType": "Email",
+      "subject": "The truth has value — support independent journalism",
+      "body": "Become a supporter from {{Price}}/month. Get the exclusive newsletter and early access to investigations.",
+      "tags": ["acquisition", "mission"],
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CA-002",
+      "name": "Paywall Soft Gate",
+      "assetType": "InApp",
+      "subject": "You've used your free articles",
+      "body": "Subscribe to keep reading {{ArticleTitle}}. Plans from {{Price}}/month.",
+      "tags": ["paywall"],
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CA-003",
+      "name": "Morning Brief Digest",
+      "assetType": "Email",
+      "subject": "Your morning brief — {{Date}}",
+      "body": "Top 10 stories · Weather · Traffic · FX · Fuel · Jobs",
+      "tags": ["retention", "digest"],
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    },
+    {
+      "id": "NEWS-CA-004",
+      "name": "Student Offer Push",
+      "assetType": "PushNotification",
+      "subject": "",
+      "body": "Students: 70% off digital access with university verification.",
+      "tags": ["student", "promo"],
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "NEWS-ET-001",
+      "name": "Trial Ending Reminder",
+      "subject": "{{FirstName}}, your trial ends in 2 days",
+      "category": "Urgency",
+      "institution": "EntertainmentMedia",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Keep reading without limits" },
+        { "type": "TextBlock", "contentHtml": "Your free trial ends soon. Upgrade to keep breaking news alerts and the morning brief." },
+        { "type": "Button", "buttonText": "Subscribe now", "buttonUrl": "{{SubscribeLink}}" },
+        { "type": "FooterUnsubscribe", "contentHtml": "Manage preferences anytime." }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "NEWS-PP-001",
+      "name": "Annual Prepay (2 months free)",
+      "depositPercent": 100,
+      "frequency": "Annual",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 0,
+      "lateFeePercent": 0,
+      "requireESignature": false,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "NEWS-PP-002",
+      "name": "Monthly Recurring",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 0,
+      "requireESignature": false,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "NEWS-MP-001",
+      "name": "Digital Supporter",
+      "price": { "amount": 3, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Unlimited articles", "Supporter newsletter", "Early investigation access"],
+      "institution": "EntertainmentMedia"
+    },
+    {
+      "id": "NEWS-MP-002",
+      "name": "Student Digital",
+      "price": { "amount": 0.99, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Unlimited articles", "Research archive", "Career news"],
+      "institution": "EntertainmentMedia"
+    },
+    {
+      "id": "NEWS-MP-003",
+      "name": "Family Plan (4 seats)",
+      "price": { "amount": 8, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 4,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["4 seats", "Weekend magazine", "Shared bookmarks"],
+      "institution": "EntertainmentMedia"
+    },
+    {
+      "id": "NEWS-MP-004",
+      "name": "Corporate Newsroom Seats",
+      "price": { "amount": 99, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 25,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["25 seats", "Business intelligence newsletter", "Admin console"],
+      "institution": "EntertainmentMedia"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "NEWS-PR-001",
+      "name": "First Month Half Off",
+      "promoCode": "TRUTH50",
+      "discountPercentage": 50,
+      "maxRedemptions": 5000,
+      "currentRedemptions": 1284,
+      "trigger": "SeasonalPromotion",
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    },
+    {
+      "id": "NEWS-PR-002",
+      "name": "Win-back Comeback",
+      "promoCode": "BACK30",
+      "discountPercentage": 30,
+      "maxRedemptions": 1000,
+      "currentRedemptions": 210,
+      "trigger": "WinbackAttempt",
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "NEWS-L-001",
+      "prospectName": "Mwansa Tembo",
+      "companyName": "Reader — Lusaka",
+      "email": "mwansa.tembo@email.zm",
+      "phone": "+260 97 400 1122",
+      "totalScore": 72,
+      "temperature": "Hot",
+      "institution": "EntertainmentMedia",
+      "recommendedAction": "Show paywall meter offer + morning brief sample"
+    },
+    {
+      "prospectId": "NEWS-L-002",
+      "prospectName": "HR Lead — ZamBank",
+      "companyName": "ZamBank PLC",
+      "email": "hr@zambank.example",
+      "phone": "+260 211 550000",
+      "totalScore": 68,
+      "temperature": "Warm",
+      "institution": "EntertainmentMedia",
+      "recommendedAction": "Pitch corporate seats package"
+    }
+  ],
+  "deals": [
+    {
+      "id": "NEWS-D-001",
+      "title": "ZamBank Corporate Seats (25)",
+      "contactName": "HR Lead",
+      "companyName": "ZamBank PLC",
+      "monthlyRecurringRevenue": 99,
+      "stage": "Negotiation",
+      "score": 70,
+      "primaryChannel": "Email",
+      "institution": "EntertainmentMedia"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "NEWS-SUB-001",
+      "customerName": "Mwansa Tembo",
+      "planName": "Digital Supporter",
+      "status": "Trial",
+      "freeArticlesRemaining": 0
+    },
+    {
+      "id": "NEWS-SUB-002",
+      "customerName": "University of Zambia Library",
+      "planName": "Student Digital",
+      "status": "Active",
+      "freeArticlesRemaining": 0
+    }
+  ],
+  "referralProgram": {
+    "id": "NEWS-RF-001",
+    "name": "Give a Month, Get a Month",
+    "rewardType": "Credit",
+    "rewardAmount": { "amount": 3, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "trialStarts": 4200,
+    "paidConversions": 890,
+    "conversionRate": 0.212,
+    "churnRate": 0.041,
+    "mrr": 28400,
+    "avgArticlesPerSession": 3.4,
+    "paywallHitRate": 0.38
+  }
+}

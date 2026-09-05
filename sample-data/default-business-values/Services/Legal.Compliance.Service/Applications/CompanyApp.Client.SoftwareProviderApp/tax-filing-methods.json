@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "tenant-maintained",
+  "owner": "Legal.Compliance.Service",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "mergePolicy": "add-missing-only",
+  "items": [
+    { "code": "MONTHLY-ONLINE", "name": "Monthly online filing", "isSystem": true, "isActive": true, "sortOrder": 1 },
+    { "code": "QUARTERLY-ONLINE", "name": "Quarterly online filing", "isSystem": true, "isActive": true, "sortOrder": 2 },
+    { "code": "ANNUAL-ONLINE", "name": "Annual online filing", "isSystem": true, "isActive": true, "sortOrder": 3 }
+  ]
+}

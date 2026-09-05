@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "tenant-maintained",
+  "owner": "Financial.Management.Service",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "institutionType": "SaaSPlatformOperator",
+  "mergePolicy": "add-missing-only",
+  "items": [
+    { "code": "SUBSCRIPTION-STARTER", "name": "Starter Subscription", "itemType": "SERVICE", "unitCode": "MONTH", "defaultPrice": 499.00, "currencyCode": "ZMW", "taxCode": "STANDARD", "revenueAccountCode": "4000", "isSystem": true, "isActive": true },
+    { "code": "SUBSCRIPTION-PRO", "name": "Professional Subscription", "itemType": "SERVICE", "unitCode": "MONTH", "defaultPrice": 1499.00, "currencyCode": "ZMW", "taxCode": "STANDARD", "revenueAccountCode": "4000", "isSystem": true, "isActive": true },
+    { "code": "IMPLEMENTATION", "name": "Implementation Services", "itemType": "SERVICE", "unitCode": "PROJECT", "defaultPrice": 25000.00, "currencyCode": "ZMW", "taxCode": "STANDARD", "revenueAccountCode": "4100", "isSystem": true, "isActive": true },
+    { "code": "SUPPORT-ANNUAL", "name": "Annual Support Services", "itemType": "SERVICE", "unitCode": "YEAR", "defaultPrice": 12000.00, "currencyCode": "ZMW", "taxCode": "STANDARD", "revenueAccountCode": "4100", "isSystem": true, "isActive": true }
+  ]
+}

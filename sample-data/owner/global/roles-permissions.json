@@ -1,7 +1,7 @@
 {
   "roles": [
     {
-      "id": "ROLE-001",
+      "id": "d1a10000-0000-0000-0000-000000000001",
       "name": "Owner",
       "description": "Full platform access — manages all applications, customers, billing, and system settings.",
       "permissions": [
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "id": "ROLE-002",
+      "id": "d1a10000-0000-0000-0000-000000000002",
       "name": "Partner",
       "description": "Partner access — can view and manage assigned customers, subscriptions, and generate reports.",
       "permissions": [
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "id": "ROLE-003",
+      "id": "d1a10000-0000-0000-0000-000000000003",
       "name": "Reseller",
       "description": "Reseller access — can provision new customers, manage subscriptions, and view reseller commissions.",
       "permissions": [
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": "ROLE-004",
+      "id": "d1a10000-0000-0000-0000-000000000004",
       "name": "Influencer",
       "description": "Influencer/Affiliate access — can view referral links, track conversions, and access commission reports.",
       "permissions": [

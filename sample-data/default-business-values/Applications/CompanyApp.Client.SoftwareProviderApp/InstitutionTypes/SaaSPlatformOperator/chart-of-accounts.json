@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "tenant-maintained",
+  "owner": "Financial.Management.Service",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "institutionType": "SaaSPlatformOperator",
+  "mergePolicy": "add-missing-only",
+  "accounts": [
+    { "code": "1000", "name": "Cash and Cash Equivalents", "type": "ASSET", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 1 },
+    { "code": "1100", "name": "Accounts Receivable", "type": "ASSET", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 2 },
+    { "code": "1200", "name": "Prepaid Expenses", "type": "ASSET", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 3 },
+    { "code": "2000", "name": "Accounts Payable", "type": "LIABILITY", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 4 },
+    { "code": "2100", "name": "Accrued Expenses", "type": "LIABILITY", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 5 },
+    { "code": "3000", "name": "Owner Equity", "type": "EQUITY", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 6 },
+    { "code": "4000", "name": "Subscription Revenue", "type": "REVENUE", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 7 },
+    { "code": "4100", "name": "Professional Services Revenue", "type": "REVENUE", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 8 },
+    { "code": "5000", "name": "Cost of Services", "type": "EXPENSE", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 9 },
+    { "code": "6000", "name": "Operating Expenses", "type": "EXPENSE", "parentCode": null, "isSystem": true, "isActive": true, "sortOrder": 10 }
+  ]
+}

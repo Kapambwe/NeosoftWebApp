@@ -1,0 +1,458 @@
+{
+  "industryKey": "electricity-utility",
+  "displayName": "Electricity Utility",
+  "sourceSpec": "Utility vertical — electricity (connections, prepaid, outages, industrial tariffs)",
+  "institution": "GovernmentAgencies",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "ELC-CT-001",
+      "name": "New Connection Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Acquire residential and commercial service connection applications",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email",
+        "Ads"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ELC-CT-002",
+      "name": "Prepaid Meter Conversion",
+      "category": "RevenueGrowth",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Migrate postpaid residential customers to prepaid meters",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ELC-CT-003",
+      "name": "Industrial / Mining Tariff Acquisition",
+      "category": "CustomerAcquisition",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Win large power users with dedicated feeders and SLAs",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ELC-CT-004",
+      "name": "Solar / Net-Metering Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Offer rooftop solar interconnection and net-metering packages",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ELC-CT-005",
+      "name": "Outage Comms & Trust Retention",
+      "category": "CustomerRetention",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Proactive outage alerts and restoration ETAs to reduce churn complaints",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "PushNotification",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ELC-CT-006",
+      "name": "Bill Collections Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Friendly → overdue → disconnection notice → hardship payment plan",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ELC-CT-007",
+      "name": "Customer Satisfaction Pulse",
+      "category": "CustomerSatisfaction",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Post-connection and post-outage CSAT / NPS",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ELC-CT-008",
+      "name": "Disconnected Customer Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "electricity-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Reactivate disconnected accounts with reconnection offers and plans",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "ELC-CA-001",
+      "name": "New Connection SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Apply for electricity connection online. Track status: {{ApplyLink}}",
+      "tags": [
+        "connections"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "ELC-CA-002",
+      "name": "Outage Alert WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Planned outage in {{Area}} on {{Date}} {{TimeRange}}. ETA restore {{RestoreEta}}.",
+      "tags": [
+        "outages",
+        "retention"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "ELC-CA-003",
+      "name": "Bill Overdue Email",
+      "assetType": "Email",
+      "subject": "Electricity bill {{InvoiceId}} overdue",
+      "body": "Amount due {{Amount}}. Pay or request a hardship plan before {{DisconnectDate}}: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "ELC-CA-004",
+      "name": "Prepaid Conversion Push",
+      "assetType": "PushNotification",
+      "subject": "",
+      "body": "Switch to prepaid and control your usage. Book meter swap: {{BookLink}}",
+      "tags": [
+        "prepaid"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "ELC-ET-001",
+      "name": "Connection Application Received",
+      "subject": "We received your electricity connection request",
+      "category": "Onboarding",
+      "institution": "GovernmentAgencies",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Connection request received"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, track your application {{ApplicationId}} and upload documents online."
+        },
+        {
+          "buttonText": "Track status",
+          "type": "Button",
+          "buttonUrl": "{{ApplyLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "ELC-PP-001",
+      "name": "Monthly Postpaid Bill",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "ELC-PP-002",
+      "name": "Hardship Installment Plan",
+      "depositPercent": 10,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 8,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "ELC-PP-003",
+      "name": "Industrial Connection Milestones",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 30,
+          "name": "Application deposit",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 40,
+          "name": "Infrastructure",
+          "order": 2
+        },
+        {
+          "percentOfTotal": 30,
+          "name": "Energisation",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "ELC-PP-004",
+      "name": "New Connection Deposit Schedule",
+      "depositPercent": 40,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 40,
+          "name": "Connection deposit",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 60,
+          "name": "Balance on energisation",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "ELC-MP-001",
+      "name": "Residential Prepaid",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Token top-up",
+        "Usage alerts",
+        "Outage SMS"
+      ],
+      "institution": "GovernmentAgencies"
+    },
+    {
+      "id": "ELC-MP-002",
+      "name": "Residential Postpaid",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Monthly bill",
+        "eBilling",
+        "Hardship plans"
+      ],
+      "institution": "GovernmentAgencies"
+    },
+    {
+      "id": "ELC-MP-003",
+      "name": "Commercial Power Pack",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 5,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Account manager",
+        "Load reports",
+        "Priority faults"
+      ],
+      "institution": "GovernmentAgencies"
+    },
+    {
+      "id": "ELC-MP-004",
+      "name": "Industrial Dedicated Feeder",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 20,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Dedicated feeder",
+        "SLA",
+        "24/7 desk",
+        "Power quality reports"
+      ],
+      "institution": "GovernmentAgencies"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "ELC-PR-001",
+      "name": "Reconnection Fee Relief",
+      "promoCode": "RECONNECT20",
+      "discountPercentage": 20,
+      "maxRedemptions": 500,
+      "currentRedemptions": 142,
+      "trigger": "WinbackAttempt",
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "ELC-PR-002",
+      "name": "Prepaid Swap Bonus Tokens",
+      "promoCode": "PREPAID10",
+      "discountPercentage": 10,
+      "maxRedemptions": 1000,
+      "currentRedemptions": 388,
+      "trigger": "SeasonalPromotion",
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "ELC-L-001",
+      "prospectName": "Facilities — ZamSteel",
+      "companyName": "ZamSteel Ltd",
+      "email": "facilities@zamsteel.example",
+      "phone": "+260 212 611000",
+      "totalScore": 84,
+      "temperature": "Burning",
+      "institution": "GovernmentAgencies",
+      "recommendedAction": "Industrial dedicated feeder quote + milestone connection plan"
+    },
+    {
+      "prospectId": "ELC-L-002",
+      "prospectName": "Homeowner — Ruth Banda",
+      "companyName": "Residential Prospect",
+      "email": "ruth.banda@email.zm",
+      "phone": "+260 97 555 6677",
+      "totalScore": 63,
+      "temperature": "Warm",
+      "institution": "GovernmentAgencies",
+      "recommendedAction": "New connection application + prepaid conversion offer"
+    }
+  ],
+  "deals": [
+    {
+      "id": "ELC-D-001",
+      "title": "ZamSteel — Industrial Dedicated Feeder",
+      "contactName": "Facilities",
+      "companyName": "ZamSteel Ltd",
+      "monthlyRecurringRevenue": 0,
+      "stage": "Proposal",
+      "score": 84,
+      "primaryChannel": "Email",
+      "institution": "GovernmentAgencies"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "ELC-AP-001",
+      "customerName": "ZamSteel Facilities",
+      "prospectId": "ELC-L-001",
+      "appointmentType": "Consultation",
+      "status": "Scheduled",
+      "notes": "Load assessment / feeder design"
+    }
+  ],
+  "referralProgram": {
+    "name": "Neighbour Connection Referral",
+    "rewardType": "Credit",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 15
+    },
+    "id": "ELC-RF-001",
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "activeAccounts": 410000,
+    "collectionRate": 0.86,
+    "avgOutageHours": 4.2,
+    "newConnectionsMtd": 1280,
+    "nps": 41,
+    "industrialAccounts": 96,
+    "prepaidShare": 0.68
+  }
+}

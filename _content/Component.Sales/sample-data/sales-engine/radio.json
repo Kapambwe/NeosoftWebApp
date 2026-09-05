@@ -1,0 +1,396 @@
+{
+  "industryKey": "radio",
+  "displayName": "Radio Station / Broadcast Audio",
+  "sourceSpec": "Derived — broadcast media sales (companion to OnlineNewspaper.md / MediaCommunications)",
+  "institution": "MediaCommunications",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "RAD-CT-001",
+      "name": "Morning Drive Listenership Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Grow morning drive audience with SMS contests, WhatsApp clubs, and on-air CTAs",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-002",
+      "name": "Advertiser Acquisition Pack",
+      "category": "CustomerAcquisition",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Prospect SMEs and agencies for spot packages, sponsorships, and live reads",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "LinkedIn", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-003",
+      "name": "Show Sponsorship Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Upsell brands from spot buys to named show / segment sponsorships",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-004",
+      "name": "Listener Club Membership",
+      "category": "CustomerAcquisition",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Paid listener club: exclusive contests, studio tickets, ad-light streams",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "InApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-005",
+      "name": "Community / Vernacular Audience",
+      "category": "CustomerAcquisition",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Local-language and district-focused listenership campaigns",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-006",
+      "name": "Event & Outside Broadcast Promo",
+      "category": "CustomerAcquisition",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Drive attendance and co-sponsors for concerts, fairs, and OB vans",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-007",
+      "name": "Ad Package Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Renew quarterly/annual advertiser contracts before flight ends",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": ["Email", "WhatsApp", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-008",
+      "name": "Lapsed Advertiser Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Reactivate brands dormant 60–90 days with bonus spots",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-009",
+      "name": "Invoice Collections — Media Buy",
+      "category": "PaymentCollection",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Remind agencies/clients for overdue spot invoices; offer installment plans",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-010",
+      "name": "Listener Satisfaction Pulse",
+      "category": "CustomerSatisfaction",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Post-show / monthly CSAT for call-in quality and music mix",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-011",
+      "name": "Podcast / On-Demand Cross-sell",
+      "category": "RevenueGrowth",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Convert linear listeners to podcast downloads and digital ad inventory",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "RAD-CT-012",
+      "name": "Election / Sports Peak Inventory",
+      "category": "RevenueGrowth",
+      "industryKey": "radio",
+      "institution": "MediaCommunications",
+      "description": "Premium inventory push during elections, football finals, and holidays",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn", "WhatsApp"],
+      "isActive": false
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "RAD-CA-001",
+      "name": "Advertiser Proposal Email",
+      "assetType": "Email",
+      "subject": "{{StationName}} media kit — reach {{AudienceSize}} morning listeners",
+      "body": "Hi {{FirstName}}, our morning drive delivers {{AudienceSize}} average listeners. Packages from {{Price}}/week. Media kit: {{MediaKitLink}}",
+      "tags": ["advertiser", "acquisition"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "RAD-CA-002",
+      "name": "Listener Club SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Join {{StationName}} Listener Club for contests & studio tickets. Subscribe: {{JoinLink}}",
+      "tags": ["membership", "listeners"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "RAD-CA-003",
+      "name": "Spot Flight Ending Reminder",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Hi {{AdvertiserName}}, your spot flight ends {{EndDate}}. Renew now and get 5 bonus live reads: {{RenewLink}}",
+      "tags": ["retention", "advertiser"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "RAD-CA-004",
+      "name": "OB Event Landing",
+      "assetType": "LandingPage",
+      "subject": "Meet us live this weekend",
+      "body": "Outside broadcast at {{Venue}}. Free entry · giveaways · sponsor booths. RSVP: {{RsvpLink}}",
+      "tags": ["events", "ob"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "RAD-ET-001",
+      "name": "Media Kit Intro",
+      "subject": "Reach your customers on {{StationName}}",
+      "category": "Promotions",
+      "institution": "MediaCommunications",
+      "blocks": [
+        { "type": "Header", "contentHtml": "On-air. On WhatsApp. In their car." },
+        { "type": "TextBlock", "contentHtml": "Hi {{FirstName}}, {{StationName}} connects brands with {{AudienceSize}}+ weekly listeners across morning drive, mid-day, and evening shows." },
+        { "type": "Button", "buttonText": "Download media kit", "buttonUrl": "{{MediaKitLink}}" },
+        { "type": "FooterUnsubscribe", "contentHtml": "Sent by {{StationName}} sales." }
+      ]
+    },
+    {
+      "id": "RAD-ET-002",
+      "name": "Listener Club Welcome",
+      "subject": "Welcome to the {{StationName}} Listener Club",
+      "category": "Onboarding",
+      "institution": "MediaCommunications",
+      "blocks": [
+        { "type": "Header", "contentHtml": "You're in the club" },
+        { "type": "TextBlock", "contentHtml": "Hi {{FirstName}}, thanks for joining. Expect exclusive contests, early ticket drops, and ad-light streaming." },
+        { "type": "Button", "buttonText": "Open member app", "buttonUrl": "{{AppLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "RAD-PP-001",
+      "name": "Weekly Spot Package",
+      "depositPercent": 50,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 2,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "RAD-PP-002",
+      "name": "Quarterly Sponsorship Plan",
+      "depositPercent": 30,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 3,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "RAD-PP-003",
+      "name": "Annual Agency Retainer",
+      "depositPercent": 25,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Q1 inventory", "percentOfTotal": 25, "order": 1 },
+        { "name": "Q2 inventory", "percentOfTotal": 25, "order": 2 },
+        { "name": "Q3 inventory", "percentOfTotal": 25, "order": 3 },
+        { "name": "Q4 inventory", "percentOfTotal": 25, "order": 4 }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "RAD-MP-001",
+      "name": "Listener Club Basic",
+      "price": { "amount": 2.99, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Contest entries", "WhatsApp club", "Event alerts"],
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "RAD-MP-002",
+      "name": "Listener Club Plus",
+      "price": { "amount": 6.99, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Ad-light stream", "Studio tickets lottery", "Podcast early access"],
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "RAD-MP-003",
+      "name": "SME Spot Starter (weekly)",
+      "price": { "amount": 120, "currencyCode": "USD" },
+      "billingFrequency": "Weekly",
+      "maxSeats": 1,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["10 spots/week", "1 live read", "Basic reporting"],
+      "institution": "MediaCommunications"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "RAD-PR-001",
+      "name": "New Advertiser Trial Week",
+      "promoCode": "ONAIR20",
+      "discountPercentage": 20,
+      "maxRedemptions": 100,
+      "currentRedemptions": 34,
+      "trigger": "SeasonalPromotion",
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "RAD-PR-002",
+      "name": "Lapsed Brand Comeback",
+      "promoCode": "BACKSPOTS",
+      "discountPercentage": 15,
+      "maxRedemptions": 80,
+      "currentRedemptions": 19,
+      "trigger": "WinbackAttempt",
+      "institution": "MediaCommunications",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "RAD-L-001",
+      "prospectName": "Marketing Lead — FreshMart",
+      "companyName": "FreshMart Retail",
+      "email": "marketing@freshmart.example",
+      "phone": "+260 97 210 4400",
+      "totalScore": 77,
+      "temperature": "Hot",
+      "institution": "MediaCommunications",
+      "recommendedAction": "Send media kit + morning drive package quote"
+    },
+    {
+      "prospectId": "RAD-L-002",
+      "prospectName": "Agency Buyer — Pulse Media",
+      "companyName": "Pulse Media Agency",
+      "email": "buyer@pulsemedia.example",
+      "phone": "+260 211 660120",
+      "totalScore": 69,
+      "temperature": "Warm",
+      "institution": "MediaCommunications",
+      "recommendedAction": "Pitch annual agency retainer with Q-inventory milestones"
+    }
+  ],
+  "deals": [
+    {
+      "id": "RAD-D-001",
+      "title": "FreshMart — Morning Drive 4-week flight",
+      "contactName": "Marketing Lead",
+      "companyName": "FreshMart Retail",
+      "monthlyRecurringRevenue": 480,
+      "stage": "Proposal",
+      "score": 77,
+      "primaryChannel": "WhatsApp",
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "RAD-D-002",
+      "title": "Pulse Media — Annual Retainer",
+      "contactName": "Agency Buyer",
+      "companyName": "Pulse Media Agency",
+      "monthlyRecurringRevenue": 3500,
+      "stage": "Negotiation",
+      "score": 69,
+      "primaryChannel": "Email",
+      "institution": "MediaCommunications"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "RAD-AP-001",
+      "customerName": "FreshMart Marketing",
+      "prospectId": "RAD-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Media kit walkthrough + rate card"
+    }
+  ],
+  "referralProgram": {
+    "id": "RAD-RF-001",
+    "name": "Advertiser Referral Bonus",
+    "rewardType": "Credit",
+    "rewardAmount": { "amount": 50, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "avgMorningListeners": 82000,
+    "spotFillRate": 0.78,
+    "advertiserRetentionRate": 0.71,
+    "listenerClubMembers": 4200,
+    "adRevenueMrr": 48600,
+    "avgCostPerSpot": 28,
+    "npsListeners": 51,
+    "npsAdvertisers": 44
+  }
+}

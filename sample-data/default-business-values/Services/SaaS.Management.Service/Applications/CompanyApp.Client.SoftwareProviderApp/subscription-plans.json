@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "versioned-catalogue",
+  "owner": "SaaS.Management.Service",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "mergePolicy": "assign-current-version",
+  "plans": [
+    { "code": "STARTER", "version": 1, "name": "Starter", "billingPeriod": "MONTHLY", "price": 499.00, "currencyCode": "ZMW", "effectiveFrom": "2026-01-01", "effectiveTo": null, "isActive": true, "features": ["CUSTOMERS", "INVOICING", "BASIC_REPORTING"] },
+    { "code": "PROFESSIONAL", "version": 1, "name": "Professional", "billingPeriod": "MONTHLY", "price": 1499.00, "currencyCode": "ZMW", "effectiveFrom": "2026-01-01", "effectiveTo": null, "isActive": true, "features": ["CUSTOMERS", "INVOICING", "ADVANCED_REPORTING", "WORKFLOWS"] }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "industryKey": "hospital",
+  "displayName": "Hospital / Clinical Growth",
+  "sourceSpec": "HospitalSaleEngine.md",
+  "institution": "Services",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "HOS-CT-001",
+      "name": "Free Health Screening",
+      "category": "CustomerAcquisition",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Monthly screening days to generate new patients",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-002",
+      "name": "New Mother / Maternity Package",
+      "category": "CustomerAcquisition",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Pregnancy journey package with 9-month payment plan",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["WhatsApp", "SMS", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-003",
+      "name": "Children's Vaccination Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Birthday-triggered pediatric vaccination reminders",
+      "defaultTrigger": "Birthday",
+      "suggestedChannels": ["SMS", "WhatsApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-004",
+      "name": "Appointment Recovery",
+      "category": "CustomerRetention",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "3-day confirm → unconfirmed nudge → missed rebook",
+      "defaultTrigger": "AppointmentMissed",
+      "suggestedChannels": ["SMS", "WhatsApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-005",
+      "name": "Patient Reactivation 12-month",
+      "category": "CustomerReengagement",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Win back patients inactive 6/12/24 months",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-006",
+      "name": "Annual Health Check",
+      "category": "CustomerRetention",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Annual adult wellness panel reminders",
+      "defaultTrigger": "Anniversary",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-007",
+      "name": "Chronic Disease Care",
+      "category": "CustomerRetention",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Monthly review, refill, lab, and doctor reminders",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-008",
+      "name": "Medication Reminder & Refill",
+      "category": "CustomerRetention",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Daily med reminders + prescription expiry alerts",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-009",
+      "name": "Corporate Health Accounts",
+      "category": "RevenueGrowth",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Employer wellness packages and payroll deductions",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-010",
+      "name": "Lab / Pharmacy Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Suggest labs and pharmacy add-ons at consultation",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["InApp", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-011",
+      "name": "Surgery Follow-up Sequence",
+      "category": "CustomerSatisfaction",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Multi-channel post-surgery progress updates",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-012",
+      "name": "Maternity 9-Month Delivery Plan",
+      "category": "PaymentCollection",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Installment financing through pregnancy to delivery",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["WhatsApp", "SMS", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-013",
+      "name": "Patient Satisfaction Survey",
+      "category": "CustomerSatisfaction",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Post-visit CSAT / NPS",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "HOS-CT-014",
+      "name": "Telemedicine Promotion",
+      "category": "CustomerAcquisition",
+      "industryKey": "hospital",
+      "institution": "Services",
+      "description": "Promote virtual consults for follow-ups and triage",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["PushNotification", "WhatsApp", "Email"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "HOS-CA-001",
+      "name": "Appointment Confirm SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Hello {{FirstName}}, your appointment with {{DoctorName}} is on {{AppointmentDate}} at {{AppointmentTime}}. Confirm: {{ConfirmLink}}",
+      "tags": ["appointments"],
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "HOS-CA-002",
+      "name": "Missed Appointment Rebook",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "We missed you today. Let's book another appointment: {{RebookLink}}",
+      "tags": ["appointments", "recovery"],
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "HOS-CA-003",
+      "name": "Annual Check Reminder",
+      "assetType": "Email",
+      "subject": "It's time for your annual health check",
+      "body": "It's been over a year since your last wellness exam. Book BP, sugar, cholesterol, kidney, liver, BMI, vision, and dental.",
+      "tags": ["wellness"],
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "HOS-CA-004",
+      "name": "Prescription Expiry",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Your prescription expires in 5 days. Refill at the pharmacy or via {{PharmacyLink}}",
+      "tags": ["pharmacy", "refill"],
+      "institution": "Services",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "HOS-ET-001",
+      "name": "Free Screening Invite",
+      "subject": "Free community health screening this Saturday",
+      "category": "Promotions",
+      "institution": "Services",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Know your numbers" },
+        { "type": "TextBlock", "contentHtml": "Hi {{FirstName}}, join our free screening for BP, sugar, and BMI. Walk-ins welcome 08:00–14:00." },
+        { "type": "Button", "buttonText": "Reserve a slot", "buttonUrl": "{{BookingLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "HOS-PP-001",
+      "name": "Monthly Treatment Installments",
+      "depositPercent": 20,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 6,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "HOS-PP-002",
+      "name": "Maternity 9-Month Plan",
+      "depositPercent": 10,
+      "frequency": "Monthly",
+      "installmentType": "Graduated",
+      "installmentCount": 9,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 1,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Trimester 1", "percentOfTotal": 25, "order": 1 },
+        { "name": "Trimester 2", "percentOfTotal": 35, "order": 2 },
+        { "name": "Delivery package", "percentOfTotal": 40, "order": 3 }
+      ]
+    },
+    {
+      "id": "HOS-PP-003",
+      "name": "Surgery Financing",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 4,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Pre-op deposit", "percentOfTotal": 30, "order": 1 },
+        { "name": "Procedure", "percentOfTotal": 40, "order": 2 },
+        { "name": "Post-op week 2", "percentOfTotal": 15, "order": 3 },
+        { "name": "Final review", "percentOfTotal": 15, "order": 4 }
+      ]
+    },
+    {
+      "id": "HOS-PP-004",
+      "name": "Employer Payroll Deduction",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 0,
+      "lateFeePercent": 0,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "HOS-MP-001",
+      "name": "Wellness Membership",
+      "price": { "amount": 29, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Annual check", "Priority booking", "10% pharmacy discount"],
+      "institution": "Services"
+    },
+    {
+      "id": "HOS-MP-002",
+      "name": "Family Healthcare Plan",
+      "price": { "amount": 79, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 5,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["5 family members", "Telemedicine", "Vaccination reminders"],
+      "institution": "Services"
+    },
+    {
+      "id": "HOS-MP-003",
+      "name": "Chronic Care Subscription",
+      "price": { "amount": 49, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Monthly review", "Refill coordination", "Lab reminders"],
+      "institution": "Services"
+    },
+    {
+      "id": "HOS-MP-004",
+      "name": "Corporate Wellness Pack",
+      "price": { "amount": 1200, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 100,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["On-site screening", "Employee portal", "Payroll billing"],
+      "institution": "Services"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "HOS-PR-001",
+      "name": "Men's Health Month",
+      "promoCode": "MENS25",
+      "discountPercentage": 25,
+      "maxRedemptions": 400,
+      "currentRedemptions": 156,
+      "trigger": "SeasonalPromotion",
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "HOS-PR-002",
+      "name": "Diabetes Awareness Labs",
+      "promoCode": "SUGAR20",
+      "discountPercentage": 20,
+      "maxRedemptions": 500,
+      "currentRedemptions": 203,
+      "trigger": "SeasonalPromotion",
+      "institution": "Services",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "HOS-L-001",
+      "prospectName": "John Mwale",
+      "companyName": "Patient",
+      "email": "john.mwale@email.zm",
+      "phone": "+260 97 888 1100",
+      "totalScore": 70,
+      "temperature": "Hot",
+      "institution": "Services",
+      "recommendedAction": "Book annual health check + wellness membership"
+    },
+    {
+      "prospectId": "HOS-L-002",
+      "prospectName": "People Ops — CopperCorp",
+      "companyName": "CopperCorp Mining",
+      "email": "people@coppercorp.example",
+      "phone": "+260 212 440000",
+      "totalScore": 76,
+      "temperature": "Hot",
+      "institution": "Services",
+      "recommendedAction": "Pitch corporate wellness pack"
+    }
+  ],
+  "deals": [
+    {
+      "id": "HOS-D-001",
+      "title": "CopperCorp Corporate Wellness",
+      "contactName": "People Ops",
+      "companyName": "CopperCorp Mining",
+      "monthlyRecurringRevenue": 1200,
+      "stage": "Proposal",
+      "score": 76,
+      "primaryChannel": "Email",
+      "institution": "Services"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "HOS-AP-001",
+      "customerName": "John Mwale",
+      "prospectId": "HOS-L-001",
+      "appointmentType": "Screening",
+      "status": "Scheduled",
+      "notes": "Annual wellness panel"
+    },
+    {
+      "id": "HOS-AP-002",
+      "customerName": "Mary Zulu",
+      "appointmentType": "Consultation",
+      "status": "Missed",
+      "notes": "Cardiology follow-up — trigger recovery"
+    }
+  ],
+  "referralProgram": {
+    "id": "HOS-RF-001",
+    "name": "Patient Referral Rewards",
+    "rewardType": "Credit",
+    "rewardAmount": { "amount": 25, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "appointmentAttendanceRate": 0.86,
+    "missedAppointmentRate": 0.14,
+    "pharmacyRefillRate": 0.71,
+    "corporateAccounts": 12,
+    "avgPatientLtv": 1840,
+    "maternityPackagesSold": 38,
+    "nps": 58
+  }
+}

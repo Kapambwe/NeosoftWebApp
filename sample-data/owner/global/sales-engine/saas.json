@@ -1,0 +1,470 @@
+{
+  "industryKey": "saas",
+  "displayName": "Software Provider / SaaS Growth",
+  "sourceSpec": "SoftwareProvider.md",
+  "institution": "SoftwareProvider",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "SAAS-CT-001",
+      "name": "Free Trial Conversion Drip",
+      "category": "CustomerAcquisition",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Day 1–15 welcome → tips → testimonial → offer → upgrade",
+      "defaultTrigger": "TrialEnding",
+      "suggestedChannels": ["Email", "InApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-002",
+      "name": "Book a Demo Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Product demonstration invitations with free setup",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "LinkedIn", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-003",
+      "name": "Customer Onboarding Sequence",
+      "category": "CustomerRetention",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Welcome → setup company → invite staff → upload data → first report",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-004",
+      "name": "Feature Adoption",
+      "category": "CustomerRetention",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Nudge unused modules to improve stickiness",
+      "defaultTrigger": "FeatureUnused",
+      "suggestedChannels": ["Email", "InApp", "PushNotification"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-005",
+      "name": "Subscription Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Expiry reminders with pause/downgrade options",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-006",
+      "name": "Upsell / Volume Discount",
+      "category": "RevenueGrowth",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Pay-as-you-grow, usage billing, seat expansion",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-007",
+      "name": "Cross-sell Product Suite",
+      "category": "RevenueGrowth",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Offer complementary apps in the platform suite",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-008",
+      "name": "Win-back 60-day Inactive",
+      "category": "CustomerReengagement",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Re-engage inactive tenants with special offer",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-009",
+      "name": "Payment Collection Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Failed payment → retry → plan offer → dunning",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": ["Email", "SMS", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-010",
+      "name": "Milestone Billing (Implement / Train / Go-live)",
+      "category": "PaymentCollection",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Professional services billed by delivery milestones",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-011",
+      "name": "Referral — Give $20 Get $20",
+      "category": "CustomerAcquisition",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Invite a friend / bring 5 businesses for free months",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-012",
+      "name": "NPS / CSAT Satisfaction",
+      "category": "CustomerSatisfaction",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Support-ticket and product satisfaction loops",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-013",
+      "name": "Customer Success Health",
+      "category": "CustomerRetention",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Login/module signals → CSM assignment",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-014",
+      "name": "Geographic Expansion",
+      "category": "CustomerAcquisition",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Launch campaigns for new cities / countries",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Ads", "Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CT-015",
+      "name": "Webinar Invitation",
+      "category": "CustomerAcquisition",
+      "industryKey": "saas",
+      "institution": "SoftwareProvider",
+      "description": "Product education webinars that feed the pipeline",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "SAAS-CA-001",
+      "name": "Trial Day 1 Welcome",
+      "assetType": "Email",
+      "subject": "Welcome to your {{Product}} trial",
+      "body": "Hi {{FirstName}}, your 14-day trial is live. Start with setup checklist: {{ChecklistLink}}",
+      "tags": ["trial", "onboarding"],
+      "institution": "SoftwareProvider",
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CA-002",
+      "name": "Trial Day 14 Upgrade",
+      "assetType": "Email",
+      "subject": "Your trial ends today — keep your workspace",
+      "body": "Upgrade now to keep data, users, and integrations. Offer: {{PromoCode}}",
+      "tags": ["trial", "urgency"],
+      "institution": "SoftwareProvider",
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CA-003",
+      "name": "Feature Unused In-App",
+      "assetType": "InApp",
+      "subject": "Try {{ModuleName}}",
+      "body": "Teams like yours save hours with {{ModuleName}}. Start a 2-minute tour.",
+      "tags": ["adoption"],
+      "institution": "SoftwareProvider",
+      "isActive": true
+    },
+    {
+      "id": "SAAS-CA-004",
+      "name": "Failed Payment SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Payment for {{Product}} failed. Update card: {{BillingLink}}",
+      "tags": ["collections"],
+      "institution": "SoftwareProvider",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "SAAS-ET-001",
+      "name": "Trial Welcome",
+      "subject": "Welcome to your exclusive trial",
+      "category": "Onboarding",
+      "institution": "SoftwareProvider",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Welcome to your exclusive trial" },
+        { "type": "TextBlock", "contentHtml": "Hi {{FirstName}}, unlock 14 days of full features with your custom code: <strong>{{PromoCode}}</strong>." },
+        { "type": "Button", "buttonText": "Activate free trial", "buttonUrl": "{{TrialLink}}" },
+        { "type": "FooterUnsubscribe", "contentHtml": "You received this because you requested a demo." }
+      ]
+    },
+    {
+      "id": "SAAS-ET-002",
+      "name": "Trial Ending Urgency",
+      "subject": "Your trial ends soon",
+      "category": "Urgency",
+      "institution": "SoftwareProvider",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Your trial ends soon" },
+        { "type": "TextBlock", "contentHtml": "{{FirstName}}, convert today to keep your workspace and data." },
+        { "type": "Button", "buttonText": "Upgrade now", "buttonUrl": "{{TrialLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "SAAS-PP-001",
+      "name": "Monthly Subscription",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 0,
+      "requireESignature": false,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SAAS-PP-002",
+      "name": "Quarterly Prepay",
+      "depositPercent": 100,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 0,
+      "requireESignature": false,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SAAS-PP-003",
+      "name": "Annual Prepay",
+      "depositPercent": 100,
+      "frequency": "Annual",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 0,
+      "requireESignature": false,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SAAS-PP-004",
+      "name": "Startup Growth Installments",
+      "depositPercent": 10,
+      "frequency": "Monthly",
+      "installmentType": "Graduated",
+      "installmentCount": 6,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 1,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SAAS-PP-005",
+      "name": "Implementation Milestone Billing",
+      "depositPercent": 25,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Implement", "percentOfTotal": 40, "order": 1 },
+        { "name": "Train", "percentOfTotal": 30, "order": 2 },
+        { "name": "Go-live", "percentOfTotal": 30, "order": 3 }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "SAAS-MP-001",
+      "name": "Starter",
+      "price": { "amount": 49, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 5,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Core modules", "Email support", "14-day trial"],
+      "institution": "SoftwareProvider"
+    },
+    {
+      "id": "SAAS-MP-002",
+      "name": "Growth",
+      "price": { "amount": 149, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 25,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["All modules", "Automations", "Priority support"],
+      "institution": "SoftwareProvider"
+    },
+    {
+      "id": "SAAS-MP-003",
+      "name": "Enterprise",
+      "price": { "amount": 499, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": null,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["Unlimited seats", "SSO", "Dedicated CSM", "Custom SLA"],
+      "institution": "SoftwareProvider"
+    },
+    {
+      "id": "SAAS-MP-004",
+      "name": "NGO / Student Plan",
+      "price": { "amount": 19, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 10,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Verified NGO/student discount", "Core modules"],
+      "institution": "SoftwareProvider"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "SAAS-PR-001",
+      "name": "Q3 Special Launch Offer",
+      "promoCode": "LAUNCH20",
+      "discountPercentage": 20,
+      "maxRedemptions": 500,
+      "currentRedemptions": 142,
+      "trigger": "SeasonalPromotion",
+      "institution": "SoftwareProvider",
+      "isActive": true
+    },
+    {
+      "id": "SAAS-PR-002",
+      "name": "Abandoned Checkout Recovery",
+      "promoCode": "RECOVER15",
+      "discountPercentage": 15,
+      "maxRedemptions": 1000,
+      "currentRedemptions": 389,
+      "trigger": "AbandonedCheckout",
+      "institution": "SoftwareProvider",
+      "isActive": true
+    },
+    {
+      "id": "SAAS-PR-003",
+      "name": "Trial About to Expire",
+      "promoCode": "TRIAL10",
+      "discountPercentage": 10,
+      "maxRedemptions": 2000,
+      "currentRedemptions": 811,
+      "trigger": "TrialAboutToExpire",
+      "institution": "SoftwareProvider",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "SAAS-L-001",
+      "prospectName": "Sarah Jenkins",
+      "companyName": "Acme Legal Ltd",
+      "email": "sarah@acmelegal.com",
+      "phone": "+263 77 123 4567",
+      "totalScore": 82,
+      "temperature": "Burning",
+      "institution": "SoftwareProvider",
+      "recommendedAction": "Auto-send trial offer + 15% discount code"
+    },
+    {
+      "prospectId": "SAAS-L-002",
+      "prospectName": "Mike Banda",
+      "companyName": "TechStart Ltd",
+      "email": "mike@techstart.example",
+      "phone": "+260 97 777 8899",
+      "totalScore": 79,
+      "temperature": "Hot",
+      "institution": "SoftwareProvider",
+      "recommendedAction": "Multi-app license negotiation + startup installment plan"
+    }
+  ],
+  "deals": [
+    {
+      "id": "SAAS-D-001",
+      "title": "Acme Legal SaaS Subscription",
+      "contactName": "Sarah Jenkins",
+      "companyName": "Acme Legal Ltd",
+      "monthlyRecurringRevenue": 1200,
+      "stage": "Proposal",
+      "score": 82,
+      "primaryChannel": "WhatsApp",
+      "institution": "SoftwareProvider"
+    },
+    {
+      "id": "SAAS-D-002",
+      "title": "TechStart Ltd Multi-App License",
+      "contactName": "Mike Banda",
+      "companyName": "TechStart Ltd",
+      "monthlyRecurringRevenue": 800,
+      "stage": "Negotiation",
+      "score": 79,
+      "primaryChannel": "WhatsApp",
+      "institution": "SoftwareProvider"
+    }
+  ],
+  "referralProgram": {
+    "id": "SAAS-RF-001",
+    "name": "Give $20, Get $20",
+    "rewardType": "Credit",
+    "rewardAmount": { "amount": 20, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "trialsStarted": 1280,
+    "paidConversions": 214,
+    "trialConversionRate": 0.167,
+    "mrr": 186000,
+    "netRevenueRetention": 1.08,
+    "churnRate": 0.028,
+    "featureAdoptionRate": 0.61,
+    "nps": 54
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "industryKey": "agro-processing",
+  "displayName": "Agro-Processing",
+  "sourceSpec": "AccountingWeb.md industry pack (agri) + agro-processing vertical",
+  "institution": "AgroProcessing",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "AGR-CT-001",
+      "name": "Harvest Season Buyer Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Acquire bulk buyers and distributors ahead of harvest",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "WhatsApp",
+        "SMS",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "AGR-CT-002",
+      "name": "Contract Farming Onboarding",
+      "category": "CustomerAcquisition",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Sign smallholder suppliers into offtake contracts",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "AGR-CT-003",
+      "name": "Cold Chain / Packaging Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Upsell packaging, cold storage, and logistics add-ons",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "AGR-CT-004",
+      "name": "Exporter Compliance Pack",
+      "category": "RevenueGrowth",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Sell certification, traceability, and export docs support",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "AGR-CT-005",
+      "name": "Seasonal Supply Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Renew offtake and supply agreements before next season",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "WhatsApp",
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "AGR-CT-006",
+      "name": "Buyer Invoice Collections",
+      "category": "PaymentCollection",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Collect overdue buyer invoices; offer harvest-linked plans",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "AGR-CT-007",
+      "name": "Supplier Satisfaction Survey",
+      "category": "CustomerSatisfaction",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Pulse survey for farmer/supplier payment fairness",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "AGR-CT-008",
+      "name": "Dormant Buyer Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "agro-processing",
+      "institution": "AgroProcessing",
+      "description": "Reactivate buyers idle since last harvest",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "WhatsApp",
+        "SMS"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "AGR-CA-001",
+      "name": "Harvest Buyer WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "{{Product}} harvest starts {{Date}}. Reserve tonnage: {{OrderLink}}",
+      "tags": [
+        "harvest",
+        "acquisition"
+      ],
+      "institution": "AgroProcessing",
+      "isActive": true
+    },
+    {
+      "id": "AGR-CA-002",
+      "name": "Contract Farming SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Join {{MillName}} contract farming. Register: {{RegisterLink}}",
+      "tags": [
+        "suppliers"
+      ],
+      "institution": "AgroProcessing",
+      "isActive": true
+    },
+    {
+      "id": "AGR-CA-003",
+      "name": "Overdue Buyer Email",
+      "assetType": "Email",
+      "subject": "Invoice {{InvoiceId}} overdue",
+      "body": "Please settle {{Amount}} or request a harvest-linked plan: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "AgroProcessing",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "AGR-ET-001",
+      "name": "Harvest Kickoff",
+      "subject": "Reserve your {{Product}} tonnage",
+      "category": "Promotions",
+      "institution": "AgroProcessing",
+      "blocks": [
+        {
+          "contentHtml": "Harvest season opens",
+          "type": "Header"
+        },
+        {
+          "contentHtml": "Hi {{FirstName}}, lock volume early for preferred pricing.",
+          "type": "TextBlock"
+        },
+        {
+          "buttonUrl": "{{OrderLink}}",
+          "buttonText": "Reserve now",
+          "type": "Button"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "AGR-PP-001",
+      "name": "Harvest Milestone Plan",
+      "depositPercent": 20,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "name": "Booking deposit",
+          "percentOfTotal": 20,
+          "order": 1
+        },
+        {
+          "name": "Mid-harvest",
+          "percentOfTotal": 40,
+          "order": 2
+        },
+        {
+          "name": "Final delivery",
+          "percentOfTotal": 40,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "AGR-PP-002",
+      "name": "Monthly Distributor Plan",
+      "depositPercent": 10,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 6,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "AGR-PP-003",
+      "name": "Seasonal Prepay",
+      "depositPercent": 100,
+      "frequency": "Seasonal",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": null
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "AGR-MP-001",
+      "name": "Preferred Buyer Club",
+      "price": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Annual",
+      "maxSeats": 1,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Priority allocation",
+        "Volume pricing",
+        "Traceability reports"
+      ],
+      "institution": "AgroProcessing"
+    },
+    {
+      "id": "AGR-MP-002",
+      "name": "Supplier Support Pack",
+      "price": {
+        "amount": 15,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Input tips",
+        "Payment alerts",
+        "Training days"
+      ],
+      "institution": "AgroProcessing"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "AGR-PR-001",
+      "name": "Early Tonnage Booking",
+      "promoCode": "HARVEST10",
+      "discountPercentage": 10,
+      "maxRedemptions": 80,
+      "currentRedemptions": 29,
+      "trigger": "SeasonalPromotion",
+      "institution": "AgroProcessing",
+      "isActive": true
+    },
+    {
+      "id": "AGR-PR-002",
+      "name": "Exporter Bundle",
+      "promoCode": "EXPORT15",
+      "discountPercentage": 15,
+      "maxRedemptions": 40,
+      "currentRedemptions": 11,
+      "trigger": "UpgradeOpportunity",
+      "institution": "AgroProcessing",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "AGR-L-001",
+      "prospectName": "Procurement — GrainCo",
+      "companyName": "GrainCo Distributors",
+      "email": "buy@grainco.example",
+      "phone": "+260 97 400 9001",
+      "totalScore": 78,
+      "temperature": "Hot",
+      "institution": "AgroProcessing",
+      "recommendedAction": "Quote harvest milestone plan for maize meal"
+    },
+    {
+      "prospectId": "AGR-L-002",
+      "prospectName": "Coop Chair — Green Valley",
+      "companyName": "Green Valley Farmers Coop",
+      "email": "chair@greenvalley.example",
+      "phone": "+260 96 111 2233",
+      "totalScore": 61,
+      "temperature": "Warm",
+      "institution": "AgroProcessing",
+      "recommendedAction": "Onboard into contract farming program"
+    }
+  ],
+  "deals": [
+    {
+      "id": "AGR-D-001",
+      "title": "GrainCo — Seasonal Offtake",
+      "contactName": "Procurement",
+      "companyName": "GrainCo Distributors",
+      "monthlyRecurringRevenue": 8200,
+      "stage": "Negotiation",
+      "score": 78,
+      "primaryChannel": "WhatsApp",
+      "institution": "AgroProcessing"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "AGR-AP-001",
+      "customerName": "GrainCo Procurement",
+      "prospectId": "AGR-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Mill tour + offtake terms"
+    }
+  ],
+  "referralProgram": {
+    "name": "Buyer Referral Bonus",
+    "requireDemoAttendance": false,
+    "rewardAmount": {
+      "amount": 100,
+      "currencyCode": "USD"
+    },
+    "rewardType": "Credit",
+    "id": "AGR-RF-001"
+  },
+  "dashboardKpis": {
+    "exportOrders": 12,
+    "supplierCount": 840,
+    "npsBuyers": 47,
+    "tonnageBooked": 12500,
+    "collectionRate": 0.88,
+    "offtakeContracts": 64
+  }
+}

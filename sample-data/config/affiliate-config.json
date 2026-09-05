@@ -46,5 +46,18 @@
     "Gold Certified",
     "Platinum Certified",
     "Diamond Certified"
+  ],
+  "partnerTypeFilters": [
+    { "label": "All Types", "value": "" },
+    { "label": "Partner", "value": "Partner" },
+    { "label": "Reseller", "value": "Reseller" },
+    { "label": "Social Media Influencer", "value": "SocialMediaInfluencer" }
+  ],
+  "partnerStatusFilters": [
+    { "label": "All Statuses", "value": "" },
+    { "label": "Active", "value": "Active" },
+    { "label": "Pending", "value": "Pending" },
+    { "label": "Suspended", "value": "Suspended" },
+    { "label": "Inactive", "value": "Inactive" }
   ]
 }

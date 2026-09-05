@@ -1,0 +1,377 @@
+{
+  "industryKey": "education",
+  "displayName": "Education (Schools & Training)",
+  "sourceSpec": "SchoolSaleEngine.md (education institution pack)",
+  "institution": "Education",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "EDU-CT-001",
+      "name": "Admissions Funnel",
+      "category": "CustomerAcquisition",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "Prospect → application → enroll with multi-channel nurture",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "EDU-CT-002",
+      "name": "Open Day / Campus Tour",
+      "category": "CustomerAcquisition",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "RSVP and reminder sequence for campus visits",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "EDU-CT-003",
+      "name": "Short Course Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "Upsell evening courses, tutoring, and exam prep",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "WhatsApp",
+        "Email",
+        "InApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "EDU-CT-004",
+      "name": "Re-enrollment Drive",
+      "category": "CustomerRetention",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "Secure next-term places early",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "EDU-CT-005",
+      "name": "Fee Collections Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "Friendly to overdue fee reminders then installment offer",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "EDU-CT-006",
+      "name": "Parent Satisfaction Survey",
+      "category": "CustomerSatisfaction",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "Termly parent CSAT / NPS",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "EDU-CT-007",
+      "name": "Dormant Applicant Reactivation",
+      "category": "CustomerReengagement",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "Restart incomplete applications",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "EDU-CT-008",
+      "name": "Corporate Training Contracts",
+      "category": "CustomerAcquisition",
+      "industryKey": "education",
+      "institution": "Education",
+      "description": "Sell B2B training and employee education packages",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "EDU-CA-001",
+      "name": "Open Day Invite",
+      "assetType": "Email",
+      "subject": "Visit {{CampusName}} Open Day",
+      "body": "Tour facilities and meet faculty. RSVP: {{RsvpLink}}",
+      "tags": [
+        "admissions"
+      ],
+      "institution": "Education",
+      "isActive": true
+    },
+    {
+      "id": "EDU-CA-002",
+      "name": "Fee Due SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Fees {{Amount}} due {{DueDate}}. Pay: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "Education",
+      "isActive": true
+    },
+    {
+      "id": "EDU-CA-003",
+      "name": "Course Upsell WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "New short course: {{CourseName}}. Enroll: {{EnrollLink}}",
+      "tags": [
+        "upsell"
+      ],
+      "institution": "Education",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "EDU-ET-001",
+      "name": "Enrollment Nudge",
+      "subject": "Finish your application",
+      "category": "Nurture",
+      "institution": "Education",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Almost enrolled"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{ParentName}}, complete the application for {{TermYear}}."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Continue",
+          "buttonUrl": "{{ApplicationLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "EDU-PP-001",
+      "name": "Termly Fees",
+      "depositPercent": 20,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "EDU-PP-002",
+      "name": "Monthly Fee Plan",
+      "depositPercent": 10,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 10,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "EDU-PP-003",
+      "name": "Corporate Training Milestone",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 30,
+          "name": "Kickoff",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 40,
+          "name": "Delivery",
+          "order": 2
+        },
+        {
+          "percentOfTotal": 30,
+          "name": "Certification",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "EDU-MP-001",
+      "name": "Parent Portal Plus",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 5
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 2,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Progress alerts",
+        "Fee wallet",
+        "Priority booking"
+      ],
+      "institution": "Education"
+    },
+    {
+      "id": "EDU-MP-002",
+      "name": "Corporate Learning Seats",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 199
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 25,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "25 seats",
+        "Custom courses",
+        "Reporting"
+      ],
+      "institution": "Education"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "EDU-PR-001",
+      "name": "Early Bird Enrollment",
+      "promoCode": "ENROLL10",
+      "discountPercentage": 10,
+      "maxRedemptions": 300,
+      "currentRedemptions": 112,
+      "trigger": "SeasonalPromotion",
+      "institution": "Education",
+      "isActive": true
+    },
+    {
+      "id": "EDU-PR-002",
+      "name": "Sibling Discount",
+      "promoCode": "SIB15",
+      "discountPercentage": 15,
+      "maxRedemptions": 100,
+      "currentRedemptions": 41,
+      "trigger": "UpgradeOpportunity",
+      "institution": "Education",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "EDU-L-001",
+      "prospectName": "Grace Mulenga",
+      "companyName": "Mulenga Family",
+      "email": "grace.mulenga@email.zm",
+      "phone": "+260 96 222 3344",
+      "totalScore": 70,
+      "temperature": "Hot",
+      "institution": "Education",
+      "recommendedAction": "Open Day RSVP + fee plan preview"
+    },
+    {
+      "prospectId": "EDU-L-002",
+      "prospectName": "L&D Lead — CapZam",
+      "companyName": "CapZam Bank",
+      "email": "ld@capzam.example",
+      "phone": "+260 211 400200",
+      "totalScore": 74,
+      "temperature": "Hot",
+      "institution": "Education",
+      "recommendedAction": "Pitch corporate learning seats"
+    }
+  ],
+  "deals": [
+    {
+      "id": "EDU-D-001",
+      "title": "CapZam — Corporate Learning Seats",
+      "contactName": "L&D Lead",
+      "companyName": "CapZam Bank",
+      "monthlyRecurringRevenue": 199,
+      "stage": "Proposal",
+      "score": 74,
+      "primaryChannel": "Email",
+      "institution": "Education"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "EDU-AP-001",
+      "customerName": "Grace Mulenga",
+      "prospectId": "EDU-L-001",
+      "appointmentType": "OpenDay",
+      "status": "Scheduled",
+      "notes": "Campus tour"
+    }
+  ],
+  "referralProgram": {
+    "rewardType": "FeeCredit",
+    "requireDemoAttendance": false,
+    "name": "Parent Referral Credit",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 75
+    },
+    "id": "EDU-RF-001"
+  },
+  "dashboardKpis": {
+    "corporateContracts": 9,
+    "applications": 410,
+    "enrollments": 188,
+    "feeCollectionRate": 0.9,
+    "nps": 55
+  }
+}

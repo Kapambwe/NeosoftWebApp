@@ -1,0 +1,443 @@
+{
+  "industryKey": "water-utility",
+  "displayName": "Water Utility",
+  "sourceSpec": "Utility vertical — water & sanitation (connections, billing, leaks, bulk supply)",
+  "institution": "GovernmentAgencies",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "WTR-CT-001",
+      "name": "New Water Connection Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Grow domestic and commercial water service connections",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email",
+        "Ads"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "WTR-CT-002",
+      "name": "Prepaid Water Meter Conversion",
+      "category": "RevenueGrowth",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Migrate flat-rate or postpaid customers to prepaid meters",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "WTR-CT-003",
+      "name": "Bulk / Industrial Supply Contracts",
+      "category": "CustomerAcquisition",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Acquire mines, factories, and estates for bulk water supply",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "WTR-CT-004",
+      "name": "Leak / Conservation Campaign",
+      "category": "CustomerRetention",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Encourage leak reporting and water-saving behaviours",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "WTR-CT-005",
+      "name": "Sewer / Sanitation Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Upsell sewer connections and septic desludging services",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "WTR-CT-006",
+      "name": "Bill Collections Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Overdue water bills → payment plan → restriction notices",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "WTR-CT-007",
+      "name": "Service Quality CSAT",
+      "category": "CustomerSatisfaction",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Post-repair and water-quality satisfaction surveys",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "WTR-CT-008",
+      "name": "Restricted Account Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "water-utility",
+      "institution": "GovernmentAgencies",
+      "description": "Restore restricted accounts with payment plans and reconnection offers",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "WTR-CA-001",
+      "name": "Connection Apply SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Apply for a water connection. Upload docs: {{ApplyLink}}",
+      "tags": [
+        "connections"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "WTR-CA-002",
+      "name": "Boil Water / Quality Alert",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Advisory for {{Area}}: {{AdvisoryText}}. Updates: {{StatusLink}}",
+      "tags": [
+        "quality",
+        "retention"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "WTR-CA-003",
+      "name": "Leak Report Landing",
+      "assetType": "LandingPage",
+      "subject": "Report a leak",
+      "body": "Snap a photo and pin the location. We dispatch a crew.",
+      "tags": [
+        "leaks"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "WTR-CA-004",
+      "name": "Bill Overdue Email",
+      "assetType": "Email",
+      "subject": "Water bill {{InvoiceId}} is overdue",
+      "body": "Amount {{Amount}}. Pay or choose a plan before restriction on {{RestrictDate}}: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "WTR-ET-001",
+      "name": "Connection Welcome",
+      "subject": "Your water connection application {{ApplicationId}}",
+      "category": "Onboarding",
+      "institution": "GovernmentAgencies",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Application received"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, complete outstanding documents so we can schedule your connection."
+        },
+        {
+          "buttonText": "Upload documents",
+          "type": "Button",
+          "buttonUrl": "{{ApplyLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "WTR-PP-001",
+      "name": "Monthly Water Bill",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "WTR-PP-002",
+      "name": "Hardship Payment Plan",
+      "depositPercent": 5,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 8,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "WTR-PP-003",
+      "name": "New Connection Deposit Schedule",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 30,
+          "name": "Application deposit",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 70,
+          "name": "Balance on connection",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "WTR-PP-004",
+      "name": "Bulk Supply Quarterly",
+      "depositPercent": 20,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "WTR-MP-001",
+      "name": "Domestic Prepaid",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Token top-up",
+        "Usage alerts",
+        "Leak tips"
+      ],
+      "institution": "GovernmentAgencies"
+    },
+    {
+      "id": "WTR-MP-002",
+      "name": "Domestic Postpaid",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Monthly bill",
+        "eBilling",
+        "Hardship plans"
+      ],
+      "institution": "GovernmentAgencies"
+    },
+    {
+      "id": "WTR-MP-003",
+      "name": "Commercial Metered",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 3,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Multi-meter",
+        "Priority faults",
+        "Monthly usage report"
+      ],
+      "institution": "GovernmentAgencies"
+    },
+    {
+      "id": "WTR-MP-004",
+      "name": "Bulk Industrial Supply",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 10,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Bulk tariff",
+        "SLA",
+        "Account manager",
+        "Quality certificates"
+      ],
+      "institution": "GovernmentAgencies"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "WTR-PR-001",
+      "name": "Reconnection Fee Relief",
+      "promoCode": "WATERBACK15",
+      "discountPercentage": 15,
+      "maxRedemptions": 400,
+      "currentRedemptions": 97,
+      "trigger": "WinbackAttempt",
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    },
+    {
+      "id": "WTR-PR-002",
+      "name": "Prepaid Meter Swap Credit",
+      "promoCode": "METER10",
+      "discountPercentage": 10,
+      "maxRedemptions": 800,
+      "currentRedemptions": 256,
+      "trigger": "SeasonalPromotion",
+      "institution": "GovernmentAgencies",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "WTR-L-001",
+      "prospectName": "Estate Mgr — GreenPark",
+      "companyName": "GreenPark Estates",
+      "email": "estate@greenpark.example",
+      "phone": "+260 211 444220",
+      "totalScore": 76,
+      "temperature": "Hot",
+      "institution": "GovernmentAgencies",
+      "recommendedAction": "Bulk supply contract + multi-meter commercial pack"
+    },
+    {
+      "prospectId": "WTR-L-002",
+      "prospectName": "Tenant — James Phiri",
+      "companyName": "Domestic Prospect",
+      "email": "james.phiri@email.zm",
+      "phone": "+260 96 333 1199",
+      "totalScore": 58,
+      "temperature": "Warm",
+      "institution": "GovernmentAgencies",
+      "recommendedAction": "New connection + prepaid meter offer"
+    }
+  ],
+  "deals": [
+    {
+      "id": "WTR-D-001",
+      "title": "GreenPark Estates — Bulk Water Supply",
+      "contactName": "Estate Mgr",
+      "companyName": "GreenPark Estates",
+      "monthlyRecurringRevenue": 0,
+      "stage": "Negotiation",
+      "score": 76,
+      "primaryChannel": "WhatsApp",
+      "institution": "GovernmentAgencies"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "WTR-AP-001",
+      "customerName": "GreenPark Estate Mgr",
+      "prospectId": "WTR-L-001",
+      "appointmentType": "Consultation",
+      "status": "Scheduled",
+      "notes": "Bulk meter & SLA discussion"
+    }
+  ],
+  "referralProgram": {
+    "name": "Neighbour Connection Referral",
+    "rewardType": "Credit",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 10
+    },
+    "id": "WTR-RF-001",
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "nps": 44,
+    "newConnectionsMtd": 640,
+    "bulkAccounts": 48,
+    "collectionRate": 0.81,
+    "activeAccounts": 285000,
+    "prepaidShare": 0.54,
+    "leakReportsResolvedPct": 0.78,
+    "nonRevenueWater": 0.32
+  }
+}

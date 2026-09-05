@@ -1,0 +1,376 @@
+{
+  "industryKey": "law",
+  "displayName": "Lawyer / Legal Practice",
+  "sourceSpec": "LawyerSalesEngine.md",
+  "institution": "Services",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "LAW-CT-001",
+      "name": "Free Legal Consultation",
+      "category": "CustomerAcquisition",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Generate leads via online booking + SMS/email reminders",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-002",
+      "name": "Know Your Rights Education",
+      "category": "CustomerAcquisition",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Educate the public with email + SMS drip content",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-003",
+      "name": "Accident Victim Outreach",
+      "category": "CustomerAcquisition",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Personal injury landing pages and nurture sequence",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "WhatsApp", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-004",
+      "name": "Consultation Booking Sequence",
+      "category": "CustomerAcquisition",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Online booking → reminders → follow-up → proposal",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-005",
+      "name": "Abandoned Consultation Recovery",
+      "category": "CustomerReengagement",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Recover prospects who started but did not book",
+      "defaultTrigger": "AbandonedQuote",
+      "suggestedChannels": ["Email", "WhatsApp", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-006",
+      "name": "Legal Health Check (6 months)",
+      "category": "CustomerRetention",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Periodic client retention check-in",
+      "defaultTrigger": "Anniversary",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-007",
+      "name": "Contract / License Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Renewal reminders for contracts, trademarks, licenses",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": ["Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-008",
+      "name": "Outstanding Invoice Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Friendly → firm reminders then payment plan offer",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-009",
+      "name": "Cross-sell Matter Types",
+      "category": "RevenueGrowth",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Offer complementary services (wills, IP, employment)",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-010",
+      "name": "Client Satisfaction Survey",
+      "category": "CustomerSatisfaction",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Post-matter CSAT / NPS loop",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-011",
+      "name": "Partner Referral Program",
+      "category": "CustomerAcquisition",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Accountant, realtor, broker, advisor referral tracking",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "LAW-CT-012",
+      "name": "Client Reactivation 12-month",
+      "category": "CustomerReengagement",
+      "industryKey": "law",
+      "institution": "Services",
+      "description": "Win back clients inactive for 12+ months",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "LAW-CA-001",
+      "name": "Consultation Welcome",
+      "assetType": "Email",
+      "subject": "Your free consultation is confirmed, {{FirstName}}",
+      "body": "Hi {{FirstName}}, your consultation with {{LawyerName}} is on {{AppointmentDate}}. Reply STOP to opt out.",
+      "tags": ["consultation", "onboarding"],
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "LAW-CA-002",
+      "name": "Consultation Reminder SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Reminder: legal consult tomorrow at {{AppointmentTime}}. Confirm: {{ConfirmLink}}",
+      "tags": ["consultation", "reminder"],
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "LAW-CA-003",
+      "name": "Invoice Overdue WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Hi {{FirstName}}, invoice {{InvoiceId}} for {{Amount}} is overdue. Pay or request a plan: {{PayLink}}",
+      "tags": ["collections"],
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "LAW-CA-004",
+      "name": "Estate Planning Month Landing",
+      "assetType": "LandingPage",
+      "subject": "Protect your family's future",
+      "body": "Book a wills & estates review this month — complimentary checklist included.",
+      "tags": ["acquisition", "estates"],
+      "institution": "Services",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "LAW-ET-001",
+      "name": "Lead Nurture Welcome",
+      "subject": "Welcome — here's how we help {{CompanyName}}",
+      "category": "Nurture",
+      "institution": "Services",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Trusted legal guidance" },
+        { "type": "TextBlock", "contentHtml": "Hi {{FirstName}}, thank you for reaching out. Over the next few days we'll share practical tips and how our team can help." },
+        { "type": "Button", "buttonText": "Book a consultation", "buttonUrl": "{{BookingLink}}" },
+        { "type": "FooterUnsubscribe", "contentHtml": "You received this because you requested legal information." }
+      ]
+    },
+    {
+      "id": "LAW-ET-002",
+      "name": "Startup Legal Package Quote",
+      "subject": "Your startup legal package quote",
+      "category": "Promotions",
+      "institution": "Services",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Startup Legal Package" },
+        { "type": "TextBlock", "contentHtml": "{{FirstName}}, here's a tailored quote for company formation, contracts, and IP basics." },
+        { "type": "Button", "buttonText": "View quote", "buttonUrl": "{{QuoteLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "LAW-PP-001",
+      "name": "Matter Deposit + Balance",
+      "depositPercent": 40,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Retainer deposit", "percentOfTotal": 40, "order": 1 },
+        { "name": "Matter completion", "percentOfTotal": 60, "order": 2 }
+      ]
+    },
+    {
+      "id": "LAW-PP-002",
+      "name": "6-Month Equal Installments",
+      "depositPercent": 10,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 6,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "LAW-PP-003",
+      "name": "Litigation Milestone Billing",
+      "depositPercent": 25,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 4,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Filing", "percentOfTotal": 25, "order": 1 },
+        { "name": "Discovery", "percentOfTotal": 25, "order": 2 },
+        { "name": "Hearing", "percentOfTotal": 25, "order": 3 },
+        { "name": "Judgment / close", "percentOfTotal": 25, "order": 4 }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "LAW-MP-001",
+      "name": "Individual Legal Membership",
+      "price": { "amount": 49, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Document review (2/mo)", "Priority consult booking", "Know-your-rights library"],
+      "institution": "Services"
+    },
+    {
+      "id": "LAW-MP-002",
+      "name": "Business Compliance Retainer",
+      "price": { "amount": 399, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 10,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["Quarterly compliance check", "Contract templates", "Dedicated lawyer hours"],
+      "institution": "Services"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "LAW-PR-001",
+      "name": "Estate Planning Month",
+      "promoCode": "WILL20",
+      "discountPercentage": 20,
+      "maxRedemptions": 200,
+      "currentRedemptions": 47,
+      "trigger": "SeasonalPromotion",
+      "institution": "Services",
+      "isActive": true
+    },
+    {
+      "id": "LAW-PR-002",
+      "name": "Startup Legal Bundle",
+      "promoCode": "STARTUP15",
+      "discountPercentage": 15,
+      "maxRedemptions": 100,
+      "currentRedemptions": 22,
+      "trigger": "HighLeadScore",
+      "institution": "Services",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "LAW-L-001",
+      "prospectName": "Chipo Banda",
+      "companyName": "Banda Holdings",
+      "email": "chipo@banda.co.zm",
+      "phone": "+260 97 111 2200",
+      "totalScore": 84,
+      "temperature": "Burning",
+      "institution": "Services",
+      "recommendedAction": "Book free consultation + send startup package quote"
+    },
+    {
+      "prospectId": "LAW-L-002",
+      "prospectName": "Joseph Phiri",
+      "companyName": "Phiri Family",
+      "email": "joseph.phiri@email.zm",
+      "phone": "+260 96 555 0188",
+      "totalScore": 61,
+      "temperature": "Warm",
+      "institution": "Services",
+      "recommendedAction": "Enrol in estate-planning nurture drip"
+    }
+  ],
+  "deals": [
+    {
+      "id": "LAW-D-001",
+      "title": "Acme Legal Retainer — Corporate",
+      "contactName": "Sarah Jenkins",
+      "companyName": "Acme Legal Ltd",
+      "monthlyRecurringRevenue": 1200,
+      "stage": "Proposal",
+      "score": 82,
+      "primaryChannel": "WhatsApp",
+      "institution": "Services"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "LAW-AP-001",
+      "customerName": "Chipo Banda",
+      "prospectId": "LAW-L-001",
+      "appointmentType": "Consultation",
+      "status": "Scheduled",
+      "notes": "Startup legal package discussion"
+    }
+  ],
+  "referralProgram": {
+    "id": "LAW-RF-001",
+    "name": "Professional Partner Referrals",
+    "rewardType": "Cash",
+    "rewardAmount": { "amount": 150, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "newConsultationsBooked": 48,
+    "consultationShowRate": 0.82,
+    "mattersOpened": 31,
+    "avgMatterValue": 4200,
+    "overdueReceivables": 18600,
+    "referralConversionRate": 0.34,
+    "nps": 62
+  }
+}

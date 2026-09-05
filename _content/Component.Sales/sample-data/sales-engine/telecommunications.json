@@ -1,0 +1,387 @@
+{
+  "industryKey": "telecommunications",
+  "displayName": "Telecommunications",
+  "sourceSpec": "AccountingWeb.md industry pack (telecom)",
+  "institution": "Telecommunications",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "TEL-CT-001",
+      "name": "Prepaid to Postpaid Upgrade",
+      "category": "RevenueGrowth",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Migrate high-usage prepaid customers to postpaid plans",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "InApp",
+        "WhatsApp",
+        "PushNotification"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TEL-CT-002",
+      "name": "Device Bundle Acquisition",
+      "category": "CustomerAcquisition",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Sell handset + plan bundles with installment options",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "SMS",
+        "Ads",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TEL-CT-003",
+      "name": "Home Fibre / Broadband Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Acquire fibre and fixed wireless subscribers by suburb",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Ads",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TEL-CT-004",
+      "name": "Enterprise Connectivity Pack",
+      "category": "CustomerAcquisition",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Sell corporate APN, SD-WAN, and bulk SIM deals",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TEL-CT-005",
+      "name": "Contract Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Renew postpaid and enterprise contracts before expiry",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "SMS",
+        "Email",
+        "InApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TEL-CT-006",
+      "name": "Bill Payment Collections",
+      "category": "PaymentCollection",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Dunning for overdue postpaid and enterprise invoices",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "SMS",
+        "Email",
+        "WhatsApp",
+        "PushNotification"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TEL-CT-007",
+      "name": "NPS / Network Experience",
+      "category": "CustomerSatisfaction",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Capture network and support CSAT",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "InApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TEL-CT-008",
+      "name": "Churn Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "telecommunications",
+      "institution": "Telecommunications",
+      "description": "Win back ported-out or suspended lines",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "TEL-CA-001",
+      "name": "Upgrade SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "You qualify for postpaid {{PlanName}} with {{DataGb}}GB. Upgrade: {{UpgradeLink}}",
+      "tags": [
+        "upgrade"
+      ],
+      "institution": "Telecommunications",
+      "isActive": true
+    },
+    {
+      "id": "TEL-CA-002",
+      "name": "Fibre Suburb Blast",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Fibre is live in {{Suburb}}. Install from {{Price}}/mo: {{OrderLink}}",
+      "tags": [
+        "broadband"
+      ],
+      "institution": "Telecommunications",
+      "isActive": true
+    },
+    {
+      "id": "TEL-CA-003",
+      "name": "Bill Due Push",
+      "assetType": "PushNotification",
+      "subject": "",
+      "body": "Bill {{Amount}} due {{DueDate}}. Pay in-app to avoid suspension.",
+      "tags": [
+        "collections"
+      ],
+      "institution": "Telecommunications",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "TEL-ET-001",
+      "name": "Postpaid Upgrade",
+      "subject": "Unlock more data on postpaid",
+      "category": "Promotions",
+      "institution": "Telecommunications",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Upgrade in minutes"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, based on your usage you may save on postpaid."
+        },
+        {
+          "type": "Button",
+          "buttonText": "See plans",
+          "buttonUrl": "{{UpgradeLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "TEL-PP-001",
+      "name": "Postpaid Monthly",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "TEL-PP-002",
+      "name": "Device Installments (12)",
+      "depositPercent": 10,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "TEL-PP-003",
+      "name": "Enterprise Quarterly",
+      "depositPercent": 0,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "TEL-MP-001",
+      "name": "Consumer Postpaid S",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 15
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Voice",
+        "Data",
+        "Rollover"
+      ],
+      "institution": "Telecommunications"
+    },
+    {
+      "id": "TEL-MP-002",
+      "name": "Consumer Postpaid L",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 35
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "More data",
+        "Family share",
+        "Device discount"
+      ],
+      "institution": "Telecommunications"
+    },
+    {
+      "id": "TEL-MP-003",
+      "name": "Enterprise Connect",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 1200
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 100,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "100 SIMs",
+        "APN",
+        "SLA",
+        "Account manager"
+      ],
+      "institution": "Telecommunications"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "TEL-PR-001",
+      "name": "Device Bundle Launch",
+      "promoCode": "PHONE20",
+      "discountPercentage": 20,
+      "maxRedemptions": 1000,
+      "currentRedemptions": 412,
+      "trigger": "SeasonalPromotion",
+      "institution": "Telecommunications",
+      "isActive": true
+    },
+    {
+      "id": "TEL-PR-002",
+      "name": "Win-back Double Data",
+      "promoCode": "BACKDATA",
+      "discountPercentage": 25,
+      "maxRedemptions": 2000,
+      "currentRedemptions": 701,
+      "trigger": "WinbackAttempt",
+      "institution": "Telecommunications",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "TEL-L-001",
+      "prospectName": "IT Lead — FinServe",
+      "companyName": "FinServe Zambia",
+      "email": "it@finserve.example",
+      "phone": "+260 211 700801",
+      "totalScore": 81,
+      "temperature": "Burning",
+      "institution": "Telecommunications",
+      "recommendedAction": "Enterprise Connect + bulk SIM quote"
+    },
+    {
+      "prospectId": "TEL-L-002",
+      "prospectName": "Household — Mary Zulu",
+      "companyName": "Fibre Prospect",
+      "email": "mary.zulu@email.zm",
+      "phone": "+260 96 444 7788",
+      "totalScore": 67,
+      "temperature": "Warm",
+      "institution": "Telecommunications",
+      "recommendedAction": "Fibre install offer in suburb"
+    }
+  ],
+  "deals": [
+    {
+      "id": "TEL-D-001",
+      "title": "FinServe — Enterprise Connect",
+      "contactName": "IT Lead",
+      "companyName": "FinServe Zambia",
+      "monthlyRecurringRevenue": 1200,
+      "stage": "Proposal",
+      "score": 81,
+      "primaryChannel": "Email",
+      "institution": "Telecommunications"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "TEL-AP-001",
+      "customerName": "FinServe IT",
+      "prospectId": "TEL-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Enterprise connectivity workshop"
+    }
+  ],
+  "referralProgram": {
+    "name": "Refer a Line Credit",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 5
+    },
+    "requireDemoAttendance": false,
+    "rewardType": "Credit",
+    "id": "TEL-RF-001"
+  },
+  "dashboardKpis": {
+    "postpaidBase": 220000,
+    "enterpriseAccounts": 96,
+    "arpu": 18.6,
+    "churnRate": 0.022,
+    "nps": 46,
+    "fibreSubs": 18400
+  }
+}

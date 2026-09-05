@@ -42,7 +42,7 @@
     "outstandingAmount": 18500.00,
     "dueDate": "2024-04-30T00:00:00Z",
     "paidDate": null,
-    "status": "Outstanding",
+    "status": "Pending",
     "penaltiesAndInterest": 0.00,
     "filingStatus": "Pending",
     "notes": "Sales tax return due end of month"
@@ -74,7 +74,7 @@
     "outstandingAmount": 12500.00,
     "dueDate": "2024-12-10T00:00:00Z",
     "paidDate": null,
-    "status": "Partially Paid",
+    "status": "PartiallyPaid",
     "penaltiesAndInterest": 0.00,
     "filingStatus": "Not Required",
     "notes": "First installment paid, second due in December"

@@ -1,0 +1,376 @@
+{
+  "industryKey": "food-beverage",
+  "displayName": "Food & Beverage",
+  "sourceSpec": "AccountingWeb.md industry pack (restaurant/F&B)",
+  "institution": "FoodBeverage",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "FAB-CT-001",
+      "name": "New Outlet Launch",
+      "category": "CustomerAcquisition",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Drive footfall for new restaurant or plant launch",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Ads",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "FAB-CT-002",
+      "name": "Loyalty App Signup",
+      "category": "CustomerAcquisition",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Grow app orders and loyalty members",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "InApp",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "FAB-CT-003",
+      "name": "Catering / Corporate Lunch Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Upsell catering and office lunch contracts",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "FAB-CT-004",
+      "name": "Distributor Volume Push",
+      "category": "RevenueGrowth",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Grow wholesale beverage/food distributor volumes",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "WhatsApp",
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "FAB-CT-005",
+      "name": "Loyalty Retention Offers",
+      "category": "CustomerRetention",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Anniversary and tenure rewards for loyal guests",
+      "defaultTrigger": "Anniversary",
+      "suggestedChannels": [
+        "SMS",
+        "PushNotification",
+        "InApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "FAB-CT-006",
+      "name": "Trade Invoice Collections",
+      "category": "PaymentCollection",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Collect overdue distributor and catering invoices",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "FAB-CT-007",
+      "name": "Guest Feedback Loop",
+      "category": "CustomerSatisfaction",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Post-visit CSAT and complaint recovery",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "Email",
+        "InApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "FAB-CT-008",
+      "name": "Lapsed Guest Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "food-beverage",
+      "institution": "FoodBeverage",
+      "description": "Reactivate guests inactive 30–60 days",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "PushNotification"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "FAB-CA-001",
+      "name": "Launch Weekend SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "{{Brand}} opens Sat — 20% off with code {{PromoCode}}. Map: {{MapLink}}",
+      "tags": [
+        "launch"
+      ],
+      "institution": "FoodBeverage",
+      "isActive": true
+    },
+    {
+      "id": "FAB-CA-002",
+      "name": "Catering Proposal Email",
+      "assetType": "Email",
+      "subject": "Office catering for {{CompanyName}}",
+      "body": "Menus from {{Price}}/head. Quote: {{QuoteLink}}",
+      "tags": [
+        "catering"
+      ],
+      "institution": "FoodBeverage",
+      "isActive": true
+    },
+    {
+      "id": "FAB-CA-003",
+      "name": "Feedback WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "How was your visit? Rate us: {{SurveyLink}}",
+      "tags": [
+        "satisfaction"
+      ],
+      "institution": "FoodBeverage",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "FAB-ET-001",
+      "name": "Loyalty Invite",
+      "subject": "Join {{Brand}} rewards",
+      "category": "Onboarding",
+      "institution": "FoodBeverage",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Earn on every order"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, join loyalty for birthday treats and free delivery."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Join now",
+          "buttonUrl": "{{JoinLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "FAB-PP-001",
+      "name": "Weekly Distributor Plan",
+      "depositPercent": 15,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 8,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "FAB-PP-002",
+      "name": "Monthly Catering Retainer",
+      "depositPercent": 20,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 6,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "FAB-PP-003",
+      "name": "Event Catering Deposit",
+      "depositPercent": 40,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 40,
+          "name": "Deposit",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 60,
+          "name": "Event day",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "FAB-MP-001",
+      "name": "Loyalty Gold",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Points",
+        "Birthday reward",
+        "Free delivery threshold"
+      ],
+      "institution": "FoodBeverage"
+    },
+    {
+      "id": "FAB-MP-002",
+      "name": "Corporate Lunch Club",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 299
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 20,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "20 meals/day credit",
+        "Priority catering",
+        "Monthly invoicing"
+      ],
+      "institution": "FoodBeverage"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "FAB-PR-001",
+      "name": "Opening Weekend",
+      "promoCode": "TASTE20",
+      "discountPercentage": 20,
+      "maxRedemptions": 2000,
+      "currentRedemptions": 880,
+      "trigger": "SeasonalPromotion",
+      "institution": "FoodBeverage",
+      "isActive": true
+    },
+    {
+      "id": "FAB-PR-002",
+      "name": "Come Back Lunch",
+      "promoCode": "MISSYOU15",
+      "discountPercentage": 15,
+      "maxRedemptions": 800,
+      "currentRedemptions": 210,
+      "trigger": "WinbackAttempt",
+      "institution": "FoodBeverage",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "FAB-L-001",
+      "prospectName": "Office Manager — FinServe",
+      "companyName": "FinServe Zambia",
+      "email": "office@finserve.example",
+      "phone": "+260 211 700800",
+      "totalScore": 71,
+      "temperature": "Hot",
+      "institution": "FoodBeverage",
+      "recommendedAction": "Corporate lunch club proposal"
+    },
+    {
+      "prospectId": "FAB-L-002",
+      "prospectName": "Buyer — City Distributors",
+      "companyName": "City Distributors",
+      "email": "buyer@citydist.example",
+      "phone": "+260 97 555 0101",
+      "totalScore": 66,
+      "temperature": "Warm",
+      "institution": "FoodBeverage",
+      "recommendedAction": "Weekly distributor volume plan"
+    }
+  ],
+  "deals": [
+    {
+      "id": "FAB-D-001",
+      "title": "FinServe — Corporate Lunch Club",
+      "contactName": "Office Manager",
+      "companyName": "FinServe Zambia",
+      "monthlyRecurringRevenue": 299,
+      "stage": "Negotiation",
+      "score": 71,
+      "primaryChannel": "WhatsApp",
+      "institution": "FoodBeverage"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "FAB-AP-001",
+      "customerName": "FinServe Office Mgr",
+      "prospectId": "FAB-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Menu tasting"
+    }
+  ],
+  "referralProgram": {
+    "rewardType": "Credit",
+    "requireDemoAttendance": false,
+    "name": "Refer a Friend Meal Credit",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 10
+    },
+    "id": "FAB-RF-001"
+  },
+  "dashboardKpis": {
+    "avgTicket": 18.5,
+    "distributorFillRate": 0.91,
+    "cateringContracts": 42,
+    "nps": 58,
+    "loyaltyMembers": 15400
+  }
+}

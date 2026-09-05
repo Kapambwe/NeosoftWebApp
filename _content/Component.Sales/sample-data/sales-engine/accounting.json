@@ -1,0 +1,422 @@
+{
+  "industryKey": "accounting",
+  "displayName": "Accounting / Universal Revenue Growth",
+  "sourceSpec": "AccountingWeb.md",
+  "institution": "Accounting",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "ACC-CT-001",
+      "name": "Referral Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Reward existing customers for bringing friends / companies",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-002",
+      "name": "Seasonal Sale Pack",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Christmas, back-to-school, harvest, Black Friday, year-end",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS", "Ads", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-003",
+      "name": "First-Time Customer Offer",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Welcome discount on first purchase / booking / rental",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-004",
+      "name": "Geographic / Territory Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Target by city, province, branch, or sales territory",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Ads"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-005",
+      "name": "Digital Ads → Lead ROI",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "FB / Google / LinkedIn / WhatsApp / SMS / Email attribution",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Ads", "Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-006",
+      "name": "Corporate / Government / NGO Sales",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "B2B outreach to companies, government, schools, hospitals",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-007",
+      "name": "Invoice Collections Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "3/7/14 day reminders → payment plan offer",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-008",
+      "name": "Early Payment Discount",
+      "category": "PaymentCollection",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Incentivize paying before due date",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-009",
+      "name": "Win-back Inactive Customers",
+      "category": "CustomerReengagement",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "30/60/90-day inactivity win-back",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "WhatsApp", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-010",
+      "name": "Anniversary / Tenure Rewards",
+      "category": "CustomerRetention",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Celebrate customer tenure with loyalty rewards",
+      "defaultTrigger": "Anniversary",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-011",
+      "name": "VIP Exclusive Perks",
+      "category": "RevenueGrowth",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Top 5/10/20% customers get exclusive offers",
+      "defaultTrigger": "HighLeadScore",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-012",
+      "name": "Upsell / Cross-sell / Bundle",
+      "category": "RevenueGrowth",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Complementary products, bundles, lease-to-own, trade-in",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "InApp", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-013",
+      "name": "Complaint → Resolve → Feedback",
+      "category": "CustomerSatisfaction",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Service recovery with discount / replacement / refund options",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-014",
+      "name": "NPS / CSAT Feedback Loop",
+      "category": "CustomerSatisfaction",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Capture satisfaction and route detractors to recovery",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "ACC-CT-015",
+      "name": "Abandoned Quote Recovery",
+      "category": "CustomerReengagement",
+      "industryKey": "accounting",
+      "institution": "Accounting",
+      "description": "Recover abandoned checkout / quote / cart",
+      "defaultTrigger": "AbandonedQuote",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "ACC-CA-001",
+      "name": "Invoice Reminder Email",
+      "assetType": "Email",
+      "subject": "Invoice {{InvoiceId}} is due on {{DueDate}}",
+      "body": "Hi {{CustomerName}}, please settle {{Amount}} by {{DueDate}}. Pay: {{PayLink}} or request a plan.",
+      "tags": ["collections"],
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACC-CA-002",
+      "name": "First Purchase Offer",
+      "assetType": "Email",
+      "subject": "Welcome — 20% off your first purchase",
+      "body": "Use code {{PromoCode}} on your first order. Valid for {{Days}} days.",
+      "tags": ["acquisition"],
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACC-CA-003",
+      "name": "Service Recovery Offer",
+      "assetType": "Email",
+      "subject": "We're sorry — here's how we'll make it right",
+      "body": "Thanks for your feedback. We've applied {{RecoveryOffer}} to your account.",
+      "tags": ["satisfaction", "recovery"],
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACC-CA-004",
+      "name": "Territory Promo SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "{{City}} customers: exclusive weekend offer at {{BranchName}}. Details: {{Link}}",
+      "tags": ["geographic", "promo"],
+      "institution": "Accounting",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "ACC-ET-001",
+      "name": "Collections Day-7 Escalation",
+      "subject": "Action needed: invoice {{InvoiceId}} overdue",
+      "category": "Urgency",
+      "institution": "Accounting",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Payment reminder" },
+        { "type": "TextBlock", "contentHtml": "Hi {{CustomerName}}, invoice {{InvoiceId}} for {{Amount}} is overdue. Choose a payment plan if cash flow is tight." },
+        { "type": "Button", "buttonText": "Pay or choose a plan", "buttonUrl": "{{PayLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "ACC-PP-001",
+      "name": "Weekly Installments",
+      "depositPercent": 10,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 2,
+      "lateFeePercent": 1,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "ACC-PP-002",
+      "name": "Monthly Installments",
+      "depositPercent": 20,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 6,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "ACC-PP-003",
+      "name": "Quarterly Plan",
+      "depositPercent": 25,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "ACC-PP-004",
+      "name": "Semi-Annual Plan",
+      "depositPercent": 30,
+      "frequency": "SemiAnnual",
+      "installmentType": "Equal",
+      "installmentCount": 2,
+      "gracePeriodDays": 10,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "ACC-PP-005",
+      "name": "Deposit + Balance",
+      "depositPercent": 40,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Deposit", "percentOfTotal": 40, "order": 1 },
+        { "name": "Balance on delivery", "percentOfTotal": 60, "order": 2 }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "ACC-MP-001",
+      "name": "Loyalty Club",
+      "price": { "amount": 9, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Member pricing", "Early access sales", "Birthday reward"],
+      "institution": "Accounting"
+    },
+    {
+      "id": "ACC-MP-002",
+      "name": "VIP Business Membership",
+      "price": { "amount": 99, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 5,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["Priority support", "Volume pricing", "Dedicated account manager"],
+      "institution": "Accounting"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "ACC-PR-001",
+      "name": "Weekend Flash Sale",
+      "promoCode": "WEEKEND15",
+      "discountPercentage": 15,
+      "maxRedemptions": 2000,
+      "currentRedemptions": 640,
+      "trigger": "SeasonalPromotion",
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACC-PR-002",
+      "name": "Abandoned Cart Recovery",
+      "promoCode": "COMEBACK10",
+      "discountPercentage": 10,
+      "maxRedemptions": 1000,
+      "currentRedemptions": 312,
+      "trigger": "AbandonedCheckout",
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACC-PR-003",
+      "name": "First Purchase Welcome",
+      "promoCode": "WELCOME20",
+      "discountPercentage": 20,
+      "maxRedemptions": 5000,
+      "currentRedemptions": 1890,
+      "trigger": "HighLeadScore",
+      "institution": "Accounting",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "ACC-L-001",
+      "prospectName": "Tendai Moyo",
+      "companyName": "Moyo & Associates",
+      "email": "tendai@moyo.co.zw",
+      "phone": "+263 77 555 4433",
+      "totalScore": 65,
+      "temperature": "Warm",
+      "institution": "Accounting",
+      "recommendedAction": "Send trial nudge + first-purchase offer"
+    },
+    {
+      "prospectId": "ACC-L-002",
+      "prospectName": "Carol Mpofu",
+      "companyName": "Mvula Holdings",
+      "email": "carol@mvula.co.zw",
+      "phone": "+263 73 222 1100",
+      "totalScore": 58,
+      "temperature": "Warm",
+      "institution": "Accounting",
+      "recommendedAction": "Pitch Accounting Web Bundle + installment plan"
+    }
+  ],
+  "deals": [
+    {
+      "id": "ACC-D-001",
+      "title": "Mvula Co Accounting Web Bundle",
+      "contactName": "Carol Mpofu",
+      "companyName": "Mvula Holdings",
+      "monthlyRecurringRevenue": 960,
+      "stage": "Lead",
+      "score": 65,
+      "primaryChannel": "LinkedIn",
+      "institution": "Accounting"
+    }
+  ],
+  "referralProgram": {
+    "id": "ACC-RF-001",
+    "name": "Customer Referral Rewards",
+    "rewardType": "Discount",
+    "rewardAmount": { "amount": 50, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "newCustomers": 186,
+    "pipelineValue": 124000,
+    "collectionRecoveryRate": 0.68,
+    "avgDaysSalesOutstanding": 34,
+    "nps": 49,
+    "marketingRoas": 3.4,
+    "costPerAcquisition": 42
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "industryKey": "real-estate",
+  "displayName": "Real Estate",
+  "sourceSpec": "AccountingWeb.md industry pack (realestate)",
+  "institution": "RealEstate",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "REA-CT-001",
+      "name": "Listing Enquiry Funnel",
+      "category": "CustomerAcquisition",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Capture listing enquiries and nurture to viewing",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "WhatsApp",
+        "SMS",
+        "Email",
+        "Ads"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "REA-CT-002",
+      "name": "Open House Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Drive RSVPs for show days and launches",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email",
+        "Ads"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "REA-CT-003",
+      "name": "Mortgage Partner Cross-sell",
+      "category": "RevenueGrowth",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Refer buyers to mortgage and insurance partners",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "REA-CT-004",
+      "name": "Property Management Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Convert landlords to property management retainers",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "REA-CT-005",
+      "name": "Tenant Lease Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Renew leases 90/60/30 days before expiry",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "REA-CT-006",
+      "name": "Rent Collections Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Rent reminders then payment plan offers",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "REA-CT-007",
+      "name": "Buyer / Tenant CSAT",
+      "category": "CustomerSatisfaction",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Post-viewing and post-move surveys",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "REA-CT-008",
+      "name": "Cold Buyer Reactivation",
+      "category": "CustomerReengagement",
+      "industryKey": "real-estate",
+      "institution": "RealEstate",
+      "description": "Re-engage buyers inactive 60+ days",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "WhatsApp",
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "REA-CA-001",
+      "name": "Viewing Invite WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Viewing for {{PropertyAddress}} on {{Date}}. Confirm: {{ConfirmLink}}",
+      "tags": [
+        "viewings"
+      ],
+      "institution": "RealEstate",
+      "isActive": true
+    },
+    {
+      "id": "REA-CA-002",
+      "name": "Rent Due SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Rent {{Amount}} due {{DueDate}}. Pay: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "RealEstate",
+      "isActive": true
+    },
+    {
+      "id": "REA-CA-003",
+      "name": "New Listing Email",
+      "assetType": "Email",
+      "subject": "New listing in {{Suburb}}",
+      "body": "{{Beds}} bed · {{Price}}. Book viewing: {{ViewLink}}",
+      "tags": [
+        "acquisition"
+      ],
+      "institution": "RealEstate",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "REA-ET-001",
+      "name": "Open House Invite",
+      "subject": "Open house — {{PropertyAddress}}",
+      "category": "Promotions",
+      "institution": "RealEstate",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "See it this weekend"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, join the open house and meet the agent."
+        },
+        {
+          "type": "Button",
+          "buttonText": "RSVP",
+          "buttonUrl": "{{RsvpLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "REA-PP-001",
+      "name": "Rent Monthly",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "REA-PP-002",
+      "name": "Rent Hardship Plan",
+      "depositPercent": 0,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 8,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "REA-PP-003",
+      "name": "Sale Deposit Schedule",
+      "depositPercent": 10,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "name": "Reservation",
+          "percentOfTotal": 10,
+          "order": 1
+        },
+        {
+          "name": "Agreement",
+          "percentOfTotal": 20,
+          "order": 2
+        },
+        {
+          "name": "Transfer",
+          "percentOfTotal": 70,
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "REA-MP-001",
+      "name": "Landlord Care",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 49
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Rent collection",
+        "Maintenance desk",
+        "Tenant screening"
+      ],
+      "institution": "RealEstate"
+    },
+    {
+      "id": "REA-MP-002",
+      "name": "Investor Portfolio Desk",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 199
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 5,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Multi-unit mgmt",
+        "Yield reports",
+        "Priority leasing"
+      ],
+      "institution": "RealEstate"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "REA-PR-001",
+      "name": "First Month Management Free",
+      "promoCode": "LANDLORD1",
+      "discountPercentage": 100,
+      "maxRedemptions": 50,
+      "currentRedemptions": 18,
+      "trigger": "SeasonalPromotion",
+      "institution": "RealEstate",
+      "isActive": true
+    },
+    {
+      "id": "REA-PR-002",
+      "name": "Buyer Viewing Weekend",
+      "promoCode": "VIEW10",
+      "discountPercentage": 10,
+      "maxRedemptions": 100,
+      "currentRedemptions": 33,
+      "trigger": "SeasonalPromotion",
+      "institution": "RealEstate",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "REA-L-001",
+      "prospectName": "Joseph Phiri",
+      "companyName": "Buyer Prospect",
+      "email": "joseph.phiri@email.zm",
+      "phone": "+260 96 555 0188",
+      "totalScore": 74,
+      "temperature": "Hot",
+      "institution": "RealEstate",
+      "recommendedAction": "Schedule viewing + mortgage intro"
+    },
+    {
+      "prospectId": "REA-L-002",
+      "prospectName": "Landlord — Banda Properties",
+      "companyName": "Banda Properties",
+      "email": "ops@bandaprops.example",
+      "phone": "+260 97 222 3344",
+      "totalScore": 68,
+      "temperature": "Warm",
+      "institution": "RealEstate",
+      "recommendedAction": "Pitch Landlord Care membership"
+    }
+  ],
+  "deals": [
+    {
+      "id": "REA-D-001",
+      "title": "Banda Properties — Landlord Care (12 units)",
+      "contactName": "Ops",
+      "companyName": "Banda Properties",
+      "monthlyRecurringRevenue": 588,
+      "stage": "Proposal",
+      "score": 68,
+      "primaryChannel": "WhatsApp",
+      "institution": "RealEstate"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "REA-AP-001",
+      "customerName": "Joseph Phiri",
+      "prospectId": "REA-L-001",
+      "appointmentType": "Consultation",
+      "status": "Scheduled",
+      "notes": "Site viewing"
+    }
+  ],
+  "referralProgram": {
+    "name": "Buyer/Tenant Referral",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 100
+    },
+    "requireDemoAttendance": false,
+    "rewardType": "Cash",
+    "id": "REA-RF-001"
+  },
+  "dashboardKpis": {
+    "viewingsBooked": 320,
+    "activeListings": 146,
+    "leaseRenewalRate": 0.81,
+    "managedUnits": 88,
+    "rentCollectionRate": 0.94,
+    "nps": 57
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "versioned-catalogue",
+  "owner": "Legal.Compliance.Service",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "countryCode": "ZM",
+  "mergePolicy": "add-missing-only",
+  "items": [
+    { "code": "STANDARD", "name": "Standard Rated", "rate": 16.0, "effectiveFrom": "2026-01-01", "effectiveTo": null, "isSystem": true, "isActive": true },
+    { "code": "ZERO-RATED", "name": "Zero Rated", "rate": 0.0, "effectiveFrom": "2026-01-01", "effectiveTo": null, "isSystem": true, "isActive": true },
+    { "code": "EXEMPT", "name": "Exempt", "rate": 0.0, "effectiveFrom": "2026-01-01", "effectiveTo": null, "isSystem": true, "isActive": true }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "industryKey": "transport-logistics",
+  "displayName": "Transport & Logistics",
+  "sourceSpec": "AccountingWeb.md industry pack (transport/logistics)",
+  "institution": "TransportLogistics",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "TRL-CT-001",
+      "name": "Shipper Acquisition",
+      "category": "CustomerAcquisition",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Acquire SMEs needing domestic and cross-border freight",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "WhatsApp",
+        "Email",
+        "SMS",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TRL-CT-002",
+      "name": "Contract Logistics RFP Funnel",
+      "category": "CustomerAcquisition",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Respond to RFPs for warehousing and distribution",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TRL-CT-003",
+      "name": "Warehousing Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Upsell storage, pick-pack, and last-mile to freight clients",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TRL-CT-004",
+      "name": "Fuel / Lane Surcharge Comms",
+      "category": "CustomerRetention",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Communicate surcharge changes transparently to retain trust",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TRL-CT-005",
+      "name": "Contract Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Renew annual logistics contracts",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TRL-CT-006",
+      "name": "Freight Invoice Collections",
+      "category": "PaymentCollection",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Collect overdue freight and COD exceptions",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TRL-CT-007",
+      "name": "On-time Delivery CSAT",
+      "category": "CustomerSatisfaction",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Post-delivery CSAT and exception recovery",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "TRL-CT-008",
+      "name": "Dormant Shipper Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "transport-logistics",
+      "institution": "TransportLogistics",
+      "description": "Reactivate shippers with no consignments in 45 days",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "WhatsApp",
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "TRL-CA-001",
+      "name": "Quote WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Freight quote {{Origin}}→{{Destination}}: {{Price}}. Book: {{BookLink}}",
+      "tags": [
+        "acquisition"
+      ],
+      "institution": "TransportLogistics",
+      "isActive": true
+    },
+    {
+      "id": "TRL-CA-002",
+      "name": "POD / Delivery SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Delivered to {{Consignee}}. Rate us: {{SurveyLink}}",
+      "tags": [
+        "satisfaction"
+      ],
+      "institution": "TransportLogistics",
+      "isActive": true
+    },
+    {
+      "id": "TRL-CA-003",
+      "name": "Overdue Freight Email",
+      "assetType": "Email",
+      "subject": "Freight invoice {{InvoiceId}} overdue",
+      "body": "Please settle {{Amount}} or request a plan: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "TransportLogistics",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "TRL-ET-001",
+      "name": "Shipper Welcome",
+      "subject": "Track every consignment with {{Brand}}",
+      "category": "Onboarding",
+      "institution": "TransportLogistics",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Welcome aboard"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, book, track, and settle freight from one portal."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Open portal",
+          "buttonUrl": "{{PortalLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "TRL-PP-001",
+      "name": "Monthly Shipper Account",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "TRL-PP-002",
+      "name": "Contract Logistics Quarterly",
+      "depositPercent": 20,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "TRL-PP-003",
+      "name": "Project Haulage Milestones",
+      "depositPercent": 25,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "name": "Mobilise",
+          "percentOfTotal": 25,
+          "order": 1
+        },
+        {
+          "name": "Haulage",
+          "percentOfTotal": 50,
+          "order": 2
+        },
+        {
+          "name": "Demob",
+          "percentOfTotal": 25,
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "TRL-MP-001",
+      "name": "SME Shipper Club",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 29
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 3,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Priority booking",
+        "Volume rates",
+        "Tracking portal"
+      ],
+      "institution": "TransportLogistics"
+    },
+    {
+      "id": "TRL-MP-002",
+      "name": "Enterprise 3PL Desk",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 999
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 20,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Dedicated ops",
+        "SLA",
+        "Warehouse slots",
+        "Monthly QBR"
+      ],
+      "institution": "TransportLogistics"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "TRL-PR-001",
+      "name": "First Shipment Discount",
+      "promoCode": "SHIP15",
+      "discountPercentage": 15,
+      "maxRedemptions": 200,
+      "currentRedemptions": 77,
+      "trigger": "SeasonalPromotion",
+      "institution": "TransportLogistics",
+      "isActive": true
+    },
+    {
+      "id": "TRL-PR-002",
+      "name": "Comeback Lane Offer",
+      "promoCode": "LANE10",
+      "discountPercentage": 10,
+      "maxRedemptions": 150,
+      "currentRedemptions": 39,
+      "trigger": "WinbackAttempt",
+      "institution": "TransportLogistics",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "TRL-L-001",
+      "prospectName": "Ops Lead — FreshMart DC",
+      "companyName": "FreshMart Retail",
+      "email": "logistics@freshmart.example",
+      "phone": "+260 97 210 4499",
+      "totalScore": 78,
+      "temperature": "Hot",
+      "institution": "TransportLogistics",
+      "recommendedAction": "Enterprise 3PL desk + warehouse upsell"
+    },
+    {
+      "prospectId": "TRL-L-002",
+      "prospectName": "Owner — CrossBorder Traders",
+      "companyName": "CrossBorder Traders",
+      "email": "owner@xbtraders.example",
+      "phone": "+260 96 700 2211",
+      "totalScore": 71,
+      "temperature": "Hot",
+      "institution": "TransportLogistics",
+      "recommendedAction": "SME shipper club + first shipment promo"
+    }
+  ],
+  "deals": [
+    {
+      "id": "TRL-D-001",
+      "title": "FreshMart — Enterprise 3PL Desk",
+      "contactName": "Ops Lead",
+      "companyName": "FreshMart Retail",
+      "monthlyRecurringRevenue": 999,
+      "stage": "Negotiation",
+      "score": 78,
+      "primaryChannel": "WhatsApp",
+      "institution": "TransportLogistics"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "TRL-AP-001",
+      "customerName": "FreshMart Ops",
+      "prospectId": "TRL-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "DC walkthrough / SLA review"
+    }
+  ],
+  "referralProgram": {
+    "name": "Shipper Referral Credit",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 50
+    },
+    "requireDemoAttendance": false,
+    "rewardType": "Credit",
+    "id": "TRL-RF-001"
+  },
+  "dashboardKpis": {
+    "nps": 50,
+    "onTimeDelivery": 0.93,
+    "dso": 36,
+    "consignmentsMtd": 4200,
+    "warehouseUtilization": 0.81,
+    "activeShippers": 610
+  }
+}

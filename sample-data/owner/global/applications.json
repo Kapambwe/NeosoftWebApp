@@ -28,7 +28,7 @@
     "Notes": "Production application for election management"
   },
   {
-    "Id": "B2C3D4E5-F6G7-8901-BCDE-FG2345678901",
+    "Id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
     "Name": "Accounting System",
     "Description": "Professional accounting and financial management software",
     "Version": "3.0.5",
@@ -56,7 +56,7 @@
     "Notes": "Production application for accounting management"
   },
   {
-    "Id": "C3D4E5F6-G7H8-9012-CDEF-GH3456789012",
+    "Id": "c3d4e5f6-a7b8-9012-cdef-234567890123",
     "Name": "Law Firm Management",
     "Description": "Complete law firm case and client management system",
     "Version": "2.5.2",
@@ -84,7 +84,7 @@
     "Notes": "Production application for law firm management"
   },
   {
-    "Id": "D4E5F6G7-H8I9-0123-DEFG-HI4567890123",
+    "Id": "d4e5f6a7-b8c9-0123-defa-345678901234",
     "Name": "School Management System",
     "Description": "Comprehensive school administration and student management solution",
     "Version": "4.2.1",

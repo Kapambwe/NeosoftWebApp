@@ -1,0 +1,17 @@
+{
+  "theme": "light",
+  "language": "en",
+  "currency": "ZMW",
+  "dateFormat": "dd/MM/yyyy",
+  "timeZone": "Africa/Lusaka",
+  "emailNotifications": true,
+  "pushNotifications": true,
+  "weeklyReportEmail": true,
+  "securityAlerts": true,
+  "marketingEmails": false,
+  "twoFactorEnabled": false,
+  "sessionAlerts": true,
+  "defaultDashboardView": "overview",
+  "compactMode": false,
+  "showTips": true
+}

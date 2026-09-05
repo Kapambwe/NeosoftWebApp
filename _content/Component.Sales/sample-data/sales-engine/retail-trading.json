@@ -1,0 +1,397 @@
+{
+  "industryKey": "retail-trading",
+  "displayName": "Retail & Trading",
+  "sourceSpec": "AccountingWeb.md industry pack (retail)",
+  "institution": "RetailTrading",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "RET-CT-001",
+      "name": "Weekend Flash Sale",
+      "category": "CustomerAcquisition",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Drive store and e-commerce traffic with timed discounts",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Ads",
+        "Email",
+        "PushNotification"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "RET-CT-002",
+      "name": "Loyalty Enrolment",
+      "category": "CustomerAcquisition",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Grow loyalty app memberships at POS and online",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "InApp",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "RET-CT-003",
+      "name": "Bundle / Basket Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Suggest complementary SKUs and bundles",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "InApp",
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "RET-CT-004",
+      "name": "Trade Customer Volume Deals",
+      "category": "RevenueGrowth",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Wholesale / trade pricing for bulk buyers",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "WhatsApp",
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "RET-CT-005",
+      "name": "Loyalty Anniversary Rewards",
+      "category": "CustomerRetention",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Tenure and birthday rewards for members",
+      "defaultTrigger": "Anniversary",
+      "suggestedChannels": [
+        "SMS",
+        "PushNotification",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "RET-CT-006",
+      "name": "Trade Credit Collections",
+      "category": "PaymentCollection",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Collect overdue trade invoices",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "RET-CT-007",
+      "name": "Post-Purchase CSAT",
+      "category": "CustomerSatisfaction",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Order and store experience surveys + recovery",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "Email",
+        "InApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "RET-CT-008",
+      "name": "Lapsed Shopper Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "retail-trading",
+      "institution": "RetailTrading",
+      "description": "Reactivate shoppers inactive 30–60 days",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "PushNotification",
+        "Email"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "RET-CA-001",
+      "name": "Flash Sale SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "{{Brand}} weekend sale — {{Pct}}% off. Ends Sunday. Shop: {{ShopLink}}",
+      "tags": [
+        "promo"
+      ],
+      "institution": "RetailTrading",
+      "isActive": true
+    },
+    {
+      "id": "RET-CA-002",
+      "name": "Loyalty Invite",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Join {{Brand}} rewards and earn on every purchase: {{JoinLink}}",
+      "tags": [
+        "loyalty"
+      ],
+      "institution": "RetailTrading",
+      "isActive": true
+    },
+    {
+      "id": "RET-CA-003",
+      "name": "Abandoned Cart Email",
+      "assetType": "Email",
+      "subject": "You left items in your cart",
+      "body": "Complete checkout now. Extra {{PromoCode}} if you finish today.",
+      "tags": [
+        "recovery"
+      ],
+      "institution": "RetailTrading",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "RET-ET-001",
+      "name": "Flash Sale Blast",
+      "subject": "{{Pct}}% off this weekend only",
+      "category": "Promotions",
+      "institution": "RetailTrading",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Weekend flash sale"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, member early access starts Friday 6pm."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Shop now",
+          "buttonUrl": "{{ShopLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "RET-PP-001",
+      "name": "Trade Weekly Credit",
+      "depositPercent": 0,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "RET-PP-002",
+      "name": "Trade Monthly Account",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "RET-PP-003",
+      "name": "Layaway Plan",
+      "depositPercent": 20,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 8,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "RET-MP-001",
+      "name": "Loyalty Free",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Points",
+        "Birthday reward",
+        "Member offers"
+      ],
+      "institution": "RetailTrading"
+    },
+    {
+      "id": "RET-MP-002",
+      "name": "Loyalty Plus",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 2.99
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Free delivery threshold",
+        "Early sales access",
+        "Double points days"
+      ],
+      "institution": "RetailTrading"
+    },
+    {
+      "id": "RET-MP-003",
+      "name": "Trade Account",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 3,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Net-30",
+        "Volume pricing",
+        "Dedicated rep"
+      ],
+      "institution": "RetailTrading"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "RET-PR-001",
+      "name": "Weekend Flash",
+      "promoCode": "WEEKEND20",
+      "discountPercentage": 20,
+      "maxRedemptions": 5000,
+      "currentRedemptions": 2104,
+      "trigger": "SeasonalPromotion",
+      "institution": "RetailTrading",
+      "isActive": true
+    },
+    {
+      "id": "RET-PR-002",
+      "name": "Comeback Basket",
+      "promoCode": "MISSYOU10",
+      "discountPercentage": 10,
+      "maxRedemptions": 2000,
+      "currentRedemptions": 640,
+      "trigger": "WinbackAttempt",
+      "institution": "RetailTrading",
+      "isActive": true
+    },
+    {
+      "id": "RET-PR-003",
+      "name": "Abandoned Cart Rescue",
+      "promoCode": "CART15",
+      "discountPercentage": 15,
+      "maxRedemptions": 1500,
+      "currentRedemptions": 401,
+      "trigger": "AbandonedCheckout",
+      "institution": "RetailTrading",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "RET-L-001",
+      "prospectName": "Shopper — Thandiwe Banda",
+      "companyName": "Loyalty Prospect",
+      "email": "thandiwe.b@email.zm",
+      "phone": "+260 97 111 9090",
+      "totalScore": 62,
+      "temperature": "Warm",
+      "institution": "RetailTrading",
+      "recommendedAction": "Enrol loyalty + flash sale push"
+    },
+    {
+      "prospectId": "RET-L-002",
+      "prospectName": "Buyer — Market Wholesalers",
+      "companyName": "Market Wholesalers",
+      "email": "buyer@marketwholesale.example",
+      "phone": "+260 211 555200",
+      "totalScore": 77,
+      "temperature": "Hot",
+      "institution": "RetailTrading",
+      "recommendedAction": "Open trade account + volume deal"
+    }
+  ],
+  "deals": [
+    {
+      "id": "RET-D-001",
+      "title": "Market Wholesalers — Trade Account",
+      "contactName": "Buyer",
+      "companyName": "Market Wholesalers",
+      "monthlyRecurringRevenue": 0,
+      "stage": "Negotiation",
+      "score": 77,
+      "primaryChannel": "WhatsApp",
+      "institution": "RetailTrading"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "RET-AP-001",
+      "customerName": "Market Wholesalers",
+      "prospectId": "RET-L-002",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Warehouse visit / price list"
+    }
+  ],
+  "referralProgram": {
+    "name": "Refer a Friend Voucher",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 5
+    },
+    "requireDemoAttendance": false,
+    "rewardType": "Credit",
+    "id": "RET-RF-001"
+  },
+  "dashboardKpis": {
+    "nps": 53,
+    "loyaltyMembers": 42000,
+    "tradeAccounts": 186,
+    "sellThrough": 0.79,
+    "avgBasket": 28.4,
+    "conversionRate": 0.034
+  }
+}

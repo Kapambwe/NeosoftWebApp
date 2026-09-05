@@ -1,0 +1,392 @@
+{
+  "industryKey": "entertainment-media",
+  "displayName": "Entertainment & Media",
+  "sourceSpec": "OnlineNewspaper.md + entertainment-media vertical",
+  "institution": "EntertainmentMedia",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "ENT-CT-001",
+      "name": "Content Subscription Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Grow paid subscribers for digital content and streaming",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "InApp",
+        "Email",
+        "PushNotification",
+        "Ads"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ENT-CT-002",
+      "name": "Event Ticket Pre-sale",
+      "category": "CustomerAcquisition",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Pre-sell concerts, screenings, and festivals",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "SMS",
+        "WhatsApp",
+        "Email",
+        "Ads"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ENT-CT-003",
+      "name": "Creator / Talent Partnerships",
+      "category": "RevenueGrowth",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Monetize creator collabs and branded entertainment",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ENT-CT-004",
+      "name": "Season Pass Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Renew annual passes and memberships",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "PushNotification"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ENT-CT-005",
+      "name": "Merchandise Bundle Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Cross-sell merch with tickets and subscriptions",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "InApp",
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ENT-CT-006",
+      "name": "Ticket / Sub Collections",
+      "category": "PaymentCollection",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Recover failed payments and overdue corporate bookings",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ENT-CT-007",
+      "name": "Audience NPS Pulse",
+      "category": "CustomerSatisfaction",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Post-event and content satisfaction surveys",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "InApp",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ENT-CT-008",
+      "name": "Lapsed Subscriber Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "entertainment-media",
+      "institution": "EntertainmentMedia",
+      "description": "Win back cancelled entertainment subscribers",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "Email",
+        "PushNotification",
+        "SMS"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "ENT-CA-001",
+      "name": "Pre-sale Push",
+      "assetType": "PushNotification",
+      "subject": "",
+      "body": "{{EventName}} tickets on sale now. Members get early access.",
+      "tags": [
+        "events"
+      ],
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    },
+    {
+      "id": "ENT-CA-002",
+      "name": "Season Pass Email",
+      "assetType": "Email",
+      "subject": "Renew your {{Brand}} season pass",
+      "body": "Keep VIP access and member pricing. Renew: {{RenewLink}}",
+      "tags": [
+        "retention"
+      ],
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    },
+    {
+      "id": "ENT-CA-003",
+      "name": "Win-back In-App",
+      "assetType": "InApp",
+      "subject": "Come back for 30% off",
+      "body": "We saved your watchlist — restart with code {{PromoCode}}.",
+      "tags": [
+        "winback"
+      ],
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "ENT-ET-001",
+      "name": "Event Pre-sale",
+      "subject": "{{EventName}} — members first",
+      "category": "Promotions",
+      "institution": "EntertainmentMedia",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Get in first"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, member pre-sale opens tonight."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Buy tickets",
+          "buttonUrl": "{{TicketLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "ENT-PP-001",
+      "name": "Monthly Streaming",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "ENT-PP-002",
+      "name": "Annual Season Pass",
+      "depositPercent": 100,
+      "frequency": "Annual",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "ENT-PP-003",
+      "name": "Corporate Event Booking",
+      "depositPercent": 40,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 40,
+          "name": "Deposit",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 60,
+          "name": "Balance",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "ENT-MP-001",
+      "name": "Fan Club",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 4.99
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Early tickets",
+        "Member merch",
+        "Ad-light content"
+      ],
+      "institution": "EntertainmentMedia"
+    },
+    {
+      "id": "ENT-MP-002",
+      "name": "VIP Season Pass",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 149
+      },
+      "billingFrequency": "Annual",
+      "maxSeats": 2,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "All events",
+        "Lounge access",
+        "Guest pass"
+      ],
+      "institution": "EntertainmentMedia"
+    },
+    {
+      "id": "ENT-MP-003",
+      "name": "Corporate Entertainment Pack",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 499
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 50,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "50 seats",
+        "Private screenings",
+        "Branded nights"
+      ],
+      "institution": "EntertainmentMedia"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "ENT-PR-001",
+      "name": "Launch Week Streaming",
+      "promoCode": "WATCH25",
+      "discountPercentage": 25,
+      "maxRedemptions": 5000,
+      "currentRedemptions": 1402,
+      "trigger": "SeasonalPromotion",
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    },
+    {
+      "id": "ENT-PR-002",
+      "name": "Comeback Offer",
+      "promoCode": "BACK30",
+      "discountPercentage": 30,
+      "maxRedemptions": 1000,
+      "currentRedemptions": 288,
+      "trigger": "WinbackAttempt",
+      "institution": "EntertainmentMedia",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "ENT-L-001",
+      "prospectName": "Mwansa Tembo",
+      "companyName": "Fan Prospect",
+      "email": "mwansa.tembo@email.zm",
+      "phone": "+260 97 400 1122",
+      "totalScore": 68,
+      "temperature": "Warm",
+      "institution": "EntertainmentMedia",
+      "recommendedAction": "Fan club + event pre-sale"
+    },
+    {
+      "prospectId": "ENT-L-002",
+      "prospectName": "Events Lead — CopperCorp",
+      "companyName": "CopperCorp Mining",
+      "email": "events@coppercorp.example",
+      "phone": "+260 212 440010",
+      "totalScore": 75,
+      "temperature": "Hot",
+      "institution": "EntertainmentMedia",
+      "recommendedAction": "Corporate entertainment pack quote"
+    }
+  ],
+  "deals": [
+    {
+      "id": "ENT-D-001",
+      "title": "CopperCorp — Corporate Entertainment Pack",
+      "contactName": "Events Lead",
+      "companyName": "CopperCorp Mining",
+      "monthlyRecurringRevenue": 499,
+      "stage": "Proposal",
+      "score": 75,
+      "primaryChannel": "Email",
+      "institution": "EntertainmentMedia"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "ENT-AP-001",
+      "customerName": "CopperCorp Events",
+      "prospectId": "ENT-L-002",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Venue walkthrough"
+    }
+  ],
+  "referralProgram": {
+    "rewardType": "Credit",
+    "requireDemoAttendance": false,
+    "name": "Bring a Friend Free Month",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 4.99
+    },
+    "id": "ENT-RF-001"
+  },
+  "dashboardKpis": {
+    "eventTicketsSold": 9200,
+    "subscribers": 28400,
+    "nps": 52,
+    "churnRate": 0.05,
+    "merchAttachRate": 0.18
+  }
+}

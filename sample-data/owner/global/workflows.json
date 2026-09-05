@@ -1,0 +1,42 @@
+[
+  {
+    "id": "6c3e2e13-6df1-4c22-9b1b-4f9e7d7f1001",
+    "workflowName": "Customer Health Review",
+    "targetEntityId": "CUS-1001",
+    "status": "Completed",
+    "currentStep": "Health Score Published",
+    "startedAt": "2026-08-26T07:45:00Z"
+  },
+  {
+    "id": "6c3e2e13-6df1-4c22-9b1b-4f9e7d7f1002",
+    "workflowName": "Revenue Forecast Refresh",
+    "targetEntityId": "ORG-NEOSOFT",
+    "status": "InProgress",
+    "currentStep": "Preparing Forecast Inputs",
+    "startedAt": "2026-08-26T09:20:00Z"
+  },
+  {
+    "id": "6c3e2e13-6df1-4c22-9b1b-4f9e7d7f1003",
+    "workflowName": "Incident Response Review",
+    "targetEntityId": "INC-2026-014",
+    "status": "Completed",
+    "currentStep": "Resolution Verified",
+    "startedAt": "2026-08-25T12:10:00Z"
+  },
+  {
+    "id": "6c3e2e13-6df1-4c22-9b1b-4f9e7d7f1004",
+    "workflowName": "Technical Debt Prioritization",
+    "targetEntityId": "TD-0042",
+    "status": "Queued",
+    "currentStep": "Awaiting Analysis Slot",
+    "startedAt": "2026-08-24T14:30:00Z"
+  },
+  {
+    "id": "6c3e2e13-6df1-4c22-9b1b-4f9e7d7f1005",
+    "workflowName": "Application Deployment Validation",
+    "targetEntityId": "APP-ACCPRO",
+    "status": "Failed",
+    "currentStep": "Deployment Health Check",
+    "startedAt": "2026-08-23T16:05:00Z"
+  }
+]

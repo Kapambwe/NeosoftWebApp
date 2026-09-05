@@ -1,0 +1,23 @@
+[
+  {
+    "countryCode": "ZM",
+    "applicationType": "AccountingWebApp",
+    "paymentOption": "MobileMoney",
+    "providerKey": "onafriq",
+    "isEnabled": true
+  },
+  {
+    "countryCode": "ZM",
+    "applicationType": "AccountingWebApp",
+    "paymentOption": "FastPaymentGateway",
+    "providerKey": "flutterwave",
+    "isEnabled": true
+  },
+  {
+    "countryCode": "NG",
+    "applicationType": "AccountingWebApp",
+    "paymentOption": "FastPaymentGateway",
+    "providerKey": "paystack",
+    "isEnabled": true
+  }
+]

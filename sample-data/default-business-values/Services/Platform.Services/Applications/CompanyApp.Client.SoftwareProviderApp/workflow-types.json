@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "tenant-maintained",
+  "owner": "Platform.Services",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "mergePolicy": "add-missing-only",
+  "items": [
+    { "code": "CUSTOMER_ONBOARDING", "name": "Customer onboarding", "isSystem": true, "isActive": true, "sortOrder": 1 },
+    { "code": "INVOICE_APPROVAL", "name": "Invoice approval", "isSystem": true, "isActive": true, "sortOrder": 2 },
+    { "code": "APPLICATION_DEPLOYMENT", "name": "Application deployment", "isSystem": true, "isActive": true, "sortOrder": 3 },
+    { "code": "SUPPORT_ESCALATION", "name": "Support escalation", "isSystem": true, "isActive": true, "sortOrder": 4 }
+  ]
+}

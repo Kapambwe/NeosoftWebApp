@@ -1,0 +1,70 @@
+{
+  "languages": [
+    { "label": "English", "code": "en" },
+    { "label": "French", "code": "fr" },
+    { "label": "Portuguese", "code": "pt" }
+  ],
+  "currencies": [ "ZMW", "USD", "ZAR", "KES", "GBP", "EUR" ],
+  "dateFormats": [ "dd/MM/yyyy", "MM/dd/yyyy", "yyyy-MM-dd" ],
+  "timezones": [
+    "Africa/Lusaka",
+    "Africa/Johannesburg",
+    "Africa/Nairobi",
+    "Africa/Harare",
+    "UTC"
+  ],
+  "countries": [
+    "Zambia",
+    "Zimbabwe",
+    "South Africa",
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Malawi",
+    "Botswana",
+    "Namibia",
+    "United States",
+    "Canada",
+    "United Kingdom",
+    "Australia",
+    "Germany",
+    "France",
+    "Spain",
+    "Italy",
+    "Netherlands",
+    "Belgium",
+    "Switzerland",
+    "Sweden",
+    "Norway",
+    "Denmark",
+    "Finland",
+    "Ireland",
+    "New Zealand",
+    "Singapore",
+    "Japan",
+    "South Korea",
+    "India",
+    "Brazil",
+    "Mexico",
+    "Other"
+  ],
+  "dashboardViews": [
+    { "label": "Overview", "value": "overview" },
+    { "label": "Analytics", "value": "analytics" },
+    { "label": "Revenue", "value": "revenue" }
+  ],
+  "contactChannels": [ "Email", "Phone" ],
+  "planTypes": [ "Free Trial", "Basic", "Premium", "Enterprise" ],
+  "faqCategories": [
+    "Getting Started",
+    "Billing & Payments",
+    "Account & Security",
+    "Products & Referrals"
+  ],
+  "supportCategories": [
+    "General",
+    "Technical",
+    "Billing",
+    "Account"
+  ]
+}

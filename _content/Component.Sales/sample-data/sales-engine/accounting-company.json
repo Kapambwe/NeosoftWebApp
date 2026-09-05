@@ -1,0 +1,377 @@
+{
+  "industryKey": "accounting-company",
+  "displayName": "Accounting Company / Practice",
+  "sourceSpec": "AccountingWeb.md + accounting practice vertical",
+  "institution": "Accounting",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "ACO-CT-001",
+      "name": "New Client Tax Season Acquisition",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Acquire SMEs needing tax filing and bookkeeping before year-end",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ACO-CT-002",
+      "name": "Bookkeeping Trial Offer",
+      "category": "CustomerAcquisition",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Free first-month bookkeeping trial for new businesses",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ACO-CT-003",
+      "name": "Payroll Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Cross-sell payroll and statutory compliance to bookkeeping clients",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "InApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ACO-CT-004",
+      "name": "Audit Preparation Package",
+      "category": "RevenueGrowth",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Sell year-end audit prep and management accounts",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ACO-CT-005",
+      "name": "Retainer Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Renew monthly accounting retainers before expiry",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ACO-CT-006",
+      "name": "Invoice Collections for Practice Fees",
+      "category": "PaymentCollection",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Escalate overdue practice invoices and offer installment plans",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ACO-CT-007",
+      "name": "Client Satisfaction CSAT",
+      "category": "CustomerSatisfaction",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Post-filing and monthly CSAT for accounting clients",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ACO-CT-008",
+      "name": "Dormant Client Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "accounting-company",
+      "institution": "Accounting",
+      "description": "Re-engage clients inactive 90+ days",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "ACO-CA-001",
+      "name": "Tax Season Email",
+      "assetType": "Email",
+      "subject": "Ready for tax season, {{CompanyName}}?",
+      "body": "Hi {{FirstName}}, secure your filing slot. Book: {{BookingLink}}",
+      "tags": [
+        "tax",
+        "acquisition"
+      ],
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACO-CA-002",
+      "name": "Fee Reminder SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Hi {{FirstName}}, accounting fee {{Amount}} is due. Pay: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACO-CA-003",
+      "name": "Payroll Upsell In-App",
+      "assetType": "InApp",
+      "subject": "Add payroll",
+      "body": "Clients like yours save hours with payroll + NAPSA/tax filings.",
+      "tags": [
+        "upsell"
+      ],
+      "institution": "Accounting",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "ACO-ET-001",
+      "name": "Tax Season Kickoff",
+      "subject": "Book your tax filing slot",
+      "category": "Promotions",
+      "institution": "Accounting",
+      "blocks": [
+        {
+          "contentHtml": "Tax season is here",
+          "type": "Header"
+        },
+        {
+          "contentHtml": "Hi {{FirstName}}, lock in your accountant and avoid last-minute rush.",
+          "type": "TextBlock"
+        },
+        {
+          "buttonUrl": "{{BookingLink}}",
+          "buttonText": "Book now",
+          "type": "Button"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "ACO-PP-001",
+      "name": "Monthly Retainer",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "ACO-PP-002",
+      "name": "Quarterly Practice Fees",
+      "depositPercent": 25,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "ACO-PP-003",
+      "name": "Audit Prep Milestone",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "name": "Kickoff",
+          "percentOfTotal": 30,
+          "order": 1
+        },
+        {
+          "name": "Draft accounts",
+          "percentOfTotal": 40,
+          "order": 2
+        },
+        {
+          "name": "Final pack",
+          "percentOfTotal": 30,
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "ACO-MP-001",
+      "name": "Bookkeeping Essentials",
+      "price": {
+        "amount": 99,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Monthly books",
+        "Bank recs",
+        "Basic reports"
+      ],
+      "institution": "Accounting"
+    },
+    {
+      "id": "ACO-MP-002",
+      "name": "Growth Practice Pack",
+      "price": {
+        "amount": 249,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 5,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Payroll",
+        "VAT",
+        "Management accounts",
+        "Dedicated accountant"
+      ],
+      "institution": "Accounting"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "ACO-PR-001",
+      "name": "First Month Free Bookkeeping",
+      "promoCode": "BOOKS1",
+      "discountPercentage": 100,
+      "maxRedemptions": 200,
+      "currentRedemptions": 67,
+      "trigger": "SeasonalPromotion",
+      "institution": "Accounting",
+      "isActive": true
+    },
+    {
+      "id": "ACO-PR-002",
+      "name": "Tax Season Early Bird",
+      "promoCode": "TAX15",
+      "discountPercentage": 15,
+      "maxRedemptions": 150,
+      "currentRedemptions": 48,
+      "trigger": "SeasonalPromotion",
+      "institution": "Accounting",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "ACO-L-001",
+      "prospectName": "Tendai Moyo",
+      "companyName": "Moyo & Associates",
+      "email": "tendai@moyo.co.zw",
+      "phone": "+263 77 555 4433",
+      "totalScore": 65,
+      "temperature": "Warm",
+      "institution": "Accounting",
+      "recommendedAction": "Offer bookkeeping trial + payroll upsell"
+    },
+    {
+      "prospectId": "ACO-L-002",
+      "prospectName": "Finance Lead — Ndola Traders",
+      "companyName": "Ndola Traders Ltd",
+      "email": "finance@ndolatraders.example",
+      "phone": "+260 212 550111",
+      "totalScore": 72,
+      "temperature": "Hot",
+      "institution": "Accounting",
+      "recommendedAction": "Pitch Growth Practice Pack before tax season"
+    }
+  ],
+  "deals": [
+    {
+      "id": "ACO-D-001",
+      "title": "Ndola Traders — Growth Practice Pack",
+      "contactName": "Finance Lead",
+      "companyName": "Ndola Traders Ltd",
+      "monthlyRecurringRevenue": 249,
+      "stage": "Proposal",
+      "score": 72,
+      "primaryChannel": "Email",
+      "institution": "Accounting"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "ACO-AP-001",
+      "customerName": "Ndola Traders",
+      "prospectId": "ACO-L-002",
+      "appointmentType": "Consultation",
+      "status": "Scheduled",
+      "notes": "Discovery for practice pack"
+    }
+  ],
+  "referralProgram": {
+    "name": "Client Referral Credit",
+    "requireDemoAttendance": false,
+    "rewardAmount": {
+      "amount": 50,
+      "currencyCode": "USD"
+    },
+    "rewardType": "Credit",
+    "id": "ACO-RF-001"
+  },
+  "dashboardKpis": {
+    "avgRetainerMrr": 180,
+    "nps": 56,
+    "payrollAttachRate": 0.41,
+    "taxFilingsYtd": 340,
+    "activeRetainers": 128,
+    "collectionRate": 0.93
+  }
+}

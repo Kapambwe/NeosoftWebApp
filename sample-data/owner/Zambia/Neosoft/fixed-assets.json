@@ -2,7 +2,7 @@
   {
     "id": "ASSET-001",
     "name": "Dell OptiPlex 7090 Desktop",
-    "category": "Computer Equipment",
+    "category": "Equipment",
     "purchaseDate": "2023-01-15T00:00:00Z",
     "purchasePrice": 1200.00,
     "currentValue": 800.00,
@@ -17,7 +17,7 @@
   {
     "id": "ASSET-002",
     "name": "MacBook Pro 16-inch",
-    "category": "Computer Equipment",
+    "category": "Equipment",
     "purchaseDate": "2023-03-20T00:00:00Z",
     "purchasePrice": 2800.00,
     "currentValue": 2200.00,
@@ -32,7 +32,7 @@
   {
     "id": "ASSET-003",
     "name": "Herman Miller Aeron Chair",
-    "category": "Office Furniture",
+    "category": "Furniture",
     "purchaseDate": "2022-11-10T00:00:00Z",
     "purchasePrice": 1400.00,
     "currentValue": 1100.00,
@@ -47,7 +47,7 @@
   {
     "id": "ASSET-004",
     "name": "HP LaserJet Pro Printer",
-    "category": "Office Equipment",
+    "category": "Equipment",
     "purchaseDate": "2023-02-05T00:00:00Z",
     "purchasePrice": 450.00,
     "currentValue": 350.00,
@@ -62,7 +62,7 @@
   {
     "id": "ASSET-005",
     "name": "Conference Room Table",
-    "category": "Office Furniture",
+    "category": "Furniture",
     "purchaseDate": "2022-08-15T00:00:00Z",
     "purchasePrice": 2200.00,
     "currentValue": 1800.00,

@@ -1,0 +1,31 @@
+{
+  "version": "1.3.0",
+  "description": "Sales Engine vertical sample packs for Component.Sales",
+  "catalogDoc": "SALES_ENGINE_SAMPLE_DATA.md",
+  "packs": [
+    { "industryKey": "law", "file": "law.json", "sourceSpec": "LawyerSalesEngine.md", "institution": "Services" },
+    { "industryKey": "newspaper", "file": "newspaper.json", "sourceSpec": "OnlineNewspaper.md", "institution": "EntertainmentMedia" },
+    { "industryKey": "radio", "file": "radio.json", "sourceSpec": "Derived — broadcast audio", "institution": "MediaCommunications" },
+    { "industryKey": "tv", "file": "tv.json", "sourceSpec": "Derived — broadcast/streaming video", "institution": "MediaCommunications" },
+    { "industryKey": "school", "file": "school.json", "sourceSpec": "SchoolSaleEngine.md", "institution": "Education" },
+    { "industryKey": "hospital", "file": "hospital.json", "sourceSpec": "HospitalSaleEngine.md", "institution": "Services" },
+    { "industryKey": "accounting", "file": "accounting.json", "sourceSpec": "AccountingWeb.md (universal)", "institution": "Accounting" },
+    { "industryKey": "accounting-company", "file": "accounting-company.json", "sourceSpec": "AccountingWeb.md (practice)", "institution": "Accounting" },
+    { "industryKey": "agro-processing", "file": "agro-processing.json", "sourceSpec": "AccountingWeb.md industry pack (agri)", "institution": "AgroProcessing" },
+    { "industryKey": "education", "file": "education.json", "sourceSpec": "SchoolSaleEngine.md", "institution": "Education" },
+    { "industryKey": "entertainment-media", "file": "entertainment-media.json", "sourceSpec": "OnlineNewspaper.md + entertainment vertical", "institution": "EntertainmentMedia" },
+    { "industryKey": "food-beverage", "file": "food-beverage.json", "sourceSpec": "AccountingWeb.md industry pack (restaurant/F&B)", "institution": "FoodBeverage" },
+    { "industryKey": "hospitality", "file": "hospitality.json", "sourceSpec": "AccountingWeb.md industry pack (hotel)", "institution": "Hospitality" },
+    { "industryKey": "manufacturing", "file": "manufacturing.json", "sourceSpec": "AccountingWeb.md industry pack (manufacturing)", "institution": "Manufacturing" },
+    { "industryKey": "media-communications", "file": "media-communications.json", "sourceSpec": "MediaCommunications agency vertical", "institution": "MediaCommunications" },
+    { "industryKey": "mining-minerals", "file": "mining-minerals.json", "sourceSpec": "AccountingWeb.md industry pack (mining)", "institution": "MiningMinerals" },
+    { "industryKey": "real-estate", "file": "real-estate.json", "sourceSpec": "AccountingWeb.md industry pack (realestate)", "institution": "RealEstate" },
+    { "industryKey": "retail-trading", "file": "retail-trading.json", "sourceSpec": "AccountingWeb.md industry pack (retail)", "institution": "RetailTrading" },
+    { "industryKey": "telecommunications", "file": "telecommunications.json", "sourceSpec": "AccountingWeb.md industry pack (telecom)", "institution": "Telecommunications" },
+    { "industryKey": "transport-logistics", "file": "transport-logistics.json", "sourceSpec": "AccountingWeb.md industry pack (transport)", "institution": "TransportLogistics" },
+    { "industryKey": "electricity-utility", "file": "electricity-utility.json", "sourceSpec": "Utility vertical — electricity", "institution": "GovernmentAgencies" },
+    { "industryKey": "water-utility", "file": "water-utility.json", "sourceSpec": "Utility vertical — water & sanitation", "institution": "GovernmentAgencies" },
+    { "industryKey": "affiliate", "file": "affiliate.json", "sourceSpec": "Affiliate.md", "institution": "Reseller" },
+    { "industryKey": "saas", "file": "saas.json", "sourceSpec": "SoftwareProvider.md", "institution": "SoftwareProvider" }
+  ]
+}

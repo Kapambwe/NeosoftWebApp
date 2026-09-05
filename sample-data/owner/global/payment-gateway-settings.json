@@ -1,0 +1,109 @@
+{
+  "enabledMethods": {
+    "mobileMoney": true,
+    "bankTransfer": true,
+    "directBankDeposit": true,
+    "fastPaymentGateway": true
+  },
+  "mobileMoneyConfig": {
+    "providerName": "M-Pesa",
+    "merchantId": "DEMO123456",
+    "apiKey": "pk_test_xxxxxxxxxxxx",
+    "apiSecret": "sk_test_xxxxxxxxxxxx",
+    "callbackUrl": "https://api.lawfirm.com/payment/callback",
+    "transactionFeePercentage": 2.5,
+    "minimumAmount": 1.0,
+    "maximumAmount": 10000.0,
+    "enableTestMode": true,
+    "testApiKey": "pk_test_demo",
+    "supportedProviders": "M-Pesa, Airtel Money, MTN Mobile Money"
+  },
+  "bankTransferConfig": {
+    "bankName": "First National Bank",
+    "accountName": "Law Firm Management System",
+    "accountNumber": "1234567890",
+    "routingNumber": "021000021",
+    "swiftCode": "FNBZZMBA",
+    "bankAddress": "123 Main Street, Lusaka, Zambia",
+    "transactionFeeFlat": 5.0,
+    "minimumAmount": 10.0,
+    "maximumAmount": 50000.0,
+    "processingDays": 3,
+    "instructionsTemplate": "Please transfer to the account details provided and include your invoice number as reference."
+  },
+  "directBankDepositConfig": {
+    "bankName": "First National Bank",
+    "accountName": "Law Firm Management System",
+    "accountNumber": "1234567890",
+    "branchName": "Downtown Branch",
+    "branchCode": "001234",
+    "transactionFeeFlat": 0.0,
+    "minimumAmount": 5.0,
+    "maximumAmount": 100000.0,
+    "processingDays": 1,
+    "requireDepositSlip": true,
+    "instructionsTemplate": "Visit any FNB branch and deposit to account 1234567890. Keep your deposit slip as proof of payment."
+  },
+  "fastPaymentGatewayConfig": {
+    "providerName": "Stripe",
+    "publishableKey": "pk_live_xxxxxxxxxxxx",
+    "secretKey": "sk_live_xxxxxxxxxxxx",
+    "webhookSecret": "whsec_xxxxxxxxxxxx",
+    "merchantId": "acct_xxxxxxxxxxxx",
+    "transactionFeePercentage": 2.9,
+    "transactionFeeFlat": 0.3,
+    "minimumAmount": 0.5,
+    "maximumAmount": 999999.99,
+    "enableTestMode": true,
+    "testPublishableKey": "pk_test_demo",
+    "testSecretKey": "sk_test_demo",
+    "supportedCardTypes": "Visa, Mastercard, American Express, Discover",
+    "enable3DSecure": true,
+    "saveCardDetails": true
+  },
+  "generalSettings": {
+    "defaultCurrency": "USD",
+    "supportedCurrencies": ["USD", "ZMW", "ZAR"],
+    "currencyConfiguration": {
+      "USD": {
+        "code": "USD",
+        "name": "US Dollar",
+        "symbol": "$",
+        "decimalPlaces": 2,
+        "isActive": true,
+        "exchangeRate": 1.0,
+        "lastUpdated": "2025-01-15T00:00:00Z"
+      },
+      "ZMW": {
+        "code": "ZMW",
+        "name": "Zambian Kwacha",
+        "symbol": "ZK",
+        "decimalPlaces": 2,
+        "isActive": true,
+        "exchangeRate": 27.5,
+        "lastUpdated": "2025-01-15T00:00:00Z"
+      },
+      "ZAR": {
+        "code": "ZAR",
+        "name": "South African Rand",
+        "symbol": "R",
+        "decimalPlaces": 2,
+        "isActive": true,
+        "exchangeRate": 18.8,
+        "lastUpdated": "2025-01-15T00:00:00Z"
+      }
+    },
+    "defaultPaymentMethod": "FastPaymentGateway",
+    "requirePaymentConfirmation": true,
+    "sendPaymentReceipts": true,
+    "enableAutoRetry": true,
+    "maxRetryAttempts": 3,
+    "retryDelayHours": 24,
+    "enablePaymentNotifications": true,
+    "notificationEmail": "payments@lawfirm.com",
+    "logAllTransactions": true,
+    "transactionLogRetentionDays": 90
+  },
+  "lastUpdated": "2025-01-10T00:00:00Z",
+  "updatedBy": "admin@lawfirm.com"
+}

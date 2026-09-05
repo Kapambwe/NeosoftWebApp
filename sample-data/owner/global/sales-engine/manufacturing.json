@@ -1,0 +1,376 @@
+{
+  "industryKey": "manufacturing",
+  "displayName": "Manufacturing",
+  "sourceSpec": "AccountingWeb.md industry pack (manufacturing)",
+  "institution": "Manufacturing",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "MFG-CT-001",
+      "name": "Distributor Acquisition",
+      "category": "CustomerAcquisition",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Recruit regional distributors for finished goods",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MFG-CT-002",
+      "name": "OEM / B2B RFQ Funnel",
+      "category": "CustomerAcquisition",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Capture RFQs and convert to quotes and POs",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MFG-CT-003",
+      "name": "Spare Parts & Service Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Upsell aftermarket parts and maintenance contracts",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "InApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MFG-CT-004",
+      "name": "Annual Supply Agreement Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Renew framework agreements before year-end",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MFG-CT-005",
+      "name": "Trade Credit Collections",
+      "category": "PaymentCollection",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Escalate overdue trade invoices; offer installment credit",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MFG-CT-006",
+      "name": "Quality / Delivery CSAT",
+      "category": "CustomerSatisfaction",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Survey buyers on OTIF and quality",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MFG-CT-007",
+      "name": "Idle Account Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Reactivate accounts with no PO in 90 days",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MFG-CT-008",
+      "name": "Capacity Clearance Campaign",
+      "category": "RevenueGrowth",
+      "industryKey": "manufacturing",
+      "institution": "Manufacturing",
+      "description": "Fill idle lines with promotional SKUs and volume deals",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "MFG-CA-001",
+      "name": "RFQ Response Email",
+      "assetType": "Email",
+      "subject": "Quote for {{SkuName}}",
+      "body": "Lead time {{LeadDays}} days. Quote: {{QuoteLink}}",
+      "tags": [
+        "rfq"
+      ],
+      "institution": "Manufacturing",
+      "isActive": true
+    },
+    {
+      "id": "MFG-CA-002",
+      "name": "Parts Upsell WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Keep {{MachineModel}} running — spare kit available. Order: {{OrderLink}}",
+      "tags": [
+        "aftermarket"
+      ],
+      "institution": "Manufacturing",
+      "isActive": true
+    },
+    {
+      "id": "MFG-CA-003",
+      "name": "Overdue Trade SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Invoice {{InvoiceId}} overdue {{Amount}}. Pay: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "Manufacturing",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "MFG-ET-001",
+      "name": "Distributor Welcome",
+      "subject": "Welcome to {{Brand}} distribution",
+      "category": "Onboarding",
+      "institution": "Manufacturing",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Partner with our factory"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, access price lists, allocation, and co-op funds."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Open portal",
+          "buttonUrl": "{{PortalLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "MFG-PP-001",
+      "name": "Net-30 Trade Credit",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "MFG-PP-002",
+      "name": "Bulk Order Installments",
+      "depositPercent": 20,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 4,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "MFG-PP-003",
+      "name": "Project Delivery Milestones",
+      "depositPercent": 25,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "order": 1,
+          "percentOfTotal": 25,
+          "name": "PO deposit"
+        },
+        {
+          "order": 2,
+          "percentOfTotal": 35,
+          "name": "Production"
+        },
+        {
+          "order": 3,
+          "percentOfTotal": 40,
+          "name": "Delivery"
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "MFG-MP-001",
+      "name": "Preferred Distributor",
+      "price": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Annual",
+      "maxSeats": 5,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Volume tiers",
+        "Priority allocation",
+        "Co-op marketing"
+      ],
+      "institution": "Manufacturing"
+    },
+    {
+      "id": "MFG-MP-002",
+      "name": "Service Contract Gold",
+      "price": {
+        "amount": 499,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Preventive maintenance",
+        "Parts discount",
+        "SLA response"
+      ],
+      "institution": "Manufacturing"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "MFG-PR-001",
+      "name": "Q3 Capacity Clearance",
+      "promoCode": "CLEAR12",
+      "discountPercentage": 12,
+      "maxRedemptions": 60,
+      "currentRedemptions": 22,
+      "trigger": "SeasonalPromotion",
+      "institution": "Manufacturing",
+      "isActive": true
+    },
+    {
+      "id": "MFG-PR-002",
+      "name": "New Distributor Starter",
+      "promoCode": "DIST10",
+      "discountPercentage": 10,
+      "maxRedemptions": 40,
+      "currentRedemptions": 14,
+      "trigger": "HighLeadScore",
+      "institution": "Manufacturing",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "MFG-L-001",
+      "prospectName": "Buyer — Copperbelt Spares",
+      "companyName": "Copperbelt Spares Ltd",
+      "email": "buyer@cbspares.example",
+      "phone": "+260 212 610400",
+      "totalScore": 76,
+      "temperature": "Hot",
+      "institution": "Manufacturing",
+      "recommendedAction": "Quote project milestone plan + service contract"
+    },
+    {
+      "prospectId": "MFG-L-002",
+      "prospectName": "Procurement — BuildRight",
+      "companyName": "BuildRight Contractors",
+      "email": "proc@buildright.example",
+      "phone": "+260 97 300 7788",
+      "totalScore": 69,
+      "temperature": "Warm",
+      "institution": "Manufacturing",
+      "recommendedAction": "RFQ follow-up within 24h"
+    }
+  ],
+  "deals": [
+    {
+      "id": "MFG-D-001",
+      "title": "Copperbelt Spares — Service Contract Gold",
+      "contactName": "Buyer",
+      "companyName": "Copperbelt Spares Ltd",
+      "monthlyRecurringRevenue": 499,
+      "stage": "Proposal",
+      "score": 76,
+      "primaryChannel": "Email",
+      "institution": "Manufacturing"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "MFG-AP-001",
+      "customerName": "Copperbelt Spares",
+      "prospectId": "MFG-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Plant visit"
+    }
+  ],
+  "referralProgram": {
+    "rewardAmount": {
+      "amount": 200,
+      "currencyCode": "USD"
+    },
+    "requireDemoAttendance": false,
+    "name": "Distributor Referral Bonus",
+    "id": "MFG-RF-001",
+    "rewardType": "Credit"
+  },
+  "dashboardKpis": {
+    "aftermarketAttach": 0.27,
+    "avgOrderValue": 4200,
+    "openRfq": 38,
+    "nps": 49,
+    "tradeDso": 41,
+    "otif": 0.91
+  }
+}

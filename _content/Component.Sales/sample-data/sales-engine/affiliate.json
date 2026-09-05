@@ -1,0 +1,378 @@
+{
+  "industryKey": "affiliate",
+  "displayName": "Affiliate / Reseller / Partner Channel",
+  "sourceSpec": "Affiliate.md",
+  "institution": "Reseller",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "AFF-CT-001",
+      "name": "Reseller — Become Digital in 30 Days",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Prospect list → email/SMS/WhatsApp → demo → proposal → close",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-002",
+      "name": "Influencer Success Stories",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Testimonials, demos, before/after, book a free demo CTA",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Ads", "Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-003",
+      "name": "Partner Digital Transformation Package",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Partner",
+      "description": "Banks/telecoms/accounting firms co-sell software + services",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-004",
+      "name": "Partner Demo Booking",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Booked → attended → commission (attendance gated)",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-005",
+      "name": "Refer 5 Businesses",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Tiered referral rewards: discount → free month → bonus",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-006",
+      "name": "Industry Vertical Packs",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "School, hospital, law, SME, NGO campaign kits for partners",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-007",
+      "name": "Webinar → Certificate → Proposal",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Register → remind → attend → certificate → proposal",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-008",
+      "name": "Feature Adoption (Unused Modules)",
+      "category": "CustomerRetention",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Drive usage of unused modules to reduce churn",
+      "defaultTrigger": "FeatureUnused",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-009",
+      "name": "Renewal Campaign",
+      "category": "CustomerRetention",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Partner-assisted subscription renewals",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": ["Email", "WhatsApp", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-010",
+      "name": "Upsell / Cross-sell Pack",
+      "category": "RevenueGrowth",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Partners promote upgrades and complementary products",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-011",
+      "name": "Partner Gamification Tiers",
+      "category": "RevenueGrowth",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Points for lead/demo/sale/renewal/referral + leaderboard",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["InApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-012",
+      "name": "Customer Success Health Score",
+      "category": "CustomerSatisfaction",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Login/module usage → assign CSM when health drops",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-013",
+      "name": "AI Sales Coach Next Best Action",
+      "category": "CustomerAcquisition",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Scripts, objection handling, next-best-action for partners",
+      "defaultTrigger": "HighLeadScore",
+      "suggestedChannels": ["InApp"],
+      "isActive": true
+    },
+    {
+      "id": "AFF-CT-014",
+      "name": "Win-back / Reactivation",
+      "category": "CustomerReengagement",
+      "industryKey": "affiliate",
+      "institution": "Reseller",
+      "description": "Reactivate dormant partner-sourced customers",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "AFF-CA-001",
+      "name": "Demo Invite Email",
+      "assetType": "Email",
+      "subject": "Book a demo and get free setup + training",
+      "body": "Hi {{FirstName}}, book a product demo with {{PartnerName}}. Free setup, training, and one-month premium support.",
+      "tags": ["demo"],
+      "institution": "Reseller",
+      "isActive": true
+    },
+    {
+      "id": "AFF-CA-002",
+      "name": "Partner Commission Notice",
+      "assetType": "Email",
+      "subject": "Commission earned on {{DealTitle}}",
+      "body": "Congrats {{PartnerName}} — {{CommissionAmount}} credited after demo attendance verification.",
+      "tags": ["commission"],
+      "institution": "Reseller",
+      "isActive": true
+    },
+    {
+      "id": "AFF-CA-003",
+      "name": "Become Digital in 30 Days Landing",
+      "assetType": "LandingPage",
+      "subject": "Digitize your school, hospital, or SME",
+      "body": "Partner-led transformation package with demo, proposal, and launch support.",
+      "tags": ["acquisition", "reseller"],
+      "institution": "Reseller",
+      "isActive": true
+    },
+    {
+      "id": "AFF-CA-004",
+      "name": "Webinar Reminder SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Reminder: {{WebinarTitle}} starts in 2 hours. Join: {{JoinLink}}",
+      "tags": ["webinar"],
+      "institution": "Reseller",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "AFF-ET-001",
+      "name": "Partner Welcome Kit",
+      "subject": "Welcome to the partner program, {{PartnerName}}",
+      "category": "Onboarding",
+      "institution": "Reseller",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Your partner toolkit is ready" },
+        { "type": "TextBlock", "contentHtml": "Access campaign kits, demo scripts, and commission tracking in your portal." },
+        { "type": "Button", "buttonText": "Open partner portal", "buttonUrl": "{{PortalLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "AFF-PP-001",
+      "name": "Monthly Partner-Sold Plan",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "AFF-PP-002",
+      "name": "Quarterly Prepay",
+      "depositPercent": 100,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "AFF-PP-003",
+      "name": "School / Hospital / Law Vertical Installments",
+      "depositPercent": 20,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 6,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "AFF-MP-001",
+      "name": "Reseller Silver",
+      "price": { "amount": 0, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 5,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["20% recurring commission", "Campaign kits", "Leaderboard"],
+      "institution": "Reseller"
+    },
+    {
+      "id": "AFF-MP-002",
+      "name": "Reseller Gold",
+      "price": { "amount": 0, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 20,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["30% recurring commission", "Bonus every 20 sales", "Priority demos", "AI sales coach"],
+      "institution": "Reseller"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "AFF-PR-001",
+      "name": "Demo Booking Bonus",
+      "promoCode": "DEMOFREE",
+      "discountPercentage": 100,
+      "maxRedemptions": 500,
+      "currentRedemptions": 188,
+      "trigger": "AffiliatePushCampaign",
+      "institution": "Reseller",
+      "isActive": true
+    },
+    {
+      "id": "AFF-PR-002",
+      "name": "Partner Closing Spurt",
+      "promoCode": "CLOSE15",
+      "discountPercentage": 15,
+      "maxRedemptions": 300,
+      "currentRedemptions": 91,
+      "trigger": "AffiliatePushCampaign",
+      "institution": "Reseller",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "AFF-L-001",
+      "prospectName": "Headteacher — Greenfield Primary",
+      "companyName": "Greenfield Primary",
+      "email": "admin@greenfield.example",
+      "phone": "+260 97 333 2211",
+      "totalScore": 74,
+      "temperature": "Hot",
+      "institution": "Reseller",
+      "recommendedAction": "Partner demo booked — confirm attendance for commission"
+    }
+  ],
+  "deals": [
+    {
+      "id": "AFF-D-001",
+      "title": "Greenfield Primary — School Suite",
+      "contactName": "Headteacher",
+      "companyName": "Greenfield Primary",
+      "monthlyRecurringRevenue": 320,
+      "stage": "Negotiation",
+      "score": 74,
+      "primaryChannel": "WhatsApp",
+      "institution": "Reseller",
+      "partnerId": "P-101"
+    }
+  ],
+  "partners": [
+    {
+      "partnerId": "P-101",
+      "partnerName": "Michael Chen",
+      "tier": "Gold",
+      "conversions": 28,
+      "revenueGenerated": 18400,
+      "gamificationPoints": 420,
+      "commissionRatePercent": 30
+    },
+    {
+      "partnerId": "P-102",
+      "partnerName": "Lusaka Digital Agency",
+      "tier": "Silver",
+      "conversions": 11,
+      "revenueGenerated": 6200,
+      "gamificationPoints": 160,
+      "commissionRatePercent": 20
+    }
+  ],
+  "referralProgram": {
+    "id": "AFF-RF-001",
+    "name": "Refer 5 Businesses",
+    "rewardType": "Tiered",
+    "rewardAmount": { "amount": 0, "currencyCode": "USD" },
+    "rewardPoints": 500,
+    "requireDemoAttendance": true
+  },
+  "dashboardKpis": {
+    "leadsSubmitted": 210,
+    "demosBooked": 96,
+    "demosAttended": 71,
+    "dealsClosed": 39,
+    "commissionPaid": 12400,
+    "avgPartnerTierProgress": 0.62,
+    "attendanceGatedCommissionRate": 0.74
+  }
+}

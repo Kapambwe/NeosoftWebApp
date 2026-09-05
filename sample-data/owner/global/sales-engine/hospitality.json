@@ -1,0 +1,407 @@
+{
+  "industryKey": "hospitality",
+  "displayName": "Hospitality (Hotels & Lodges)",
+  "sourceSpec": "AccountingWeb.md industry pack (hotel)",
+  "institution": "Hospitality",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "HSP-CT-001",
+      "name": "Direct Booking Campaign",
+      "category": "CustomerAcquisition",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Drive direct bookings vs OTA with member rates",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "Ads",
+        "WhatsApp",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "HSP-CT-002",
+      "name": "Corporate Travel Accounts",
+      "category": "CustomerAcquisition",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Acquire company negotiated rates and room blocks",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "HSP-CT-003",
+      "name": "Spa / F&B Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Upsell spa, dining, and experiences to in-house guests",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "InApp",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "HSP-CT-004",
+      "name": "Wedding & Conference Packages",
+      "category": "RevenueGrowth",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Sell events, conferences, and wedding packages",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "Ads"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "HSP-CT-005",
+      "name": "Loyalty Tier Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Renew loyalty tiers and encourage repeat stays",
+      "defaultTrigger": "Anniversary",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "HSP-CT-006",
+      "name": "Group Invoice Collections",
+      "category": "PaymentCollection",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Collect overdue group and corporate invoices",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "HSP-CT-007",
+      "name": "Guest Satisfaction Survey",
+      "category": "CustomerSatisfaction",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Post-stay CSAT and service recovery",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "HSP-CT-008",
+      "name": "Past Guest Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "hospitality",
+      "institution": "Hospitality",
+      "description": "Rebook guests who have not stayed in 6–12 months",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "SMS"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "HSP-CA-001",
+      "name": "Direct Rate Email",
+      "assetType": "Email",
+      "subject": "Member rate at {{PropertyName}}",
+      "body": "Book direct and save vs OTA. Code {{PromoCode}}: {{BookLink}}",
+      "tags": [
+        "direct-booking"
+      ],
+      "institution": "Hospitality",
+      "isActive": true
+    },
+    {
+      "id": "HSP-CA-002",
+      "name": "Spa Upsell SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Enjoy 20% spa today, {{GuestName}}. Book: {{SpaLink}}",
+      "tags": [
+        "upsell"
+      ],
+      "institution": "Hospitality",
+      "isActive": true
+    },
+    {
+      "id": "HSP-CA-003",
+      "name": "Post-stay Survey",
+      "assetType": "Email",
+      "subject": "How was your stay?",
+      "body": "Rate your experience: {{SurveyLink}}",
+      "tags": [
+        "satisfaction"
+      ],
+      "institution": "Hospitality",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "HSP-ET-001",
+      "name": "Direct Booking Offer",
+      "subject": "Better rates when you book direct",
+      "category": "Promotions",
+      "institution": "Hospitality",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Skip the OTA fee"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, member rates and flexible cancel when you book with us."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Book now",
+          "buttonUrl": "{{BookLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "HSP-PP-001",
+      "name": "Corporate Monthly Account",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "HSP-PP-002",
+      "name": "Wedding Package Milestones",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 30,
+          "name": "Booking deposit",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 40,
+          "name": "30 days out",
+          "order": 2
+        },
+        {
+          "percentOfTotal": 30,
+          "name": "Event week",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "HSP-PP-003",
+      "name": "Group Room Block",
+      "depositPercent": 25,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "percentOfTotal": 25,
+          "name": "Deposit",
+          "order": 1
+        },
+        {
+          "percentOfTotal": 75,
+          "name": "Balance",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "HSP-MP-001",
+      "name": "Stay Club Silver",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Annual",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Member rates",
+        "Late checkout",
+        "Points"
+      ],
+      "institution": "Hospitality"
+    },
+    {
+      "id": "HSP-MP-002",
+      "name": "Stay Club Gold",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 99
+      },
+      "billingFrequency": "Annual",
+      "maxSeats": 2,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": [
+        "Room upgrade priority",
+        "Breakfast",
+        "Spa credit"
+      ],
+      "institution": "Hospitality"
+    },
+    {
+      "id": "HSP-MP-003",
+      "name": "Corporate Travel Desk",
+      "price": {
+        "currencyCode": "USD",
+        "amount": 0
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 50,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Negotiated rates",
+        "Central billing",
+        "Monthly report"
+      ],
+      "institution": "Hospitality"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "HSP-PR-001",
+      "name": "Book Direct Weekend",
+      "promoCode": "DIRECT15",
+      "discountPercentage": 15,
+      "maxRedemptions": 500,
+      "currentRedemptions": 176,
+      "trigger": "SeasonalPromotion",
+      "institution": "Hospitality",
+      "isActive": true
+    },
+    {
+      "id": "HSP-PR-002",
+      "name": "We Miss You Stay",
+      "promoCode": "RETURN20",
+      "discountPercentage": 20,
+      "maxRedemptions": 300,
+      "currentRedemptions": 94,
+      "trigger": "WinbackAttempt",
+      "institution": "Hospitality",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "HSP-L-001",
+      "prospectName": "Travel Buyer — ZamPower",
+      "companyName": "ZamPower",
+      "email": "travel@zampower.example",
+      "phone": "+260 211 390000",
+      "totalScore": 79,
+      "temperature": "Hot",
+      "institution": "Hospitality",
+      "recommendedAction": "Corporate travel desk proposal"
+    },
+    {
+      "prospectId": "HSP-L-002",
+      "prospectName": "Chipo Wedding Planner",
+      "companyName": "Chipo Events",
+      "email": "chipo@chipoevents.example",
+      "phone": "+260 97 888 2211",
+      "totalScore": 73,
+      "temperature": "Hot",
+      "institution": "Hospitality",
+      "recommendedAction": "Wedding package milestone quote"
+    }
+  ],
+  "deals": [
+    {
+      "id": "HSP-D-001",
+      "title": "ZamPower — Corporate Travel Desk",
+      "contactName": "Travel Buyer",
+      "companyName": "ZamPower",
+      "monthlyRecurringRevenue": 0,
+      "stage": "Proposal",
+      "score": 79,
+      "primaryChannel": "Email",
+      "institution": "Hospitality"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "HSP-AP-001",
+      "customerName": "ZamPower Travel",
+      "prospectId": "HSP-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Site inspection"
+    }
+  ],
+  "referralProgram": {
+    "rewardType": "Credit",
+    "requireDemoAttendance": false,
+    "name": "Refer a Stay Credit",
+    "rewardAmount": {
+      "currencyCode": "USD",
+      "amount": 25
+    },
+    "id": "HSP-RF-001"
+  },
+  "dashboardKpis": {
+    "revpar": 70.5,
+    "occupancy": 0.72,
+    "directBookingShare": 0.38,
+    "nps": 61,
+    "corporateAccounts": 28,
+    "adr": 98
+  }
+}

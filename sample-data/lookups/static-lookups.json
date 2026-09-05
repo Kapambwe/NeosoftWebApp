@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "static",
+  "lookups": {
+    "recordStatuses": [
+      { "code": "ACTIVE", "label": "Active", "isActive": true, "sortOrder": 1 },
+      { "code": "INACTIVE", "label": "Inactive", "isActive": true, "sortOrder": 2 },
+      { "code": "DRAFT", "label": "Draft", "isActive": true, "sortOrder": 3 },
+      { "code": "COMPLETED", "label": "Completed", "isActive": true, "sortOrder": 4 }
+    ],
+    "accountTypes": [
+      { "code": "ASSET", "label": "Asset", "isActive": true, "sortOrder": 1 },
+      { "code": "LIABILITY", "label": "Liability", "isActive": true, "sortOrder": 2 },
+      { "code": "EQUITY", "label": "Equity", "isActive": true, "sortOrder": 3 },
+      { "code": "REVENUE", "label": "Revenue", "isActive": true, "sortOrder": 4 },
+      { "code": "EXPENSE", "label": "Expense", "isActive": true, "sortOrder": 5 }
+    ],
+    "invoiceLineTypes": [
+      { "code": "PRODUCT", "label": "Product", "isActive": true, "sortOrder": 1 },
+      { "code": "SERVICE", "label": "Service", "isActive": true, "sortOrder": 2 }
+    ],
+    "taxCalculationTypes": [
+      { "code": "EXCLUSIVE", "label": "Tax exclusive", "isActive": true, "sortOrder": 1 },
+      { "code": "INCLUSIVE", "label": "Tax inclusive", "isActive": true, "sortOrder": 2 },
+      { "code": "EXEMPT", "label": "Tax exempt", "isActive": true, "sortOrder": 3 }
+    ]
+  }
+}

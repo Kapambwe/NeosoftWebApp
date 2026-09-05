@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "institutionType": "SaaSPlatformOperator",
+  "seedPolicy": "add-missing-only",
+  "staticLookups": "../lookups/static-lookups.json",
+  "defaultBusinessValues": [
+    {
+      "name": "chart-of-accounts",
+      "owner": "Financial.Management.Service",
+      "file": "Services/Financial.Management.Service/Applications/CompanyApp.Client.SoftwareProviderApp/InstitutionTypes/SaaSPlatformOperator/chart-of-accounts.json",
+      "lifecycle": "tenant-maintained"
+    },
+    {
+      "name": "products-services",
+      "owner": "Financial.Management.Service",
+      "file": "Services/Financial.Management.Service/Applications/CompanyApp.Client.SoftwareProviderApp/InstitutionTypes/SaaSPlatformOperator/products-services.json",
+      "lifecycle": "tenant-maintained"
+    },
+    {
+      "name": "subscription-plans",
+      "owner": "SaaS.Management.Service",
+      "file": "Services/SaaS.Management.Service/Applications/CompanyApp.Client.SoftwareProviderApp/subscription-plans.json",
+      "lifecycle": "versioned-catalogue"
+    },
+    {
+      "name": "tax-categories",
+      "owner": "Legal.Compliance.Service",
+      "file": "Services/Legal.Compliance.Service/Applications/CompanyApp.Client.SoftwareProviderApp/tax-categories.json",
+      "lifecycle": "versioned-catalogue"
+    },
+    {
+      "name": "tax-filing-methods",
+      "owner": "Legal.Compliance.Service",
+      "file": "Services/Legal.Compliance.Service/Applications/CompanyApp.Client.SoftwareProviderApp/tax-filing-methods.json",
+      "lifecycle": "tenant-maintained"
+    },
+    {
+      "name": "workflow-types",
+      "owner": "Platform.Services",
+      "file": "Services/Platform.Services/Applications/CompanyApp.Client.SoftwareProviderApp/workflow-types.json",
+      "lifecycle": "tenant-maintained"
+    },
+    {
+      "name": "departments",
+      "owner": "HumanCapital.Management.Service",
+      "file": "Services/HumanCapital.Management.Service/Applications/CompanyApp.Client.SoftwareProviderApp/departments.json",
+      "lifecycle": "tenant-maintained"
+    },
+    {
+      "name": "asset-types",
+      "owner": "Resource.Management.Service",
+      "file": "Services/Resource.Management.Service/Applications/CompanyApp.Client.SoftwareProviderApp/asset-types.json",
+      "lifecycle": "tenant-maintained"
+    },
+    {
+      "name": "global-reference-data",
+      "owner": "ReferenceData",
+      "file": "Services/ReferenceData/Applications/CompanyApp.Client.SoftwareProviderApp/global-reference-data.json",
+      "lifecycle": "global-reference"
+    }
+  ]
+}

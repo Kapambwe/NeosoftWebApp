@@ -1,0 +1,184 @@
+{
+  "funnelMetrics": {
+    "clicks": 18450,
+    "registrations": 2480,
+    "verifiedEmails": 2150,
+    "trialsStarted": 1120,
+    "paidConversions": 384,
+    "monthlyRecurringRevenueAdded": 38400.00,
+    "pipelineValue": 192000.00
+  },
+  "leads": [
+    {
+      "prospectId": "L-101",
+      "prospectName": "Sarah Jenkins",
+      "companyName": "Acme Legal Ltd",
+      "email": "sarah@acmelegal.com",
+      "phone": "+260 97 123 4567",
+      "totalScore": 88,
+      "temperature": "Burning",
+      "institution": "Services",
+      "recommendedAction": "Send Magic Trial Link + 20% Promo Code (LAUNCH20)",
+      "partnerId": "PARTNER-001"
+    },
+    {
+      "prospectId": "L-102",
+      "prospectName": "Michael Banda",
+      "companyName": "Lusaka International School",
+      "email": "m.banda@lusakaschool.edu.zm",
+      "phone": "+260 96 234 5678",
+      "totalScore": 76,
+      "temperature": "Hot",
+      "institution": "Education",
+      "recommendedAction": "Schedule 15-Min Live Demo for School Intake Module",
+      "partnerId": "RESELLER-002"
+    },
+    {
+      "prospectId": "L-103",
+      "prospectName": "David Phiri",
+      "companyName": "Copperbelt Mining Supplies",
+      "email": "d.phiri@cbmining.co.zm",
+      "phone": "+260 95 345 6789",
+      "totalScore": 64,
+      "temperature": "Warm",
+      "institution": "MiningMinerals",
+      "recommendedAction": "Trigger Automated Drip Email: Enterprise Asset Ledger",
+      "partnerId": "PARTNER-003"
+    },
+    {
+      "prospectId": "L-104",
+      "prospectName": "Chipo Mulenga",
+      "companyName": "Zambia Audit & Tax Advisory",
+      "email": "chipo@zambiatax.zm",
+      "phone": "+260 97 456 7890",
+      "totalScore": 92,
+      "temperature": "Burning",
+      "institution": "Accounting",
+      "recommendedAction": "Immediate VIP Sales Outreach - Multi-Tenancy Expansion",
+      "partnerId": "SOFTWARE_PROVIDER"
+    }
+  ],
+  "deals": [
+    {
+      "id": "DEAL-501",
+      "title": "Enterprise Cloud Accounting License",
+      "contactName": "Sarah Jenkins",
+      "companyName": "Acme Legal Ltd",
+      "monthlyRecurringRevenue": 2500.00,
+      "stage": "Negotiation",
+      "score": 88,
+      "primaryChannel": "WhatsApp",
+      "institution": "Services",
+      "partnerId": "PARTNER-001"
+    },
+    {
+      "id": "DEAL-502",
+      "title": "School Management System Deployment",
+      "contactName": "Michael Banda",
+      "companyName": "Lusaka International School",
+      "monthlyRecurringRevenue": 4200.00,
+      "stage": "Proposal",
+      "score": 76,
+      "primaryChannel": "Email",
+      "institution": "Education",
+      "partnerId": "RESELLER-002"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "PR-101",
+      "name": "Q3 Special Launch Offer",
+      "promoCode": "LAUNCH20",
+      "discountPercentage": 20.0,
+      "maxRedemptions": 500,
+      "currentRedemptions": 184,
+      "trigger": "SeasonalPromotion",
+      "institution": "SoftwareProvider",
+      "isActive": true
+    },
+    {
+      "id": "PR-102",
+      "name": "Abandoned Checkout Recovery",
+      "promoCode": "RECOVER15",
+      "discountPercentage": 15.0,
+      "maxRedemptions": 1000,
+      "currentRedemptions": 412,
+      "trigger": "AbandonedCheckout",
+      "institution": "SoftwareProvider",
+      "isActive": true
+    }
+  ],
+  "featureClickAnalytics": [
+    {
+      "featureName": "Automated Billing & Invoicing",
+      "clickCount": 6420,
+      "uniqueVisitors": 4120,
+      "conversionRate": 21.4
+    },
+    {
+      "featureName": "WhatsApp Multi-Channel Inbox",
+      "clickCount": 5190,
+      "uniqueVisitors": 3480,
+      "conversionRate": 24.8
+    },
+    {
+      "featureName": "Real-Time Tax Return Prep",
+      "clickCount": 3840,
+      "uniqueVisitors": 2450,
+      "conversionRate": 17.2
+    },
+    {
+      "featureName": "School Student Intake Portal",
+      "clickCount": 2980,
+      "uniqueVisitors": 1890,
+      "conversionRate": 29.5
+    },
+    {
+      "featureName": "Legal Retainer Trust Ledger",
+      "clickCount": 2140,
+      "uniqueVisitors": 1410,
+      "conversionRate": 26.1
+    }
+  ],
+  "contracts": [
+    {
+      "id": "CON-101",
+      "title": "Acme Legal Master SaaS Agreement",
+      "dealId": "DEAL-501",
+      "partyAName": "SoftwareProvider Corp",
+      "partyBName": "Acme Legal Ltd",
+      "contractValue": 30000.00,
+      "status": "Active",
+      "institution": "Services",
+      "clauses": [
+        {
+          "id": "CL-1",
+          "title": "99.9% Uptime SLA",
+          "clauseText": "Software Provider guarantees 99.9% monthly platform availability.",
+          "type": "SLAGuarantee",
+          "ruleExpression": "SLAUptime >= 99.9"
+        },
+        {
+          "id": "CL-2",
+          "title": "Net-30 Payment Terms",
+          "clauseText": "Customer agrees to settle monthly SaaS invoices within 30 days of billing.",
+          "type": "PaymentTerms",
+          "ruleExpression": "OverdueDays <= 30"
+        }
+      ],
+      "violations": [
+        {
+          "id": "VIO-1",
+          "contractId": "CON-101",
+          "clauseId": "CL-2",
+          "violationType": "Overdue Invoice Payment",
+          "severity": "High",
+          "description": "Invoice #INV-9821 is 45 days overdue (exceeds Net-30 requirement).",
+          "detectedAt": "2026-07-24T10:00:00Z",
+          "isResolved": false,
+          "remediationNotes": ""
+        }
+      ]
+    }
+  ]
+}

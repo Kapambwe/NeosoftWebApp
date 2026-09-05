@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "lifecycle": "global-reference",
+  "owner": "ReferenceData",
+  "applicationName": "CompanyApp.Client.SoftwareProviderApp",
+  "countryCode": "ZM",
+  "countries": [
+    { "code": "ZM", "name": "Zambia", "isActive": true },
+    { "code": "ZA", "name": "South Africa", "isActive": true },
+    { "code": "ZW", "name": "Zimbabwe", "isActive": true }
+  ],
+  "currencies": [
+    { "code": "ZMW", "name": "Zambian Kwacha", "symbol": "K", "minorUnit": 2, "isActive": true },
+    { "code": "USD", "name": "US Dollar", "symbol": "$", "minorUnit": 2, "isActive": true },
+    { "code": "ZAR", "name": "South African Rand", "symbol": "R", "minorUnit": 2, "isActive": true }
+  ],
+  "timeZones": [
+    { "code": "Africa/Lusaka", "name": "Central Africa Time", "isActive": true },
+    { "code": "Africa/Johannesburg", "name": "South Africa Standard Time", "isActive": true },
+    { "code": "UTC", "name": "Coordinated Universal Time", "isActive": true }
+  ],
+  "languages": [
+    { "code": "en", "name": "English", "isActive": true },
+    { "code": "ny", "name": "Chichewa", "isActive": true },
+    { "code": "bem", "name": "Bemba", "isActive": true }
+  ]
+}

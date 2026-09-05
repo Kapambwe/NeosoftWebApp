@@ -1,0 +1,427 @@
+{
+  "industryKey": "school",
+  "displayName": "School / Education Admissions",
+  "sourceSpec": "SchoolSaleEngine.md",
+  "institution": "Education",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "SCH-CT-001",
+      "name": "Early Bird Enrollment",
+      "category": "CustomerAcquisition",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Enroll by deadline for 10% registration fee discount",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-002",
+      "name": "Open Day / Admissions Funnel",
+      "category": "CustomerAcquisition",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Invite → RSVP → 7/2/day-of reminders → visit → enroll",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-003",
+      "name": "Refer-a-Friend (Parents)",
+      "category": "CustomerAcquisition",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Referral codes with fee discount / uniform / books rewards",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["WhatsApp", "SMS", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-004",
+      "name": "Scholarship Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Academic, sports, STEM, arts scholarship applications",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "Ads", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-005",
+      "name": "Nursery → Primary Upgrade",
+      "category": "CustomerRetention",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Level progression campaign for multi-campus schools",
+      "defaultTrigger": "Anniversary",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-006",
+      "name": "Re-enrollment Campaign",
+      "category": "CustomerRetention",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Secure next-year places with early confirmation",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-007",
+      "name": "Fee Reminder Escalation",
+      "category": "PaymentCollection",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Friendly → due today → overdue → installment offer",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-008",
+      "name": "Daily Savings / Wallet Toward Fees",
+      "category": "PaymentCollection",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Micro-savings toward term fees via digital wallet",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-009",
+      "name": "Hardship Payment Plan",
+      "category": "PaymentCollection",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Deferred / custom installments for hardship cases",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-010",
+      "name": "Parent Satisfaction Survey",
+      "category": "CustomerSatisfaction",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Per-term parent CSAT loop",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-011",
+      "name": "Upsell Transport / Meals / Clubs",
+      "category": "RevenueGrowth",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Optional services upsell to enrolled families",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["WhatsApp", "Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-012",
+      "name": "Dormant Applicant Reactivation",
+      "category": "CustomerReengagement",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Reactivate parents who started but never enrolled",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-013",
+      "name": "Corporate Employee Discount",
+      "category": "CustomerAcquisition",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Employer-sponsored fee discount partnerships",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "SCH-CT-014",
+      "name": "Attendance Alert",
+      "category": "CustomerRetention",
+      "industryKey": "school",
+      "institution": "Education",
+      "description": "Notify parents of attendance issues early",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "SCH-CA-001",
+      "name": "Early Bird WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Enroll before {{Deadline}} and receive 10% off registration fees. Apply: {{ApplyLink}}",
+      "tags": ["admissions", "early-bird"],
+      "institution": "Education",
+      "isActive": true
+    },
+    {
+      "id": "SCH-CA-002",
+      "name": "Open Day Invitation",
+      "assetType": "Email",
+      "subject": "You're invited to {{SchoolName}} Open Day",
+      "body": "Tour classrooms, meet teachers, and reserve a place for {{ChildName}}. RSVP: {{RsvpLink}}",
+      "tags": ["open-day"],
+      "institution": "Education",
+      "isActive": true
+    },
+    {
+      "id": "SCH-CA-003",
+      "name": "Fee Due Today SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "Hi {{ParentName}}, school fees {{Amount}} are due today. Pay: {{PayLink}} or ask for a plan.",
+      "tags": ["collections"],
+      "institution": "Education",
+      "isActive": true
+    },
+    {
+      "id": "SCH-CA-004",
+      "name": "Scholarship Landing",
+      "assetType": "LandingPage",
+      "subject": "Academic Excellence Scholarship",
+      "body": "Apply for academic, sports, STEM, or arts scholarships. Limited seats.",
+      "tags": ["scholarship"],
+      "institution": "Education",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "SCH-ET-001",
+      "name": "Application Started Nudge",
+      "subject": "Finish {{ChildName}}'s application in 5 minutes",
+      "category": "Nurture",
+      "institution": "Education",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Your application is almost done" },
+        { "type": "TextBlock", "contentHtml": "Hi {{ParentName}}, complete the remaining steps to secure a place for the {{TermYear}} intake." },
+        { "type": "Button", "buttonText": "Continue application", "buttonUrl": "{{ApplicationLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "SCH-PP-001",
+      "name": "Full Term Payment",
+      "depositPercent": 100,
+      "frequency": "Quarterly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SCH-PP-002",
+      "name": "Monthly Fee Plan",
+      "depositPercent": 15,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 10,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SCH-PP-003",
+      "name": "Weekly Payment Plan",
+      "depositPercent": 10,
+      "frequency": "Weekly",
+      "installmentType": "Equal",
+      "installmentCount": 40,
+      "gracePeriodDays": 2,
+      "lateFeePercent": 1,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SCH-PP-004",
+      "name": "Daily Savings Plan",
+      "depositPercent": 0,
+      "frequency": "Daily",
+      "installmentType": "Equal",
+      "installmentCount": 200,
+      "gracePeriodDays": 1,
+      "lateFeePercent": 0,
+      "requireESignature": false,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SCH-PP-005",
+      "name": "Employer Sponsored Plan",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 0,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "SCH-PP-006",
+      "name": "Scholarship + Parent Contribution",
+      "depositPercent": 20,
+      "frequency": "Termly",
+      "installmentType": "Graduated",
+      "installmentCount": 3,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 1,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Term 1 parent share", "percentOfTotal": 40, "order": 1 },
+        { "name": "Term 2 parent share", "percentOfTotal": 30, "order": 2 },
+        { "name": "Term 3 parent share", "percentOfTotal": 30, "order": 3 }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "SCH-MP-001",
+      "name": "Transport Bundle",
+      "price": { "amount": 45, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Morning pickup", "Afternoon drop-off"],
+      "institution": "Education"
+    },
+    {
+      "id": "SCH-MP-002",
+      "name": "Meals + Clubs Pack",
+      "price": { "amount": 60, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Lunch", "One after-school club"],
+      "institution": "Education"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "SCH-PR-001",
+      "name": "Early Bird Registration",
+      "promoCode": "EARLY10",
+      "discountPercentage": 10,
+      "maxRedemptions": 300,
+      "currentRedemptions": 118,
+      "trigger": "SeasonalPromotion",
+      "institution": "Education",
+      "isActive": true
+    },
+    {
+      "id": "SCH-PR-002",
+      "name": "Sibling Discount",
+      "promoCode": "SIBLING15",
+      "discountPercentage": 15,
+      "maxRedemptions": 150,
+      "currentRedemptions": 64,
+      "trigger": "UpgradeOpportunity",
+      "institution": "Education",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "SCH-L-001",
+      "prospectName": "David Ndlovu",
+      "companyName": "Sunrise Academy Prospect",
+      "email": "david@sunrise.ac.zw",
+      "phone": "+263 71 987 6543",
+      "totalScore": 78,
+      "temperature": "Hot",
+      "institution": "Education",
+      "recommendedAction": "Schedule Open Day RSVP + fee plan preview"
+    },
+    {
+      "prospectId": "SCH-L-002",
+      "prospectName": "Grace Mulenga",
+      "companyName": "Mulenga Family",
+      "email": "grace.mulenga@email.zm",
+      "phone": "+260 96 222 3344",
+      "totalScore": 55,
+      "temperature": "Warm",
+      "institution": "Education",
+      "recommendedAction": "Send scholarship campaign + early bird offer"
+    }
+  ],
+  "deals": [
+    {
+      "id": "SCH-D-001",
+      "title": "Sunrise School Management Enterprise",
+      "contactName": "David Ndlovu",
+      "companyName": "Sunrise Academy",
+      "monthlyRecurringRevenue": 480,
+      "stage": "Qualified",
+      "score": 78,
+      "primaryChannel": "Email",
+      "institution": "Education"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "SCH-AP-001",
+      "customerName": "Grace Mulenga",
+      "prospectId": "SCH-L-002",
+      "appointmentType": "OpenDay",
+      "status": "Scheduled",
+      "notes": "Grade 1 intake tour"
+    }
+  ],
+  "referralProgram": {
+    "id": "SCH-RF-001",
+    "name": "Parent Ambassador Referrals",
+    "rewardType": "FeeCredit",
+    "rewardAmount": { "amount": 100, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "applicationsStarted": 320,
+    "applicationsCompleted": 210,
+    "enrollments": 145,
+    "costPerEnrollment": 38,
+    "feeCollectionRate": 0.91,
+    "reEnrollmentRate": 0.87,
+    "openDayShowRate": 0.74,
+    "whatsappEngagementRate": 0.62
+  }
+}

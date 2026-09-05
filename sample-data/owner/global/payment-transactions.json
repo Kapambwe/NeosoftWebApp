@@ -1,0 +1,99 @@
+[
+  {
+    "id": "11111111-1111-1111-1111-111111111101",
+    "subscriptionId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "customerId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "amount": 299.99,
+    "currency": "USD",
+    "paymentOption": "FastPaymentGateway",
+    "status": "Success",
+    "reference": "PAY-202501-001",
+    "providerReference": "ch_3P4k5l6m7n8o9p0q",
+    "transactionDate": "2025-01-15T10:30:00Z",
+    "metadata": {
+      "CardLast4": "4242",
+      "CardBrand": "Visa"
+    }
+  },
+  {
+    "id": "11111111-1111-1111-1111-111111111102",
+    "subscriptionId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "customerId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "amount": 299.99,
+    "currency": "USD",
+    "paymentOption": "FastPaymentGateway",
+    "status": "Success",
+    "reference": "PAY-202412-001",
+    "providerReference": "ch_3O1a2b3c4d5e6f7g",
+    "transactionDate": "2024-12-15T10:30:00Z",
+    "metadata": {
+      "CardLast4": "4242",
+      "CardBrand": "Visa"
+    }
+  },
+  {
+    "id": "11111111-1111-1111-1111-111111111103",
+    "subscriptionId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "customerId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "amount": 299.99,
+    "currency": "USD",
+    "paymentOption": "BankTransfer",
+    "status": "Success",
+    "reference": "PAY-202411-001",
+    "providerReference": "TXN-98765432",
+    "transactionDate": "2024-11-14T10:30:00Z",
+    "metadata": {
+      "BankName": "First National Bank",
+      "AccountLast4": "7890"
+    }
+  },
+  {
+    "id": "11111111-1111-1111-1111-111111111104",
+    "subscriptionId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "customerId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "amount": 299.99,
+    "currency": "USD",
+    "paymentOption": "FastPaymentGateway",
+    "status": "Failed",
+    "reference": "PAY-202410-002",
+    "transactionDate": "2024-10-13T10:30:00Z",
+    "errorMessage": "Insufficient funds",
+    "metadata": {
+      "CardLast4": "4242",
+      "CardBrand": "Visa"
+    }
+  },
+  {
+    "id": "11111111-1111-1111-1111-111111111105",
+    "subscriptionId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "customerId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "amount": 299.99,
+    "currency": "USD",
+    "paymentOption": "FastPaymentGateway",
+    "status": "Success",
+    "reference": "PAY-202410-003",
+    "providerReference": "ch_2M7w8x9y0z1a2b3c",
+    "transactionDate": "2024-10-12T10:30:00Z",
+    "metadata": {
+      "CardLast4": "4242",
+      "CardBrand": "Visa",
+      "RetryAttempt": "1"
+    }
+  },
+  {
+    "id": "11111111-1111-1111-1111-111111111106",
+    "subscriptionId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "customerId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "amount": 299.99,
+    "currency": "USD",
+    "paymentOption": "MobileMoney",
+    "status": "Success",
+    "reference": "PAY-202409-001",
+    "providerReference": "MM-12345678901",
+    "transactionDate": "2024-09-11T10:30:00Z",
+    "metadata": {
+      "PhoneLast4": "5678",
+      "Provider": "M-Pesa"
+    }
+  }
+]

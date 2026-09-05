@@ -1,0 +1,148 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "name": "Accounting Core",
+      "appKey": "ERP-CORE-APP",
+      "icon": "account_balance",
+      "isActive": true,
+      "moduleCount": 8,
+      "grantedPermissions": [
+        "ChartOfAccounts.View",
+        "ChartOfAccounts.Manage",
+        "GeneralLedger.Post",
+        "AccountsPayable.Bills",
+        "AccountsReceivable.Invoices",
+        "Banking.Feeds"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "SaaS Monitoring",
+      "appKey": "SAAS-MONITOR-APP",
+      "icon": "speedometer",
+      "isActive": true,
+      "moduleCount": 6,
+      "grantedPermissions": [
+        "System.AdminAccess",
+        "DecisionEngine.Execute",
+        "Tax.FileReturns"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Payroll Engine",
+      "appKey": "PAYROLL-HR-APP",
+      "icon": "badge",
+      "isActive": true,
+      "moduleCount": 5,
+      "grantedPermissions": [
+        "Payroll.Process",
+        "Payroll.SensitiveData"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "CRM Engine",
+      "appKey": "CRM-SALES-APP",
+      "icon": "trending_up",
+      "isActive": true,
+      "moduleCount": 7,
+      "grantedPermissions": [
+        "CRM.LeadPipeline",
+        "AccountsReceivable.Invoices"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Customer Portal",
+      "appKey": "CUSTOMER-PORTAL-APP",
+      "icon": "storefront",
+      "isActive": true,
+      "moduleCount": 4,
+      "grantedPermissions": [
+        "AccountsReceivable.Invoices"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "key": "ChartOfAccounts.View",
+      "name": "View Chart of Accounts",
+      "description": "Allows reading GL accounts & hierarchy",
+      "category": "Core Accounting"
+    },
+    {
+      "key": "ChartOfAccounts.Manage",
+      "name": "Manage Chart of Accounts",
+      "description": "Allows creating and updating GL accounts",
+      "category": "Core Accounting"
+    },
+    {
+      "key": "GeneralLedger.Post",
+      "name": "Post Journal Entries",
+      "description": "Allows posting manual & automated journal entries",
+      "category": "General Ledger"
+    },
+    {
+      "key": "AccountsPayable.Bills",
+      "name": "Manage Vendor Bills & AP",
+      "description": "Allows creating, editing, approving vendor bills",
+      "category": "Accounts Payable"
+    },
+    {
+      "key": "AccountsReceivable.Invoices",
+      "name": "Manage Customer Invoices",
+      "description": "Allows issuing & managing AR billing invoices",
+      "category": "Accounts Receivable"
+    },
+    {
+      "key": "Banking.Feeds",
+      "name": "Manage Bank Feeds & Sync",
+      "description": "Allows syncing real-time bank statements & feeds",
+      "category": "Banking"
+    },
+    {
+      "key": "Banking.Reconcile",
+      "name": "Execute Bank Reconciliation",
+      "description": "Allows matching transactions to bank lines",
+      "category": "Banking"
+    },
+    {
+      "key": "Payroll.Process",
+      "name": "Run Payroll Register",
+      "description": "Allows processing monthly payroll registers",
+      "category": "Payroll & HR"
+    },
+    {
+      "key": "Payroll.SensitiveData",
+      "name": "Access Tax & NRC Identifiers",
+      "description": "Allows reading sensitive employee tax details",
+      "category": "Payroll & HR"
+    },
+    {
+      "key": "Tax.FileReturns",
+      "name": "Execute Tax Filings",
+      "description": "Allows filing VAT, PAYE, and Income tax returns",
+      "category": "Compliance"
+    },
+    {
+      "key": "CRM.LeadPipeline",
+      "name": "Manage CRM Sales Pipeline",
+      "description": "Allows tracking leads, opportunities, and deals",
+      "category": "Sales & CRM"
+    },
+    {
+      "key": "DecisionEngine.Execute",
+      "name": "Run Decision Engine Analytics",
+      "description": "Allows triggering automated decision models",
+      "category": "Intelligence"
+    },
+    {
+      "key": "System.AdminAccess",
+      "name": "Full System Administrative Control",
+      "description": "SuperAdmin permissions across all modules",
+      "category": "System"
+    }
+  ]
+}

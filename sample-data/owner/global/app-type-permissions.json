@@ -1,0 +1,167 @@
+{
+  "appTypes": [
+    "AccountingWebApp",
+    "AffiliateWebApp",
+    "ClinicalWebApp",
+    "CompanyApp.VoterApp",
+    "HospitalAdminWebApp",
+    "IntelligenceWebApp",
+    "LawyerWebApp",
+    "SchoolWebApp",
+    "SoftwareProviderApp",
+    "VoterApp"
+  ],
+  "permissionsByAppType": {
+    "AccountingWebApp": [
+      {
+        "appType": "AccountingWebApp",
+        "name": "Accounting.Access",
+        "resource": "Accounting",
+        "action": "Access",
+        "category": "General",
+        "description": "Access the AccountingWebApp",
+        "isEnabled": true
+      },
+      {
+        "appType": "AccountingWebApp",
+        "name": "Accounting.Dashboard.View",
+        "resource": "Dashboard",
+        "action": "View",
+        "category": "General",
+        "description": "View the accounting dashboard",
+        "isEnabled": true
+      },
+      {
+        "appType": "AccountingWebApp",
+        "name": "Accounting.TenantManagement.View",
+        "resource": "TenantManagement",
+        "action": "View",
+        "category": "Administration",
+        "description": "View tenant management",
+        "isEnabled": true
+      },
+      {
+        "appType": "AccountingWebApp",
+        "name": "Accounting.TenantManagement.Create",
+        "resource": "TenantManagement",
+        "action": "Create",
+        "category": "Administration",
+        "description": "Create tenants",
+        "isEnabled": true
+      },
+      {
+        "appType": "AccountingWebApp",
+        "name": "Accounting.TenantManagement.Edit",
+        "resource": "TenantManagement",
+        "action": "Edit",
+        "category": "Administration",
+        "description": "Edit tenants",
+        "isEnabled": true
+      },
+      {
+        "appType": "AccountingWebApp",
+        "name": "Accounting.Budgeting.PrepareBudget",
+        "resource": "Budgeting",
+        "action": "PrepareBudget",
+        "category": "Budgeting",
+        "description": "Prepare budgets",
+        "isEnabled": true
+      },
+      {
+        "appType": "AccountingWebApp",
+        "name": "Accounting.ChartOfAccounts.View",
+        "resource": "ChartOfAccounts",
+        "action": "View",
+        "category": "Accounting",
+        "description": "View chart of accounts",
+        "isEnabled": true
+      }
+    ],
+    "SoftwareProviderApp": [
+      {
+        "appType": "SoftwareProviderApp",
+        "name": "Dashboard.View",
+        "resource": "Dashboard",
+        "action": "View",
+        "category": "Dashboard",
+        "description": "View main provider dashboard",
+        "isEnabled": true
+      },
+      {
+        "appType": "SoftwareProviderApp",
+        "name": "Dashboard.SaaSMonitoring",
+        "resource": "Dashboard",
+        "action": "SaaSMonitoring",
+        "category": "Dashboard",
+        "description": "Access SaaS monitoring dashboard",
+        "isEnabled": true
+      },
+      {
+        "appType": "SoftwareProviderApp",
+        "name": "Customers.ViewAll",
+        "resource": "Customers",
+        "action": "ViewAll",
+        "category": "Customers",
+        "description": "View all customers across applications",
+        "isEnabled": true
+      },
+      {
+        "appType": "SoftwareProviderApp",
+        "name": "Revenue.ViewAll",
+        "resource": "Revenue",
+        "action": "ViewAll",
+        "category": "Revenue",
+        "description": "View all platform revenue metrics",
+        "isEnabled": true
+      },
+      {
+        "appType": "SoftwareProviderApp",
+        "name": "Admin.ManageUsers",
+        "resource": "Users",
+        "action": "Manage",
+        "category": "Administration",
+        "description": "Manage platform users",
+        "isEnabled": true
+      },
+      {
+        "appType": "SoftwareProviderApp",
+        "name": "Admin.ManageRoles",
+        "resource": "Roles",
+        "action": "Manage",
+        "category": "Administration",
+        "description": "Manage roles and permissions",
+        "isEnabled": true
+      }
+    ]
+  },
+  "defaultPermissionTemplates": [
+    {
+      "nameSuffix": "Access",
+      "resource": "Application",
+      "action": "Access",
+      "category": "General",
+      "descriptionTemplate": "Access the {appType} application"
+    },
+    {
+      "nameSuffix": "Dashboard.View",
+      "resource": "Dashboard",
+      "action": "View",
+      "category": "General",
+      "descriptionTemplate": "View {appType} dashboard"
+    },
+    {
+      "nameSuffix": "Reports.View",
+      "resource": "Reports",
+      "action": "View",
+      "category": "Reporting",
+      "descriptionTemplate": "View reports in {appType}"
+    },
+    {
+      "nameSuffix": "Settings.Manage",
+      "resource": "Settings",
+      "action": "Manage",
+      "category": "Administration",
+      "descriptionTemplate": "Manage settings for {appType}"
+    }
+  ]
+}

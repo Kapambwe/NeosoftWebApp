@@ -1,0 +1,495 @@
+{
+  "industryKey": "tv",
+  "displayName": "TV Station / Broadcast & Streaming Video",
+  "sourceSpec": "Derived — broadcast media sales (companion to OnlineNewspaper.md / MediaCommunications)",
+  "institution": "MediaCommunications",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "TV-CT-001",
+      "name": "Prime-Time Advertiser Acquisition",
+      "category": "CustomerAcquisition",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Sell prime-time and news-hour inventory to brands and agencies",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": ["Email", "LinkedIn", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-002",
+      "name": "Program Sponsorship Pack",
+      "category": "RevenueGrowth",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Named sponsorship of news, soaps, sports, and reality shows",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-003",
+      "name": "DTT / Streaming Subscriber Drive",
+      "category": "CustomerAcquisition",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Grow paid digital terrestrial and OTT/app subscribers",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Email", "Ads", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-004",
+      "name": "Free-to-Air Audience Growth",
+      "category": "CustomerAcquisition",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Promo new shows and news to grow ratings that underwrite ad rates",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "WhatsApp", "Ads", "SocialPost"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-005",
+      "name": "Sports Rights Peak Inventory",
+      "category": "RevenueGrowth",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Premium spots and billboards around football, athletics, and finals",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-006",
+      "name": "Election Specials Media Buy",
+      "category": "CustomerAcquisition",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Time-boxed political and civic advertiser packages around elections",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": false
+    },
+    {
+      "id": "TV-CT-007",
+      "name": "Agency Annual Deal Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Renew holding-company and local agency volume deals",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-008",
+      "name": "Subscriber Churn Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Win back cancelled DTT/OTT subscribers with content + discount",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": ["SMS", "Email", "PushNotification", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-009",
+      "name": "Production House Cross-sell",
+      "category": "RevenueGrowth",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Sell commercial production, jingles, and branded content to advertisers",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-010",
+      "name": "Corporate / Government Media Packages",
+      "category": "CustomerAcquisition",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Institutional campaigns, PSAs, and multi-channel government buys",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["Email", "LinkedIn"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-011",
+      "name": "Invoice Collections — Airtime",
+      "category": "PaymentCollection",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Escalate overdue airtime invoices; offer milestone payment plans",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": ["Email", "SMS", "WhatsApp"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-012",
+      "name": "Viewer Satisfaction Survey",
+      "category": "CustomerSatisfaction",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "CSAT after premiere nights and news trust pulse",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["SMS", "Email", "InApp"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-013",
+      "name": "Family / Multi-device Bundle Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Upsell single DTT to multi-device streaming + catch-up",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": ["InApp", "Email", "SMS"],
+      "isActive": true
+    },
+    {
+      "id": "TV-CT-014",
+      "name": "Abandoned Package Quote Recovery",
+      "category": "CustomerReengagement",
+      "industryKey": "tv",
+      "institution": "MediaCommunications",
+      "description": "Recover advertisers who requested a rate card but never booked",
+      "defaultTrigger": "AbandonedQuote",
+      "suggestedChannels": ["Email", "WhatsApp", "SMS"],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "TV-CA-001",
+      "name": "Prime-Time Rate Card Email",
+      "assetType": "Email",
+      "subject": "{{ChannelName}} prime-time inventory — {{SeasonName}}",
+      "body": "Hi {{FirstName}}, secure spots around {{ProgramName}}. GRP and CPT details in the attached rate card: {{RateCardLink}}",
+      "tags": ["advertiser", "prime-time"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "TV-CA-002",
+      "name": "Streaming Subscribe Push",
+      "assetType": "PushNotification",
+      "subject": "",
+      "body": "Watch {{ProgramName}} ad-free. Start your {{ChannelName}} streaming trial today.",
+      "tags": ["subscriber", "ott"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "TV-CA-003",
+      "name": "Airtime Overdue WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Hi {{AdvertiserName}}, invoice {{InvoiceId}} for airtime is overdue ({{Amount}}). Pay or request a plan: {{PayLink}}",
+      "tags": ["collections"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "TV-CA-004",
+      "name": "Sponsorship Landing",
+      "assetType": "LandingPage",
+      "subject": "Sponsor tonight's flagship show",
+      "body": "Associate your brand with {{ProgramName}}. Includes opening bumper, mid-roll, and social mentions.",
+      "tags": ["sponsorship"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "TV-CA-005",
+      "name": "Subscriber Win-back SMS",
+      "assetType": "SMS",
+      "subject": "",
+      "body": "We miss you on {{ChannelName}}. Come back with 30% off streaming for 3 months: {{PromoLink}}",
+      "tags": ["winback", "subscriber"],
+      "institution": "MediaCommunications",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "TV-ET-001",
+      "name": "Agency Media Kit",
+      "subject": "Q{{Quarter}} inventory on {{ChannelName}}",
+      "category": "Promotions",
+      "institution": "MediaCommunications",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Own the screen when it matters" },
+        { "type": "TextBlock", "contentHtml": "Hi {{FirstName}}, book news, prime-time drama, and sports billboards. Volume deals available for agencies." },
+        { "type": "Button", "buttonText": "View rate card", "buttonUrl": "{{RateCardLink}}" },
+        { "type": "FooterUnsubscribe", "contentHtml": "{{ChannelName}} advertising sales" }
+      ]
+    },
+    {
+      "id": "TV-ET-002",
+      "name": "Streaming Trial Ending",
+      "subject": "{{FirstName}}, your {{ChannelName}} trial ends in 2 days",
+      "category": "Urgency",
+      "institution": "MediaCommunications",
+      "blocks": [
+        { "type": "Header", "contentHtml": "Keep watching without limits" },
+        { "type": "TextBlock", "contentHtml": "Your trial ends soon. Upgrade for live channels, catch-up, and multi-device streaming." },
+        { "type": "Button", "buttonText": "Subscribe now", "buttonUrl": "{{SubscribeLink}}" }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "TV-PP-001",
+      "name": "Flight Deposit + Airdate Balance",
+      "depositPercent": 40,
+      "frequency": "Milestone",
+      "installmentType": "DepositBalance",
+      "installmentCount": 2,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Booking deposit", "percentOfTotal": 40, "order": 1 },
+        { "name": "Balance before first airdate", "percentOfTotal": 60, "order": 2 }
+      ]
+    },
+    {
+      "id": "TV-PP-002",
+      "name": "Quarterly Agency Volume Plan",
+      "depositPercent": 20,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 3,
+      "gracePeriodDays": 7,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": []
+    },
+    {
+      "id": "TV-PP-003",
+      "name": "Production + Airtime Bundle",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 5,
+      "lateFeePercent": 2,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": [
+        { "name": "Script / shoot", "percentOfTotal": 30, "order": 1 },
+        { "name": "Final cut delivery", "percentOfTotal": 30, "order": 2 },
+        { "name": "Airtime flight", "percentOfTotal": 40, "order": 3 }
+      ]
+    },
+    {
+      "id": "TV-PP-004",
+      "name": "Monthly Streaming Subscription",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 0,
+      "requireESignature": false,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": []
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "TV-MP-001",
+      "name": "Streaming Basic",
+      "price": { "amount": 4.99, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["Live channels", "7-day catch-up", "1 device"],
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "TV-MP-002",
+      "name": "Streaming Family",
+      "price": { "amount": 9.99, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 4,
+      "isCorporate": false,
+      "isActive": true,
+      "includedFeatures": ["4 devices", "30-day catch-up", "Download offline"],
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "TV-MP-003",
+      "name": "Corporate Newsroom Seats",
+      "price": { "amount": 149, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 20,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["20 seats", "News archive", "Admin console"],
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "TV-MP-004",
+      "name": "SME Airtime Starter",
+      "price": { "amount": 800, "currencyCode": "USD" },
+      "billingFrequency": "Monthly",
+      "maxSeats": 1,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": ["20 spots/month", "1 news billboard", "Basic GRP report"],
+      "institution": "MediaCommunications"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "TV-PR-001",
+      "name": "New Show Launch Bonus Spots",
+      "promoCode": "PREMIERE15",
+      "discountPercentage": 15,
+      "maxRedemptions": 120,
+      "currentRedemptions": 41,
+      "trigger": "SeasonalPromotion",
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "TV-PR-002",
+      "name": "Streaming Win-back",
+      "promoCode": "WATCH30",
+      "discountPercentage": 30,
+      "maxRedemptions": 2000,
+      "currentRedemptions": 560,
+      "trigger": "WinbackAttempt",
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "TV-PR-003",
+      "name": "Abandoned Quote Rescue",
+      "promoCode": "BOOK10",
+      "discountPercentage": 10,
+      "maxRedemptions": 200,
+      "currentRedemptions": 67,
+      "trigger": "AbandonedCheckout",
+      "institution": "MediaCommunications",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "TV-L-001",
+      "prospectName": "Brand Manager — ZamTel",
+      "companyName": "ZamTel",
+      "email": "brand@zamtel.example",
+      "phone": "+260 211 330000",
+      "totalScore": 81,
+      "temperature": "Burning",
+      "institution": "MediaCommunications",
+      "recommendedAction": "Pitch prime-time + sports billboard package"
+    },
+    {
+      "prospectId": "TV-L-002",
+      "prospectName": "Household — Chisomo Phiri",
+      "companyName": "Streaming Prospect",
+      "email": "chisomo.phiri@email.zm",
+      "phone": "+260 96 711 2299",
+      "totalScore": 64,
+      "temperature": "Warm",
+      "institution": "MediaCommunications",
+      "recommendedAction": "Offer Streaming Family trial + premiere calendar"
+    },
+    {
+      "prospectId": "TV-L-003",
+      "prospectName": "Comms Officer — Ministry of Health",
+      "companyName": "Ministry of Health",
+      "email": "comms@moh.gov.example",
+      "phone": "+260 211 250000",
+      "totalScore": 73,
+      "temperature": "Hot",
+      "institution": "MediaCommunications",
+      "recommendedAction": "Corporate/government PSA + news sponsorship quote"
+    }
+  ],
+  "deals": [
+    {
+      "id": "TV-D-001",
+      "title": "ZamTel — Prime-time Q3 Flight",
+      "contactName": "Brand Manager",
+      "companyName": "ZamTel",
+      "monthlyRecurringRevenue": 12000,
+      "stage": "Proposal",
+      "score": 81,
+      "primaryChannel": "Email",
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "TV-D-002",
+      "title": "MoH — Vaccination PSA Bundle",
+      "contactName": "Comms Officer",
+      "companyName": "Ministry of Health",
+      "monthlyRecurringRevenue": 4500,
+      "stage": "Negotiation",
+      "score": 73,
+      "primaryChannel": "Email",
+      "institution": "MediaCommunications"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "TV-SUB-001",
+      "customerName": "Chisomo Phiri",
+      "planName": "Streaming Basic",
+      "status": "Trial",
+      "freeArticlesRemaining": 0
+    },
+    {
+      "id": "TV-SUB-002",
+      "customerName": "Banda Family",
+      "planName": "Streaming Family",
+      "status": "Active",
+      "freeArticlesRemaining": 0
+    }
+  ],
+  "appointments": [
+    {
+      "id": "TV-AP-001",
+      "customerName": "ZamTel Brand",
+      "prospectId": "TV-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Rate card + sports inventory walkthrough"
+    }
+  ],
+  "referralProgram": {
+    "id": "TV-RF-001",
+    "name": "Refer a Viewer — Free Month",
+    "rewardType": "Credit",
+    "rewardAmount": { "amount": 4.99, "currencyCode": "USD" },
+    "requireDemoAttendance": false
+  },
+  "dashboardKpis": {
+    "primeTimeFillRate": 0.84,
+    "avgPrimeTimeViewers": 210000,
+    "streamingSubscribers": 18600,
+    "streamingChurnRate": 0.045,
+    "adRevenueMrr": 186000,
+    "productionUpsellRate": 0.22,
+    "agencyRetentionRate": 0.76,
+    "npsViewers": 48,
+    "npsAdvertisers": 46
+  }
+}

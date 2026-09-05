@@ -1,0 +1,110 @@
+[
+  {
+    "id": "IR-001",
+    "roundName": "Seed Round",
+    "roundType": "Seed",
+    "amountRaised": 1500000,
+    "preMoneyValuation": 4500000,
+    "postMoneyValuation": 6000000,
+    "sharePrice": 0.50,
+    "sharesIssued": 3000000,
+    "leadInvestor": "Lusaka Ventures",
+    "investors": [
+      {
+        "investorName": "Lusaka Ventures",
+        "investmentAmount": 900000,
+        "sharesAcquired": 1800000,
+        "ownershipPercentage": 30
+      },
+      {
+        "investorName": "Angel Syndicate ZA",
+        "investmentAmount": 600000,
+        "sharesAcquired": 1200000,
+        "ownershipPercentage": 20
+      }
+    ],
+    "announcementDate": "2023-04-01T00:00:00Z",
+    "closingDate": "2023-05-15T00:00:00Z",
+    "firstClosingDate": "2023-05-01T00:00:00Z",
+    "status": "Completed",
+    "hasLiquidationPreference": true,
+    "liquidationMultiple": 1.0,
+    "hasParticipatingPreferred": false,
+    "hasBoardSeat": true,
+    "description": "Initial seed funding to build the SaaS platform",
+    "pressReleaseUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "IR-002",
+    "roundName": "Series A",
+    "roundType": "SeriesA",
+    "amountRaised": 8000000,
+    "preMoneyValuation": 22000000,
+    "postMoneyValuation": 30000000,
+    "sharePrice": 2.00,
+    "sharesIssued": 4000000,
+    "leadInvestor": "Pan-African Capital",
+    "investors": [
+      {
+        "investorName": "Pan-African Capital",
+        "investmentAmount": 5000000,
+        "sharesAcquired": 2500000,
+        "ownershipPercentage": 16.7
+      },
+      {
+        "investorName": "Lusaka Ventures",
+        "investmentAmount": 2000000,
+        "sharesAcquired": 1000000,
+        "ownershipPercentage": 6.7
+      },
+      {
+        "investorName": "NeoSoft ESOP Trust",
+        "investmentAmount": 1000000,
+        "sharesAcquired": 500000,
+        "ownershipPercentage": 3.3
+      }
+    ],
+    "announcementDate": "2025-09-01T00:00:00Z",
+    "closingDate": "2025-10-20T00:00:00Z",
+    "firstClosingDate": "2025-10-01T00:00:00Z",
+    "status": "Completed",
+    "hasLiquidationPreference": true,
+    "liquidationMultiple": 1.0,
+    "hasParticipatingPreferred": false,
+    "hasBoardSeat": true,
+    "description": "Series A to expand product suite and regional presence",
+    "pressReleaseUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "IR-003",
+    "roundName": "Series B",
+    "roundType": "SeriesB",
+    "amountRaised": 2500000,
+    "preMoneyValuation": 45000000,
+    "postMoneyValuation": 55000000,
+    "sharePrice": 4.50,
+    "sharesIssued": 555556,
+    "leadInvestor": "Growth Partners Africa",
+    "investors": [
+      {
+        "investorName": "Growth Partners Africa",
+        "investmentAmount": 2500000,
+        "sharesAcquired": 555556,
+        "ownershipPercentage": 4.5
+      }
+    ],
+    "announcementDate": "2026-07-01T00:00:00Z",
+    "closingDate": "2026-09-30T00:00:00Z",
+    "firstClosingDate": null,
+    "status": "InProgress",
+    "hasLiquidationPreference": true,
+    "liquidationMultiple": 1.0,
+    "hasParticipatingPreferred": false,
+    "hasBoardSeat": true,
+    "description": "Series B first close underway",
+    "pressReleaseUrl": "",
+    "notes": "Target raise $12M"
+  }
+]

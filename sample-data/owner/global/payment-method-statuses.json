@@ -1,0 +1,42 @@
+[
+  {
+    "method": "MobileMoney",
+    "name": "Mobile Money",
+    "icon": "phone_android",
+    "isEnabled": true,
+    "isConfigured": true,
+    "configurationStatus": "Configured",
+    "transactionCount": 45,
+    "totalRevenue": 12450.50
+  },
+  {
+    "method": "BankTransfer",
+    "name": "Bank Transfer",
+    "icon": "account_balance",
+    "isEnabled": true,
+    "isConfigured": true,
+    "configurationStatus": "Configured",
+    "transactionCount": 23,
+    "totalRevenue": 34200.00
+  },
+  {
+    "method": "DirectBankDeposit",
+    "name": "Direct Bank Deposit",
+    "icon": "payments",
+    "isEnabled": true,
+    "isConfigured": true,
+    "configurationStatus": "Configured",
+    "transactionCount": 12,
+    "totalRevenue": 8900.00
+  },
+  {
+    "method": "FastPaymentGateway",
+    "name": "Fast Payment Gateway (Cards)",
+    "icon": "credit_card",
+    "isEnabled": true,
+    "isConfigured": true,
+    "configurationStatus": "Configured",
+    "transactionCount": 156,
+    "totalRevenue": 78450.25
+  }
+]

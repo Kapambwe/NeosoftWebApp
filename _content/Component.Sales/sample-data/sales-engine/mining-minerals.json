@@ -1,0 +1,380 @@
+{
+  "industryKey": "mining-minerals",
+  "displayName": "Mining & Minerals",
+  "sourceSpec": "AccountingWeb.md industry pack (mining)",
+  "institution": "MiningMinerals",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "MIN-CT-001",
+      "name": "Supplier / Contractor Onboarding",
+      "category": "CustomerAcquisition",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Onboard approved suppliers and mining contractors",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MIN-CT-002",
+      "name": "Equipment Lease / Hire Push",
+      "category": "CustomerAcquisition",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Sell or lease heavy equipment and site services",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MIN-CT-003",
+      "name": "Safety Training Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Upsell HSE training and certification packages",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "SMS"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MIN-CT-004",
+      "name": "Framework Agreement Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Renew multi-year supply and services frameworks",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MIN-CT-005",
+      "name": "Contractor Invoice Collections",
+      "category": "PaymentCollection",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Collect milestone invoices against site delivery",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MIN-CT-006",
+      "name": "Site Satisfaction Review",
+      "category": "CustomerSatisfaction",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Buyer satisfaction on delivery, safety, and quality",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MIN-CT-007",
+      "name": "Inactive Vendor Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Reactivate vendors not used in 6 months",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MIN-CT-008",
+      "name": "Shutdown / Turnaround Campaign",
+      "category": "RevenueGrowth",
+      "industryKey": "mining-minerals",
+      "institution": "MiningMinerals",
+      "description": "Sell turnaround labour and materials for planned shutdowns",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "SMS"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "MIN-CA-001",
+      "name": "Vendor Onboarding Email",
+      "assetType": "Email",
+      "subject": "Join {{MineName}} approved vendor list",
+      "body": "Complete compliance pack: {{PortalLink}}",
+      "tags": [
+        "suppliers"
+      ],
+      "institution": "MiningMinerals",
+      "isActive": true
+    },
+    {
+      "id": "MIN-CA-002",
+      "name": "Shutdown Opportunity",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "{{MineName}} turnaround window {{Dates}}. Bid packs: {{BidLink}}",
+      "tags": [
+        "turnaround"
+      ],
+      "institution": "MiningMinerals",
+      "isActive": true
+    },
+    {
+      "id": "MIN-CA-003",
+      "name": "Milestone Invoice Email",
+      "assetType": "Email",
+      "subject": "Milestone invoice {{InvoiceId}}",
+      "body": "Payment due for {{MilestoneName}}: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "MiningMinerals",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "MIN-ET-001",
+      "name": "Turnaround Bid Invite",
+      "subject": "Bid invitation — {{MineName}} shutdown",
+      "category": "Promotions",
+      "institution": "MiningMinerals",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Planned shutdown window"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, submit your bid pack before {{Deadline}}."
+        },
+        {
+          "type": "Button",
+          "buttonText": "Open bid pack",
+          "buttonUrl": "{{BidLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "MIN-PP-001",
+      "name": "Site Service Monthly",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "MIN-PP-002",
+      "name": "Equipment Lease Installments",
+      "depositPercent": 20,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "MIN-PP-003",
+      "name": "Turnaround Milestones",
+      "depositPercent": 25,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 4,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "order": 1,
+          "percentOfTotal": 25,
+          "name": "Mobilisation"
+        },
+        {
+          "order": 2,
+          "percentOfTotal": 25,
+          "name": "Execution week 1"
+        },
+        {
+          "order": 3,
+          "percentOfTotal": 25,
+          "name": "Execution week 2"
+        },
+        {
+          "order": 4,
+          "percentOfTotal": 25,
+          "name": "Demob"
+        }
+      ]
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "MIN-MP-001",
+      "name": "Approved Vendor Tier",
+      "price": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Annual",
+      "maxSeats": 5,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Tender alerts",
+        "Compliance vault",
+        "Payment portal"
+      ],
+      "institution": "MiningMinerals"
+    },
+    {
+      "id": "MIN-MP-002",
+      "name": "Preferred Contractor",
+      "price": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Annual",
+      "maxSeats": 10,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Priority RFQs",
+        "Volume pricing",
+        "Dedicated buyer"
+      ],
+      "institution": "MiningMinerals"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "MIN-PR-001",
+      "name": "New Vendor Onboarding",
+      "promoCode": "VENDOR0",
+      "discountPercentage": 0,
+      "maxRedemptions": 100,
+      "currentRedemptions": 34,
+      "trigger": "SeasonalPromotion",
+      "institution": "MiningMinerals",
+      "isActive": true
+    },
+    {
+      "id": "MIN-PR-002",
+      "name": "Lease Deposit Relief",
+      "promoCode": "LEASE10",
+      "discountPercentage": 10,
+      "maxRedemptions": 25,
+      "currentRedemptions": 8,
+      "trigger": "UpgradeOpportunity",
+      "institution": "MiningMinerals",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "MIN-L-001",
+      "prospectName": "Procurement — Konkola Site",
+      "companyName": "Konkola Copper Mines",
+      "email": "procurement@kcm.example",
+      "phone": "+260 212 730000",
+      "totalScore": 82,
+      "temperature": "Burning",
+      "institution": "MiningMinerals",
+      "recommendedAction": "Preferred contractor + turnaround bid pack"
+    },
+    {
+      "prospectId": "MIN-L-002",
+      "prospectName": "Fleet Mgr — HeavyHire",
+      "companyName": "HeavyHire Zambia",
+      "email": "fleet@heavyhire.example",
+      "phone": "+260 97 600 1122",
+      "totalScore": 70,
+      "temperature": "Hot",
+      "institution": "MiningMinerals",
+      "recommendedAction": "Equipment lease installment quote"
+    }
+  ],
+  "deals": [
+    {
+      "id": "MIN-D-001",
+      "title": "KCM — Turnaround Labour Package",
+      "contactName": "Procurement",
+      "companyName": "Konkola Copper Mines",
+      "monthlyRecurringRevenue": 0,
+      "stage": "Proposal",
+      "score": 82,
+      "primaryChannel": "Email",
+      "institution": "MiningMinerals"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "MIN-AP-001",
+      "customerName": "KCM Procurement",
+      "prospectId": "MIN-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "HSE + capability review"
+    }
+  ],
+  "referralProgram": {
+    "rewardAmount": {
+      "amount": 500,
+      "currencyCode": "USD"
+    },
+    "requireDemoAttendance": false,
+    "name": "Vendor Referral",
+    "id": "MIN-RF-001",
+    "rewardType": "Credit"
+  },
+  "dashboardKpis": {
+    "npsBuyers": 45,
+    "openRfqs": 54,
+    "onTimeMilestoneRate": 0.86,
+    "approvedVendors": 260,
+    "turnaroundPipeline": 4200000
+  }
+}

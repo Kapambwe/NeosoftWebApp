@@ -1,0 +1,393 @@
+{
+  "industryKey": "media-communications",
+  "displayName": "Media & Communications Agencies",
+  "sourceSpec": "MediaCommunications vertical (agency + multi-channel)",
+  "institution": "MediaCommunications",
+  "currencyCode": "USD",
+  "campaignTemplates": [
+    {
+      "id": "MCO-CT-001",
+      "name": "Retainer Client Acquisition",
+      "category": "CustomerAcquisition",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Win brands for PR, social, and media buying retainers",
+      "defaultTrigger": "NewLead",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MCO-CT-002",
+      "name": "Campaign Pitch Pack",
+      "category": "CustomerAcquisition",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Pitch integrated ATL/BTL campaigns with measurable KPIs",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MCO-CT-003",
+      "name": "Always-on Social Upsell",
+      "category": "RevenueGrowth",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Upsell social management and content production",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MCO-CT-004",
+      "name": "Retainer Renewal",
+      "category": "CustomerRetention",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Renew agency retainers 60 days before term end",
+      "defaultTrigger": "SubscriptionExpiring",
+      "suggestedChannels": [
+        "Email",
+        "LinkedIn"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MCO-CT-005",
+      "name": "Media Buy Collections",
+      "category": "PaymentCollection",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Collect client media spend and production invoices",
+      "defaultTrigger": "InvoiceOverdue",
+      "suggestedChannels": [
+        "Email",
+        "SMS",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MCO-CT-006",
+      "name": "Client Satisfaction Review",
+      "category": "CustomerSatisfaction",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Quarterly QBR CSAT and NPS for retained clients",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MCO-CT-007",
+      "name": "Paused Client Win-back",
+      "category": "CustomerReengagement",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Reactivate brands that paused retainers",
+      "defaultTrigger": "Inactivity",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "MCO-CT-008",
+      "name": "Crisis Comms Rapid Response",
+      "category": "RevenueGrowth",
+      "industryKey": "media-communications",
+      "institution": "MediaCommunications",
+      "description": "Offer crisis communications retainers and war-room packages",
+      "defaultTrigger": "Manual",
+      "suggestedChannels": [
+        "Email",
+        "WhatsApp",
+        "SMS"
+      ],
+      "isActive": true
+    }
+  ],
+  "contentAssets": [
+    {
+      "id": "MCO-CA-001",
+      "name": "Agency Capabilities Email",
+      "assetType": "Email",
+      "subject": "{{AgencyName}} capability deck",
+      "body": "See case studies and retainer options: {{DeckLink}}",
+      "tags": [
+        "acquisition"
+      ],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "MCO-CA-002",
+      "name": "QBR Reminder",
+      "assetType": "Email",
+      "subject": "Quarterly business review",
+      "body": "Join your QBR on {{Date}}: {{MeetLink}}",
+      "tags": [
+        "retention"
+      ],
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "MCO-CA-003",
+      "name": "Invoice WhatsApp",
+      "assetType": "WhatsApp",
+      "subject": "",
+      "body": "Invoice {{InvoiceId}} for media buy {{Amount}} is due. Pay: {{PayLink}}",
+      "tags": [
+        "collections"
+      ],
+      "institution": "MediaCommunications",
+      "isActive": true
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "MCO-ET-001",
+      "name": "Retainer Proposal",
+      "subject": "Proposed retainer for {{CompanyName}}",
+      "category": "Promotions",
+      "institution": "MediaCommunications",
+      "blocks": [
+        {
+          "type": "Header",
+          "contentHtml": "Integrated growth marketing"
+        },
+        {
+          "type": "TextBlock",
+          "contentHtml": "Hi {{FirstName}}, here is a retainer scoped to your brand goals."
+        },
+        {
+          "type": "Button",
+          "buttonText": "View proposal",
+          "buttonUrl": "{{ProposalLink}}"
+        }
+      ]
+    }
+  ],
+  "paymentPlanTemplates": [
+    {
+      "id": "MCO-PP-001",
+      "name": "Monthly Agency Retainer",
+      "depositPercent": 0,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 12,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": null
+    },
+    {
+      "id": "MCO-PP-002",
+      "name": "Campaign Production Milestones",
+      "depositPercent": 30,
+      "frequency": "Milestone",
+      "installmentType": "Milestone",
+      "installmentCount": 3,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": true,
+      "allowPause": true,
+      "isActive": true,
+      "milestones": [
+        {
+          "order": 1,
+          "percentOfTotal": 30,
+          "name": "Creative"
+        },
+        {
+          "order": 2,
+          "percentOfTotal": 40,
+          "name": "Production"
+        },
+        {
+          "order": 3,
+          "percentOfTotal": 30,
+          "name": "Flight"
+        }
+      ]
+    },
+    {
+      "id": "MCO-PP-003",
+      "name": "Media Buy Prepay",
+      "depositPercent": 100,
+      "frequency": "Monthly",
+      "installmentType": "Equal",
+      "installmentCount": 1,
+      "gracePeriodDays": 3,
+      "lateFeePercent": 1.5,
+      "requireESignature": true,
+      "allowBnpl": false,
+      "allowPause": false,
+      "isActive": true,
+      "milestones": null
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "MCO-MP-001",
+      "name": "Starter Retainer",
+      "price": {
+        "amount": 1500,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 3,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Social posting",
+        "Monthly report",
+        "Community management"
+      ],
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "MCO-MP-002",
+      "name": "Growth Retainer",
+      "price": {
+        "amount": 4500,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 8,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "Paid media",
+        "PR",
+        "Creative studio",
+        "Weekly standups"
+      ],
+      "institution": "MediaCommunications"
+    },
+    {
+      "id": "MCO-MP-003",
+      "name": "Crisis War Room",
+      "price": {
+        "amount": 8000,
+        "currencyCode": "USD"
+      },
+      "billingFrequency": "Monthly",
+      "maxSeats": 12,
+      "isCorporate": true,
+      "isActive": true,
+      "includedFeatures": [
+        "24/7 response",
+        "Spokesperson training",
+        "Monitoring"
+      ],
+      "institution": "MediaCommunications"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "MCO-PR-001",
+      "name": "New Retainer Onboarding",
+      "promoCode": "AGENCY10",
+      "discountPercentage": 10,
+      "maxRedemptions": 30,
+      "currentRedemptions": 9,
+      "trigger": "SeasonalPromotion",
+      "institution": "MediaCommunications",
+      "isActive": true
+    },
+    {
+      "id": "MCO-PR-002",
+      "name": "Paused Brand Restart",
+      "promoCode": "RESTART15",
+      "discountPercentage": 15,
+      "maxRedemptions": 20,
+      "currentRedemptions": 6,
+      "trigger": "WinbackAttempt",
+      "institution": "MediaCommunications",
+      "isActive": true
+    }
+  ],
+  "leads": [
+    {
+      "prospectId": "MCO-L-001",
+      "prospectName": "CMO — FreshMart",
+      "companyName": "FreshMart Retail",
+      "email": "cmo@freshmart.example",
+      "phone": "+260 97 210 4400",
+      "totalScore": 80,
+      "temperature": "Burning",
+      "institution": "MediaCommunications",
+      "recommendedAction": "Pitch Growth Retainer + launch campaign"
+    },
+    {
+      "prospectId": "MCO-L-002",
+      "prospectName": "Comms — City Council",
+      "companyName": "Lusaka City Council",
+      "email": "comms@lcc.gov.example",
+      "phone": "+260 211 250111",
+      "totalScore": 72,
+      "temperature": "Hot",
+      "institution": "MediaCommunications",
+      "recommendedAction": "Public info campaign milestone quote"
+    }
+  ],
+  "deals": [
+    {
+      "id": "MCO-D-001",
+      "title": "FreshMart — Growth Retainer",
+      "contactName": "CMO",
+      "companyName": "FreshMart Retail",
+      "monthlyRecurringRevenue": 4500,
+      "stage": "Negotiation",
+      "score": 80,
+      "primaryChannel": "Email",
+      "institution": "MediaCommunications"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "MCO-AP-001",
+      "customerName": "FreshMart CMO",
+      "prospectId": "MCO-L-001",
+      "appointmentType": "Demo",
+      "status": "Scheduled",
+      "notes": "Capabilities + case studies"
+    }
+  ],
+  "referralProgram": {
+    "rewardAmount": {
+      "amount": 250,
+      "currencyCode": "USD"
+    },
+    "requireDemoAttendance": false,
+    "name": "Client Referral Credit",
+    "id": "MCO-RF-001",
+    "rewardType": "Credit"
+  },
+  "dashboardKpis": {
+    "mediaSpendManaged": 186000,
+    "winRate": 0.31,
+    "activeRetainers": 22,
+    "avgRetainerMrr": 3200,
+    "qbrNps": 54
+  }
+}
